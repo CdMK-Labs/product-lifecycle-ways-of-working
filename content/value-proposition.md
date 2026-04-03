@@ -6,7 +6,11 @@ Define the value we aim to create — and why.
 - Clear problem or opportunity statement
 
 ## What Happens
-We translate opportunities into value hypotheses, success criteria, and expected outcomes.
+- The product team and business stakeholders co-create a value hypothesis: who benefits, how, and by how much
+- Success metrics (KPIs) are defined up front — not as an afterthought — anchoring everything that follows
+- Trade-offs are made explicit: is this the right problem to solve now, given current commitments and strategy?
+- The value proposition is documented in a shared format, making it easy to revisit and test throughout the lifecycle
+- A prioritisation decision is reached collaboratively, with clear accountability for moving forward or stopping
 
 ## Deliverables
 - Defined value hypothesis (business impact)

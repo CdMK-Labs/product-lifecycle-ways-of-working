@@ -6,7 +6,11 @@ Capture and qualify new ideas, needs, and opportunities.
 - Initial context is available (who, why, problem/opportunity)
 
 ## What Happens
-Inputs are gathered from stakeholders, users, data, and market signals.
+- Ideas and requests are captured through a lightweight intake process — anyone can submit, the product team qualifies
+- The product team reviews incoming items against strategic priorities, filtering out noise and duplicates
+- Initial framing is done collaboratively: problem statement, rough scope, and business context are sketched out
+- A product manager is assigned as owner and stewards the idea through to a prioritisation decision
+- Items that don't meet the bar are acknowledged and parked or declined transparently, with a clear rationale
 
 ## Deliverables
 - Idea described in a simple, shared format

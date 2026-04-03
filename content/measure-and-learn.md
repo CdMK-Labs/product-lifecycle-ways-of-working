@@ -6,7 +6,11 @@ Understand value and learn continuously.
 - Metrics defined (from Value Proposition)
 
 ## What Happens
-We track KPIs, adoption, and business impact.
+- Performance is measured against the success metrics defined in Value Proposition — this is the primary test of whether value was actually delivered
+- Adoption and usage data are analysed to understand how users engage with the product in practice, not just whether it works
+- Qualitative feedback from support tickets, user interviews, or surveys is gathered alongside quantitative data to build a complete picture
+- Insights are synthesised into clear, actionable recommendations: continue, improve, scale, or stop
+- Learnings are shared openly with the team and stakeholders to close the feedback loop and inform the next cycle
 
 ## Deliverables
 - Measured performance vs. targets

@@ -6,7 +6,11 @@ Align stakeholders and prepare execution.
 - Agreement to proceed
 
 ## What Happens
-Scope, architecture, dependencies, and execution plan are defined.
+- The team defines the MVP or delivery increment: what is in scope, what is explicitly out, and why
+- Architecture decisions are made collaboratively with IT architects, balancing delivery speed with long-term sustainability
+- Dependencies on other teams, platforms, or data are identified and flagged early — not discovered mid-sprint
+- A prioritised backlog is created together with the product owner, with enough detail to start delivery confidently
+- Funding and governance approvals are secured where required, with a clear case tied back to the value proposition
 
 ## Deliverables
 - Prioritized backlog

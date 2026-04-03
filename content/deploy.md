@@ -6,7 +6,11 @@ Release safely and efficiently.
 - Deployment readiness confirmed
 
 ## What Happens
-Deployment through controlled and automated processes.
+- Deployments follow a repeatable, documented process to minimise risk and reduce manual steps over time
+- Feature flags or phased rollouts are used where appropriate, allowing controlled exposure and fast rollback if needed
+- The product team validates the release against both technical and business acceptance criteria before sign-off
+- Users are informed ahead of the release — adoption and change management are part of the deployment, not an afterthought
+- Monitoring and alerting are confirmed active before the team considers the deployment complete
 
 ## Deliverables
 - Solution live in production

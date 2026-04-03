@@ -6,7 +6,11 @@ Ensure we are solving the right problem.
 - Prioritized for exploration
 
 ## What Happens
-We validate problems and solutions through user insights, experiments, and prototypes.
+- The team runs structured discovery: interviews, observations, and data analysis to understand the real problem before proposing solutions
+- Assumptions are made explicit and logged — the riskiest ones are tested first through experiments or lightweight prototypes
+- Solution ideas are explored without committing to build: sketches, wireframes, or low-fidelity prototypes are used to gather early signal
+- Findings are synthesised and shared broadly; the team makes an explicit go / pivot / stop decision based on evidence
+- Discovery is time-boxed to avoid analysis paralysis — the goal is enough confidence to act, not perfect certainty
 
 ## Deliverables
 - Validated (or rejected) problem/solution fit
