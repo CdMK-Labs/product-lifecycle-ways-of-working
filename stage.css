@@ -41,30 +41,26 @@ h1 {
   font-weight: 700;
 }
 
-/* ── Process flow indicator ──────────────────────────────────────────────── */
+/* ── Process flow indicator (lives in the bottom nav bar) ───────────────── */
 
 .stage-flow {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
-  margin: 1.75rem 0 2.25rem;
-  padding: 0.7rem 1.1rem;
-  background: #eef6ee;
-  border-radius: 6px;
-  font-size: 0.75rem;
+  gap: 0.5rem;
+  font-size: 0.72rem;
   font-weight: 600;
-  letter-spacing: 0.07em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #0D6A4B;
 }
 
 .flow-step {
-  color: #02462F;
+  color: #999;
 }
 
 .flow-arrow {
-  color: #82CE71;
-  font-size: 0.9rem;
+  color: #c8e8c8;
+  font-size: 0.8rem;
   font-weight: 700;
 }
 
@@ -106,7 +102,7 @@ h1 {
 /* ── Rendered markdown content ───────────────────────────────────────────── */
 
 .stage-content {
-  margin-top: 0;
+  margin-top: 2.5rem;
 }
 
 /* Purpose — first h2 is larger and reads as an intro statement */

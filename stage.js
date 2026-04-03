@@ -2,18 +2,6 @@
   const mdFile = document.body.dataset.md;
   if (!mdFile) return;
 
-  // Inject the process flow indicator between the heading and the content area
-  const contentEl = document.getElementById('stage-content');
-  const flow = document.createElement('div');
-  flow.className = 'stage-flow';
-  flow.innerHTML =
-    '<span class="flow-step">Entry Criteria</span>' +
-    '<span class="flow-arrow">→</span>' +
-    '<span class="flow-step">What Happens</span>' +
-    '<span class="flow-arrow">→</span>' +
-    '<span class="flow-step">Deliverables</span>';
-  contentEl.parentNode.insertBefore(flow, contentEl);
-
   fetch(mdFile)
     .then(r => {
       if (!r.ok) throw new Error('Could not load ' + mdFile + ' (' + r.status + ')');
