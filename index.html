@@ -5,22 +5,153 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Product Lifecycle</title>
   <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
     body {
-      background-color: #90EE90;
-      color: #006400;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      background-color: #f5faf5;
       min-height: 100vh;
-      margin: 0;
       font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
     }
+
     h1 {
-      font-size: 5rem;
+      font-size: 2.2rem;
+      color: #02462F;
+      margin-bottom: 2rem;
+      letter-spacing: 0.02em;
+    }
+
+    #diagram-container {
+      width: 100%;
+      max-width: 1400px;
+    }
+
+    #diagram-container svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /*
+     * Stage groups: each colored segment of the lifecycle model.
+     * Brightness + glow on hover for the emphasis effect.
+     * transform-box: fill-box lets each group scale around its own bounding box.
+     * Active state is applied via JS so linked multi-segment stages (Deploy)
+     * can all highlight together when hovering any one of their segments.
+     */
+    .stage {
+      cursor: pointer;
+      transition: filter 0.22s ease, transform 0.22s ease;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+
+    .stage.stage-active {
+      filter: brightness(1.45) drop-shadow(0 0 18px rgba(255, 255, 255, 0.65));
+      transform: scale(1.018);
     }
   </style>
 </head>
 <body>
   <h1>Product Lifecycle</h1>
+
+  <div id="diagram-container"></div>
+
+  <script>
+    fetch('1649320976-Operating-model_version-2.svg')
+      .then(r => r.text())
+      .then(svgText => {
+        const container = document.getElementById('diagram-container');
+        container.innerHTML = svgText;
+
+        const svg = container.querySelector('svg');
+
+        // Remove any Illustrator-set fixed dimensions so the SVG scales responsively.
+        svg.removeAttribute('width');
+        svg.removeAttribute('height');
+        svg.style.removeProperty('enable-background');
+
+        // Collect only direct child <g> elements (excludes the <style> element).
+        const groups = Array.from(svg.children).filter(
+          el => el.tagName.toLowerCase() === 'g'
+        );
+
+        /*
+         * Group layout (0-indexed <g> children of the root SVG):
+         *   0  → Deploy segment 1: narrow polygon in center (st0, ~x:809–945, y:307–454)   — STAGE
+         *   1  → left arc stage (st1, dark teal)                                            — STAGE
+         *   2  → Decommission: gray sidebar on far-left edge (st2, ~x:1–90, y:428–815)     — STAGE
+         *   3  → white text: upper-left stage labels                                        — text
+         *   4  → upper-right arc stage (st4, mid green)                                     — STAGE
+         *   5  → lower-left stage (st4, mid green)                                          — STAGE
+         *   6  → bottom band stage (st5, light green)                                       — STAGE
+         *   7  → center-right stage (st6, bright teal)                                      — STAGE
+         *   8  → top-center arc stage (st7, dark teal)                                      — STAGE
+         *   9  → Deploy segment 2: center-right path (st0, ~x:958–1253, y:457–649)         — STAGE
+         *  10  → right arc stage (st1, dark teal)                                           — STAGE
+         *  11  → dark teal text: left edge labels                                           — text
+         *  12  → white text: sidebar labels                                                 — text
+         *  13  → white text: upper-right stage labels                                       — text
+         *  14  → white text: lower-left stage labels                                        — text
+         *  15  → white text: center-right stage labels                                      — text
+         *  16  → white text: top-center stage labels                                        — text
+         *  17  → white text: bottom band labels                                             — text
+         *  18  → white text: lower-center labels                                            — text
+         *  19  → Measure & Learn: inner feedback arc (st1, ~x:463–797, y:208–452)          — STAGE
+         *  20  → white text: lower-right stage labels                                       — text
+         */
+
+        /*
+         * Each entry is one stage: group indices that should co-highlight, plus
+         * the subpage URL. Deploy has two visible segments that must activate together.
+         *
+         * Stage order matches the lifecycle sequence (used for prev/next on subpages):
+         *   1 Inflow · 2 Value Proposition · 3 Product Discovery · 4 Align & Plan ·
+         *   5 Develop & Deliver · 6 Deploy · 7 Operate & Monitor · 8 Measure & Learn ·
+         *   9 Adapt & Optimize · 10 Decommission
+         */
+        const stages = [
+          { indices: [6],     href: 'inflow.html' },
+          { indices: [7],     href: 'value-proposition.html' },
+          { indices: [8],     href: 'product-discovery.html' },
+          { indices: [4],     href: 'align-and-plan.html' },
+          { indices: [10],    href: 'develop-and-deliver.html' },
+          { indices: [0, 9],  href: 'deploy.html' },
+          { indices: [1],     href: 'operate-and-monitor.html' },
+          { indices: [19, 11], href: 'measure-and-learn.html' },
+          { indices: [5],     href: 'adapt-and-optimize.html' },
+          { indices: [2],     href: 'decommission.html' },
+        ];
+
+        const textIndices = [3, 12, 13, 14, 15, 16, 17, 18, 20];
+
+        // Wire up each stage: co-highlight all segments on hover, navigate on click.
+        stages.forEach(({ indices, href }) => {
+          const els = indices.map(i => groups[i]).filter(Boolean);
+          els.forEach(el => {
+            el.classList.add('stage');
+            el.addEventListener('mouseenter', () =>
+              els.forEach(e => e.classList.add('stage-active'))
+            );
+            el.addEventListener('mouseleave', () =>
+              els.forEach(e => e.classList.remove('stage-active'))
+            );
+            el.addEventListener('click', () => {
+              window.location.href = href;
+            });
+          });
+        });
+
+        // Disable pointer events on text groups so hover falls through to the
+        // stage shape underneath, keeping the emphasis effect clean.
+        textIndices.forEach(i => {
+          if (groups[i]) groups[i].style.pointerEvents = 'none';
+        });
+      })
+      .catch(err => console.error('Could not load diagram:', err));
+  </script>
 </body>
 </html>
