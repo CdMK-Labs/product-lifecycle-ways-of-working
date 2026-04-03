@@ -1,20 +1,24 @@
-Deploy covers the controlled release of a product increment to production. This includes environment preparation, deployment execution, and immediate post-release validation to confirm successful delivery.
+## Purpose
+Release safely and efficiently.
 
 ## Entry Criteria
+- Tested and approved increment
+- Deployment readiness confirmed
 
-- Release candidate has passed all required quality gates
-- Deployment plan and rollback procedure are documented
-- Production environment is ready and access is confirmed
-- Stakeholder approval for release is obtained
+## What Happens
+Deployment through controlled and automated processes.
 
 ## Deliverables
+- Solution live in production
+- Release validated (technical + business)
+- Users informed and prepared
 
-- Product increment successfully deployed to production
-- Deployment verified and smoke tests passed
-- Release notes and change log published
-- Monitoring and alerting confirmed active
+## Who Is Involved
+- Product Team
+- Delivery Lead
+- IT Product Architect
+- Adoption Specialist
 
 ## Supporting Materials
-
 - [Deployment Checklist](templates/deploy/deployment-checklist.xlsx) — Step-by-step pre- and post-deployment verification checklist
 - [Rollback Plan Template](templates/deploy/rollback-plan-template.docx) — Template for documenting rollback triggers, steps, and ownership

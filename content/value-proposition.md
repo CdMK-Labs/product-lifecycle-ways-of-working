@@ -1,19 +1,24 @@
-The Value Proposition stage defines the core value a product or feature will deliver. Teams articulate the problem being solved, the target audience, and the expected outcomes to ensure strategic alignment before committing to discovery work.
+## Purpose
+Define the value we aim to create — and why.
 
 ## Entry Criteria
+- Qualified idea from Inflow
+- Clear problem or opportunity statement
 
-- An inflow item has been accepted and prioritised
-- A product owner is assigned and available
-- Strategic fit has been confirmed at team or leadership level
+## What Happens
+We translate opportunities into value hypotheses, success criteria, and expected outcomes.
 
 ## Deliverables
+- Defined value hypothesis (business impact)
+- Success metrics (KPIs)
+- Initial prioritization decision
 
-- Defined value proposition statement
-- Target user or customer segment identified
-- High-level success metrics agreed
-- Go/no-go decision to proceed to Product Discovery
+## Who Is Involved
+- Value Partner
+- Business Owner
+- Product Manager
+- Portfolio Partner
 
 ## Supporting Materials
-
 - [Value Proposition Canvas](templates/value-proposition/value-proposition-canvas.docx) — Structured canvas for mapping customer needs to product value
 - [Success Metrics Template](templates/value-proposition/success-metrics-template.xlsx) — Template for defining and agreeing measurable outcomes

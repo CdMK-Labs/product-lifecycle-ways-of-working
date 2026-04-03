@@ -17,11 +17,26 @@
       padding: 2rem;
     }
 
+    .site-header {
+      width: 100%;
+      max-width: 1400px;
+      margin-bottom: 1.5rem;
+    }
+
     h1 {
-      font-size: 2.2rem;
+      font-size: 2.4rem;
       color: #02462F;
-      margin-bottom: 2rem;
-      letter-spacing: 0.02em;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+      margin-bottom: 0.6rem;
+    }
+
+    .site-description {
+      font-size: 1rem;
+      color: #2d4a3e;
+      line-height: 1.65;
+      max-width: 72ch;
+      opacity: 0.85;
     }
 
     #diagram-container {
@@ -56,7 +71,10 @@
   </style>
 </head>
 <body>
-  <h1>Product Lifecycle</h1>
+  <header class="site-header">
+    <h1>Product Lifecycle</h1>
+    <p class="site-description">We manage products as continuous value streams — from idea to operation and evolution — with one team owning the full lifecycle.</p>
+  </header>
 
   <div id="diagram-container"></div>
 

@@ -1,18 +1,23 @@
-Inflow is the entry point of the product lifecycle, capturing new work items, ideas, and business opportunities before they enter the active development stream. Items are triaged to ensure alignment with strategic priorities.
+## Purpose
+Capture and qualify new ideas, needs, and opportunities.
 
 ## Entry Criteria
+- A need, idea, or opportunity is identified
+- Initial context is available (who, why, problem/opportunity)
 
-- A business need, opportunity, or problem has been clearly articulated
-- An initial proposal or idea has been submitted by a stakeholder
-- The item has passed a lightweight strategic relevance check
+## What Happens
+Inputs are gathered from stakeholders, users, data, and market signals.
 
 ## Deliverables
+- Idea described in a simple, shared format
+- Initial problem/opportunity framing
+- Ownership assigned (typically Product Manager)
 
-- Documented problem statement with clear business context
-- Initial priority and effort assessment
-- Nominated product owner and key stakeholders identified
+## Who Is Involved
+- Business Owner
+- Value Partner
+- Product Manager
 
 ## Supporting Materials
-
 - [Inflow Request Template](templates/inflow/inflow-request-template.docx) — Standard template for submitting new work items
 - [Stakeholder Brief](templates/inflow/stakeholder-brief.docx) — One-page brief for capturing stakeholder context

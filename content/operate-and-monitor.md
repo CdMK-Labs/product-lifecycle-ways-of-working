@@ -1,19 +1,23 @@
-Operate & Monitor ensures the product runs reliably in production. Teams maintain system health, respond to incidents, and keep stakeholders informed of operational status.
+## Purpose
+Ensure stable and secure operations.
 
 ## Entry Criteria
+- Solution deployed to production
+- Monitoring and support setup in place
 
-- Product is live in production following a successful deployment
-- Monitoring, logging, and alerting are configured and validated
-- On-call or support responsibilities are assigned
+## What Happens
+Monitoring, incident handling, and performance management.
 
 ## Deliverables
+- Stable operations (SLA/SLO met)
+- Incidents resolved within targets
+- Operational insights captured
 
-- Operational product meeting agreed SLAs and uptime targets
-- Incident log with response times and resolution records
-- Routine operational reports shared with stakeholders
-- Issues and improvement opportunities captured for review
+## Who Is Involved
+- Product Team
+- IT Supporter
+- Delivery Lead
 
 ## Supporting Materials
-
 - [Incident Report Template](templates/operate-and-monitor/incident-report-template.docx) — Structured template for documenting incidents and root cause analysis
 - [Operational Review Template](templates/operate-and-monitor/operational-review-template.pptx) — Periodic review template covering SLAs, incidents, and improvement actions

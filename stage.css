@@ -41,7 +41,35 @@ h1 {
   font-weight: 700;
 }
 
-/* Bottom navigation bar */
+/* ── Process flow indicator ──────────────────────────────────────────────── */
+
+.stage-flow {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 1.75rem 0 2.25rem;
+  padding: 0.7rem 1.1rem;
+  background: #eef6ee;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #0D6A4B;
+}
+
+.flow-step {
+  color: #02462F;
+}
+
+.flow-arrow {
+  color: #82CE71;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+/* ── Bottom navigation bar ───────────────────────────────────────────────── */
+
 .stage-nav {
   border-top: 1px solid #c8e8c8;
   padding: 1.25rem 2rem;
@@ -73,33 +101,40 @@ h1 {
   white-space: nowrap;
 }
 
-/* Invisible placeholder keeps the counter centred when one side is empty */
 .nav-spacer { visibility: hidden; font-size: 0.95rem; }
 
-/* ── Rendered markdown content ──────────────────────────────────────────── */
+/* ── Rendered markdown content ───────────────────────────────────────────── */
 
 .stage-content {
-  margin-top: 2.5rem;
+  margin-top: 0;
 }
 
-.stage-content > p:first-child {
-  font-size: 1.1rem;
+/* Purpose — first h2 is larger and reads as an intro statement */
+.stage-content h2:first-of-type {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 0;
   color: #1a3a2a;
-  line-height: 1.75;
+  border-bottom: none;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0;
+}
+
+.stage-content h2:first-of-type + p {
+  font-size: 1.2rem;
+  color: #02462F;
+  line-height: 1.65;
   max-width: 68ch;
   margin-bottom: 2.5rem;
+  font-weight: 400;
 }
 
-.stage-content p {
-  color: #2d4a3e;
-  line-height: 1.7;
-  max-width: 68ch;
-  margin-bottom: 1rem;
-}
-
+/* Standard section headings */
 .stage-content h2 {
   color: #02462F;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -107,6 +142,13 @@ h1 {
   margin-bottom: 0.9rem;
   padding-bottom: 0.4rem;
   border-bottom: 1px solid #c8e8c8;
+}
+
+.stage-content p {
+  color: #2d4a3e;
+  line-height: 1.7;
+  max-width: 68ch;
+  margin-bottom: 1rem;
 }
 
 .stage-content ul {
@@ -139,6 +181,32 @@ h1 {
   color: #0D6A4B;
   font-weight: 600;
 }
+
+/* ── Who Is Involved — role pills ────────────────────────────────────────── */
+
+.who-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  max-width: none;
+}
+
+.who-list li {
+  background: #d4edda;
+  color: #02462F;
+  border-radius: 2rem;
+  padding: 0.3rem 0.9rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.4;
+  border-bottom: none;
+}
+
+.who-list li::before {
+  content: none;
+}
+
+/* ── Links ───────────────────────────────────────────────────────────────── */
 
 .stage-content a {
   color: #0D6A4B;
