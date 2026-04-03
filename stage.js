@@ -2,6 +2,8 @@
   const mdFile = document.body.dataset.md;
   if (!mdFile) return;
 
+  const contentEl = document.getElementById('stage-content');
+
   fetch(mdFile)
     .then(r => {
       if (!r.ok) throw new Error('Could not load ' + mdFile + ' (' + r.status + ')');
