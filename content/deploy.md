@@ -1,0 +1,15 @@
+Deploy covers the controlled release of a product increment to production. This includes environment preparation, deployment execution, and immediate post-release validation to confirm successful delivery.
+
+## Entry Criteria
+
+- Release candidate has passed all required quality gates
+- Deployment plan and rollback procedure are documented
+- Production environment is ready and access is confirmed
+- Stakeholder approval for release is obtained
+
+## Deliverables
+
+- Product increment successfully deployed to production
+- Deployment verified and smoke tests passed
+- Release notes and change log published
+- Monitoring and alerting confirmed active

@@ -75,3 +75,67 @@ h1 {
 
 /* Invisible placeholder keeps the counter centred when one side is empty */
 .nav-spacer { visibility: hidden; font-size: 0.95rem; }
+
+/* ── Rendered markdown content ──────────────────────────────────────────── */
+
+.stage-content {
+  margin-top: 2.5rem;
+}
+
+.stage-content > p:first-child {
+  font-size: 1.1rem;
+  color: #1a3a2a;
+  line-height: 1.75;
+  max-width: 68ch;
+  margin-bottom: 2.5rem;
+}
+
+.stage-content p {
+  color: #2d4a3e;
+  line-height: 1.7;
+  max-width: 68ch;
+  margin-bottom: 1rem;
+}
+
+.stage-content h2 {
+  color: #02462F;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 2.25rem;
+  margin-bottom: 0.9rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #c8e8c8;
+}
+
+.stage-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 68ch;
+}
+
+.stage-content ul + h2 {
+  margin-top: 2.5rem;
+}
+
+.stage-content li {
+  color: #2d4a3e;
+  line-height: 1.6;
+  padding: 0.45rem 0 0.45rem 1.5rem;
+  position: relative;
+  border-bottom: 1px solid #eef6ee;
+}
+
+.stage-content li:last-child {
+  border-bottom: none;
+}
+
+.stage-content li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: #0D6A4B;
+  font-weight: 600;
+}
