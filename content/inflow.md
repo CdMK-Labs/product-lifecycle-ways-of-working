@@ -14,5 +14,5 @@ Inflow is the entry point of the product lifecycle, capturing new work items, id
 
 ## Supporting Materials
 
-- [Inflow Request Template](templates/inflow/inflow-request-template.md) — Standard template for submitting new work items
-- [Stakeholder Brief](templates/inflow/stakeholder-brief.md) — One-page brief for capturing stakeholder context
+- [Inflow Request Template](templates/inflow/inflow-request-template.docx) — Standard template for submitting new work items
+- [Stakeholder Brief](templates/inflow/stakeholder-brief.docx) — One-page brief for capturing stakeholder context

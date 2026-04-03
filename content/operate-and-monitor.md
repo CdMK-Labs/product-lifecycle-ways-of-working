@@ -15,5 +15,5 @@ Operate & Monitor ensures the product runs reliably in production. Teams maintai
 
 ## Supporting Materials
 
-- [Incident Report Template](templates/operate-and-monitor/incident-report-template.md) — Structured template for documenting incidents and root cause analysis
-- [Operational Review Template](templates/operate-and-monitor/operational-review-template.md) — Periodic review template covering SLAs, incidents, and improvement actions
+- [Incident Report Template](templates/operate-and-monitor/incident-report-template.docx) — Structured template for documenting incidents and root cause analysis
+- [Operational Review Template](templates/operate-and-monitor/operational-review-template.pptx) — Periodic review template covering SLAs, incidents, and improvement actions

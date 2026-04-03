@@ -156,3 +156,8 @@ h1 {
   font-size: 0.85em;
   opacity: 0.6;
 }
+
+/* File-type badges on template links */
+.stage-content a[href$=".docx"]::before { content: 'Word · '; font-size: 0.78em; opacity: 0.55; font-weight: 400; }
+.stage-content a[href$=".xlsx"]::before { content: 'Excel · '; font-size: 0.78em; opacity: 0.55; font-weight: 400; }
+.stage-content a[href$=".pptx"]::before { content: 'PowerPoint · '; font-size: 0.78em; opacity: 0.55; font-weight: 400; }

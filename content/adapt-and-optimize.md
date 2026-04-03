@@ -15,5 +15,5 @@ Adapt & Optimize applies learnings from measurement to improve the product and d
 
 ## Supporting Materials
 
-- [Optimization Backlog Template](templates/adapt-and-optimize/optimization-backlog-template.md) — Prioritised log of improvement opportunities identified through measurement
-- [Retrospective Template](templates/adapt-and-optimize/retrospective-template.md) — Start / Stop / Continue format for team process retrospectives
+- [Optimization Backlog Template](templates/adapt-and-optimize/optimization-backlog-template.xlsx) — Prioritised log of improvement opportunities identified through measurement
+- [Retrospective Template](templates/adapt-and-optimize/retrospective-template.pptx) — Start / Stop / Continue format for team process retrospectives

@@ -15,5 +15,5 @@ Align & Plan translates a validated discovery outcome into a concrete delivery p
 
 ## Supporting Materials
 
-- [Delivery Plan Template](templates/align-and-plan/delivery-plan-template.md) — Template for documenting scope, sequence, and team capacity
-- [Risk Register](templates/align-and-plan/risk-register.md) — Structured log for capturing and managing delivery risks
+- [Delivery Plan Template](templates/align-and-plan/delivery-plan-template.xlsx) — Template for documenting scope, sequence, and team capacity
+- [Risk Register](templates/align-and-plan/risk-register.xlsx) — Structured log for capturing and managing delivery risks

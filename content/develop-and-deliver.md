@@ -15,5 +15,5 @@ Develop & Deliver is where the product increment is built, tested, and made read
 
 ## Supporting Materials
 
-- [Definition of Done](templates/develop-and-deliver/definition-of-done.md) — Shared quality checklist for completing any piece of work
-- [Sprint Review Template](templates/develop-and-deliver/sprint-review-template.md) — Notes template for capturing demo outcomes and stakeholder feedback
+- [Definition of Done](templates/develop-and-deliver/definition-of-done.docx) — Shared quality checklist for completing any piece of work
+- [Sprint Review Template](templates/develop-and-deliver/sprint-review-template.pptx) — Notes template for capturing demo outcomes and stakeholder feedback

@@ -15,5 +15,5 @@ Measure & Learn focuses on evaluating how well the product is achieving its inte
 
 ## Supporting Materials
 
-- [Measurement Plan Template](templates/measure-and-learn/measurement-plan-template.md) — Template for defining metrics, baselines, and reporting cadence
-- [Insights Report Template](templates/measure-and-learn/insights-report-template.md) — Structured report for synthesising data, feedback, and recommendations
+- [Measurement Plan Template](templates/measure-and-learn/measurement-plan-template.xlsx) — Template for defining metrics, baselines, and reporting cadence
+- [Insights Report Template](templates/measure-and-learn/insights-report-template.pptx) — Structured report for synthesising data, feedback, and recommendations

@@ -15,5 +15,5 @@ The Value Proposition stage defines the core value a product or feature will del
 
 ## Supporting Materials
 
-- [Value Proposition Canvas](templates/value-proposition/value-proposition-canvas.md) — Structured canvas for mapping customer needs to product value
-- [Success Metrics Template](templates/value-proposition/success-metrics-template.md) — Template for defining and agreeing measurable outcomes
+- [Value Proposition Canvas](templates/value-proposition/value-proposition-canvas.docx) — Structured canvas for mapping customer needs to product value
+- [Success Metrics Template](templates/value-proposition/success-metrics-template.xlsx) — Template for defining and agreeing measurable outcomes
