@@ -13,3 +13,8 @@ Deploy covers the controlled release of a product increment to production. This 
 - Deployment verified and smoke tests passed
 - Release notes and change log published
 - Monitoring and alerting confirmed active
+
+## Supporting Materials
+
+- [Deployment Checklist](templates/deploy/deployment-checklist.md) — Step-by-step pre- and post-deployment verification checklist
+- [Rollback Plan Template](templates/deploy/rollback-plan-template.md) — Template for documenting rollback triggers, steps, and ownership

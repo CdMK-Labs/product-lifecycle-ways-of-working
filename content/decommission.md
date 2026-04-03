@@ -12,3 +12,8 @@ Decommission manages the controlled retirement of a product, feature, or service
 - Data archived or migrated as required
 - Product or service successfully decommissioned and removed from production
 - Post-decommission review and lessons learned documented
+
+## Supporting Materials
+
+- [Decommission Plan Template](templates/decommission/decommission-plan-template.md) — End-to-end plan covering impact assessment, communication, and removal steps
+- [Migration Checklist](templates/decommission/migration-checklist.md) — Step-by-step checklist for migrating users and data to a replacement system

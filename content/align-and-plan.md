@@ -12,3 +12,8 @@ Align & Plan translates a validated discovery outcome into a concrete delivery p
 - High-level roadmap or delivery sequence
 - Identified risks and mitigations
 - Team aligned on goals, roles, and ways of working
+
+## Supporting Materials
+
+- [Delivery Plan Template](templates/align-and-plan/delivery-plan-template.md) — Template for documenting scope, sequence, and team capacity
+- [Risk Register](templates/align-and-plan/risk-register.md) — Structured log for capturing and managing delivery risks

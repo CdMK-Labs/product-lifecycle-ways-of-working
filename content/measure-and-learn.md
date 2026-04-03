@@ -12,3 +12,8 @@ Measure & Learn focuses on evaluating how well the product is achieving its inte
 - User feedback synthesis and key themes
 - Documented learnings and actionable recommendations
 - Input to Adapt & Optimize or future inflow items
+
+## Supporting Materials
+
+- [Measurement Plan Template](templates/measure-and-learn/measurement-plan-template.md) — Template for defining metrics, baselines, and reporting cadence
+- [Insights Report Template](templates/measure-and-learn/insights-report-template.md) — Structured report for synthesising data, feedback, and recommendations

@@ -139,3 +139,20 @@ h1 {
   color: #0D6A4B;
   font-weight: 600;
 }
+
+.stage-content a {
+  color: #0D6A4B;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.stage-content a:hover {
+  text-decoration: underline;
+}
+
+/* Download indicator on template links */
+.stage-content a[href^="templates/"]::after {
+  content: ' ↓';
+  font-size: 0.85em;
+  opacity: 0.6;
+}

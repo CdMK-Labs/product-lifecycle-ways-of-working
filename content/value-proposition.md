@@ -12,3 +12,8 @@ The Value Proposition stage defines the core value a product or feature will del
 - Target user or customer segment identified
 - High-level success metrics agreed
 - Go/no-go decision to proceed to Product Discovery
+
+## Supporting Materials
+
+- [Value Proposition Canvas](templates/value-proposition/value-proposition-canvas.md) — Structured canvas for mapping customer needs to product value
+- [Success Metrics Template](templates/value-proposition/success-metrics-template.md) — Template for defining and agreeing measurable outcomes

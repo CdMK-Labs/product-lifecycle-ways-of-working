@@ -12,3 +12,8 @@ Adapt & Optimize applies learnings from measurement to improve the product and d
 - Updated backlog reflecting new priorities based on learnings
 - Documented decisions on continuing, pivoting, or decommissioning
 - Feedback loop closed with relevant stakeholders
+
+## Supporting Materials
+
+- [Optimization Backlog Template](templates/adapt-and-optimize/optimization-backlog-template.md) — Prioritised log of improvement opportunities identified through measurement
+- [Retrospective Template](templates/adapt-and-optimize/retrospective-template.md) — Start / Stop / Continue format for team process retrospectives

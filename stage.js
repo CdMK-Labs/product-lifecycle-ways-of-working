@@ -9,6 +9,10 @@
     })
     .then(md => {
       document.getElementById('stage-content').innerHTML = marked.parse(md);
+      // Make template links download rather than navigate
+      document.querySelectorAll('#stage-content a[href^="templates/"]').forEach(a => {
+        a.setAttribute('download', '');
+      });
     })
     .catch(err => console.error(err));
 })();
