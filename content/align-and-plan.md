@@ -1,5 +1,5 @@
 ## Purpose
-Align stakeholders and prepare execution.
+Build the things right. We estimate and plan with room for reality, align on quality standards and dependencies, and surface risks early. Good planning creates the conditions for delivery teams to move with clarity and confidence.
 
 ## Entry Criteria
 - Validated direction from discovery

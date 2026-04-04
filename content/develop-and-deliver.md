@@ -1,5 +1,5 @@
 ## Purpose
-Build solutions that deliver value.
+Build in small, quality steps. We make work visible, document as we go, and collaborate across products and disciplines. Iterative delivery keeps feedback loops short and quality high throughout the build.
 
 ## Entry Criteria
 - Approved scope and backlog

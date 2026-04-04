@@ -1,5 +1,5 @@
 ## Purpose
-Understand value and learn continuously.
+Understand adoption and value in practice. We use data and user insight to see what is working, what needs attention, and whether the product is delivering on its original value hypothesis. Learning continuously is what separates product thinking from project thinking.
 
 ## Entry Criteria
 - Product in use

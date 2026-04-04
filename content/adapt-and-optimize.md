@@ -1,5 +1,5 @@
 ## Purpose
-Continuously improve and evolve the product.
+Start from a clear baseline and act on what we know. We identify new value opportunities, address reliability concerns and technical debt, continue what works, and retire what no longer serves the product or its users. This stage closes the loop and restarts the cycle with better information.
 
 ## Entry Criteria
 - Insights from Measure & Learn

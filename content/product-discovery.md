@@ -1,5 +1,5 @@
 ## Purpose
-Ensure we are solving the right problem.
+Build the right things before we build things right. We explore business and technology options, involve the right people early, and establish a clear value case. Discovery reduces risk by creating confidence in direction before we commit to delivery.
 
 ## Entry Criteria
 - Value hypothesis defined

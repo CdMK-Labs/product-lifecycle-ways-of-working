@@ -1,5 +1,5 @@
 ## Purpose
-Ensure stable and secure operations.
+Keep the product healthy in production. We track performance against targets, respond quickly to signals, and learn from incidents and user feedback. Stable operations are the foundation for everything else the lifecycle builds on.
 
 ## Entry Criteria
 - Solution deployed to production

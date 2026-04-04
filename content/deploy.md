@@ -1,5 +1,5 @@
 ## Purpose
-Release safely and efficiently.
+Release safely and with confidence. We ensure operational readiness, prepare users for change, and validate security alongside built-in quality. A controlled deployment process protects stability while enabling continuous value delivery.
 
 ## Entry Criteria
 - Tested and approved increment

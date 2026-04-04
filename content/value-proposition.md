@@ -1,5 +1,5 @@
 ## Purpose
-Define the value we aim to create — and why.
+Start with the why. We clarify the problem worth solving, define the value we aim to create, and confirm strategic fit before committing to discovery or delivery. This is the foundation everything else in the lifecycle builds on.
 
 ## Entry Criteria
 - Qualified idea from Inflow
