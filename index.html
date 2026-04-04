@@ -34,9 +34,12 @@
     .site-description {
       font-size: 1rem;
       color: #2d4a3e;
-      line-height: 1.65;
+      line-height: 1.75;
       max-width: 72ch;
-      opacity: 0.85;
+    }
+
+    .site-description + .site-description {
+      margin-top: 0.75rem;
     }
 
     #diagram-container {
@@ -92,17 +95,6 @@
       border-bottom: 1px solid #c8e8c8;
     }
 
-    .home-intro p {
-      font-size: 1rem;
-      color: #2d4a3e;
-      line-height: 1.75;
-      max-width: 72ch;
-    }
-
-    .home-intro p + p {
-      margin-top: 1rem;
-    }
-
     .stages-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -153,18 +145,13 @@
 <body>
   <header class="site-header">
     <h1>Product Lifecycle</h1>
-    <p class="site-description">We manage products as continuous value streams — from idea to operation and evolution — with one team owning the full lifecycle.</p>
+    <p class="site-description">This site is the practical reference for how we work across the product lifecycle. It translates our model into something teams can use in practice: what each stage is for, when to enter it, what to deliver, who to involve, and which templates, processes and standards to work with.</p>
+    <p class="site-description">The lifecycle is built around full product responsibility. Product teams do not just hand work over from planning to delivery to operations. They carry the product forward across the lifecycle and improve it over time. That is how we create stronger ownership, better flow and more consistent value delivery, while staying within our fundamentals and balancing speed, stability and compliance.</p>
   </header>
 
   <div id="diagram-container"></div>
 
   <div class="home-content">
-
-    <section class="home-intro">
-      <p class="home-section-label">About this site</p>
-      <p>This site is the practical reference for how we work across the product lifecycle. It translates our model into something teams can use in practice: what each stage is for, when to enter it, what to deliver, who to involve, and which templates, processes and standards to work with.</p>
-      <p>The lifecycle is built around full product responsibility. Product teams do not just hand work over from planning to delivery to operations. They carry the product forward across the lifecycle and improve it over time. That is how we create stronger ownership, better flow and more consistent value delivery, while staying within our fundamentals and balancing speed, stability and compliance.</p>
-    </section>
 
     <section class="home-stages">
       <p class="home-section-label">Stages</p>
