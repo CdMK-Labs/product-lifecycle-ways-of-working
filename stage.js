@@ -56,11 +56,14 @@
     .then(md => {
       contentEl.innerHTML = marked.parse(md);
 
-      // Style "Who Is Involved" list as role pills
+      // Style "Who Is Involved" lists as role pills (handles subgroups via h3)
       contentEl.querySelectorAll('h2').forEach(h2 => {
         if (/who is involved/i.test(h2.textContent)) {
-          const ul = h2.nextElementSibling;
-          if (ul && ul.tagName === 'UL') ul.classList.add('who-list');
+          let el = h2.nextElementSibling;
+          while (el && el.tagName !== 'H2') {
+            if (el.tagName === 'UL') el.classList.add('who-list');
+            el = el.nextElementSibling;
+          }
         }
       });
 
