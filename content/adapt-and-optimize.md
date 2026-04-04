@@ -1,72 +1,136 @@
-## Purpose
-Start from a clear baseline and act on what we know. We identify new value opportunities, address reliability concerns and technical debt, continue what works, and retire what no longer serves the product or its users. This stage closes the loop and restarts the cycle with better information.
+## What This Stage Is For
+
+Adapt & Optimize is where we turn learning into action. The purpose is to improve the product over time based on what we see in live use: what is working well, what is creating friction, where reliability needs strengthening, where technical debt is slowing us down, and where the product or parts of it should change direction or be retired.
+
+This stage builds on insight from both Operate & Monitor and Measure & Learn. It is where teams decide how to respond to what they have learned, and how to balance competing needs across value creation, reliability, technical debt, sustainability and simplification.
+
+This stage is continuous. It helps the product evolve over time rather than staying fixed around old assumptions or earlier plans.
+
+## When To Enter This Stage
+
+Enter this stage when:
+- live-product insight shows that something should be improved, simplified, strengthened or retired
+- operational issues, adoption signals or outcome signals point to a need for change
+- technical debt, process inefficiency or recurring friction are limiting product effectiveness
+- the team needs to decide how to rebalance effort across new value, reliability and sustainability
+
+This stage continues as long as the product is active and being improved over time.
+
+## Key Questions To Answer
+
+- What should we improve based on what we now know?
+- Where are the biggest opportunities to improve user experience, adoption, reliability or efficiency?
+- What technical debt or structural weakness is creating avoidable cost, delay or risk?
+- What should be prioritised now: new value, reliability improvement, simplification or debt reduction?
+- Which optimisations belong in normal product flow, and which need more structured investment?
+- What parts of the product, process or solution landscape no longer justify their complexity or cost?
+- Is there anything that should be reduced, replaced or retired?
 
 ## Entry Criteria
-- Insights from Measure & Learn
-- Identified improvement opportunities
 
-## What Happens
-- Insights from Measure & Learn are translated into prioritised improvement opportunities and added to the backlog
-- The team makes an explicit direction decision: continue evolving the product, scale it, reduce scope, or exit
-- Optimisations span the full range — UX improvements, performance tuning, technical debt, and process changes are all in scope
-- The team reflects on how they work, not just what they build: retrospectives drive improvements to ways of working, not just the product
-- Changes are delivered through the same Develop & Deliver and Deploy cycle, maintaining quality and traceability
+Before entering this stage, there should be at least:
+- relevant operational insight, usage insight or outcome insight from live use
+- a clear enough understanding of what problem or opportunity should be addressed
+- the right product and business stakeholders available to support prioritisation and decisions
+- enough context to judge whether the change belongs in normal product flow, a larger initiative, or retirement planning
 
-## Deliverables
-- Improved product performance or usability
-- Updated backlog and priorities
-- Clear decision: continue, scale, reduce, start something new, or retire
+## Core Activities
+
+- review insights from operations, usage, adoption and business outcome signals
+- identify improvement opportunities across product experience, process, reliability and technical health
+- assess and prioritise technical debt, maintenance needs and structural weaknesses
+- simplify flows, tools, configurations or ways of working where that creates value
+- decide how to balance effort across new work, reliability and technical debt reduction
+- identify product elements, processes or capabilities that should be reduced, replaced or retired
+- feed agreed changes back into value shaping, discovery, planning or normal product execution as relevant
+
+## Key Deliverables
+
+- prioritised improvement opportunities
+- decisions on optimisation, simplification or corrective actions
+- prioritised technical debt or reliability improvement items
+- identified process or tooling improvements
+- recommendations on whether specific changes should enter normal delivery flow or a larger lifecycle path
+- identified retirement candidates or retirement decisions where relevant
+- clear improvement actions feeding back into the lifecycle
 
 ## Who Is Involved
-- Product Team
+
+### Typically involved
+
+- Head of Product
 - Product Owner
 - Product Manager
-- Delivery Partner
+- Product Architect
+- Business Owner or relevant business stakeholders
 
-## Supporting Materials
-- [Optimization Backlog Template](templates/adapt-and-optimize/optimization-backlog-template.xlsx) — Prioritised log of improvement opportunities identified through measurement
-- [Retrospective Template](templates/adapt-and-optimize/retrospective-template.pptx) — Start / Stop / Continue format for team process retrospectives
+### Often involved
 
----
+- IT Specialists, Developers and operational roles
+- Adoption Specialist
+- Dependent products, platforms or teams
 
-## When a New Product Arises
+### Sometimes involved
 
-Sometimes Adapt & Optimize surfaces an opportunity that is better served by starting fresh than by evolving the existing product. When that happens, a new product enters the lifecycle through an Inflow process before it reaches Value Proposition.
+- IT Value Partner
+- IT Architecture Partner
+- IT Portfolio Partner
 
-**Entry point**
-- A need, idea, or opportunity is identified that is distinct from the current product
-- Initial context is available: who it is for, why it matters, and what problem it solves
-- Ownership is assigned, typically to a Product Manager
+## Templates and Tools
 
-**What happens**
-- The opportunity is captured in a simple, shared format and given initial framing
-- It is assessed for strategic fit and prioritised against other inflow items
-- If it passes the bar, it moves forward to Value Proposition as a new product initiative
+At this stage, teams will typically use lightweight improvement and prioritisation tools suited to the product context, for example:
+- improvement backlog or optimisation log
+- technical debt view
+- recurring issue or friction analysis
+- reliability improvement view
+- prioritisation discussions across value, risk and sustainability
+- retirement candidate list
+- action tracking for agreed optimisation work
 
-**Who is involved**
-- Business Owner
-- Value Partner
-- Product Manager
+The purpose is not to create extra process. It is to make conscious improvement decisions instead of letting the product drift.
 
----
+## Governance and Processes To Align With
 
-## When a Product Reaches End of Life
+This stage should align with:
+- product and business prioritisation forums
+- operational and learning reviews from earlier stages
+- architecture, security and service management guardrails where relevant
+- portfolio and investment dialogue where larger changes or retirement decisions matter
+- fundamentals that support responsible product evolution, simplification and long-term sustainability
 
-Adapt & Optimize is also the point at which a decision to retire a product is made. Decommission is not a failure — it is responsible portfolio management, freeing up capacity and reducing complexity for the organisation.
+## What Good Looks Like In This Stage
 
-**Entry point**
-- Declining or no business value confirmed through Measure & Learn
-- Strategic decision to retire has been made and approved
+Adapt & Optimize is working well when:
+- the team acts on insight rather than only collecting it
+- improvement opportunities are visible and deliberately prioritised
+- technical debt and reliability needs are addressed with discipline
+- product complexity is reduced where it no longer creates value
+- the balance between new value, reliability and sustainability is actively managed
+- retirement decisions are made when parts of the product no longer justify their cost or complexity
+- agreed actions are fed back into the lifecycle in a clear and practical way
 
-**What happens**
-- A transition plan is created covering user migration, data handling, and dependency removal — with realistic timelines and clear ownership
-- Users are notified early and supported through the transition, with guidance to alternative solutions where applicable
-- Data is archived or deleted in line with policy, with audit evidence retained and compliance confirmed
-- Infrastructure, licences, and costs are actively cleaned up — decommission is not complete until all dependencies are removed and costs are recovered
+## Common Pitfalls
 
-**Who is involved**
-- Head of IT Product
-- Product Manager
-- Portfolio Partner
-- IT Product Architect
-- Product Team
+**Treating improvement as leftover work**
+
+If optimisation only happens when time happens to appear, the product gradually becomes harder to change and support.
+
+**Only prioritising new value**
+
+Reliability, simplification and technical debt reduction are legitimate product priorities, not second-class work.
+
+**Confusing activity with adaptation**
+
+The point is not to keep changing things. It is to make deliberate improvements based on evidence and product judgement.
+
+**Letting technical debt stay invisible**
+
+If debt is not made visible and discussed, it will continue to shape cost, speed and risk without being managed.
+
+**Avoiding retirement decisions**
+
+Keeping everything alive forever creates hidden complexity, cost and operational drag.
+
+**Failing to reconnect improvement decisions to the lifecycle**
+
+Good optimisation should lead to clear next actions, whether in normal flow, larger initiatives or retirement planning.
