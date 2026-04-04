@@ -1,15 +1,13 @@
 (function () {
   const STAGES = [
-    { id: 'inflow',              title: 'Inflow',              color: '#82CE71', prev: null,                 next: 'value-proposition'   },
-    { id: 'value-proposition',   title: 'Value Proposition',   color: '#0D6A4B', prev: 'inflow',             next: 'product-discovery'   },
-    { id: 'product-discovery',   title: 'Product Discovery',   color: '#0C563D', prev: 'value-proposition',  next: 'align-and-plan'      },
-    { id: 'align-and-plan',      title: 'Align & Plan',        color: '#0B885A', prev: 'product-discovery',  next: 'develop-and-deliver' },
-    { id: 'develop-and-deliver', title: 'Develop & Deliver',   color: '#0D6A4B', prev: 'align-and-plan',     next: 'deploy'              },
-    { id: 'deploy',              title: 'Deploy',              color: '#02462F', prev: 'develop-and-deliver', next: 'operate-and-monitor' },
-    { id: 'operate-and-monitor', title: 'Operate & Monitor',   color: '#0C563D', prev: 'deploy',             next: 'adapt-and-optimize'  },
-    { id: 'measure-and-learn',   title: 'Measure & Learn',     color: '#0C563D', prev: 'operate-and-monitor', next: null                 },
-    { id: 'adapt-and-optimize',  title: 'Adapt & Optimize',    color: '#2DA973', prev: 'operate-and-monitor', next: 'value-proposition'  },
-    { id: 'decommission',        title: 'Decommission',        color: '#999999', prev: 'adapt-and-optimize', next: null                  },
+    { id: 'value-proposition',   title: 'Value Proposition',   color: '#0D6A4B', prev: null,                  next: 'product-discovery'   },
+    { id: 'product-discovery',   title: 'Product Discovery',   color: '#0C563D', prev: 'value-proposition',   next: 'align-and-plan'      },
+    { id: 'align-and-plan',      title: 'Align & Plan',        color: '#0B885A', prev: 'product-discovery',   next: 'develop-and-deliver' },
+    { id: 'develop-and-deliver', title: 'Develop & Deliver',   color: '#0D6A4B', prev: 'align-and-plan',      next: 'deploy'              },
+    { id: 'deploy',              title: 'Deploy',              color: '#02462F', prev: 'develop-and-deliver',  next: 'operate-and-monitor' },
+    { id: 'operate-and-monitor', title: 'Operate & Monitor',   color: '#0C563D', prev: 'deploy',              next: 'adapt-and-optimize'  },
+    { id: 'measure-and-learn',   title: 'Measure & Learn',     color: '#0C563D', prev: 'operate-and-monitor', next: null                  },
+    { id: 'adapt-and-optimize',  title: 'Adapt & Optimize',    color: '#2DA973', prev: 'operate-and-monitor', next: 'value-proposition'   },
   ];
 
   function stageUrl(id) { return 'stage.html?s=' + id; }
