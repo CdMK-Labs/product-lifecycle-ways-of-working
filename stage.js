@@ -5,9 +5,9 @@
     { id: 'align-and-plan',      title: 'Align & Plan',        color: '#0B885A', prev: 'product-discovery',   next: 'develop-and-deliver' },
     { id: 'develop-and-deliver', title: 'Develop & Deliver',   color: '#0D6A4B', prev: 'align-and-plan',      next: 'deploy'              },
     { id: 'deploy',              title: 'Deploy',              color: '#02462F', prev: 'develop-and-deliver',  next: 'operate-and-monitor' },
-    { id: 'operate-and-monitor', title: 'Operate & Monitor',   color: '#0C563D', prev: 'deploy',              next: 'adapt-and-optimize'  },
-    { id: 'measure-and-learn',   title: 'Measure & Learn',     color: '#0C563D', prev: 'operate-and-monitor', next: null                  },
-    { id: 'adapt-and-optimize',  title: 'Adapt & Optimize',    color: '#2DA973', prev: 'operate-and-monitor', next: 'value-proposition'   },
+    { id: 'operate-and-monitor', title: 'Operate & Monitor',   color: '#0C563D', prev: 'deploy',              next: 'measure-and-learn'   },
+    { id: 'measure-and-learn',   title: 'Measure & Learn',     color: '#0C563D', prev: 'operate-and-monitor', next: 'adapt-and-optimize'  },
+    { id: 'adapt-and-optimize',  title: 'Adapt & Optimize',    color: '#2DA973', prev: 'measure-and-learn',   next: 'value-proposition'   },
   ];
 
   function stageUrl(id) { return 'stage.html?s=' + id; }
