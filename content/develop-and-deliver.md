@@ -66,25 +66,32 @@ This stage does not require every detail to be fixed upfront, but it does requir
 
 ## Who Is Involved
 
-### Typically involved
+### Head of Product
+- maintains accountability for delivery direction and product outcomes
+- manages escalations and ensures delivery stays aligned with approved intent
+- keeps end-to-end product responsibility visible during execution
 
-- Head of Product
-- Product Owner
-- IT Delivery Lead
-- IT Specialists and Developers
-- Product Architect
+### Product Owner
+- guides priorities and backlog decisions throughout the delivery
+- clarifies needs and validates that work meets expectations
+- keeps the team focused on the right work at the right time
 
-### Often involved
+### IT Specialists / Developers
+- build, configure, integrate and implement the agreed changes
+- validate quality through testing, reviews and checks as part of the work
+- document decisions and operationally relevant information as work progresses
 
-- Adoption Specialist
-- Other product teams, platforms or enabling teams
-- Business representatives
+### Product Architect
+- guides technical integrity and non-functional scope during delivery
+- helps the team navigate architectural decisions and constraints
+- ensures quality and sustainability are built in, not bolted on
 
-### Sometimes involved
+### IT Delivery Lead
+- coordinates delivery flow, planning follow-up and dependency management
+- tracks progress, risks and issues across the delivery
+- supports collaboration with other teams, platforms and enabling groups
 
-- IT Architecture Partner
-- IT Delivery Partner
-- Operational support roles
+**Others who may contribute:** Adoption Specialist · Business representatives · Other product teams and platforms · IT Architecture Partner
 
 ## Templates and Tools
 

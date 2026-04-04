@@ -99,11 +99,23 @@
       // Process all h2 elements for special section treatment
       contentEl.querySelectorAll('h2').forEach(h2 => {
 
-        // Who Is Involved: pill-style all ULs until the next H2 (supports subgroups via H3)
+        // Who Is Involved: mark primary role headings, bullet lists, and the others line
         if (/who is involved/i.test(h2.textContent)) {
+          let isFirst = true;
           let el = h2.nextElementSibling;
           while (el && el.tagName !== 'H2') {
-            if (el.tagName === 'UL') el.classList.add('who-list');
+            if (el.tagName === 'H3') {
+              el.classList.add('role-name');
+              if (isFirst) { el.classList.add('role-name-first'); isFirst = false; }
+            }
+            if (el.tagName === 'UL') {
+              el.classList.add('role-bullets');
+            }
+            if (el.tagName === 'P'
+                && el.querySelector('strong')
+                && /others who may contribute/i.test(el.textContent)) {
+              el.classList.add('others-contribute');
+            }
             el = el.nextElementSibling;
           }
         }

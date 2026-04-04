@@ -218,28 +218,54 @@ h1 {
   font-weight: 600;
 }
 
-/* ── Who Is Involved — role pills ────────────────────────────────────────── */
+/* ── Who Is Involved — primary role cards ────────────────────────────────── */
 
-.who-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  max-width: none;
+.role-name {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #02462F;
+  text-transform: none;
+  letter-spacing: 0;
+  opacity: 1;
+  margin-top: 1.75rem;
+  margin-bottom: 0.35rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #eef6ee;
 }
 
-.who-list li {
-  background: #d4edda;
-  color: #02462F;
-  border-radius: 2rem;
-  padding: 0.3rem 0.9rem;
-  font-size: 0.82rem;
-  font-weight: 600;
-  line-height: 1.4;
+.role-name-first {
+  margin-top: 0.5rem;
+}
+
+.role-bullets {
+  max-width: 66ch;
+}
+
+.role-bullets li {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  font-size: 0.92rem;
+  line-height: 1.6;
   border-bottom: none;
 }
 
-.who-list li::before {
-  content: none;
+.role-bullets li::before {
+  color: #82CE71;
+}
+
+.others-contribute {
+  margin-top: 1.75rem;
+  padding: 0.6rem 0.85rem;
+  background: #f0f7f0;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  color: #2d4a3e;
+  max-width: 66ch;
+  line-height: 1.6;
+}
+
+.others-contribute strong {
+  color: #02462F;
 }
 
 /* ── Common Pitfalls ─────────────────────────────────────────────────────── */

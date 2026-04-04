@@ -63,26 +63,27 @@ Before starting this stage, there should be at least:
 
 ## Who Is Involved
 
-### Typically involved
+### Head of Product
+- ensures the release and rollout stay aligned with product outcomes and lifecycle accountability
+- makes the decision that the product is ready to go live
+- is accountable for the go-live and the transition into live operation
 
-- Head of Product
-- Product Owner
-- IT Delivery Lead
-- IT Specialists and Developers
-- Product Architect
-- Operational support roles
+### Product Owner
+- coordinates business-facing adoption needs and readiness
+- validates that user-facing elements are in order before release
+- communicates the go-live to relevant business stakeholders
 
-### Often involved
+### IT Specialists / Developers
+- execute the technical release into production
+- confirm operational readiness, access and monitoring are in place
+- respond to issues during and immediately after go-live
 
-- Adoption Specialist
-- Business representatives, super users or local stakeholders
-- Other products, platforms or enabling teams
+### Adoption Specialist
+- drives communication, training and go-live support
+- ensures users are informed and prepared before release
+- provides hands-on support at go-live where needed
 
-### Sometimes involved
-
-- IT Architecture Partner
-- IT Delivery Partner
-- IT Supporter or service desk-related roles
+**Others who may contribute:** IT Delivery Lead · Product Architect · Operational support roles · Business representatives and super users · IT Architecture Partner
 
 ## Templates and Tools
 

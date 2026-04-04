@@ -61,25 +61,27 @@ This stage should not require a committed solution, delivery plan or detailed es
 
 ## Who Is Involved
 
-### Typically involved
+### Business Owner
+- clarifies the real business need and validates the problem framing
+- provides decision context and confirms priorities
+- is a key input to whether the opportunity is worth maturing further
 
-- Business Owner
-- Product Manager
-- Product Owner
-- Head of Product
-- IT Value Partner
+### Product Manager
+- connects discovery to value and portfolio direction
+- facilitates conversations across business, user and product perspectives
+- assesses what has been learned and whether to advance, reshape or stop
 
-### Often involved
+### Product Owner
+- contributes practical product knowledge and stakeholder context
+- helps scope what needs to be learned through discovery
+- connects user and process insight to product direction
 
-- Adoption Specialist
-- Product Architect
-- IT Specialist or Developer
+### Head of Product
+- assesses lifecycle and product implications of the opportunity
+- ensures the right perspectives are involved early
+- decides, with the team, how to proceed at the end of discovery
 
-### Sometimes involved
-
-- IT Architecture Partner
-- IT Portfolio Partner
-- Other products or teams where dependencies are likely
+**Others who may contribute:** Adoption Specialist · Product Architect · IT Specialists / Developers · IT Architecture Partner · IT Portfolio Partner
 
 ## Templates and Tools
 

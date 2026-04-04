@@ -71,22 +71,32 @@ This stage should not require fully detailed design or a final delivery schedule
 
 ## Who Is Involved
 
-### Typically involved
+### Business Owner
+- owns the investment logic and approval perspective for the business case
+- confirms the value case is sound and aligned with business priorities
+- leads the business towards formal approval
 
-- Business Owner
-- Product Manager
-- Product Owner
-- Head of Product
-- Product Architect
-- IT Delivery Lead
+### Head of Product
+- takes end-to-end product responsibility across scope, delivery and lifecycle
+- assesses delivery setup, team readiness and lifecycle implications
+- ensures the plan is credible and supports responsible commitment
 
-### Often involved
+### Product Architect
+- defines the architectural direction and technology choices
+- scopes the non-functional requirements including security, resilience and service levels
+- identifies enabling features and dependency implications
 
-- IT Value Partner
-- IT Architecture Partner
-- IT Portfolio Partner
-- IT Specialists or Developers
-- Adoption Specialist
+### IT Delivery Lead
+- supports high-level planning, effort estimation and dependency coordination
+- helps shape the delivery timeline and iteration view
+- coordinates with other teams and platforms on delivery dependencies
+
+### Product Manager
+- shapes the full business case by bringing together the value case and cost case
+- connects the plan to portfolio priorities and stakeholder expectations
+- supports the formal approval process
+
+**Others who may contribute:** Product Owner · IT Value Partner · IT Architecture Partner · IT Portfolio Partner · IT Specialists / Developers · Adoption Specialist
 
 ## Templates and Tools
 

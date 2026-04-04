@@ -61,26 +61,27 @@ Before entering this stage, there should be at least:
 
 ## Who Is Involved
 
-### Typically involved
+### Head of Product
+- holds end-to-end accountability for the live product and its operational health
+- escalates and acts when operational signals require a product-level response
+- maintains product ownership in live use, not as a handover to operations
 
-- Head of Product
-- Product Owner
-- IT Delivery Lead
-- IT Specialists, Developers and relevant technical roles
-- Product Architect
+### Product Owner
+- balances operational priorities with ongoing product needs
+- coordinates with business stakeholders on operational issues affecting use
+- ensures the product backlog reflects what live use is revealing
 
-### Often involved
+### IT Specialists / Developers
+- investigate, fix and maintain the product in live use
+- monitor service health, respond to incidents and resolve technical issues
+- keep operational documentation and runbooks accurate and up to date
 
-- IT Supporter or service desk-related roles
-- Operational support roles, platforms and dependent teams
-- Business representatives
-- Adoption Specialist
+### IT Delivery Lead
+- coordinates operational follow-up, vendor relationships and service commitments
+- tracks recurring issues and escalates where resolution requires more structured attention
+- manages dependencies with support teams, platforms and suppliers
 
-### Sometimes involved
-
-- IT Architecture Partner
-- IT Delivery Partner
-- External vendors or partners
+**Others who may contribute:** IT Supporter / service desk roles · Operational support roles · Business representatives · Adoption Specialist · Product Architect · External vendors
 
 ## Templates and Tools
 

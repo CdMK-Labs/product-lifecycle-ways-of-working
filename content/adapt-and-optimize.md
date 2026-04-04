@@ -56,25 +56,27 @@ Before entering this stage, there should be at least:
 
 ## Who Is Involved
 
-### Typically involved
+### Head of Product
+- maintains long-term accountability for product health and direction
+- balances short-term improvement priorities with long-term sustainability needs
+- leads decisions on retirement, simplification and significant product adaptation
 
-- Head of Product
-- Product Owner
-- Product Manager
-- Product Architect
-- Business Owner or relevant business stakeholders
+### Product Owner
+- connects improvement decisions to backlog and product priorities
+- balances operational needs with improvement and technical debt reduction work
+- ensures the team is working on the right things based on what has been learned
 
-### Often involved
+### Product Architect
+- assesses structural improvements, architectural implications and technical debt priorities
+- identifies what should be simplified, replaced or retired from a technical perspective
+- ensures improvement actions maintain product integrity and reduce future risk
 
-- IT Specialists, Developers and operational roles
-- Adoption Specialist
-- Dependent products, platforms or teams
+### Product Manager
+- connects product improvement decisions to business priorities and portfolio dialogue
+- supports value framing for larger adaptation or retirement decisions
+- ensures learning feeds back into investment and prioritisation discussions
 
-### Sometimes involved
-
-- IT Value Partner
-- IT Architecture Partner
-- IT Portfolio Partner
+**Others who may contribute:** IT Specialists / Developers · Adoption Specialist · Business Owner · IT Value Partner · IT Architecture Partner · IT Portfolio Partner · Dependent products and platforms
 
 ## Templates and Tools
 

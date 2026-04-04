@@ -58,24 +58,27 @@ Before entering this stage, there should be at least:
 
 ## Who Is Involved
 
-### Typically involved
+### Head of Product
+- maintains accountability for product performance and uses learning to guide product direction
+- ensures measurements are interpreted and acted on, not just collected
+- connects insight from this stage to decisions in Adapt & Optimize
 
-- Product Owner
-- Head of Product
-- Product Manager
-- Business Owner or relevant business stakeholders
-- Adoption Specialist
+### Business Owner
+- interprets outcome signals and owns accountability for business value realization
+- works with the product team to understand what the data means for the business
+- decides what follow-up action is needed based on what has been learned
 
-### Often involved
+### Product Manager
+- connects product measurements to business priorities and portfolio dialogue
+- facilitates the conversation between IT & Digital and business stakeholders on what the signals mean
+- identifies what should feed into product improvement and prioritisation
 
-- IT Specialists, Developers or analytics-related roles
-- Business representatives or super users
-- Other product or platform teams
+### Adoption Specialist
+- analyses adoption patterns, user behavior and feedback signals
+- identifies drop-off points, friction and barriers to successful use
+- translates qualitative and quantitative insight into product improvement input
 
-### Sometimes involved
-
-- IT Value Partner
-- Product Architect
+**Others who may contribute:** Product Owner · IT Specialists / Developers and analytics roles · Business representatives · IT Value Partner · Product Architect
 
 ## Templates and Tools
 

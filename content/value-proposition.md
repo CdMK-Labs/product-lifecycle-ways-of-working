@@ -57,20 +57,22 @@ This stage should not require a mature solution idea, detailed estimates or a fu
 
 ## Who Is Involved
 
-### Typically involved
+### Business Owner
+- provides the business context, priorities and outcome expectations
+- explains why this opportunity matters and what success would mean
+- confirms whether the investment case is worth taking forward
 
-- Business Owner
-- Product Manager
-- Product Owner
-- Head of Product
-- IT Value Partner
+### Product Manager
+- shapes the value case and connects it to portfolio direction
+- facilitates alignment between business and product perspectives
+- supports input to prioritisation and investment frame decisions
 
-### Sometimes involved
+### Head of Product
+- assesses product relevance and lifecycle fit for the opportunity
+- ensures the stage stays at the right level of framing
+- decides, with the business, whether to move forward, reshape or stop
 
-- Product Architect
-- IT Architecture Partner
-- IT Portfolio Partner
-- Adoption or UX profiles
+**Others who may contribute:** Product Owner · IT Value Partner · Product Architect · IT Architecture Partner · IT Portfolio Partner · Adoption Specialist
 
 ## Templates and Tools
 
