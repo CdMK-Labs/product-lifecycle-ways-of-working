@@ -1,5 +1,5 @@
 ## Purpose
-Start with the why. We clarify the problem worth solving, define the value we aim to create, and confirm strategic fit before committing to discovery or delivery. This is the foundation everything else in the lifecycle builds on.
+Start with the why. We clarify the problem worth solving, define the value we aim to create, and confirm strategic fit before committing to discovery or delivery. Without a clear value proposition, the rest of the lifecycle has no anchor.
 
 ## Entry Criteria
 - Qualified idea from Inflow
