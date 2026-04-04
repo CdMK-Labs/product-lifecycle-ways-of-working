@@ -67,31 +67,31 @@ This stage does not require every detail to be fixed upfront, but it does requir
 ## Who Is Involved
 
 ### Head of Product
-- maintains accountability for delivery direction and product outcomes
-- manages escalations and ensures delivery stays aligned with approved intent
-- keeps end-to-end product responsibility visible during execution
+- keeps delivery aligned with product outcomes, priorities and lifecycle responsibility
+- helps manage trade-offs as delivery progresses
+- ensures the team stays focused on responsible execution, not just activity
 
 ### Product Owner
-- guides priorities and backlog decisions throughout the delivery
-- clarifies needs and validates that work meets expectations
-- keeps the team focused on the right work at the right time
-
-### IT Specialists / Developers
-- build, configure, integrate and implement the agreed changes
-- validate quality through testing, reviews and checks as part of the work
-- document decisions and operationally relevant information as work progresses
-
-### Product Architect
-- guides technical integrity and non-functional scope during delivery
-- helps the team navigate architectural decisions and constraints
-- ensures quality and sustainability are built in, not bolted on
+- guides priorities and supports ongoing backlog decisions during delivery
+- clarifies needs and helps the team adapt based on learning
+- keeps business and product intent connected to daily execution
 
 ### IT Delivery Lead
-- coordinates delivery flow, planning follow-up and dependency management
-- tracks progress, risks and issues across the delivery
-- supports collaboration with other teams, platforms and enabling groups
+- helps coordinate progress, flow, dependencies and practical delivery follow-up
+- supports transparency on milestones, risks and issues
+- helps keep delivery moving in a disciplined and visible way
 
-**Others who may contribute:** Adoption Specialist · Business representatives · Other product teams and platforms · IT Architecture Partner
+### IT Specialists / Developers
+- build, configure, integrate or implement the agreed changes
+- validate quality as the work progresses
+- document relevant decisions and operational information as part of the work
+
+### Product Architect
+- guides technical integrity and non-functional quality during delivery
+- helps resolve architectural issues and technical trade-offs
+- supports sustainable delivery decisions, including technical debt awareness
+
+**Others who may contribute:** Adoption Specialist, business representatives, other product teams, platforms, IT Delivery Partner, IT Architecture Partner.
 
 ## Templates and Tools
 

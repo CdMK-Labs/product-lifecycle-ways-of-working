@@ -57,26 +57,31 @@ Before entering this stage, there should be at least:
 ## Who Is Involved
 
 ### Head of Product
-- maintains long-term accountability for product health and direction
-- balances short-term improvement priorities with long-term sustainability needs
-- leads decisions on retirement, simplification and significant product adaptation
+- maintains the balance between new value, reliability, technical debt and sustainability
+- helps ensure the product evolves deliberately rather than by drift
+- brings end-to-end accountability into optimization and retirement decisions
 
 ### Product Owner
-- connects improvement decisions to backlog and product priorities
-- balances operational needs with improvement and technical debt reduction work
-- ensures the team is working on the right things based on what has been learned
-
-### Product Architect
-- assesses structural improvements, architectural implications and technical debt priorities
-- identifies what should be simplified, replaced or retired from a technical perspective
-- ensures improvement actions maintain product integrity and reduce future risk
+- translates learning and improvement needs into practical product priorities
+- helps decide what should move into normal delivery flow
+- keeps optimization connected to real product trade-offs
 
 ### Product Manager
-- connects product improvement decisions to business priorities and portfolio dialogue
-- supports value framing for larger adaptation or retirement decisions
-- ensures learning feeds back into investment and prioritisation discussions
+- connects optimization choices to business value, priorities and stakeholder dialogue
+- helps shape larger improvement or adaptation decisions
+- supports discussion where trade-offs affect future investment direction
 
-**Others who may contribute:** IT Specialists / Developers · Adoption Specialist · Business Owner · IT Value Partner · IT Architecture Partner · IT Portfolio Partner · Dependent products and platforms
+### Product Architect
+- helps identify structural improvements, technical debt priorities and simplification opportunities
+- brings technical and architectural perspective to optimization and retirement choices
+- supports sustainable long-term product evolution
+
+### Business Owner
+- contributes where improvement decisions affect business priorities, outcomes or retirement choices
+- supports business-side trade-offs where adaptation changes the value picture
+- helps ensure larger product changes stay meaningful from a business perspective
+
+**Others who may contribute:** IT Specialists / Developers, Adoption Specialist, IT Value Partner, IT Architecture Partner, IT Portfolio Partner, dependent product teams, operational roles.
 
 ## Templates and Tools
 

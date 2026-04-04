@@ -72,31 +72,31 @@ This stage should not require fully detailed design or a final delivery schedule
 ## Who Is Involved
 
 ### Business Owner
-- owns the investment logic and approval perspective for the business case
-- confirms the value case is sound and aligned with business priorities
-- leads the business towards formal approval
-
-### Head of Product
-- takes end-to-end product responsibility across scope, delivery and lifecycle
-- assesses delivery setup, team readiness and lifecycle implications
-- ensures the plan is credible and supports responsible commitment
-
-### Product Architect
-- defines the architectural direction and technology choices
-- scopes the non-functional requirements including security, resilience and service levels
-- identifies enabling features and dependency implications
-
-### IT Delivery Lead
-- supports high-level planning, effort estimation and dependency coordination
-- helps shape the delivery timeline and iteration view
-- coordinates with other teams and platforms on delivery dependencies
+- helps confirm the business priority and expected outcomes
+- supports the final shaping of the value case
+- participates in the business case approval perspective
 
 ### Product Manager
-- shapes the full business case by bringing together the value case and cost case
-- connects the plan to portfolio priorities and stakeholder expectations
-- supports the formal approval process
+- brings the value case and cost case together into a full business case
+- helps shape scope, priorities and milestones at the right level
+- supports alignment with business priorities and portfolio context
 
-**Others who may contribute:** Product Owner · IT Value Partner · IT Architecture Partner · IT Portfolio Partner · IT Specialists / Developers · Adoption Specialist
+### Head of Product
+- ensures the product team is shaping a realistic and responsible plan
+- helps decide delivery setup, dependencies and lifecycle implications
+- brings end-to-end accountability into the commitment discussion
+
+### Product Owner
+- helps translate the initiative into an initial high-level feature backlog
+- supports clarification of scope, priorities and sequencing
+- brings day-to-day product knowledge into the planning work
+
+### Product Architect
+- defines the main technology direction and non-functional scope
+- helps identify enabling features, dependencies and architectural constraints
+- ensures service levels, security and technical integrity are considered early
+
+**Others who may contribute:** IT Delivery Lead, IT Value Partner, IT Portfolio Partner, IT Architecture Partner, IT Specialists / Developers, Adoption Specialist.
 
 ## Templates and Tools
 

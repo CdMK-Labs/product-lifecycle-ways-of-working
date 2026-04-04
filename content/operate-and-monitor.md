@@ -62,26 +62,31 @@ Before entering this stage, there should be at least:
 ## Who Is Involved
 
 ### Head of Product
-- holds end-to-end accountability for the live product and its operational health
-- escalates and acts when operational signals require a product-level response
-- maintains product ownership in live use, not as a handover to operations
+- maintains end-to-end accountability for the product in live use
+- ensures operations remain part of product ownership
+- helps balance live stability with ongoing product needs
 
 ### Product Owner
-- balances operational priorities with ongoing product needs
-- coordinates with business stakeholders on operational issues affecting use
-- ensures the product backlog reflects what live use is revealing
+- helps prioritise operational follow-up, maintenance and smaller continuity changes
+- connects live issues to product priorities and future action
+- supports clarity when trade-offs are needed in day-to-day operation
+
+### IT Delivery Lead
+- helps coordinate operational follow-up, suppliers or service commitments where relevant
+- supports visibility on service levels, recurring issues and operational actions
+- helps keep live operation disciplined and manageable
 
 ### IT Specialists / Developers
 - investigate, fix and maintain the product in live use
-- monitor service health, respond to incidents and resolve technical issues
-- keep operational documentation and runbooks accurate and up to date
+- handle technical follow-up on incidents, recurring issues and smaller upgrades
+- keep operational knowledge and technical handling connected to the product team
 
-### IT Delivery Lead
-- coordinates operational follow-up, vendor relationships and service commitments
-- tracks recurring issues and escalates where resolution requires more structured attention
-- manages dependencies with support teams, platforms and suppliers
+### Product Architect
+- helps assess operational issues with architectural or non-functional implications
+- supports decisions related to resilience, technical debt and structural stability
+- brings longer-term technical perspective into live-product issues
 
-**Others who may contribute:** IT Supporter / service desk roles · Operational support roles · Business representatives · Adoption Specialist · Product Architect · External vendors
+**Others who may contribute:** IT Supporter, operational support roles, platforms, business representatives, Adoption Specialist, IT Architecture Partner, vendors.
 
 ## Templates and Tools
 

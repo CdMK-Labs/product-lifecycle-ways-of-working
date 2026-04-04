@@ -58,27 +58,32 @@ Before entering this stage, there should be at least:
 
 ## Who Is Involved
 
-### Head of Product
-- maintains accountability for product performance and uses learning to guide product direction
-- ensures measurements are interpreted and acted on, not just collected
-- connects insight from this stage to decisions in Adapt & Optimize
+### Product Manager
+- connects measurements and insights to business priorities and outcome dialogue
+- helps ensure the right signals are visible for product and business discussion
+- supports use of insights in prioritisation and future decisions
 
 ### Business Owner
-- interprets outcome signals and owns accountability for business value realization
-- works with the product team to understand what the data means for the business
-- decides what follow-up action is needed based on what has been learned
+- interprets outcome signals from a business perspective
+- engages in dialogue about whether the product is contributing to intended results
+- owns the business accountability for value realization
 
-### Product Manager
-- connects product measurements to business priorities and portfolio dialogue
-- facilitates the conversation between IT & Digital and business stakeholders on what the signals mean
-- identifies what should feed into product improvement and prioritisation
+### Head of Product
+- ensures learning from live use informs product direction and priorities
+- keeps the product team engaged with usage, adoption and outcome signals
+- brings end-to-end accountability into the learning discussion
+
+### Product Owner
+- uses usage and adoption insight to inform backlog and product priorities
+- helps connect product behavior in practice to future changes
+- supports the discussion on what should happen next
 
 ### Adoption Specialist
-- analyses adoption patterns, user behavior and feedback signals
-- identifies drop-off points, friction and barriers to successful use
-- translates qualitative and quantitative insight into product improvement input
+- brings focus to adoption, user behavior, sentiment and friction points
+- helps surface what users are actually experiencing in practice
+- supports interpretation of feedback and usage signals
 
-**Others who may contribute:** Product Owner · IT Specialists / Developers and analytics roles · Business representatives · IT Value Partner · Product Architect
+**Others who may contribute:** IT Specialists / Developers, analytics-related roles, business representatives, super users, IT Value Partner, Product Architect.
 
 ## Templates and Tools
 

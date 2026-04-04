@@ -221,16 +221,14 @@ h1 {
 /* ── Who Is Involved — primary role cards ────────────────────────────────── */
 
 .role-name {
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   font-weight: 700;
   color: #02462F;
   text-transform: none;
   letter-spacing: 0;
   opacity: 1;
-  margin-top: 1.75rem;
-  margin-bottom: 0.35rem;
-  padding-bottom: 0.3rem;
-  border-bottom: 1px solid #eef6ee;
+  margin-top: 1.5rem;
+  margin-bottom: 0.3rem;
 }
 
 .role-name-first {
@@ -254,14 +252,11 @@ h1 {
 }
 
 .others-contribute {
-  margin-top: 1.75rem;
-  padding: 0.6rem 0.85rem;
-  background: #f0f7f0;
-  border-radius: 4px;
+  margin-top: 1.5rem;
   font-size: 0.85rem;
-  color: #2d4a3e;
+  color: #4a6a5a;
   max-width: 66ch;
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
 .others-contribute strong {

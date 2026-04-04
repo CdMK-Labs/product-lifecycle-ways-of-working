@@ -64,26 +64,31 @@ Before starting this stage, there should be at least:
 ## Who Is Involved
 
 ### Head of Product
-- ensures the release and rollout stay aligned with product outcomes and lifecycle accountability
-- makes the decision that the product is ready to go live
-- is accountable for the go-live and the transition into live operation
+- ensures the release and rollout are aligned with product goals and lifecycle responsibility
+- helps balance go-live ambition with operational readiness
+- supports final readiness decisions before live use
 
 ### Product Owner
-- coordinates business-facing adoption needs and readiness
-- validates that user-facing elements are in order before release
-- communicates the go-live to relevant business stakeholders
+- coordinates business-facing readiness and adoption needs
+- helps ensure users, teams or markets are prepared for the change
+- supports prioritisation of go-live issues and immediate follow-up
+
+### IT Delivery Lead
+- coordinates release and rollout activities in practice
+- keeps track of dependencies, readiness actions and go-live progress
+- helps maintain control during deployment
 
 ### IT Specialists / Developers
-- execute the technical release into production
-- confirm operational readiness, access and monitoring are in place
-- respond to issues during and immediately after go-live
+- execute and support the technical release into production
+- help resolve issues quickly during rollout and go-live
+- support technical readiness, configuration and stabilisation tasks
 
 ### Adoption Specialist
-- drives communication, training and go-live support
-- ensures users are informed and prepared before release
-- provides hands-on support at go-live where needed
+- drives communication, training and adoption support where relevant
+- helps users and stakeholders prepare for the change
+- supports confidence and usability around go-live
 
-**Others who may contribute:** IT Delivery Lead · Product Architect · Operational support roles · Business representatives and super users · IT Architecture Partner
+**Others who may contribute:** Product Architect, operational support roles, business representatives, super users, other product teams, IT Supporter, IT Delivery Partner.
 
 ## Templates and Tools
 
