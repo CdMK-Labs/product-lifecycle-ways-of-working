@@ -1,6 +1,6 @@
 (function () {
   const STAGES = [
-    { id: 'value-proposition',   title: 'Value Proposition',   color: '#0D6A4B', prev: null,                  next: 'product-discovery'   },
+    { id: 'value-proposition',   title: 'Value Proposition',   color: '#0D6A4B', prev: 'adapt-and-optimize',   next: 'product-discovery'   },
     { id: 'product-discovery',   title: 'Product Discovery',   color: '#0C563D', prev: 'value-proposition',   next: 'align-and-plan'      },
     { id: 'align-and-plan',      title: 'Align & Plan',        color: '#0B885A', prev: 'product-discovery',   next: 'develop-and-deliver' },
     { id: 'develop-and-deliver', title: 'Develop & Deliver',   color: '#0D6A4B', prev: 'align-and-plan',      next: 'deploy'              },
