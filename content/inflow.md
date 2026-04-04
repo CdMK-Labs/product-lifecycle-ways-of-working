@@ -1,5 +1,5 @@
 ## Purpose
-Capture and qualify new ideas, needs, and opportunities.
+Capture and qualify new ideas, needs, and opportunities before they enter the lifecycle. We gather inputs from stakeholders, users, data, and market signals, and apply a lightweight filter to ensure only well-framed, strategically relevant items move forward. Inflow keeps the pipeline healthy without creating unnecessary overhead.
 
 ## Entry Criteria
 - A need, idea, or opportunity is identified

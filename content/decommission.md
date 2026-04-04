@@ -1,5 +1,5 @@
 ## Purpose
-Retire products or capabilities that no longer create value.
+Retire products or capabilities that no longer create value — deliberately and cleanly. We ensure users are transitioned, data is handled according to policy, and costs and dependencies are fully removed. Decommission is not just an ending; it is responsible stewardship of the portfolio.
 
 ## Entry Criteria
 - Declining or no business value
