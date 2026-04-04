@@ -14,26 +14,33 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 2rem;
     }
+
+    /* ── Site header banner ────────────────────────────────────────────────── */
 
     .site-header {
       width: 100%;
+      background: #02462F;
+      border-bottom: 4px solid #82CE71;
+    }
+
+    .site-header-inner {
       max-width: 1400px;
-      margin-bottom: 1.5rem;
+      margin: 0 auto;
+      padding: 3rem 2rem 2.5rem;
     }
 
     h1 {
-      font-size: 2.4rem;
-      color: #02462F;
+      font-size: 2.6rem;
+      color: #fff;
       font-weight: 700;
       letter-spacing: 0.01em;
-      margin-bottom: 0.6rem;
+      margin-bottom: 1rem;
     }
 
     .site-description {
       font-size: 1rem;
-      color: #2d4a3e;
+      color: rgba(255, 255, 255, 0.75);
       line-height: 1.75;
       text-align: justify;
     }
@@ -45,6 +52,7 @@
     #diagram-container {
       width: 100%;
       max-width: 1400px;
+      padding: 0 2rem;
     }
 
     #diagram-container svg {
@@ -81,7 +89,7 @@
       display: flex;
       flex-direction: column;
       gap: 3.5rem;
-      padding-bottom: 4rem;
+      padding: 0 2rem 4rem;
     }
 
     .home-section-label {
@@ -148,9 +156,11 @@
 </head>
 <body>
   <header class="site-header">
-    <h1>Product Lifecycle</h1>
-    <p class="site-description">This site is the practical reference for how we work across the product lifecycle. It translates our model into something teams can use in practice: what each stage is for, when to enter it, what to deliver, who to involve, and which templates, processes and standards to work with.</p>
-    <p class="site-description">The lifecycle is built around full product responsibility. Product teams do not just hand work over from planning to delivery to operations. They carry the product forward across the lifecycle and improve it over time. That is how we create stronger ownership, better flow and more consistent value delivery, while staying within our fundamentals and balancing speed, stability and compliance.</p>
+    <div class="site-header-inner">
+      <h1>Product Lifecycle</h1>
+      <p class="site-description">This site is the practical reference for how we work across the product lifecycle. It translates our model into something teams can use in practice: what each stage is for, when to enter it, what to deliver, who to involve, and which templates, processes and standards to work with.</p>
+      <p class="site-description">The lifecycle is built around full product responsibility. Product teams do not just hand work over from planning to delivery to operations. They carry the product forward across the lifecycle and improve it over time. That is how we create stronger ownership, better flow and more consistent value delivery, while staying within our fundamentals and balancing speed, stability and compliance.</p>
+    </div>
   </header>
 
   <div id="diagram-container"></div>
