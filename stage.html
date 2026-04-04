@@ -8,9 +8,10 @@
 </head>
 <body>
   <div class="accent-bar" id="accent-bar"></div>
-  <nav class="stage-nav">
+  <nav class="stage-nav" aria-label="Site navigation">
     <div class="nav-inner">
       <a href="index.html" class="nav-btn nav-home">← Product Lifecycle</a>
+      <span class="stage-indicator" id="stage-indicator" aria-hidden="true"></span>
       <div class="nav-stages" id="nav-stages"></div>
     </div>
   </nav>
@@ -18,6 +19,7 @@
     <h1 id="stage-title"></h1>
     <div id="stage-content" class="stage-content"></div>
   </div>
+  <nav class="stage-footer-nav" id="stage-footer-nav" aria-label="Stage navigation"></nav>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="stage.js"></script>
 </body>
