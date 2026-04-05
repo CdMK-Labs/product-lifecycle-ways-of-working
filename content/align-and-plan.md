@@ -2,21 +2,24 @@
 
 Align & Plan is where we shape the work well enough to commit to it responsibly. The purpose is to translate discovery into a clear and aligned plan for execution: what we are going to deliver, why it matters, what it will take, and how we intend to move forward.
 
-This is the first stage with significant involvement from the IT & Digital product team. Here, we clarify the functional scope, establish an initial high-level feature backlog, define the non-functional scope, identify the main delivery team and key dependencies, and create the first realistic view of timeline, effort, cost and delivery approach.
+This is the stage where product, business and IT & Digital roles come fully together to shape a plan that covers both the value case and the cost case. We clarify functional scope, establish an initial high-level feature backlog or set of epics, define the non-functional scope, identify the main delivery team and key dependencies, and create a realistic view of timeline, effort, cost and delivery approach.
 
-The stage brings the value case and the cost case together into a full business case. It ends when the business case and delivery plan are approved through the relevant financial approval process.
+The right level of formality depends on the size and nature of the work. Larger initiatives require a full business case and a formal financial approval decision. Smaller changes or improvements can be committed within normal product and portfolio governance, with appropriate scope definition, funding fit and stakeholder alignment. Both paths should result in a clear decision and a responsible basis for execution.
+
+This stage ends when the required approvals and commitments are in place and the team is clear to proceed to Develop & Deliver.
 
 ## When To Enter This Stage
 
+Enter this stage when:
 - Product Discovery has created enough clarity to move from learning into shaping and commitment
-- there is agreement that the opportunity is worth maturing into a business case
-- the team needs to define the scope, delivery setup, dependencies and economics at a high level
-- a formal approval decision is needed before significant execution begins
+- there is agreement that the opportunity is worth maturing into a plan
+- the team needs to define scope, delivery setup, dependencies and economics at the right level
+- a commitment decision is needed before significant execution begins
 
 ## Key Questions To Answer
 
 - What is the functional scope we expect to deliver first?
-- What should be included in the initial high-level feature backlog?
+- What should be included in the initial high-level feature backlog or set of epics?
 - What service levels, security requirements and non-functional needs must be addressed?
 - Which technology choices or architectural directions need to be made now?
 - Are there enabling features or prerequisite activities that must be included?
@@ -25,39 +28,38 @@ The stage brings the value case and the cost case together into a full business 
 - What is the overall timeline, and what are the key milestones or iteration boundaries?
 - What is the expected effort and cost?
 - What contingency is needed for identified risks?
-- What are the main delivery risks?
-- Is the business case strong enough to approve?
+- Is the business case or funding approach appropriate for the size of commitment needed?
+- Is the work ready to proceed, or should it be reshaped, held or stopped?
 
 ## Entry Criteria
 
-Before starting this stage, there should be at least:
+Before entering this stage, there should be at least:
 - a discovery outcome with enough clarity on the problem, opportunity and likely direction
 - a named business context and accountable sponsor
 - an initial view of affected users, processes and product area
-- enough evidence to justify shaping the opportunity into a business case
+- enough evidence to justify shaping the opportunity into a plan or business case
 - access to the right business, product and technical roles to do the work properly
 
-This stage should not require fully detailed design or a final delivery schedule.
+This stage does not require fully detailed design or a final delivery schedule.
 
 ## Core Activities
 
 - clarify and bound the functional scope
-- establish an initial high-level feature backlog
+- establish an initial high-level feature backlog or set of epics to reflect expected scope
 - define the non-functional scope, including service levels, security and other critical requirements
-- decide the main technology direction and identify enabling features
+- decide the main technology direction and identify enabling features or prerequisites
 - identify the main delivery team and key dependencies with other teams, products or platforms
 - align with relevant stakeholders on scope, sequencing and responsibilities
 - create a high-level delivery plan with timeline, milestones and iteration view
-- estimate effort and cost at a level appropriate for business case approval
+- estimate effort and cost at a level appropriate for the commitment being made
 - assess contingency for identified risks
-- identify the main risks and assumptions
-- bring together the value case and cost case into a full business case
-- prepare the delivery plan and business case for formal approval in the financial process
+- bring together the value case and cost case into a business case where required
+- prepare for the relevant approval or commitment decision
 
 ## Key Deliverables
 
 - agreed high-level functional scope
-- initial high-level feature backlog
+- initial high-level feature backlog or set of epics
 - defined non-functional scope, including service level and security requirements
 - agreed technology direction and identified enabling features
 - named main delivery team and dependency overview
@@ -65,18 +67,18 @@ This stage should not require fully detailed design or a final delivery schedule
 - effort and cost estimate
 - contingency view for identified risks
 - initial risk view
-- full business case, combining value case and cost case
-- delivery plan prepared for approval
+- full business case where required, or equivalent commitment basis for smaller work
+- delivery plan approved and team clear to proceed
 
 ## Who Is Involved
 
 ### Business Owner
 - helps confirm the business priority and expected outcomes
-- supports the final shaping of the value case
-- participates in the business case approval perspective
+- supports the shaping of the value case
+- approves or endorses the business case or commitment decision
 
 ### Product Manager
-- brings the value case and cost case together into a full business case
+- brings the value case and cost case together
 - helps shape scope, priorities and milestones at the right level
 - supports alignment with business priorities and portfolio context
 
@@ -86,7 +88,7 @@ This stage should not require fully detailed design or a final delivery schedule
 - brings end-to-end accountability into the commitment discussion
 
 ### Product Owner
-- helps translate the initiative into an initial high-level feature backlog
+- helps translate the initiative into an initial high-level feature backlog or set of epics
 - supports clarification of scope, priorities and sequencing
 - brings day-to-day product knowledge into the planning work
 
@@ -95,14 +97,14 @@ This stage should not require fully detailed design or a final delivery schedule
 - helps identify enabling features, dependencies and architectural constraints
 - ensures service levels, security and technical integrity are considered early
 
-**Others who may contribute:** IT Delivery Lead, IT Value Partner, IT Portfolio Partner, IT Architecture Partner, IT Specialists / Developers, Adoption Specialist.
+**Others who may contribute:** IT Delivery Lead · IT Value Partner · IT Portfolio Partner · IT Architecture Partner · IT Specialists / Developers · Adoption Specialist
 
 ## Templates and Tools
 
-At this stage, teams will typically use more structured planning and shaping tools, for example:
+At this stage, teams will typically use structured planning and shaping tools, for example:
 - business case template
 - cost and effort estimation input
-- high-level feature backlog
+- high-level feature backlog or set of epics
 - dependency view
 - milestone or release view
 - high-level iteration plan
@@ -118,7 +120,7 @@ The purpose is not detailed delivery management yet, but enough structure to sup
 ## Governance and Processes To Align With
 
 This stage should align with:
-- business case and financial approval processes
+- business case and financial approval processes where required
 - product and portfolio governance
 - security and architecture guardrails
 - service level and operational requirements
@@ -129,14 +131,14 @@ This stage should align with:
 
 Align & Plan is ready to move on when:
 - the functional and non-functional scope are clear enough to begin delivery
-- the initial feature backlog is established
+- the initial feature backlog or set of epics is established
 - the main delivery team and key dependencies are known
 - the technology direction and enabling needs are clear enough
 - the timeline, milestones, effort and cost have been shaped to a useful level
 - the main risks and contingency for identified risks have been considered
-- the full business case is complete
-- the business case approval gate has been passed
-- the delivery plan is approved and the team is clear to proceed
+- the required approvals or commitments are in place
+- the team has a clear and responsible basis to proceed to Develop & Deliver
+- there is an explicit outcome: approved to proceed, reshaped, held, or stopped
 
 ## Common Pitfalls
 
@@ -144,13 +146,17 @@ Align & Plan is ready to move on when:
 
 The goal is to create enough clarity for approval and responsible delivery, not to design everything upfront.
 
+**Assuming every piece of work needs a full formal business case**
+
+The right level of formality depends on the size and nature of the commitment. Smaller product changes can and should move through lighter commitment processes without unnecessary overhead.
+
 **Underplaying non-functional scope**
 
 Security, service levels, resilience, compliance and architecture are often treated too late, even though they shape feasibility and cost from the start.
 
 **Building a backlog without real dependency alignment**
 
-A plan can look solid on paper while still be unrealistic if dependencies with other teams, platforms or enabling work are not surfaced.
+A plan can look solid on paper while still being unrealistic if dependencies with other teams, platforms or enabling work are not surfaced.
 
 **Creating false certainty in estimates and timelines**
 
@@ -158,7 +164,7 @@ This stage should create a credible plan, not pretend all uncertainty has disapp
 
 **Focusing only on the value case**
 
-The stage must bring together both the value case and the cost case into a full business case.
+The stage must bring together both the value case and the cost case, at a level appropriate for the commitment being made.
 
 **Ignoring identified risks in the plan**
 

@@ -2,14 +2,17 @@
 
 Develop & Deliver is where the product team turns approved scope into working product outcomes. The purpose is to build, configure, integrate or implement the agreed changes in a way that creates progress step by step, keeps quality visible, and prepares the work for safe deployment.
 
-This stage covers different delivery types, including packaged solutions, SaaS-based changes and tailormade development. The exact way of working may vary depending on the context. Some work will be more iterative and incremental, some more milestone-driven, and some more flow-based. The important point is that the team delivers in a disciplined way, keeps work visible, and ensures quality, documentation, security and collaboration are handled as part of the work.
+This stage covers different delivery types, including packaged solutions, SaaS-based changes and tailormade development. The exact way of working may vary depending on the context. Some work will be more iterative and incremental, some more milestone-driven, and some more flow-based. The important point is that the team delivers in a disciplined way, keeps work visible, and ensures quality, documentation, security and collaboration are handled as part of the work — not left until the end.
+
+If material changes to scope, dependencies or risk emerge during delivery, the work may need to loop back to Align & Plan before proceeding.
 
 The stage ends when the relevant increments, changes or deliverables are ready to move into Deploy.
 
 ## When To Enter This Stage
 
-- the business case approval gate has been passed
-- the delivery plan is approved and the main team is clear to proceed
+Enter this stage when:
+- the required approvals and commitments have been secured
+- the delivery plan is in place and the main team is clear to proceed
 - the functional and non-functional scope are clear enough to begin execution
 - key dependencies, enabling work and planning assumptions are known well enough to start
 - the team is ready to begin building, configuring, integrating or implementing the agreed change
@@ -24,12 +27,13 @@ The stage ends when the relevant increments, changes or deliverables are ready t
 - How should backlog, priorities or sequencing be adjusted as we learn?
 - Which dependencies need active follow-up during execution?
 - Where do we need collaboration with other products, platforms or enabling teams?
+- Have any changes to scope, risk or dependencies emerged that require realignment before we continue?
 - What needs to be true before the work is ready for deployment?
 
 ## Entry Criteria
 
-Before starting this stage, there should be at least:
-- an approved business case and delivery plan
+Before entering this stage, there should be at least:
+- the required approvals or commitments in place
 - a clear enough scope to begin execution
 - an initial feature backlog, work breakdown or equivalent delivery view
 - agreement on the main team and relevant dependencies
@@ -50,6 +54,7 @@ This stage does not require every detail to be fixed upfront, but it does requir
 - collaborate actively with other teams where dependencies or shared components matter
 - follow up on risks, dependencies and assumptions during execution
 - refine backlog, priorities or sequencing as learning emerges
+- escalate to Align & Plan if material changes to scope, risk or dependencies require realignment
 - prepare deliverables so they are ready to move into deployment
 
 ## Key Deliverables
@@ -90,7 +95,7 @@ This stage does not require every detail to be fixed upfront, but it does requir
 - helps resolve architectural issues and technical trade-offs
 - supports sustainable delivery decisions, including technical debt awareness
 
-**Others who may contribute:** Adoption Specialist, business representatives, other product teams, platforms, IT Delivery Partner, IT Architecture Partner.
+**Others who may contribute:** Adoption Specialist · Business representatives · Other product teams · Platforms · IT Architecture Partner
 
 ## Templates and Tools
 
@@ -125,6 +130,7 @@ Develop & Deliver is ready to move on when:
 - documentation and operationally relevant information are in place
 - dependencies and risks have been actively managed during execution
 - backlog, priorities or sequencing have been adjusted where needed based on learning
+- any material changes to scope, risk or dependencies have been escalated and resolved
 - the deliverables are ready for release and rollout through the Deploy stage
 
 ## Common Pitfalls
@@ -147,7 +153,7 @@ Delivery often slows down when teams do not actively follow up with other produc
 
 **Assuming the original plan should never move**
 
-Good delivery includes adjustment as learning emerges, while still staying aligned with approved intent.
+Good delivery includes adjustment as learning emerges, while staying aligned with approved intent. Material changes need to loop back to Align & Plan, not be absorbed silently.
 
 **Blurring delivery with deployment**
 

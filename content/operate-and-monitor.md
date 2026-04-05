@@ -1,17 +1,19 @@
 ## What This Stage Is For
 
-Operate & Monitor is where the product is actively run in live use. The purpose is to keep the product stable, secure, available and well-performing in day-to-day operation, while creating visibility into how it is behaving in practice.
+Operate & Monitor is where the product is actively run in live use. The purpose is to keep the product stable, secure, available and well-performing day to day, and to maintain clear visibility into how it is behaving in production.
 
-This stage focuses on classic operational concerns: service health, incidents, service levels, monitoring, alerts and operational follow-up. It may also include maintenance activities, smaller upgrades and limited business continuity scope needed to keep the product healthy and usable over time.
+This stage is about operational control: service health, incidents, alerts, service levels, performance and the follow-up needed to keep the product healthy and usable over time. It may also include maintenance activities, smaller upgrades and limited business continuity scope. The focus is firmly on the product as a live service, not on usage patterns, adoption signals or business outcomes — those are the focus of Measure & Learn.
 
-A key principle in this stage is that operations remain part of product ownership. Live use is not a handover to somewhere else. The product team remains responsible for how the product performs in practice and for responding when operational signals show that action is needed.
+A key principle in this stage is that operations remain part of product ownership. Live use is not a handover to somewhere else. The product team stays responsible for how the product performs in production and for responding when operational signals show that action is needed.
 
-This stage is continuous. It works closely with Measure & Learn and Adapt & Optimize, but its main focus is day-to-day product health and operational control.
+Operational insight from this stage feeds directly into Measure & Learn and Adapt & Optimize. Incidents, recurring issues, stability patterns and service level trends are all signals that should be made visible and acted on — not absorbed silently.
+
+This stage is continuous. It runs as long as the product is active.
 
 ## When To Enter This Stage
 
-- the product or change is live in production
-- the team has moved through deployment and go-live
+Enter this stage when:
+- the product or change is live in production following a successful Deploy
 - support, monitoring and operational readiness are in place
 - the product is ready to be managed in normal live operation
 
@@ -24,8 +26,8 @@ This stage continues as long as the product is active in use.
 - Are service levels being met?
 - What signals suggest emerging operational risk or degradation?
 - What needs maintenance, correction or small continuity improvements?
-- Where are recurring issues or manual work creating avoidable friction?
-- What should be escalated, fixed quickly, tracked for later learning, or brought into a wider improvement discussion?
+- Where are recurring issues or manual workarounds creating avoidable friction?
+- What should be escalated, fixed, tracked for later learning, or brought into a wider improvement discussion in Adapt & Optimize?
 
 ## Entry Criteria
 
@@ -45,7 +47,7 @@ Before entering this stage, there should be at least:
 - perform maintenance activities, smaller upgrades and limited business continuity scope where needed
 - keep operational documentation, support information and runbooks relevant and updated
 - coordinate with support roles, platforms and dependent teams when issues cross boundaries
-- identify operational insights that should feed into Measure & Learn or Adapt & Optimize
+- make operational insights, recurring issues and stability patterns visible for Measure & Learn and Adapt & Optimize
 - maintain clear ownership of the product in live use within the product team
 
 ## Key Deliverables
@@ -56,13 +58,13 @@ Before entering this stage, there should be at least:
 - monitoring, alerts and operational signal visibility
 - updated runbooks, operational notes or support information where needed
 - completed maintenance activities, smaller upgrades or business continuity changes
-- identified operational insights and recurring issues for further learning or improvement
+- operational insights and recurring issues made visible for further learning or improvement
 
 ## Who Is Involved
 
 ### Head of Product
 - maintains end-to-end accountability for the product in live use
-- ensures operations remain part of product ownership
+- ensures operations remain part of product ownership, not a handover
 - helps balance live stability with ongoing product needs
 
 ### Product Owner
@@ -85,7 +87,7 @@ Before entering this stage, there should be at least:
 - supports decisions related to resilience, technical debt and structural stability
 - brings longer-term technical perspective into live-product issues
 
-**Others who may contribute:** IT Supporter, operational support roles, platforms, business representatives, Adoption Specialist, IT Architecture Partner, vendors.
+**Others who may contribute:** IT Supporter · Operational support roles · Platforms · Business representatives · Adoption Specialist · IT Architecture Partner · Vendors
 
 ## Templates and Tools
 
@@ -122,25 +124,25 @@ Operate & Monitor is working well when:
 - monitoring and alerts give the team useful visibility into product health
 - recurring operational pain points are made visible rather than accepted as normal
 - maintenance, smaller upgrades and business continuity scope are handled without losing product ownership
-- the team uses operational insight to inform Measure & Learn and Adapt & Optimize
+- operational insight is actively feeding into Measure & Learn and Adapt & Optimize
 
 ## Common Pitfalls
 
 **Treating operations as a handover**
 
-In the product lifecycle model, live operation remains part of product ownership.
+In the product lifecycle model, live operation remains part of product ownership. The product team stays responsible.
 
 **Only reacting to incidents**
 
-Good operation is not only about fixing what breaks. It also requires active monitoring and follow-up on patterns and weak signals.
+Good operation is not only about fixing what breaks. It also requires active monitoring and follow-up on patterns and weak signals before they become incidents.
 
 **Ignoring recurring friction because the product is technically live**
 
-Repeated issues, manual workarounds or unstable support demand are signals that the product needs attention.
+Repeated issues, manual workarounds or unstable support demand are signals that the product needs attention, not proof that things are fine.
 
 **Separating maintenance from product thinking**
 
-Maintenance, smaller upgrades and continuity scope should still be handled with ownership and visibility, not as invisible background work.
+Maintenance, smaller upgrades and continuity scope should be handled with ownership and visibility, not as invisible background work.
 
 **Keeping operational knowledge in people's heads**
 
@@ -148,4 +150,4 @@ Runbooks, support notes and practical documentation matter, especially when issu
 
 **Failing to connect operations with learning and improvement**
 
-Operational insight should feed the next stages, not remain trapped inside incident handling.
+Operational insight should feed Measure & Learn and Adapt & Optimize, not remain trapped inside incident handling.

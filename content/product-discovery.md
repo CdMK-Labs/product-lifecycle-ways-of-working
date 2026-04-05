@@ -1,14 +1,15 @@
 ## What This Stage Is For
 
-Product Discovery is where we build understanding before we build solutions. The purpose is to explore the problem space, involve the right people early, and reduce uncertainty before more serious commitment is made.
+Product Discovery is where we build understanding before we build solutions. It picks up from a prioritised Value Proposition and goes deeper: exploring the problem space, involving the right people early, and reducing uncertainty before more serious commitment is made.
 
-This stage is about early ideation and structured learning. It helps us test assumptions, explore options, understand affected users and processes, and identify the main risks, dependencies, competencies and capacity considerations. It can also include lightweight prototyping or experiments where that helps the team learn quickly. It is not yet the stage for detailed scope, full planning or delivery commitment.
+This stage is about structured learning, not planning or committing. It helps us test assumptions, explore options, understand affected users and processes, and surface the main risks, dependencies, competencies and capacity considerations. Lightweight prototyping or experiments may be used where they help the team learn quickly — but these are learning tools, not hidden delivery.
 
 A good discovery stage increases confidence that we are focusing on a real problem, that the opportunity is worth maturing further, and that we are not overlooking important business, user, product or lifecycle concerns.
 
 ## When To Enter This Stage
 
-- a value proposition has been prioritised for further exploration
+Enter this stage when:
+- a Value Proposition has been prioritised for further exploration
 - there is enough reason to investigate the opportunity, but not enough certainty to commit to a specific solution
 - stakeholders need a better understanding of users, options, risks or dependencies
 - a team needs to test assumptions before moving into Align & Plan
@@ -27,13 +28,13 @@ A good discovery stage increases confidence that we are focusing on a real probl
 
 ## Entry Criteria
 
-Before starting this stage, there should be at least:
-- a prioritised value proposition or similar high-level opportunity statement
+Before entering this stage, there should be at least:
+- a prioritised Value Proposition or similar high-level opportunity statement
 - an initial sponsor or accountable business context
 - a first view of which product or domain this may relate to
 - enough clarity to define what we need to learn through discovery
 
-This stage should not require a committed solution, delivery plan or detailed estimates.
+This stage does not require a committed solution, delivery plan or detailed estimates.
 
 ## Core Activities
 
@@ -41,7 +42,7 @@ This stage should not require a committed solution, delivery plan or detailed es
 - gather early evidence through conversations, observations, data, examples or comparable cases
 - involve the right roles early to surface different perspectives
 - explore more than one option where relevant
-- use lightweight prototyping, mock-ups or experiments where helpful to test assumptions and learn faster
+- use lightweight prototyping, mock-ups or experiments where helpful to test assumptions and learn faster — keeping these clearly as learning tools, not early delivery
 - identify key risks, dependencies, constraints and unknowns
 - consider product lifecycle implications early, including adoption, operations, security, architecture and sustainability
 - assess what competencies and likely capacity needs would matter if the topic moves forward
@@ -56,7 +57,7 @@ This stage should not require a committed solution, delivery plan or detailed es
 - outputs from any lightweight prototyping or experiments, where used
 - an initial view of key risks, dependencies and constraints
 - a view of relevant competencies and likely capacity implications
-- a recommendation on whether the topic should move into Align & Plan, return for reframing, or stop
+- a recommendation on next steps: move into Align & Plan, return for reframing, hold, or stop
 
 ## Who Is Involved
 
@@ -68,7 +69,12 @@ This stage should not require a committed solution, delivery plan or detailed es
 ### Product Manager
 - connects discovery to value and portfolio direction
 - facilitates conversations across business, user and product perspectives
-- assesses what has been learned and whether to advance, reshape or stop
+- assesses what has been learned and whether to move forward, reshape or stop
+
+### IT Value Partner
+- plays a stronger role when the topic is not yet clearly anchored in an existing product
+- helps assess investment fit and the likely funding path as the opportunity becomes clearer
+- supports financial framing where relevant
 
 ### Product Owner
 - contributes practical product knowledge and stakeholder context
@@ -92,7 +98,6 @@ At this stage, teams should use lightweight discovery tools, for example:
 - simple option comparison
 - lightweight prototypes, mock-ups or experiments
 - dependency overview
-- early input to sunrays or related supporting material where relevant
 
 The aim is to create better understanding, not polished documentation.
 
@@ -117,7 +122,7 @@ A discovery is ready to move on when:
 - any lightweight prototyping or experiments have helped reduce important uncertainty
 - important risks, dependencies and unknowns have been surfaced
 - relevant competencies and likely capacity implications have been considered
-- there is enough clarity to begin maturing the topic in Align & Plan
+- there is a clear recommendation: move into Align & Plan, return for reframing, hold, or stop
 
 ## Common Pitfalls
 
@@ -127,7 +132,7 @@ Discovery should test understanding, not simply justify an idea already chosen.
 
 **Running discovery with too few perspectives**
 
-If business, user, product and technical voices are not involved early enough, important issues are often found too late.
+If business, user, product and technical voices are not involved early enough, important issues surface too late.
 
 **Confusing learning with planning**
 
@@ -135,11 +140,11 @@ This stage is about reducing uncertainty, not producing a detailed roadmap or de
 
 **Using prototypes as hidden delivery**
 
-Lightweight prototypes or experiments should help the team learn, not create premature commitment to a chosen solution.
+Lightweight prototypes or experiments should help the team learn. They should not create premature commitment to a chosen solution.
 
 **Skipping user and operational insight**
 
-Discovery becomes weak when it is based only on stakeholder opinion and not enough real evidence from users, processes or operations.
+Discovery becomes weak when it relies only on stakeholder opinion without real evidence from users, processes or operations.
 
 **Ignoring dependencies and constraints because they feel premature**
 

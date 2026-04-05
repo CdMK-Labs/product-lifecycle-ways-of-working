@@ -4,10 +4,13 @@ Deploy is where we move approved changes safely into production and make them av
 
 This stage covers both the technical release into production and the rollout to users, teams, markets or functions where relevant. It may also include initial change management and adoption activities needed to help people use the change successfully from the start.
 
-The stage ends when the change is live in production, available for use, and ready to be managed through normal product operations and monitoring.
+Deployment is broader than a technical release. A change is not fully deployed until users can access it, operations can support it, and the team is confident it is ready for normal live management.
+
+The stage ends when the change is live in production, available for use, and ready to move into Operate & Monitor — or, if something goes wrong, when a clear decision has been made to stabilise, rework or rollback before proceeding.
 
 ## When To Enter This Stage
 
+Enter this stage when:
 - the relevant deliverables are ready for release
 - quality, security and non-functional checks have reached the level needed for go-live
 - operational readiness has been prepared
@@ -23,12 +26,12 @@ The stage ends when the change is live in production, available for use, and rea
 - What adoption activities are needed to help users or business teams succeed?
 - Who needs to be informed, trained or supported at go-live?
 - What risks need special attention during release and rollout?
-- What is the plan if something does not work as expected?
+- What is the plan if something does not work as expected — stabilise, rework or rollback?
 - What signals do we need to watch closely immediately after go-live?
 
 ## Entry Criteria
 
-Before starting this stage, there should be at least:
+Before entering this stage, there should be at least:
 - deliverables ready for release into production
 - required quality, security and non-functional checks completed to an appropriate level
 - operational readiness prepared, including relevant support and monitoring arrangements
@@ -44,9 +47,9 @@ Before starting this stage, there should be at least:
 - confirm operational readiness, including support setup, monitoring, access and relevant documentation
 - carry out adoption activities such as communication, training or go-live support where needed
 - coordinate closely with support, operational and business stakeholders during release
-- monitor the go-live closely and respond quickly to issues or unexpected behavior
+- monitor go-live closely and respond quickly to issues or unexpected behavior
 - use contingency or rollback plans if needed
-- confirm that the product is live and ready to move into normal operation and monitoring
+- confirm that the product is live and genuinely ready to move into Operate & Monitor
 
 ## Key Deliverables
 
@@ -58,7 +61,7 @@ Before starting this stage, there should be at least:
 - required access, roles or permissions in place
 - adoption activities completed or active at go-live
 - initial go-live status and issue overview
-- decision or confirmation that the product is live and ready for Operate & Monitor
+- explicit decision: move into Operate & Monitor, or stabilise / rework / rollback first
 
 ## Who Is Involved
 
@@ -87,7 +90,7 @@ Before starting this stage, there should be at least:
 - helps users and stakeholders prepare for the change
 - supports confidence and usability around go-live
 
-**Others who may contribute:** Product Architect, operational support roles, business representatives, super users, other product teams, IT Supporter, IT Delivery Partner.
+**Others who may contribute:** Product Architect · Operational support roles · Business representatives · Super users · Other product teams · IT Architecture Partner
 
 ## Templates and Tools
 
@@ -125,13 +128,13 @@ Deploy is ready to move on when:
 - support and monitoring are active
 - adoption activities have been completed or are running where needed
 - known go-live issues are understood and being handled
-- the product is ready to be managed through Operate & Monitor
+- the team has made an explicit decision to move into Operate & Monitor — not simply assumed the stage is complete because the release ran
 
 ## Common Pitfalls
 
 **Treating deployment as only a technical release**
 
-A successful deploy also depends on rollout, readiness and adoption.
+A successful deploy also depends on rollout, readiness and adoption. All three must be in place before the stage closes.
 
 **Going live without operational readiness**
 
@@ -143,7 +146,7 @@ Even strong solutions struggle if users are not informed, prepared or supported.
 
 **Releasing without clear contingency thinking**
 
-Known release risks should have a response path, not just hope.
+Known release risks should have a response path — stabilise, rework or rollback — not just hope.
 
 **Poor coordination at go-live**
 

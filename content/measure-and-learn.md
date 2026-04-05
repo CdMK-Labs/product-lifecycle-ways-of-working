@@ -1,15 +1,18 @@
 ## What This Stage Is For
 
-Measure & Learn is where we step back from day-to-day operations and look at how the product is performing from a usage, adoption and outcome perspective. The purpose is to create insight into whether the product is being used as intended, whether users are getting value from it, and whether the expected business outcomes are developing in the right direction.
+Measure & Learn is where we step back from day-to-day operations and assess how the product is performing from a usage, adoption and outcome perspective. The purpose is to create insight into whether the product is being used as intended, whether users are getting value from it, and whether the expected business outcomes are developing in the right direction.
 
-This stage runs in parallel with Operate & Monitor, but it has a different focus. Operate & Monitor is about service health, stability, incidents and operational control. Measure & Learn is about usage, adoption, user behavior, sentiment and outcome signals. Both matter, but they answer different questions.
+This stage runs in parallel with Operate & Monitor, but it has a different focus. Operate & Monitor is about service health, incidents, alerts and operational control. Measure & Learn is about usage patterns, adoption, user behavior, sentiment and outcome signals. Both matter, but they answer different questions.
 
-A key principle in this stage is that IT & Digital typically provides data, measurements and insight, while partnering closely with the business to interpret what the signals mean. Accountability for business outcomes and value realization sits with the business, but the product team plays an important role in making those signals visible and useful.
+A key principle in this stage is that IT & Digital provides data, measurements and insight, while partnering closely with the business to interpret what the signals mean. Accountability for business outcomes and value realization sits with the business. The product team's role is to make those signals visible, usable and part of an ongoing dialogue.
 
-This stage is continuous. Its purpose is to support better decisions, better prioritisation and more informed product improvement over time.
+The insight generated here feeds directly into Adapt & Optimize, where the team decides what to do about what has been learned.
+
+This stage is continuous. It runs in parallel with Operate & Monitor as long as the product is active.
 
 ## When To Enter This Stage
 
+Enter this stage when:
 - the product is live and in use
 - there is enough live usage to generate meaningful signals
 - the team is ready to track adoption, usage and outcome indicators
@@ -25,7 +28,7 @@ This stage continues in parallel with Operate & Monitor as long as the product i
 - What do user feedback and sentiment tell us?
 - Are we seeing signals that the product is contributing to the intended business outcomes?
 - Which measures should be shared with the business for interpretation and follow-up?
-- What should be learned, explored further or brought into product improvement discussions?
+- What should we explore further or bring into Adapt & Optimize?
 
 ## Entry Criteria
 
@@ -42,8 +45,8 @@ Before entering this stage, there should be at least:
 - gather and review user feedback, sentiment or satisfaction signals
 - make relevant outcome indicators visible where they can be supported by product data
 - share measurements and insights with business stakeholders and product roles
-- distinguish between operational issues and broader usage or adoption patterns
-- use live-product learning to inform product decisions, prioritisation and improvement discussions
+- distinguish clearly between operational issues (Operate & Monitor) and broader usage or adoption patterns (Measure & Learn)
+- use live-product learning to inform product decisions, prioritisation and improvement discussions in Adapt & Optimize
 
 ## Key Deliverables
 
@@ -65,7 +68,7 @@ Before entering this stage, there should be at least:
 ### Business Owner
 - interprets outcome signals from a business perspective
 - engages in dialogue about whether the product is contributing to intended results
-- owns the business accountability for value realization
+- holds business accountability for value realization
 
 ### Head of Product
 - ensures learning from live use informs product direction and priorities
@@ -82,7 +85,7 @@ Before entering this stage, there should be at least:
 - helps surface what users are actually experiencing in practice
 - supports interpretation of feedback and usage signals
 
-**Others who may contribute:** IT Specialists / Developers, analytics-related roles, business representatives, super users, IT Value Partner, Product Architect.
+**Others who may contribute:** IT Specialists / Developers · Analytics-related roles · Business representatives · Super users · IT Value Partner · Product Architect
 
 ## Templates and Tools
 
@@ -116,7 +119,7 @@ Measure & Learn is working well when:
 - adoption patterns, drop-off points and user friction are visible
 - user feedback and sentiment are actively considered
 - relevant outcome signals are shared and discussed with the business
-- IT & Digital provides good measurements and insight while partnering with the business on interpretation
+- IT & Digital provides good measurements and insight while the business takes accountability for value realization
 - learning is turned into informed decisions rather than passive reporting
 - insights are actively feeding into Adapt & Optimize
 
@@ -124,7 +127,7 @@ Measure & Learn is working well when:
 
 **Confusing this stage with Operate & Monitor**
 
-Operate & Monitor focuses on service health and operational control. Measure & Learn focuses on usage, adoption, behavior and outcome signals.
+Operate & Monitor focuses on service health, incidents and operational control. Measure & Learn focuses on usage, adoption, behavior and outcome signals. Keep them separate — they answer different questions.
 
 **Tracking only what is easy to measure**
 
@@ -132,7 +135,7 @@ Easy metrics are not always meaningful metrics. The point is to create useful in
 
 **Treating IT & Digital as owner of business value**
 
-IT & Digital should provide data and insight, but business accountability for value realization sits with the business.
+IT & Digital should provide data and insight, but business accountability for value realization sits with the business. The product team enables the conversation, not the conclusion.
 
 **Collecting data without interpretation**
 
@@ -140,8 +143,8 @@ Measures only become useful when they are discussed, understood and linked to ac
 
 **Ignoring weak adoption or user friction because the product is live**
 
-Live does not mean successful. Poor adoption and repeated friction are important signals.
+Live does not mean successful. Poor adoption and repeated friction are important signals that deserve follow-up.
 
 **Letting learning stop at reporting**
 
-The purpose of this stage is to inform improvement, not just create dashboards.
+The purpose of this stage is to inform improvement through Adapt & Optimize, not just create dashboards.
