@@ -4,7 +4,7 @@ html { scroll-behavior: smooth; }
 
 body {
   background: #f5faf5;
-  font-family: sans-serif;
+  font-family: 'ArlaInterface', sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -94,10 +94,11 @@ body {
 }
 
 h1 {
+  font-family: 'ArlaLife', 'ArlaInterface', sans-serif;
   font-size: 2.8rem;
   color: #02462F;
   line-height: 1.1;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 1.75rem;
 }
 
