@@ -162,6 +162,10 @@ h1 {
   border-bottom: 1px solid #c8e8c8;
 }
 
+.stage-content .intro-block + h2 {
+  margin-top: 3.5rem;
+}
+
 .stage-content ul + h2,
 .stage-content .who-list + h2 {
   margin-top: 2.75rem;

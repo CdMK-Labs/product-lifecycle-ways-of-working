@@ -8,7 +8,6 @@ The output from this stage is not a detailed solution or delivery plan. It is a 
 
 ## When To Enter This Stage
 
-Enter this stage when:
 - a new business need, opportunity or problem has been identified
 - an existing product needs further investment to create value, reduce risk or improve sustainability
 - a team needs direction on whether something should move forward into discovery

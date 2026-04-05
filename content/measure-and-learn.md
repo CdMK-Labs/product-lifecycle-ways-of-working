@@ -10,7 +10,6 @@ This stage is continuous. Its purpose is to support better decisions, better pri
 
 ## When To Enter This Stage
 
-Enter this stage when:
 - the product is live and in use
 - there is enough live usage to generate meaningful signals
 - the team is ready to track adoption, usage and outcome indicators

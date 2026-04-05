@@ -10,7 +10,6 @@ This stage is continuous. It works closely with Measure & Learn and Adapt & Opti
 
 ## When To Enter This Stage
 
-Enter this stage when:
 - the product or change is live in production
 - the team has moved through deployment and go-live
 - support, monitoring and operational readiness are in place

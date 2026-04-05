@@ -8,7 +8,6 @@ This stage is continuous. It helps the product evolve over time rather than stay
 
 ## When To Enter This Stage
 
-Enter this stage when:
 - live-product insight shows that something should be improved, simplified, strengthened or retired
 - operational issues, adoption signals or outcome signals point to a need for change
 - technical debt, process inefficiency or recurring friction are limiting product effectiveness
