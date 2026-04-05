@@ -225,21 +225,21 @@ h1 {
 
 /* ── Shared sub-headline style (Who Is Involved + Common Pitfalls) ──────── */
 
-.role-name,
+.stage-content .role-name,
 .pitfall-title strong {
   display: block;
   font-size: 0.88rem;
   font-weight: 700;
   color: #02462F;
   line-height: 1.4;
+  text-transform: none;
+  letter-spacing: normal;
+  opacity: 1;
 }
 
 /* ── Who Is Involved ─────────────────────────────────────────────────────── */
 
-.role-name {
-  text-transform: none;
-  letter-spacing: normal;
-  opacity: 1;
+.stage-content .role-name {
   margin-top: 1.5rem;
   margin-bottom: 0.3rem;
 }
