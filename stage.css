@@ -216,7 +216,7 @@ h1 {
 }
 
 .stage-content li::before {
-  content: '–';
+  content: '·';
   position: absolute;
   left: 0;
   color: #0D6A4B;

@@ -2,7 +2,7 @@
 
 Product Discovery is where we build understanding before we build solutions. It picks up from a prioritised Value Proposition and goes deeper: exploring the problem space, involving the right people early, and reducing uncertainty before more serious commitment is made.
 
-This stage is about structured learning, not planning or committing. It helps us test assumptions, explore options, understand affected users and processes, and surface the main risks, dependencies, competencies and capacity considerations. Lightweight prototyping or experiments may be used where they help the team learn quickly — but these are learning tools, not hidden delivery.
+This stage is about structured learning, not planning or committing. It helps us test assumptions, explore options, understand affected users and processes, and surface the main risks, dependencies, competencies and capacity considerations. Lightweight prototyping or experiments may be used where they help the team learn quickly, but these are learning tools, not hidden delivery.
 
 A good discovery stage increases confidence that we are focusing on a real problem, that the opportunity is worth maturing further, and that we are not overlooking important business, user, product or lifecycle concerns.
 
@@ -42,7 +42,7 @@ This stage does not require a committed solution, delivery plan or detailed esti
 - gather early evidence through conversations, observations, data, examples or comparable cases
 - involve the right roles early to surface different perspectives
 - explore more than one option where relevant
-- use lightweight prototyping, mock-ups or experiments where helpful to test assumptions and learn faster — keeping these clearly as learning tools, not early delivery
+- use lightweight prototyping, mock-ups or experiments where helpful to test assumptions and learn faster, keeping these clearly as learning tools and not early delivery
 - identify key risks, dependencies, constraints and unknowns
 - consider product lifecycle implications early, including adoption, operations, security, architecture and sustainability
 - assess what competencies and likely capacity needs would matter if the topic moves forward
@@ -101,8 +101,8 @@ At this stage, teams should use lightweight discovery tools, for example:
 
 The aim is to create better understanding, not polished documentation.
 
-- [Research Plan Template](templates/product-discovery/research-plan-template.docx) — Template for scoping and planning a research round
-- [Assumption Log](templates/product-discovery/assumption-log.xlsx) — Tracker for capturing, rating, and testing key assumptions
+- [Research Plan Template](templates/product-discovery/research-plan-template.docx): Template for scoping and planning a research round
+- [Assumption Log](templates/product-discovery/assumption-log.xlsx): Tracker for capturing, rating, and testing key assumptions
 
 ## Governance and Processes To Align With
 

@@ -2,7 +2,7 @@
 
 Develop & Deliver is where the product team turns approved scope into working product outcomes. The purpose is to build, configure, integrate or implement the agreed changes in a way that creates progress step by step, keeps quality visible, and prepares the work for safe deployment.
 
-This stage covers different delivery types, including packaged solutions, SaaS-based changes and tailormade development. The exact way of working may vary depending on the context. Some work will be more iterative and incremental, some more milestone-driven, and some more flow-based. The important point is that the team delivers in a disciplined way, keeps work visible, and ensures quality, documentation, security and collaboration are handled as part of the work — not left until the end.
+This stage covers different delivery types, including packaged solutions, SaaS-based changes and tailormade development. The exact way of working may vary depending on the context. Some work will be more iterative and incremental, some more milestone-driven, and some more flow-based. The important point is that the team delivers in a disciplined way, keeps work visible, and ensures quality, documentation, security and collaboration are handled as part of the work, not left until the end.
 
 If material changes to scope, dependencies or risk emerge during delivery, the work may need to loop back to Align & Plan before proceeding.
 
@@ -110,8 +110,8 @@ At this stage, teams will typically use practical delivery tools and working met
 
 The method may vary. Some teams will work in a more iterative way, some in a more milestone-driven way, and some in a more continuous flow. The important thing is that work is visible, quality is built in, and progress is managed responsibly.
 
-- [Definition of Done](templates/develop-and-deliver/definition-of-done.docx) — Shared quality checklist for completing any piece of work
-- [Sprint Review Template](templates/develop-and-deliver/sprint-review-template.pptx) — Notes template for capturing demo outcomes and stakeholder feedback
+- [Definition of Done](templates/develop-and-deliver/definition-of-done.docx): Shared quality checklist for completing any piece of work
+- [Sprint Review Template](templates/develop-and-deliver/sprint-review-template.pptx): Notes template for capturing demo outcomes and stakeholder feedback
 
 ## Governance and Processes To Align With
 

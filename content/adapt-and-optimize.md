@@ -4,7 +4,7 @@ Adapt & Optimize is where we turn learning into action. The purpose is to improv
 
 This stage builds on insight from both Operate & Monitor and Measure & Learn. It is where teams decide how to respond to what they have learned, and how to balance competing priorities across value creation, reliability, technical sustainability and simplification.
 
-Outcomes from this stage can feed back into the lifecycle in different ways: as normal product flow handled within the existing team and cadence; as a more structured initiative requiring a new round of discovery, planning and approval; or as a retirement or decommissioning decision that needs its own deliberate path. Retirement is a legitimate and important outcome — not an afterthought.
+Outcomes from this stage can feed back into the lifecycle in different ways: as normal product flow handled within the existing team and cadence; as a more structured initiative requiring a new round of discovery, planning and approval; or as a retirement or decommissioning decision that needs its own deliberate path. Retirement is a legitimate and important outcome, not an afterthought.
 
 This stage is continuous. It runs as long as the product is active and being improved over time.
 
@@ -120,7 +120,7 @@ Adapt & Optimize is working well when:
 - product complexity is reduced where it no longer creates value
 - the balance between new value, reliability and sustainability is actively managed
 - retirement decisions are made when parts of the product no longer justify their cost or complexity
-- agreed actions are fed back into the lifecycle through a clear route — normal flow, a structured initiative, or retirement planning
+- agreed actions are fed back into the lifecycle through a clear route: normal flow, a structured initiative, or retirement planning
 
 ## Common Pitfalls
 

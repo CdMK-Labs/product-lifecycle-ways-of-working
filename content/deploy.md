@@ -6,7 +6,7 @@ This stage covers both the technical release into production and the rollout to 
 
 Deployment is broader than a technical release. A change is not fully deployed until users can access it, operations can support it, and the team is confident it is ready for normal live management.
 
-The stage ends when the change is live in production, available for use, and ready to move into Operate & Monitor — or, if something goes wrong, when a clear decision has been made to stabilise, rework or rollback before proceeding.
+The stage ends when the change is live in production, available for use, and ready to move into Operate & Monitor. If something goes wrong, the stage ends when a clear decision has been made to stabilise, rework or rollback before proceeding.
 
 ## When To Enter This Stage
 
@@ -26,7 +26,7 @@ Enter this stage when:
 - What adoption activities are needed to help users or business teams succeed?
 - Who needs to be informed, trained or supported at go-live?
 - What risks need special attention during release and rollout?
-- What is the plan if something does not work as expected — stabilise, rework or rollback?
+- What is the plan if something does not work as expected: stabilise, rework or rollback?
 - What signals do we need to watch closely immediately after go-live?
 
 ## Entry Criteria
@@ -106,8 +106,8 @@ At this stage, teams will typically use practical deployment and rollout tools s
 
 The exact approach may vary, but the goal is always the same: a safe, controlled and usable move into production.
 
-- [Deployment Checklist](templates/deploy/deployment-checklist.xlsx) — Step-by-step pre- and post-deployment verification checklist
-- [Rollback Plan Template](templates/deploy/rollback-plan-template.docx) — Template for documenting rollback triggers, steps, and ownership
+- [Deployment Checklist](templates/deploy/deployment-checklist.xlsx): Step-by-step pre- and post-deployment verification checklist
+- [Rollback Plan Template](templates/deploy/rollback-plan-template.docx): Template for documenting rollback triggers, steps, and ownership
 
 ## Governance and Processes To Align With
 
@@ -128,7 +128,7 @@ Deploy is ready to move on when:
 - support and monitoring are active
 - adoption activities have been completed or are running where needed
 - known go-live issues are understood and being handled
-- the team has made an explicit decision to move into Operate & Monitor — not simply assumed the stage is complete because the release ran
+- the team has made an explicit decision to move into Operate & Monitor, not simply assumed the stage is complete because the release ran
 
 ## Common Pitfalls
 
@@ -146,7 +146,7 @@ Even strong solutions struggle if users are not informed, prepared or supported.
 
 **Releasing without clear contingency thinking**
 
-Known release risks should have a response path — stabilise, rework or rollback — not just hope.
+Known release risks should have a response path: stabilise, rework or rollback. Not just hope.
 
 **Poor coordination at go-live**
 

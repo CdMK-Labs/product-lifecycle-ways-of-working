@@ -2,11 +2,11 @@
 
 Operate & Monitor is where the product is actively run in live use. The purpose is to keep the product stable, secure, available and well-performing day to day, and to maintain clear visibility into how it is behaving in production.
 
-This stage is about operational control: service health, incidents, alerts, service levels, performance and the follow-up needed to keep the product healthy and usable over time. It may also include maintenance activities, smaller upgrades and limited business continuity scope. The focus is firmly on the product as a live service, not on usage patterns, adoption signals or business outcomes — those are the focus of Measure & Learn.
+This stage is about operational control: service health, incidents, alerts, service levels, performance and the follow-up needed to keep the product healthy and usable over time. It may also include maintenance activities, smaller upgrades and limited business continuity scope. The focus is firmly on the product as a live service, not on usage patterns, adoption signals or business outcomes. Those are the focus of Measure & Learn.
 
 A key principle in this stage is that operations remain part of product ownership. Live use is not a handover to somewhere else. The product team stays responsible for how the product performs in production and for responding when operational signals show that action is needed.
 
-Operational insight from this stage feeds directly into Measure & Learn and Adapt & Optimize. Incidents, recurring issues, stability patterns and service level trends are all signals that should be made visible and acted on — not absorbed silently.
+Operational insight from this stage feeds directly into Measure & Learn and Adapt & Optimize. Incidents, recurring issues, stability patterns and service level trends are all signals that should be made visible and acted on, not absorbed silently.
 
 This stage is continuous. It runs as long as the product is active.
 
@@ -103,8 +103,8 @@ At this stage, teams will typically use practical operational tools and routines
 
 The purpose is not to create extra process. It is to make product health visible and manageable in day-to-day operation.
 
-- [Incident Report Template](templates/operate-and-monitor/incident-report-template.docx) — Structured template for documenting incidents and root cause analysis
-- [Operational Review Template](templates/operate-and-monitor/operational-review-template.pptx) — Periodic review template covering SLAs, incidents, and improvement actions
+- [Incident Report Template](templates/operate-and-monitor/incident-report-template.docx): Structured template for documenting incidents and root cause analysis
+- [Operational Review Template](templates/operate-and-monitor/operational-review-template.pptx): Periodic review template covering SLAs, incidents, and improvement actions
 
 ## Governance and Processes To Align With
 

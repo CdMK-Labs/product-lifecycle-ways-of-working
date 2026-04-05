@@ -2,7 +2,7 @@
 
 The Value Proposition stage is where we clarify why something is worth attention before investing more time and effort. It frames the business need, the expected value and the strategic relevance of the opportunity at a high level.
 
-This stage applies both to new capabilities or products and to further investment in existing ones. For new opportunities, the purpose is to decide whether the idea is strong enough to take forward. For existing products, the purpose is to clarify why further investment matters now — whether for business value, risk reduction, compliance, technical sustainability or lifecycle needs.
+This stage applies both to new capabilities or products and to further investment in existing ones. For new opportunities, the purpose is to decide whether the idea is strong enough to take forward. For existing products, the purpose is to clarify why further investment matters now, whether for business value, risk reduction, compliance, technical sustainability or lifecycle needs.
 
 The output is not a business case or delivery plan. It is a clear, high-level input to business prioritisation, investment framing and a next-step decision. That decision may point to normal product flow within an existing team and funding arrangement, to an existing investment or funding frame that already covers this type of work, or to a new investment path that requires further shaping and approval.
 
@@ -42,7 +42,7 @@ This stage does not require a mature solution idea, detailed estimates or a full
 - assess strategic fit and relevance to current priorities
 - think lifecycle early, not only new features or growth ideas
 - identify whether the topic fits normal product flow, an existing investment frame, or needs a new investment path
-- identify whether the need is best understood as a theme, a sunray or an investment candidate — a sunray is a concise description of a meaningful opportunity or direction without moving too early into detailed solutioning
+- identify whether the need is best understood as a theme, a sunray or an investment candidate (a sunray is a concise description of a meaningful opportunity or direction, without moving too early into detailed solutioning)
 - create enough shared understanding to support prioritisation and a decision on next steps
 
 ## Key Deliverables
@@ -93,8 +93,8 @@ At this stage, teams should work with lightweight framing tools, for example:
 
 This stage should stay concise. The goal is alignment and direction, not detailed documentation.
 
-- [Value Proposition Canvas](templates/value-proposition/value-proposition-canvas.docx) — Structured canvas for mapping customer needs to product value
-- [Success Metrics Template](templates/value-proposition/success-metrics-template.xlsx) — Template for defining and agreeing measurable outcomes
+- [Value Proposition Canvas](templates/value-proposition/value-proposition-canvas.docx): Structured canvas for mapping customer needs to product value
+- [Success Metrics Template](templates/value-proposition/success-metrics-template.xlsx): Template for defining and agreeing measurable outcomes
 
 ## Governance and Processes To Align With
 
