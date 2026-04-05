@@ -120,16 +120,20 @@
           }
         }
 
-        // Common Pitfalls: mark each bold-only <p> as a pitfall title
+        // Common Pitfalls: replace each bold-only <p> with an <h3 class="role-name">
         if (/common pitfalls/i.test(h2.textContent)) {
           let el = h2.nextElementSibling;
           while (el && el.tagName !== 'H2') {
+            const next = el.nextElementSibling;
             if (el.tagName === 'P'
                 && el.children.length === 1
                 && el.children[0].tagName === 'STRONG') {
-              el.classList.add('pitfall-title');
+              const h3 = document.createElement('h3');
+              h3.className = 'role-name';
+              h3.textContent = el.children[0].textContent;
+              el.parentNode.replaceChild(h3, el);
             }
-            el = el.nextElementSibling;
+            el = next;
           }
         }
       });

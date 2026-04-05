@@ -223,11 +223,9 @@ h1 {
   font-weight: 600;
 }
 
-/* ── Shared sub-headline style (Who Is Involved + Common Pitfalls) ──────── */
+/* ── Sub-headlines: Who Is Involved + Common Pitfalls ───────────────────── */
 
-.stage-content .role-name,
-.pitfall-title strong {
-  display: block;
+.stage-content .role-name {
   font-size: 0.88rem;
   font-weight: 700;
   color: #02462F;
@@ -235,11 +233,6 @@ h1 {
   text-transform: none;
   letter-spacing: normal;
   opacity: 1;
-}
-
-/* ── Who Is Involved ─────────────────────────────────────────────────────── */
-
-.stage-content .role-name {
   margin-top: 1.5rem;
   margin-bottom: 0.3rem;
 }
@@ -274,14 +267,6 @@ h1 {
 
 .others-contribute strong {
   color: #02462F;
-}
-
-/* ── Common Pitfalls ─────────────────────────────────────────────────────── */
-
-.pitfall-title {
-  margin-top: 1.5rem;
-  margin-bottom: 0.3rem;
-  max-width: 66ch;
 }
 
 /* ── Links ───────────────────────────────────────────────────────────────── */
