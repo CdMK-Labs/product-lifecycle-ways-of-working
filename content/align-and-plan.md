@@ -8,7 +8,6 @@ The stage brings the value case and the cost case together into a full business 
 
 ## When To Enter This Stage
 
-Enter this stage when:
 - Product Discovery has created enough clarity to move from learning into shaping and commitment
 - there is agreement that the opportunity is worth maturing into a business case
 - the team needs to define the scope, delivery setup, dependencies and economics at a high level

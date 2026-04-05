@@ -8,7 +8,6 @@ A good discovery stage increases confidence that we are focusing on a real probl
 
 ## When To Enter This Stage
 
-Enter this stage when:
 - a value proposition has been prioritised for further exploration
 - there is enough reason to investigate the opportunity, but not enough certainty to commit to a specific solution
 - stakeholders need a better understanding of users, options, risks or dependencies

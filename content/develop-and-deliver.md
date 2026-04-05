@@ -8,7 +8,6 @@ The stage ends when the relevant increments, changes or deliverables are ready t
 
 ## When To Enter This Stage
 
-Enter this stage when:
 - the business case approval gate has been passed
 - the delivery plan is approved and the main team is clear to proceed
 - the functional and non-functional scope are clear enough to begin execution

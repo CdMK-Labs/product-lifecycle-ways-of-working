@@ -8,7 +8,6 @@ The stage ends when the change is live in production, available for use, and rea
 
 ## When To Enter This Stage
 
-Enter this stage when:
 - the relevant deliverables are ready for release
 - quality, security and non-functional checks have reached the level needed for go-live
 - operational readiness has been prepared
