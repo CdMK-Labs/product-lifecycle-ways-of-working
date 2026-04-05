@@ -125,7 +125,7 @@ h1 {
 }
 
 /* First H2 — label inside the intro block */
-.stage-content h2:first-of-type {
+.intro-block h2 {
   font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -139,7 +139,7 @@ h1 {
 }
 
 /* Lead paragraph following the intro label */
-.stage-content h2:first-of-type + p {
+.intro-block h2 + p {
   font-size: 1.12rem;
   color: #02462F;
   line-height: 1.72;
