@@ -126,6 +126,4 @@ If material changes emerge during execution, they should be made visible and han
 
 ## Related stages
 
-Most closely linked to [Develop & Deliver](stage.html?s=develop-and-deliver).
-
 Builds on [Align & Plan](stage.html?s=align-and-plan). Leads into [Deploy](stage.html?s=deploy), where the change is released and made ready for live use.

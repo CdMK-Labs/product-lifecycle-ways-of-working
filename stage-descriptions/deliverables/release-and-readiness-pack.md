@@ -135,6 +135,4 @@ If responsibilities are blurred, issue handling and coordination become weaker w
 
 ## Related stages
 
-Most closely linked to [Deploy](stage.html?s=deploy).
-
 Builds on [Develop & Deliver](stage.html?s=develop-and-deliver). Leads into [Operate & Monitor](stage.html?s=operate-and-monitor) and [Measure & Learn](stage.html?s=measure-and-learn).

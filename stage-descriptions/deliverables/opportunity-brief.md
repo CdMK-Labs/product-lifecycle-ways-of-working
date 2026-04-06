@@ -120,6 +120,4 @@ Not all valuable investments are about new business features. Some are about res
 
 ## Related stages
 
-Most closely linked to [Value Proposition](stage.html?s=value-proposition).
-
 Can lead into [Product Discovery](stage.html?s=product-discovery) when the topic needs deeper understanding, or directly into [Align & Plan](stage.html?s=align-and-plan) for smaller topics where discovery has already happened informally.

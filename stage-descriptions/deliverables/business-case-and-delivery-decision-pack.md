@@ -121,6 +121,4 @@ A weak case often focuses only on delivery and misses adoption, operations, sust
 
 ## Related stages
 
-Most closely linked to [Align & Plan](stage.html?s=align-and-plan).
-
 Builds on [Value Proposition](stage.html?s=value-proposition) and [Product Discovery](stage.html?s=product-discovery). Creates the baseline for [Develop & Deliver](stage.html?s=develop-and-deliver) and [Deploy](stage.html?s=deploy).

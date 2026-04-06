@@ -128,6 +128,4 @@ Prototypes and experiments should support learning, not lock the team into an an
 
 ## Related stages
 
-Most closely linked to [Product Discovery](stage.html?s=product-discovery).
-
 Builds on [Value Proposition](stage.html?s=value-proposition). Leads into [Align & Plan](stage.html?s=align-and-plan) when discovery has created enough clarity for planning and approval.

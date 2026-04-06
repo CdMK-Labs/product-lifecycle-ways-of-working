@@ -153,6 +153,4 @@ A review without ownership and follow-up dates rarely changes much.
 
 ## Related stages
 
-Covers [Operate & Monitor](stage.html?s=operate-and-monitor), [Measure & Learn](stage.html?s=measure-and-learn) and [Adapt & Optimize](stage.html?s=adapt-and-optimize).
-
 Review outcomes can feed back into earlier stages: as normal product improvements, as a topic entering [Value Proposition](stage.html?s=value-proposition) or [Product Discovery](stage.html?s=product-discovery), or as a retirement or decommissioning decision.
