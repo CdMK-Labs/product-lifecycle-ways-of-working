@@ -85,6 +85,16 @@
     @media (max-width: 480px) {
       .deliverable-grid { grid-template-columns: 1fr; }
     }
+
+    /* Subtle link style inside the matrix */
+    .stage-content table a {
+      color: #0D6A4B;
+      text-decoration: none;
+      font-weight: inherit;
+    }
+    .stage-content table a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -176,7 +186,7 @@
       <table>
         <thead>
           <tr>
-            <th>Lifecycle group</th>
+            <th>Financial stage</th>
             <th>Lifecycle stages</th>
             <th>Deliverable packs</th>
           </tr>
@@ -184,23 +194,23 @@
         <tbody>
           <tr>
             <td>Early Shaping</td>
-            <td>Value Proposition, Product Discovery</td>
-            <td>Opportunity Brief, Discovery Pack</td>
+            <td><a href="stage.html?s=value-proposition">Value Proposition</a>, <a href="stage.html?s=product-discovery">Product Discovery</a></td>
+            <td><a href="deliverable.html?d=opportunity-brief">Opportunity Brief</a>, <a href="deliverable.html?d=discovery-pack">Discovery Pack</a></td>
           </tr>
           <tr>
             <td>Development</td>
-            <td>Align &amp; Plan</td>
-            <td>Business Case &amp; Delivery Decision Pack</td>
+            <td><a href="stage.html?s=align-and-plan">Align &amp; Plan</a></td>
+            <td><a href="deliverable.html?d=business-case-and-delivery-decision-pack">Business Case &amp; Delivery Decision Pack</a></td>
           </tr>
           <tr>
             <td>Execution</td>
-            <td>Develop &amp; Deliver, Deploy</td>
-            <td>Delivery Pack, Release &amp; Readiness Pack</td>
+            <td><a href="stage.html?s=develop-and-deliver">Develop &amp; Deliver</a>, <a href="stage.html?s=deploy">Deploy</a></td>
+            <td><a href="deliverable.html?d=delivery-pack">Delivery Pack</a>, <a href="deliverable.html?d=release-and-readiness-pack">Release &amp; Readiness Pack</a></td>
           </tr>
           <tr>
             <td>Operations</td>
-            <td>Operate &amp; Monitor, Measure &amp; Learn, Adapt &amp; Optimize</td>
-            <td>Product Review Pack</td>
+            <td><a href="stage.html?s=operate-and-monitor">Operate &amp; Monitor</a>, <a href="stage.html?s=measure-and-learn">Measure &amp; Learn</a>, <a href="stage.html?s=adapt-and-optimize">Adapt &amp; Optimize</a></td>
+            <td><a href="deliverable.html?d=product-review-pack">Product Review Pack</a></td>
           </tr>
         </tbody>
       </table>
