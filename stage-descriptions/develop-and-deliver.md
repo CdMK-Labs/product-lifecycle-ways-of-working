@@ -1,10 +1,10 @@
 ## What This Stage Is For
 
-Develop & Deliver is where the product team turns approved scope into working product outcomes. The purpose is to build, configure, integrate or implement the agreed changes in a way that creates progress step by step, keeps quality visible, and prepares the work for safe deployment.
+Develop & Deliver is where the product team turns approved scope into working product outcomes. The purpose is to build, configure, integrate or implement the agreed changes in a way that creates progress step by step, keeps quality visible, and prepares the work for safe release.
 
-This stage covers different delivery types, including packaged solutions, SaaS-based changes and tailormade development. The exact way of working may vary depending on the context. Some work will be more iterative and incremental, some more milestone-driven, and some more flow-based. The important point is that the team delivers in a disciplined way, keeps work visible, and ensures quality, documentation, security and collaboration are handled as part of the work, not left until the end.
+This stage covers different delivery types, including packaged solutions, SaaS-based changes and tailormade development. The exact way of working may vary depending on the context. Some work will be more iterative and incremental, some more milestone-driven, and some more flow-based. The important point is that the team delivers in a disciplined way, keeps work visible, and ensures quality, documentation, security and readiness are handled as part of the work.
 
-If material changes to scope, dependencies or risk emerge during delivery, the work may need to loop back to Align & Plan before proceeding.
+Where the product context supports it, teams should also make good use of automation such as automated testing, build pipelines and repeatable deployment preparation. This helps reduce friction later and creates a smoother path into Deploy.
 
 The stage ends when the relevant increments, changes or deliverables are ready to move into Deploy.
 
@@ -51,6 +51,7 @@ This stage does not require every detail to be fixed upfront, but it does requir
 - use user validation, stakeholder reviews or demonstrations where helpful to confirm progress and improve the work
 - document decisions, changes and operationally relevant information as part of the work
 - build in security, service quality and other non-functional requirements as the work progresses
+- use automation such as automated testing, build pipelines and repeatable deployment preparation where the product context supports it
 - collaborate actively with other teams where dependencies or shared components matter
 - follow up on risks, dependencies and assumptions during execution
 - refine backlog, priorities or sequencing as learning emerges

@@ -1,12 +1,10 @@
 ## What This Stage Is For
 
-Deploy is where we move approved changes safely into production and make them available for real use. The purpose is to release and roll out the solution in a controlled way, while ensuring operational readiness, adoption readiness and the right support around go-live.
+Deploy is where we move approved changes safely into production and make them available for real use. The purpose is to release and roll out the solution in a controlled way, while ensuring operational readiness, adoption readiness where relevant, and the right support around release.
 
-This stage covers both the technical release into production and the rollout to users, teams, markets or functions where relevant. It may also include initial change management and adoption activities needed to help people use the change successfully from the start.
+This stage covers both the technical release into production and the rollout to users, teams, markets or functions where relevant. Some products will rely on more coordinated go-live events, while others may move toward more frequent release through automated testing, deployment pipelines and repeatable controls. In both cases, the purpose is the same: to release safely, make readiness visible, and ensure the product can be supported properly in live use.
 
-Deployment is broader than a technical release. A change is not fully deployed until users can access it, operations can support it, and the team is confident it is ready for normal live management.
-
-The stage ends when the change is live in production, available for use, and ready to move into Operate & Monitor. If something goes wrong, the stage ends when a clear decision has been made to stabilise, rework or rollback before proceeding.
+The stage ends when the change is live in production, available for use as intended, and ready to be managed through normal product operations and monitoring.
 
 ## When To Enter This Stage
 
@@ -43,13 +41,14 @@ Before entering this stage, there should be at least:
 ## Core Activities
 
 - execute the technical release into production
-- roll out the change to the relevant users, teams, markets or functions
+- roll out the change to the relevant users, teams, markets or functions where needed
+- use deployment pipelines, automation and repeatable release controls where the product context supports it
 - confirm operational readiness, including support setup, monitoring, access and relevant documentation
 - carry out adoption activities such as communication, training or go-live support where needed
 - coordinate closely with support, operational and business stakeholders during release
-- monitor go-live closely and respond quickly to issues or unexpected behavior
+- monitor the release closely and respond quickly to issues or unexpected behaviour
 - use contingency or rollback plans if needed
-- confirm that the product is live and genuinely ready to move into Operate & Monitor
+- confirm that the product is live and ready to move into normal operation and monitoring
 
 ## Key Deliverables
 
@@ -103,11 +102,12 @@ At this stage, teams will typically use practical deployment and rollout tools s
 - communication and training material
 - issue log or go-live tracking
 - contingency or rollback plan
+- automated test and deployment pipeline outputs where relevant
 
 The exact approach may vary, but the goal is always the same: a safe, controlled and usable move into production.
 
-- [Deployment Checklist](supporting-materials/deploy/deployment-checklist.xlsx): Step-by-step pre- and post-deployment verification checklist
-- [Rollback Plan Template](supporting-materials/deploy/rollback-plan-template.docx): Template for documenting rollback triggers, steps, and ownership
+- [Deployment Checklist](supporting-materials/deploy/deployment-checklist.xlsx) — Step-by-step pre- and post-deployment verification checklist
+- [Rollback Plan Template](supporting-materials/deploy/rollback-plan-template.docx) — Template for documenting rollback triggers, steps, and ownership
 
 ## Governance and Processes To Align With
 
@@ -127,14 +127,15 @@ Deploy is ready to move on when:
 - operational readiness is in place
 - support and monitoring are active
 - adoption activities have been completed or are running where needed
-- known go-live issues are understood and being handled
-- the team has made an explicit decision to move into Operate & Monitor, not simply assumed the stage is complete because the release ran
+- automated testing, deployment controls and release checks have been used appropriately for the product context
+- known release issues are understood and being handled
+- the product is ready to be managed through Operate & Monitor
 
 ## Common Pitfalls
 
 **Treating deployment as only a technical release**
 
-A successful deploy also depends on rollout, readiness and adoption. All three must be in place before the stage closes.
+A successful deploy also depends on rollout, readiness and adoption where relevant.
 
 **Going live without operational readiness**
 
@@ -146,11 +147,15 @@ Even strong solutions struggle if users are not informed, prepared or supported.
 
 **Releasing without clear contingency thinking**
 
-Known release risks should have a response path: stabilise, rework or rollback. Not just hope.
+Known release risks should have a response path, not just hope.
 
-**Poor coordination at go-live**
+**Poor coordination at release**
 
 Release quality often depends on timely coordination across product, support, business and dependent teams.
+
+**Treating automation as separate from readiness**
+
+Automated testing and deployment can reduce friction and risk, but they do not remove the need for operational visibility, support readiness and clear release ownership.
 
 **Moving on too quickly after release**
 
