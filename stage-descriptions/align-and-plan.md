@@ -85,9 +85,10 @@ This stage does not require fully detailed design or a final delivery schedule.
 
 **Others who may contribute:** IT Delivery Lead · IT Value Partner · IT Portfolio Partner · IT Architecture Partner · IT Specialists / Developers · Adoption Specialist
 
-## Deliverable
+## Deliverables
 
 - [Business Case & Delivery Decision Pack](supporting-materials/business-case-and-delivery-decision-pack/) — use this pack to support approval and commitment before execution begins.
+- [Deliverable Model](deliverable-model.html) — all deliverable packs across the lifecycle.
 
 ## Governance and Processes To Align With
 

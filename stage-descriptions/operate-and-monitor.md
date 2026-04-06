@@ -79,9 +79,10 @@ Before entering this stage, there should be at least:
 
 **Others who may contribute:** IT Supporter · Operational support roles · Platforms · Business representatives · Adoption Specialist · IT Architecture Partner · Vendors
 
-## Deliverable
+## Deliverables
 
 - [Product Review Pack](supporting-materials/product-review-pack/) — use this pack to keep operational health visible and drive timely follow-up.
+- [Deliverable Model](deliverable-model.html) — all deliverable packs across the lifecycle.
 
 ## Governance and Processes To Align With
 

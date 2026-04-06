@@ -77,9 +77,10 @@ Before entering this stage, there should be at least:
 
 **Others who may contribute:** IT Specialists / Developers · Analytics-related roles · Business representatives · Super users · IT Value Partner · Product Architect
 
-## Deliverable
+## Deliverables
 
 - [Product Review Pack](supporting-materials/product-review-pack/) — use this pack to make usage, adoption and outcome signals visible and support business dialogue.
+- [Deliverable Model](deliverable-model.html) — all deliverable packs across the lifecycle.
 
 ## Governance and Processes To Align With
 

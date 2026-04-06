@@ -79,9 +79,10 @@ Before entering this stage, there should be at least:
 
 **Others who may contribute:** IT Specialists / Developers · Adoption Specialist · IT Value Partner · IT Architecture Partner · IT Portfolio Partner · Dependent product teams · Operational roles
 
-## Deliverable
+## Deliverables
 
 - [Product Review Pack](supporting-materials/product-review-pack/) — use this pack to capture improvement decisions and track agreed actions back into the lifecycle.
+- [Deliverable Model](deliverable-model.html) — all deliverable packs across the lifecycle.
 
 ## Governance and Processes To Align With
 

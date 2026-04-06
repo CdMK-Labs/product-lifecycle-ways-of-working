@@ -71,9 +71,10 @@ This stage does not require a mature solution idea, detailed estimates or a full
 
 **Others who may contribute:** Product Owner · Product Architect · IT Architecture Partner · IT Portfolio Partner · Adoption Specialist
 
-## Deliverable
+## Deliverables
 
 - [Opportunity Brief](supporting-materials/opportunity-brief/) — use this pack to frame the opportunity and support a next-step decision.
+- [Deliverable Model](deliverable-model.html) — all deliverable packs across the lifecycle.
 
 ## Governance and Processes To Align With
 

@@ -79,9 +79,10 @@ Before entering this stage, there should be at least:
 
 **Others who may contribute:** Product Architect · Operational support roles · Business representatives · Super users · Other product teams · IT Architecture Partner
 
-## Deliverable
+## Deliverables
 
 - [Release & Readiness Pack](supporting-materials/release-and-readiness-pack/) — use this pack to confirm readiness and support a safe, controlled release.
+- [Deliverable Model](deliverable-model.html) — all deliverable packs across the lifecycle.
 
 ## Governance and Processes To Align With
 

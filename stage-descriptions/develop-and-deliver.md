@@ -87,9 +87,10 @@ This stage does not require every detail to be fixed upfront, but it does requir
 
 **Others who may contribute:** Adoption Specialist · Business representatives · Other product teams · Platforms · IT Architecture Partner
 
-## Deliverable
+## Deliverables
 
 - [Delivery Pack](supporting-materials/delivery-pack/) — use this pack to keep execution visible and track readiness for deployment.
+- [Deliverable Model](deliverable-model.html) — all deliverable packs across the lifecycle.
 
 ## Governance and Processes To Align With
 

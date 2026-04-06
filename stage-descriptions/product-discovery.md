@@ -77,9 +77,10 @@ This stage does not require a committed solution, delivery plan or detailed esti
 
 **Others who may contribute:** Adoption Specialist · Product Architect · IT Specialists / Developers · IT Architecture Partner · IT Portfolio Partner
 
-## Deliverable
+## Deliverables
 
 - [Discovery Pack](supporting-materials/discovery-pack/) — use this pack to capture what was learned and support a decision on next steps.
+- [Deliverable Model](deliverable-model.html) — all deliverable packs across the lifecycle.
 
 ## Governance and Processes To Align With
 
