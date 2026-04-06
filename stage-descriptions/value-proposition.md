@@ -75,7 +75,7 @@ This stage does not require a mature solution idea, detailed estimates or a full
 
 Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
 
-- [Opportunity Brief](deliverable.html?d=opportunity-brief) — typically created in this stage to support early prioritisation and the next-step decision.
+- [Opportunity Brief](supporting-materials/opportunity-brief/) — typically created in this stage to support early prioritisation and the next-step decision.
 - [Opportunity Brief template](supporting-materials/opportunity-brief/)
 
 ## Governance and Processes To Align With

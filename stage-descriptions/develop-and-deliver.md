@@ -91,7 +91,7 @@ This stage does not require every detail to be fixed upfront, but it does requir
 
 Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
 
-- [Delivery Pack](deliverable.html?d=delivery-pack) — typically created at the start of this stage and maintained throughout to keep execution visible and support deployment readiness.
+- [Delivery Pack](supporting-materials/delivery-pack/) — typically created at the start of this stage and maintained throughout to keep execution visible and support deployment readiness.
 - [Delivery Pack template](supporting-materials/delivery-pack/)
 
 ## Governance and Processes To Align With

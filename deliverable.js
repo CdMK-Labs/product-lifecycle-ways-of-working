@@ -1,4 +1,22 @@
 (function () {
+  // Pack pages are now the canonical single destination per deliverable.
+  // Redirect any legacy ?d= links to the corresponding pack page.
+  const PACK_PAGES = {
+    'opportunity-brief':                        'supporting-materials/opportunity-brief/',
+    'discovery-pack':                           'supporting-materials/discovery-pack/',
+    'business-case-and-delivery-decision-pack': 'supporting-materials/business-case-and-delivery-decision-pack/',
+    'delivery-pack':                            'supporting-materials/delivery-pack/',
+    'release-and-readiness-pack':               'supporting-materials/release-and-readiness-pack/',
+    'product-review-pack':                      'supporting-materials/product-review-pack/',
+  };
+
+  const id = new URLSearchParams(window.location.search).get('d');
+  if (id && PACK_PAGES[id]) {
+    window.location.replace(PACK_PAGES[id]);
+    return;
+  }
+
+  // Fallback: show not-found state for unknown ids
   const DELIVERABLES = [
     { id: 'opportunity-brief',                        title: 'Opportunity Brief',                       color: '#0D6A4B' },
     { id: 'discovery-pack',                           title: 'Discovery Pack',                          color: '#0C563D' },

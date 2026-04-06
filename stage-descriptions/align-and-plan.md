@@ -89,7 +89,7 @@ This stage does not require fully detailed design or a final delivery schedule.
 
 Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
 
-- [Business Case & Delivery Decision Pack](deliverable.html?d=business-case-and-delivery-decision-pack) — typically created and completed in this stage to support approval and responsible commitment before execution begins.
+- [Business Case & Delivery Decision Pack](supporting-materials/business-case-and-delivery-decision-pack/) — typically created and completed in this stage to support approval and responsible commitment before execution begins.
 - [Business Case & Delivery Decision Pack template](supporting-materials/business-case-and-delivery-decision-pack/)
 
 ## Governance and Processes To Align With
