@@ -45,10 +45,6 @@ This stage does not require a mature solution idea, detailed estimates or a full
 - identify whether the need is best understood as a theme, a sunray or an investment candidate (a sunray is a concise description of a meaningful opportunity or direction, without moving too early into detailed solutioning)
 - create enough shared understanding to support prioritisation and a decision on next steps
 
-## Key Deliverables
-
-- Opportunity Brief — typically created in this stage to support early prioritisation and the next-step decision.
-
 ## Who Is Involved
 
 ### Business Owner
@@ -79,7 +75,7 @@ This stage does not require a mature solution idea, detailed estimates or a full
 
 Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
 
-- [Opportunity Brief](deliverable.html?d=opportunity-brief)
+- [Opportunity Brief](deliverable.html?d=opportunity-brief) — typically created in this stage to support early prioritisation and the next-step decision.
 - [Opportunity Brief template](supporting-materials/opportunity-brief/)
 
 ## Governance and Processes To Align With

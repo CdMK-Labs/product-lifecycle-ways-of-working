@@ -50,10 +50,6 @@ Before entering this stage, there should be at least:
 - use contingency or rollback plans if needed
 - confirm that the product is live and ready to move into normal operation and monitoring
 
-## Key Deliverables
-
-- Release & Readiness Pack — typically created ahead of this stage and used here to confirm readiness and support a safe, controlled release.
-
 ## Who Is Involved
 
 ### Head of Product
@@ -87,7 +83,7 @@ Before entering this stage, there should be at least:
 
 Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
 
-- [Release & Readiness Pack](deliverable.html?d=release-and-readiness-pack)
+- [Release & Readiness Pack](deliverable.html?d=release-and-readiness-pack) — typically created ahead of this stage and used here to confirm readiness and support a safe, controlled release.
 - [Release & Readiness Pack template](supporting-materials/release-and-readiness-pack/)
 
 ## Governance and Processes To Align With

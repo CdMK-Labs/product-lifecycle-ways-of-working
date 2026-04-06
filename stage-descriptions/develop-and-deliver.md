@@ -58,10 +58,6 @@ This stage does not require every detail to be fixed upfront, but it does requir
 - escalate to Align & Plan if material changes to scope, risk or dependencies require realignment
 - prepare deliverables so they are ready to move into deployment
 
-## Key Deliverables
-
-- Delivery Pack — typically created at the start of this stage and maintained throughout to keep execution visible and support deployment readiness.
-
 ## Who Is Involved
 
 ### Head of Product
@@ -95,7 +91,7 @@ This stage does not require every detail to be fixed upfront, but it does requir
 
 Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
 
-- [Delivery Pack](deliverable.html?d=delivery-pack)
+- [Delivery Pack](deliverable.html?d=delivery-pack) — typically created at the start of this stage and maintained throughout to keep execution visible and support deployment readiness.
 - [Delivery Pack template](supporting-materials/delivery-pack/)
 
 ## Governance and Processes To Align With

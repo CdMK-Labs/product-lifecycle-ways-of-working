@@ -48,10 +48,6 @@ Before entering this stage, there should be at least:
 - distinguish clearly between operational issues (Operate & Monitor) and broader usage or adoption patterns (Measure & Learn)
 - use live-product learning to inform product decisions, prioritisation and improvement discussions in Adapt & Optimize
 
-## Key Deliverables
-
-- Product Review Pack — updated on a recurring basis in this stage to make usage, adoption and outcome signals visible and support business dialogue.
-
 ## Who Is Involved
 
 ### Product Manager
@@ -85,7 +81,7 @@ Before entering this stage, there should be at least:
 
 Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
 
-- [Product Review Pack](deliverable.html?d=product-review-pack)
+- [Product Review Pack](deliverable.html?d=product-review-pack) — updated on a recurring basis in this stage to make usage, adoption and outcome signals visible and support business dialogue.
 - [Product Review Pack template](supporting-materials/product-review-pack/)
 
 ## Governance and Processes To Align With

@@ -48,10 +48,6 @@ This stage does not require a committed solution, delivery plan or detailed esti
 - assess what competencies and likely capacity needs would matter if the topic moves forward
 - summarise what has been learned and what still needs clarification
 
-## Key Deliverables
-
-- Discovery Pack — typically created in this stage to capture what was learned and support a decision on moving forward.
-
 ## Who Is Involved
 
 ### Business Owner
@@ -85,7 +81,7 @@ This stage does not require a committed solution, delivery plan or detailed esti
 
 Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
 
-- [Discovery Pack](deliverable.html?d=discovery-pack)
+- [Discovery Pack](deliverable.html?d=discovery-pack) — typically created in this stage to capture what was learned and support a decision on moving forward.
 - [Discovery Pack template](supporting-materials/discovery-pack/)
 
 ## Governance and Processes To Align With

@@ -50,10 +50,6 @@ Before entering this stage, there should be at least:
   - as a more structured initiative starting from Value Proposition, Product Discovery or Align & Plan
   - as a retirement or decommissioning decision with its own deliberate path
 
-## Key Deliverables
-
-- Product Review Pack — updated on a recurring basis in this stage to capture improvement decisions and track agreed actions back into the lifecycle.
-
 ## Who Is Involved
 
 ### Head of Product
@@ -87,7 +83,7 @@ Before entering this stage, there should be at least:
 
 Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
 
-- [Product Review Pack](deliverable.html?d=product-review-pack)
+- [Product Review Pack](deliverable.html?d=product-review-pack) — updated on a recurring basis in this stage to capture improvement decisions and track agreed actions back into the lifecycle.
 - [Product Review Pack template](supporting-materials/product-review-pack/)
 
 ## Governance and Processes To Align With

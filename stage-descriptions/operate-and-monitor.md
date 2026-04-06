@@ -50,10 +50,6 @@ Before entering this stage, there should be at least:
 - make operational insights, recurring issues and stability patterns visible for Measure & Learn and Adapt & Optimize
 - maintain clear ownership of the product in live use within the product team
 
-## Key Deliverables
-
-- Product Review Pack — updated on a recurring basis in this stage to keep operational health visible and drive timely follow-up.
-
 ## Who Is Involved
 
 ### Head of Product
@@ -87,7 +83,7 @@ Before entering this stage, there should be at least:
 
 Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
 
-- [Product Review Pack](deliverable.html?d=product-review-pack)
+- [Product Review Pack](deliverable.html?d=product-review-pack) — updated on a recurring basis in this stage to keep operational health visible and drive timely follow-up.
 - [Product Review Pack template](supporting-materials/product-review-pack/)
 
 ## Governance and Processes To Align With

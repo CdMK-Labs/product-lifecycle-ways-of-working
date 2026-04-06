@@ -56,10 +56,6 @@ This stage does not require fully detailed design or a final delivery schedule.
 - bring together the value case and cost case into a business case where required
 - prepare for the relevant approval or commitment decision
 
-## Key Deliverables
-
-- Business Case & Delivery Decision Pack — typically created and completed in this stage to support approval and responsible commitment before execution begins.
-
 ## Who Is Involved
 
 ### Business Owner
@@ -93,7 +89,7 @@ This stage does not require fully detailed design or a final delivery schedule.
 
 Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
 
-- [Business Case & Delivery Decision Pack](deliverable.html?d=business-case-and-delivery-decision-pack)
+- [Business Case & Delivery Decision Pack](deliverable.html?d=business-case-and-delivery-decision-pack) — typically created and completed in this stage to support approval and responsible commitment before execution begins.
 - [Business Case & Delivery Decision Pack template](supporting-materials/business-case-and-delivery-decision-pack/)
 
 ## Governance and Processes To Align With
