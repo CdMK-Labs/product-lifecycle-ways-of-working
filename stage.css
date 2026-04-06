@@ -299,6 +299,61 @@ h1 {
 .stage-content a[href$=".xlsx"]::before  { content: 'Excel · ';       font-size: 0.78em; opacity: 0.55; font-weight: 400; }
 .stage-content a[href$=".pptx"]::before  { content: 'PowerPoint · ';  font-size: 0.78em; opacity: 0.55; font-weight: 400; }
 
+/* ── Tables ──────────────────────────────────────────────────────────────── */
+
+.stage-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.stage-content th {
+  text-align: left;
+  padding: 0.55rem 0.85rem;
+  background: #02462F;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+}
+
+.stage-content td {
+  padding: 0.55rem 0.85rem;
+  border-bottom: 1px solid #e0ede0;
+  color: #2d4a3e;
+  vertical-align: top;
+  line-height: 1.55;
+  font-size: 0.9rem;
+}
+
+.stage-content tbody tr:nth-child(even) td {
+  background: rgba(13, 106, 75, 0.03);
+}
+
+/* ── Deliverable names (h4) ──────────────────────────────────────────────── */
+
+.stage-content h4 {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #02462F;
+  line-height: 1.4;
+  text-transform: none;
+  letter-spacing: normal;
+  opacity: 1;
+  margin-top: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+
+/* ── Navigation: Deliverable Model link ──────────────────────────────────── */
+
+.nav-deliverable {
+  opacity: 0.55;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+.nav-deliverable:hover { opacity: 1; }
+
 /* ── Footer navigation ───────────────────────────────────────────────────── */
 
 .stage-footer-nav {
@@ -350,6 +405,7 @@ h1 {
   .nav-btn .nav-label { display: none; }
   .nav-arrow { font-size: 1rem; }
   .nav-stages { gap: 0.25rem; }
+  .nav-deliverable { display: none; }
 
   /* Page spacing */
   .page-body { padding: 1.5rem 1.1rem 2rem; }
