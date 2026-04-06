@@ -52,13 +52,7 @@ Before entering this stage, there should be at least:
 
 ## Key Deliverables
 
-- stable and supported live product operation
-- incident handling and issue follow-up
-- service level and operational performance follow-up
-- monitoring, alerts and operational signal visibility
-- updated runbooks, operational notes or support information where needed
-- completed maintenance activities, smaller upgrades or business continuity changes
-- operational insights and recurring issues made visible for further learning or improvement
+- Product Review Pack — updated on a recurring basis in this stage to keep operational health visible and drive timely follow-up.
 
 ## Who Is Involved
 
@@ -89,22 +83,12 @@ Before entering this stage, there should be at least:
 
 **Others who may contribute:** IT Supporter · Operational support roles · Platforms · Business representatives · Adoption Specialist · IT Architecture Partner · Vendors
 
-## Templates and Tools
+## Related Deliverables and Templates
 
-At this stage, teams will typically use practical operational tools and routines suited to the product context, for example:
-- monitoring and alerting setup
-- incident and issue tracking
-- service level follow-up
-- operational dashboards
-- runbooks and support notes
-- maintenance and upgrade planning
-- recurring operational review notes
-- logs of recurring issues, workarounds or known risks
+Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
 
-The purpose is not to create extra process. It is to make product health visible and manageable in day-to-day operation.
-
-- [Incident Report Template](supporting-materials/operate-and-monitor/incident-report-template.docx): Structured template for documenting incidents and root cause analysis
-- [Operational Review Template](supporting-materials/operate-and-monitor/operational-review-template.pptx): Periodic review template covering SLAs, incidents, and improvement actions
+- [Product Review Pack](deliverable.html?d=product-review-pack)
+- [Product Review Pack template](supporting-materials/product-review-pack/)
 
 ## Governance and Processes To Align With
 

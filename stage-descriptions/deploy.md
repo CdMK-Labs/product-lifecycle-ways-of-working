@@ -52,15 +52,7 @@ Before entering this stage, there should be at least:
 
 ## Key Deliverables
 
-- release executed into production
-- rollout completed to the relevant users, teams, markets or functions
-- operational readiness confirmed
-- support and monitoring arrangements in place
-- relevant runbooks, support notes or operational documentation available
-- required access, roles or permissions in place
-- adoption activities completed or active at go-live
-- initial go-live status and issue overview
-- explicit decision: move into Operate & Monitor, or stabilise / rework / rollback first
+- Release & Readiness Pack — typically created ahead of this stage and used here to confirm readiness and support a safe, controlled release.
 
 ## Who Is Involved
 
@@ -91,23 +83,12 @@ Before entering this stage, there should be at least:
 
 **Others who may contribute:** Product Architect · Operational support roles · Business representatives · Super users · Other product teams · IT Architecture Partner
 
-## Templates and Tools
+## Related Deliverables and Templates
 
-At this stage, teams will typically use practical deployment and rollout tools suited to the context, for example:
-- release checklist or deployment plan
-- rollout plan
-- support readiness checklist
-- monitoring and alert setup
-- operational notes or runbooks
-- communication and training material
-- issue log or go-live tracking
-- contingency or rollback plan
-- automated test and deployment pipeline outputs where relevant
+Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
 
-The exact approach may vary, but the goal is always the same: a safe, controlled and usable move into production.
-
-- [Deployment Checklist](supporting-materials/deploy/deployment-checklist.xlsx) — Step-by-step pre- and post-deployment verification checklist
-- [Rollback Plan Template](supporting-materials/deploy/rollback-plan-template.docx) — Template for documenting rollback triggers, steps, and ownership
+- [Release & Readiness Pack](deliverable.html?d=release-and-readiness-pack)
+- [Release & Readiness Pack template](supporting-materials/release-and-readiness-pack/)
 
 ## Governance and Processes To Align With
 

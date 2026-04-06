@@ -52,13 +52,7 @@ Before entering this stage, there should be at least:
 
 ## Key Deliverables
 
-- prioritised improvement opportunities
-- decisions on optimisation, simplification or corrective actions
-- prioritised technical debt or reliability improvement items
-- identified process or tooling improvements
-- recommendations on whether specific changes should enter normal delivery flow or a larger lifecycle path
-- identified retirement candidates or retirement decisions where relevant
-- clear improvement actions with a defined route back into the lifecycle
+- Product Review Pack — updated on a recurring basis in this stage to capture improvement decisions and track agreed actions back into the lifecycle.
 
 ## Who Is Involved
 
@@ -89,18 +83,12 @@ Before entering this stage, there should be at least:
 
 **Others who may contribute:** IT Specialists / Developers · Adoption Specialist · IT Value Partner · IT Architecture Partner · IT Portfolio Partner · Dependent product teams · Operational roles
 
-## Templates and Tools
+## Related Deliverables and Templates
 
-At this stage, teams will typically use lightweight improvement and prioritisation tools suited to the product context, for example:
-- improvement backlog or optimisation log
-- technical debt view
-- recurring issue or friction analysis
-- reliability improvement view
-- prioritisation discussions across value, risk and sustainability
-- retirement candidate list
-- action tracking for agreed optimisation work
+Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
 
-The purpose is not to create extra process. It is to make conscious improvement decisions instead of letting the product drift.
+- [Product Review Pack](deliverable.html?d=product-review-pack)
+- [Product Review Pack template](supporting-materials/product-review-pack/)
 
 ## Governance and Processes To Align With
 

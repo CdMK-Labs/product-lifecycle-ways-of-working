@@ -50,13 +50,7 @@ Before entering this stage, there should be at least:
 
 ## Key Deliverables
 
-- usage and adoption insight
-- data on product behavior and usage patterns
-- visibility into drop-off points, friction or weak adoption areas
-- user feedback or sentiment insight
-- relevant outcome or benefit indicators where available
-- shared measurement views for product and business dialogue
-- identified learning points to feed into Adapt & Optimize
+- Product Review Pack — updated on a recurring basis in this stage to make usage, adoption and outcome signals visible and support business dialogue.
 
 ## Who Is Involved
 
@@ -87,21 +81,12 @@ Before entering this stage, there should be at least:
 
 **Others who may contribute:** IT Specialists / Developers · Analytics-related roles · Business representatives · Super users · IT Value Partner · Product Architect
 
-## Templates and Tools
+## Related Deliverables and Templates
 
-At this stage, teams will typically use lightweight measurement and learning tools suited to the product context, for example:
-- usage and adoption dashboards
-- product analytics or reporting
-- user feedback summaries
-- sentiment or satisfaction input
-- benefit indicator views
-- recurring learning reviews
-- logs of insights, questions or product hypotheses to explore further
+Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
 
-The purpose is not measurement for its own sake. It is to create useful insight that supports better decisions with the business.
-
-- [Measurement Plan Template](supporting-materials/measure-and-learn/measurement-plan-template.xlsx): Template for defining metrics, baselines, and reporting cadence
-- [Insights Report Template](supporting-materials/measure-and-learn/insights-report-template.pptx): Structured report for synthesising data, feedback, and recommendations
+- [Product Review Pack](deliverable.html?d=product-review-pack)
+- [Product Review Pack template](supporting-materials/product-review-pack/)
 
 ## Governance and Processes To Align With
 
