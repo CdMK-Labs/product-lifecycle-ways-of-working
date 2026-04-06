@@ -71,12 +71,9 @@ This stage does not require a mature solution idea, detailed estimates or a full
 
 **Others who may contribute:** Product Owner · Product Architect · IT Architecture Partner · IT Portfolio Partner · Adoption Specialist
 
-## Related Deliverables and Templates
+## Deliverable
 
-Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
-
-- [Opportunity Brief](supporting-materials/opportunity-brief/) — typically created in this stage to support early prioritisation and the next-step decision.
-- [Opportunity Brief template](supporting-materials/opportunity-brief/)
+- [Opportunity Brief](supporting-materials/opportunity-brief/) — use this pack to frame the opportunity and support a next-step decision.
 
 ## Governance and Processes To Align With
 

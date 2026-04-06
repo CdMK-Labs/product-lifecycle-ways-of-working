@@ -77,12 +77,9 @@ Before entering this stage, there should be at least:
 
 **Others who may contribute:** IT Specialists / Developers · Analytics-related roles · Business representatives · Super users · IT Value Partner · Product Architect
 
-## Related Deliverables and Templates
+## Deliverable
 
-Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
-
-- [Product Review Pack](supporting-materials/product-review-pack/) — updated on a recurring basis in this stage to make usage, adoption and outcome signals visible and support business dialogue.
-- [Product Review Pack template](supporting-materials/product-review-pack/)
+- [Product Review Pack](supporting-materials/product-review-pack/) — use this pack to make usage, adoption and outcome signals visible and support business dialogue.
 
 ## Governance and Processes To Align With
 

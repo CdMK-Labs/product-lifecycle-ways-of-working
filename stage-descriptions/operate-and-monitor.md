@@ -79,12 +79,9 @@ Before entering this stage, there should be at least:
 
 **Others who may contribute:** IT Supporter · Operational support roles · Platforms · Business representatives · Adoption Specialist · IT Architecture Partner · Vendors
 
-## Related Deliverables and Templates
+## Deliverable
 
-Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
-
-- [Product Review Pack](supporting-materials/product-review-pack/) — updated on a recurring basis in this stage to keep operational health visible and drive timely follow-up.
-- [Product Review Pack template](supporting-materials/product-review-pack/)
+- [Product Review Pack](supporting-materials/product-review-pack/) — use this pack to keep operational health visible and drive timely follow-up.
 
 ## Governance and Processes To Align With
 

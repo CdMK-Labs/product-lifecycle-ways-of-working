@@ -79,12 +79,9 @@ Before entering this stage, there should be at least:
 
 **Others who may contribute:** IT Specialists / Developers · Adoption Specialist · IT Value Partner · IT Architecture Partner · IT Portfolio Partner · Dependent product teams · Operational roles
 
-## Related Deliverables and Templates
+## Deliverable
 
-Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
-
-- [Product Review Pack](supporting-materials/product-review-pack/) — updated on a recurring basis in this stage to capture improvement decisions and track agreed actions back into the lifecycle.
-- [Product Review Pack template](supporting-materials/product-review-pack/)
+- [Product Review Pack](supporting-materials/product-review-pack/) — use this pack to capture improvement decisions and track agreed actions back into the lifecycle.
 
 ## Governance and Processes To Align With
 

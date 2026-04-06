@@ -79,12 +79,9 @@ Before entering this stage, there should be at least:
 
 **Others who may contribute:** Product Architect · Operational support roles · Business representatives · Super users · Other product teams · IT Architecture Partner
 
-## Related Deliverables and Templates
+## Deliverable
 
-Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
-
-- [Release & Readiness Pack](supporting-materials/release-and-readiness-pack/) — typically created ahead of this stage and used here to confirm readiness and support a safe, controlled release.
-- [Release & Readiness Pack template](supporting-materials/release-and-readiness-pack/)
+- [Release & Readiness Pack](supporting-materials/release-and-readiness-pack/) — use this pack to confirm readiness and support a safe, controlled release.
 
 ## Governance and Processes To Align With
 

@@ -87,12 +87,9 @@ This stage does not require every detail to be fixed upfront, but it does requir
 
 **Others who may contribute:** Adoption Specialist · Business representatives · Other product teams · Platforms · IT Architecture Partner
 
-## Related Deliverables and Templates
+## Deliverable
 
-Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
-
-- [Delivery Pack](supporting-materials/delivery-pack/) — typically created at the start of this stage and maintained throughout to keep execution visible and support deployment readiness.
-- [Delivery Pack template](supporting-materials/delivery-pack/)
+- [Delivery Pack](supporting-materials/delivery-pack/) — use this pack to keep execution visible and track readiness for deployment.
 
 ## Governance and Processes To Align With
 
