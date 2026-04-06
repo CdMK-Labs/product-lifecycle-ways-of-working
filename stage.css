@@ -301,7 +301,7 @@ h1 {
 
 /* ── Download CTA ────────────────────────────────────────────────────────── */
 
-.download-cta {
+a.download-cta {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -317,18 +317,18 @@ h1 {
   letter-spacing: 0.01em;
 }
 
-.download-cta:hover {
+a.download-cta:hover {
   background: #0a5c3a;
   text-decoration: none;
   color: #fff;
 }
 
-.download-cta:focus-visible {
+a.download-cta:focus-visible {
   outline: 2px solid var(--stage-color, #0D6A4B);
   outline-offset: 3px;
 }
 
-.download-cta::after {
+a.download-cta::after {
   content: none !important;
 }
 
