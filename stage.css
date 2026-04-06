@@ -254,7 +254,7 @@ h1 {
 }
 
 .role-bullets li::before {
-  color: #82CE71;
+  color: #b8f09a;
 }
 
 .others-contribute {
@@ -306,7 +306,7 @@ h1 {
   align-items: center;
   gap: 0.5rem;
   background: #02462F;
-  color: #82CE71;
+  color: #b8f09a;
   text-decoration: none;
   font-weight: 600;
   font-size: 0.95rem;
@@ -320,7 +320,7 @@ h1 {
 .download-cta:hover {
   opacity: 0.88;
   text-decoration: none;
-  color: #82CE71;
+  color: #b8f09a;
 }
 
 .download-cta:focus-visible {
