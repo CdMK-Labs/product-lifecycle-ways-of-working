@@ -89,6 +89,11 @@
       .deliverable-grid { grid-template-columns: 1fr; }
     }
 
+    /* Remove download arrow indicator on nav links to pack pages */
+    .stage-content a[href^="supporting-materials/"]::after {
+      content: none;
+    }
+
     /* Subtle link style inside the matrix */
     .stage-content table a {
       color: #0D6A4B;
