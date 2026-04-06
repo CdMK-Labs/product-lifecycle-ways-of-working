@@ -279,10 +279,12 @@
          * Each entry is one stage: group indices that should co-highlight, plus
          * the subpage URL. Deploy has two visible segments that must activate together.
          *
-         * Stage order matches the lifecycle sequence (used for prev/next on subpages):
-         *   1 Inflow · 2 Value Proposition · 3 Product Discovery · 4 Align & Plan ·
-         *   5 Develop & Deliver · 6 Deploy · 7 Operate & Monitor · 8 Measure & Learn ·
-         *   9 Adapt & Optimize · 10 Decommission
+         * The 8 implemented stages, in lifecycle order:
+         *   Value Proposition · Product Discovery · Align & Plan · Develop & Deliver ·
+         *   Deploy · Operate & Monitor · Measure & Learn · Adapt & Optimize
+         *
+         * Group 2 (decommission sidebar) is mapped to Adapt & Optimize as a fallback
+         * since decommission is not a navigable stage in this site.
          */
         const stages = [
           { indices: [6],     href: 'stage.html?s=adapt-and-optimize' },

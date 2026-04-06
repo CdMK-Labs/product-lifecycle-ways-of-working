@@ -13,6 +13,15 @@
   function stageUrl(id) { return 'stage.html?s=' + id; }
   function find(id)      { return STAGES.find(s => s.id === id); }
 
+  function navLink(href, cls, ariaLabel, html) {
+    const a = document.createElement('a');
+    a.href = href;
+    a.className = cls;
+    a.setAttribute('aria-label', ariaLabel);
+    a.innerHTML = html;
+    return a;
+  }
+
   const id    = new URLSearchParams(window.location.search).get('s');
   const stage = find(id);
 
@@ -21,7 +30,9 @@
     return;
   }
 
-  const idx = STAGES.indexOf(stage);
+  const idx       = STAGES.indexOf(stage);
+  const prevStage = find(stage.prev);
+  const nextStage = find(stage.next);
 
   // Accent bar colour + CSS custom property for themed accents
   document.getElementById('accent-bar').style.background = stage.color;
@@ -36,52 +47,32 @@
 
   // Top nav — prev / next with separate arrow and label spans
   const navStages = document.getElementById('nav-stages');
-
-  if (stage.prev) {
-    const a = document.createElement('a');
-    a.href = stageUrl(stage.prev);
-    a.className = 'nav-btn';
-    a.setAttribute('aria-label', 'Previous stage: ' + find(stage.prev).title);
-    a.innerHTML = '<span class="nav-arrow" aria-hidden="true">←</span>'
-                + '<span class="nav-label">' + find(stage.prev).title + '</span>';
-    navStages.appendChild(a);
-  }
-  if (stage.next) {
-    const a = document.createElement('a');
-    a.href = stageUrl(stage.next);
-    a.className = 'nav-btn nav-btn-next';
-    a.setAttribute('aria-label', 'Next stage: ' + find(stage.next).title);
-    a.innerHTML = '<span class="nav-label">' + find(stage.next).title + '</span>'
-                + '<span class="nav-arrow" aria-hidden="true">→</span>';
-    navStages.appendChild(a);
-  }
+  navStages.appendChild(navLink(
+    stageUrl(stage.prev), 'nav-btn',
+    'Previous stage: ' + prevStage.title,
+    '<span class="nav-arrow" aria-hidden="true">←</span><span class="nav-label">' + prevStage.title + '</span>'
+  ));
+  navStages.appendChild(navLink(
+    stageUrl(stage.next), 'nav-btn nav-btn-next',
+    'Next stage: ' + nextStage.title,
+    '<span class="nav-label">' + nextStage.title + '</span><span class="nav-arrow" aria-hidden="true">→</span>'
+  ));
 
   // Footer nav — prev / next as button-style links
   const footerNav = document.getElementById('stage-footer-nav');
   if (footerNav) {
     const inner = document.createElement('div');
     inner.className = 'footer-nav-inner';
-
-    if (stage.prev) {
-      const a = document.createElement('a');
-      a.href = stageUrl(stage.prev);
-      a.className = 'footer-nav-btn';
-      a.setAttribute('aria-label', 'Previous stage: ' + find(stage.prev).title);
-      a.innerHTML = '<span aria-hidden="true">←</span><span>' + find(stage.prev).title + '</span>';
-      inner.appendChild(a);
-    } else {
-      inner.appendChild(document.createElement('span')); // empty spacer to keep next right-aligned
-    }
-
-    if (stage.next) {
-      const a = document.createElement('a');
-      a.href = stageUrl(stage.next);
-      a.className = 'footer-nav-btn footer-nav-btn-next';
-      a.setAttribute('aria-label', 'Next stage: ' + find(stage.next).title);
-      a.innerHTML = '<span>' + find(stage.next).title + '</span><span aria-hidden="true">→</span>';
-      inner.appendChild(a);
-    }
-
+    inner.appendChild(navLink(
+      stageUrl(stage.prev), 'footer-nav-btn',
+      'Previous stage: ' + prevStage.title,
+      '<span aria-hidden="true">←</span><span>' + prevStage.title + '</span>'
+    ));
+    inner.appendChild(navLink(
+      stageUrl(stage.next), 'footer-nav-btn footer-nav-btn-next',
+      'Next stage: ' + nextStage.title,
+      '<span>' + nextStage.title + '</span><span aria-hidden="true">→</span>'
+    ));
     footerNav.appendChild(inner);
   }
 
@@ -124,7 +115,7 @@
         if (/common pitfalls/i.test(h2.textContent)) {
           let el = h2.nextElementSibling;
           while (el && el.tagName !== 'H2') {
-            const next = el.nextElementSibling;
+            const sibling = el.nextElementSibling;
             if (el.tagName === 'P'
                 && el.children.length === 1
                 && el.children[0].tagName === 'STRONG') {
@@ -133,7 +124,7 @@
               h3.textContent = el.children[0].textContent;
               el.parentNode.replaceChild(h3, el);
             }
-            el = next;
+            el = sibling;
           }
         }
       });
@@ -145,10 +136,10 @@
         wrapper.className = 'intro-block';
         firstH2.parentNode.insertBefore(wrapper, firstH2);
         wrapper.appendChild(firstH2);
-        let next = wrapper.nextElementSibling;
-        while (next && next.tagName === 'P') {
-          const toMove = next;
-          next = toMove.nextElementSibling;
+        let sib = wrapper.nextElementSibling;
+        while (sib && sib.tagName === 'P') {
+          const toMove = sib;
+          sib = toMove.nextElementSibling;
           wrapper.appendChild(toMove);
         }
       }

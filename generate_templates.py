@@ -12,7 +12,7 @@ from docx.shared import Inches, Pt, RGBColor
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 from pptx import Presentation
-from pptx.util import Inches, Pt as PptPt, Emu
+from pptx.util import Inches, Pt as PptPt
 from pptx.dml.color import RGBColor as PptRGB
 from pptx.enum.text import PP_ALIGN
 
@@ -178,14 +178,12 @@ def ppt_text_box(slide, text, l, t, w, h, size=24, bold=False,
     run.font.bold = bold
     run.font.color.rgb = ppt_rgb(color)
     if bg:
-        from pptx.oxml.ns import qn as pqn
         fill = txBox.fill
         fill.solid()
         fill.fore_color.rgb = ppt_rgb(bg)
     return txBox
 
 def ppt_rect(slide, l, t, w, h, fill_color, line_color=None):
-    from pptx.util import Inches
     shape = slide.shapes.add_shape(
         1,  # MSO_SHAPE_TYPE.RECTANGLE
         Inches(l), Inches(t), Inches(w), Inches(h)
