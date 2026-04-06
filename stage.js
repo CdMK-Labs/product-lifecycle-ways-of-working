@@ -144,9 +144,11 @@
         }
       }
 
-      // Make template links trigger a download
+      // Make template file links trigger a download (skip directory links)
       contentEl.querySelectorAll('a[href^="supporting-materials/"]').forEach(a => {
-        a.setAttribute('download', '');
+        if (/\.\w+$/.test(a.getAttribute('href'))) {
+          a.setAttribute('download', '');
+        }
       });
     })
     .catch(err => console.error(err));

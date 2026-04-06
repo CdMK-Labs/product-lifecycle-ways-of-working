@@ -42,9 +42,7 @@ Helps bring user, adoption and behavioral perspectives into the discovery, espec
 ### Product Architect
 Helps surface architectural constraints, non-functional implications, enabling needs and major technical risks.
 
-### Others who may contribute
-
-IT Value Partner, IT Architecture Partner, IT Specialists / Developers, relevant business stakeholders, super users, operational representatives.
+**Others who may contribute:** IT Value Partner, IT Architecture Partner, IT Specialists / Developers, relevant business stakeholders, super users, operational representatives.
 
 ## Minimum contents
 
