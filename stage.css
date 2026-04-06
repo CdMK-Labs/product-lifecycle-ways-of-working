@@ -305,7 +305,7 @@ h1 {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: var(--stage-color, #0D6A4B);
+  background: #02462F;
   color: #fff;
   text-decoration: none;
   font-weight: 600;
