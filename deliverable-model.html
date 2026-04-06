@@ -6,7 +6,86 @@
   <link rel="stylesheet" href="fonts.css">
   <title>Deliverable Model — Product Lifecycle</title>
   <link rel="stylesheet" href="stage.css">
-  <style>:root { --stage-color: #02462F; }</style>
+  <style>
+    :root { --stage-color: #02462F; }
+
+    .deliverable-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .deliverable-card {
+      display: block;
+      background: #fff;
+      border: 1px solid #ddeedd;
+      border-left: 3px solid #0D6A4B;
+      border-radius: 4px;
+      padding: 1rem 1.1rem;
+      text-decoration: none;
+      transition: box-shadow 0.18s ease, border-left-color 0.18s ease;
+    }
+
+    .deliverable-card:hover {
+      box-shadow: 0 2px 12px rgba(2, 70, 47, 0.1);
+      border-left-color: #82CE71;
+    }
+
+    .deliverable-card:focus-visible {
+      outline: 2px solid #0D6A4B;
+      outline-offset: 3px;
+    }
+
+    .card-number {
+      display: block;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: #82CE71;
+      margin-bottom: 0.2rem;
+    }
+
+    .card-group {
+      display: block;
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: #0D6A4B;
+      opacity: 0.65;
+      margin-bottom: 0.4rem;
+    }
+
+    .deliverable-card h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #02462F;
+      margin-bottom: 0.3rem;
+      line-height: 1.3;
+    }
+
+    .deliverable-card p {
+      font-size: 0.93rem;
+      color: #4a6a5a;
+      line-height: 1.65;
+      margin: 0;
+    }
+
+    .template-note {
+      font-size: 0.88rem;
+      color: #4a6a5a;
+      margin-top: 1rem;
+    }
+
+    @media (max-width: 800px) {
+      .deliverable-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 480px) {
+      .deliverable-grid { grid-template-columns: 1fr; }
+    }
+  </style>
 </head>
 <body>
   <div class="accent-bar" style="background: #02462F;"></div>
@@ -22,81 +101,75 @@
 
       <div class="intro-block">
         <h2>What this page is for</h2>
-        <p>This page explains the deliverables that support our product lifecycle model in practice.</p>
-        <p>The purpose is to make it easier for product teams to document what is needed to move through the lifecycle with clarity, while staying aligned with our financial model, governance processes and fundamentals.</p>
-        <p>The model is designed to support decisions, delivery and operations. It is not meant to add documentation for its own sake. It should help teams create the right level of structure for the stage they are in, using a small set of reusable deliverables rather than a large number of disconnected documents.</p>
+        <p>This page shows what to document across the product lifecycle. The purpose is to support decisions, delivery and live product management using a small set of reusable deliverables, rather than many disconnected documents.</p>
+        <p>The model stays aligned with the financial model, governance processes and our fundamentals. It is not about adding documentation for its own sake. It is about helping teams create the right level of structure for the stage they are in.</p>
       </div>
+
+      <h2>Deliverable packs</h2>
+      <div class="deliverable-grid">
+
+        <a href="deliverable.html?d=opportunity-brief" class="deliverable-card">
+          <span class="card-number">01</span>
+          <span class="card-group">Early Shaping</span>
+          <h3>Opportunity Brief</h3>
+          <p>Frames the problem, the expected value and the investment rationale. Used to decide whether to move into discovery.</p>
+        </a>
+
+        <a href="deliverable.html?d=discovery-pack" class="deliverable-card">
+          <span class="card-number">02</span>
+          <span class="card-group">Early Shaping</span>
+          <h3>Discovery Pack</h3>
+          <p>Captures what was learned in discovery: problem understanding, options explored, risks and a recommendation on next steps.</p>
+        </a>
+
+        <a href="deliverable.html?d=business-case-and-delivery-decision-pack" class="deliverable-card">
+          <span class="card-number">03</span>
+          <span class="card-group">Development</span>
+          <h3>Business Case &amp; Delivery Decision Pack</h3>
+          <p>The main approval deliverable. Brings together the value case, cost case and delivery plan for commitment and sign-off.</p>
+        </a>
+
+        <a href="deliverable.html?d=delivery-pack" class="deliverable-card">
+          <span class="card-number">04</span>
+          <span class="card-group">Execution</span>
+          <h3>Delivery Pack</h3>
+          <p>Tracks scope, progress, quality and dependencies throughout build and delivery. Updated continuously as work progresses.</p>
+        </a>
+
+        <a href="deliverable.html?d=release-and-readiness-pack" class="deliverable-card">
+          <span class="card-number">05</span>
+          <span class="card-group">Execution</span>
+          <h3>Release &amp; Readiness Pack</h3>
+          <p>Confirms the change is ready for go-live: release readiness, operational setup and adoption preparation.</p>
+        </a>
+
+        <a href="deliverable.html?d=product-review-pack" class="deliverable-card">
+          <span class="card-number">06</span>
+          <span class="card-group">Operations</span>
+          <h3>Product Review Pack</h3>
+          <p>The recurring live-product review covering service health, usage and adoption signals, and improvement decisions.</p>
+        </a>
+
+      </div>
+
+      <p class="template-note">Templates and minimum viable starting points are available on each deliverable pack page.</p>
+
+      <h2>How to use this model</h2>
+      <p>Start with the lifecycle stage you are currently in. Use the relevant deliverable pack as the minimum documentation needed to support that stage.</p>
+      <ul>
+        <li>Do not create more material than the stage requires</li>
+        <li>Update existing deliverables rather than creating new ones</li>
+        <li>Link to source tools, dashboards or working notes instead of duplicating content</li>
+        <li>Use the stage exit criteria to define what is good enough</li>
+      </ul>
 
       <h2>Principles</h2>
       <ul>
         <li>Document to support decisions, delivery and operations, not for its own sake</li>
         <li>Keep deliverables as light as possible for the stage</li>
-        <li>Prefer updating existing deliverables over creating new ones</li>
-        <li>Use one source of truth where possible</li>
-        <li>Let the stage exit criteria define the minimum documentation needed</li>
         <li>Treat deliverables as information objects, not fixed file types</li>
+        <li>Use one source of truth where possible</li>
         <li>Keep the lifecycle model and financial model aligned</li>
-      </ul>
-
-      <h2>How the model aligns</h2>
-      <p>The deliverable model follows the same logic as our lifecycle and aligns it with the financial model. This creates one shared structure from early shaping to live product operations.</p>
-
-      <h3>Early Shaping</h3>
-      <p>Covers <strong>Value Proposition</strong> and <strong>Product Discovery</strong>.</p>
-      <p>The purpose is to clarify the opportunity, reduce uncertainty and decide whether the topic should move forward.</p>
-
-      <h3>Development</h3>
-      <p>Covers <strong>Align &amp; Plan</strong>.</p>
-      <p>The purpose is to shape the commitment, bring together value case and cost case, and secure the required approval.</p>
-
-      <h3>Execution</h3>
-      <p>Covers <strong>Develop &amp; Deliver</strong> and <strong>Deploy</strong>.</p>
-      <p>The purpose is to turn the approved scope into a live, usable and supportable change.</p>
-
-      <h3>Operations</h3>
-      <p>Covers <strong>Operate &amp; Monitor</strong>, <strong>Measure &amp; Learn</strong> and <strong>Adapt &amp; Optimize</strong>.</p>
-      <p>The purpose is to run the product, learn from live use and improve it over time.</p>
-
-      <h2>Core deliverables</h2>
-      <p>The model uses a small set of core deliverables that can be reused across the lifecycle.</p>
-
-      <h3>Early Shaping</h3>
-
-      <h4><a href="deliverable.html?d=opportunity-brief">Opportunity Brief</a></h4>
-      <p>A lightweight deliverable that explains why the topic matters, what value it could create and whether it should move forward.</p>
-
-      <h4><a href="deliverable.html?d=discovery-pack">Discovery Pack</a></h4>
-      <p>A lightweight deliverable that captures what was learned, which options were explored, what risks and dependencies matter, and whether the topic is ready for planning and approval.</p>
-
-      <h3>Development</h3>
-
-      <h4><a href="deliverable.html?d=business-case-and-delivery-decision-pack">Business Case &amp; Delivery Decision Pack</a></h4>
-      <p>The main decision deliverable for approval and commitment.</p>
-      <p>It is supported by four appendices:</p>
-      <ul>
-        <li>KPI Appendix</li>
-        <li>Architecture Appendix</li>
-        <li>Estimates &amp; Financial Appendix</li>
-        <li>Risk Appendix</li>
-      </ul>
-
-      <h3>Execution</h3>
-
-      <h4><a href="deliverable.html?d=delivery-pack">Delivery Pack</a></h4>
-      <p>The practical execution deliverable used to track scope, progress, dependencies, quality and readiness for release.</p>
-
-      <h4><a href="deliverable.html?d=release-and-readiness-pack">Release &amp; Readiness Pack</a></h4>
-      <p>The deliverable used to confirm safe release, rollout, support readiness and go-live control.</p>
-
-      <h3>Operations</h3>
-
-      <h4><a href="deliverable.html?d=product-review-pack">Product Review Pack</a></h4>
-      <p>The recurring live-product review deliverable used to support ongoing operations, learning and improvement.</p>
-      <p>It includes three standing sections:</p>
-      <ul>
-        <li>Operational Health</li>
-        <li>Measurement &amp; Learning</li>
-        <li>Optimization &amp; Lifecycle Decisions</li>
       </ul>
 
       <h2>Deliverable matrix</h2>
@@ -105,7 +178,7 @@
           <tr>
             <th>Lifecycle group</th>
             <th>Lifecycle stages</th>
-            <th>Core deliverables</th>
+            <th>Deliverable packs</th>
           </tr>
         </thead>
         <tbody>
@@ -117,7 +190,7 @@
           <tr>
             <td>Development</td>
             <td>Align &amp; Plan</td>
-            <td>Business Case &amp; Delivery Decision Pack plus appendices</td>
+            <td>Business Case &amp; Delivery Decision Pack</td>
           </tr>
           <tr>
             <td>Execution</td>
@@ -131,46 +204,6 @@
           </tr>
         </tbody>
       </table>
-
-      <h2>How to use this model</h2>
-      <p>Start with the lifecycle stage you are in. Use the relevant deliverable as the minimum documentation needed to support that stage.</p>
-      <p>Do not create more material than the stage requires. Update existing deliverables where possible, and link to source tools, dashboards or working notes instead of duplicating information.</p>
-      <p>The aim is to make decisions, delivery and live product management clearer. The model should help teams create enough structure to work well, while keeping the documentation practical and aligned with both the lifecycle and the financial model.</p>
-
-      <h2>Related pages and templates</h2>
-      <p>From here, you can go to the lifecycle stage pages to understand what each stage is for and what good looks like, open the relevant templates for the stage you are working in, or use the minimum viable template versions as a starting point for documentation.</p>
-
-      <h3>Lifecycle stages</h3>
-      <ul>
-        <li><a href="stage.html?s=value-proposition">Value Proposition</a> — Early Shaping</li>
-        <li><a href="stage.html?s=product-discovery">Product Discovery</a> — Early Shaping</li>
-        <li><a href="stage.html?s=align-and-plan">Align &amp; Plan</a> — Development</li>
-        <li><a href="stage.html?s=develop-and-deliver">Develop &amp; Deliver</a> — Execution</li>
-        <li><a href="stage.html?s=deploy">Deploy</a> — Execution</li>
-        <li><a href="stage.html?s=operate-and-monitor">Operate &amp; Monitor</a> — Operations</li>
-        <li><a href="stage.html?s=measure-and-learn">Measure &amp; Learn</a> — Operations</li>
-        <li><a href="stage.html?s=adapt-and-optimize">Adapt &amp; Optimize</a> — Operations</li>
-      </ul>
-
-      <h3>Deliverable guidance pages</h3>
-      <ul>
-        <li><a href="deliverable.html?d=opportunity-brief">Opportunity Brief</a> — Early Shaping</li>
-        <li><a href="deliverable.html?d=discovery-pack">Discovery Pack</a> — Early Shaping</li>
-        <li><a href="deliverable.html?d=business-case-and-delivery-decision-pack">Business Case &amp; Delivery Decision Pack</a> — Development</li>
-        <li><a href="deliverable.html?d=delivery-pack">Delivery Pack</a> — Execution</li>
-        <li><a href="deliverable.html?d=release-and-readiness-pack">Release &amp; Readiness Pack</a> — Execution</li>
-        <li><a href="deliverable.html?d=product-review-pack">Product Review Pack</a> — Operations</li>
-      </ul>
-
-      <h3>Templates and supporting materials</h3>
-      <ul>
-        <li><a href="supporting-materials/opportunity-brief/">Opportunity Brief templates</a> — Early Shaping</li>
-        <li><a href="supporting-materials/discovery-pack/">Discovery Pack templates</a> — Early Shaping</li>
-        <li><a href="supporting-materials/business-case-and-delivery-decision-pack/">Business Case &amp; Delivery Decision Pack templates</a> — Development</li>
-        <li><a href="supporting-materials/delivery-pack/">Delivery Pack templates</a> — Execution</li>
-        <li><a href="supporting-materials/release-and-readiness-pack/">Release &amp; Readiness Pack templates</a> — Execution</li>
-        <li><a href="supporting-materials/product-review-pack/">Product Review Pack templates</a> — Operations</li>
-      </ul>
 
     </div>
   </div>
