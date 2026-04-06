@@ -1,123 +1,115 @@
-## What this deliverable is for
+## What this pack is for
 
-The Business Case & Delivery Decision Pack is the deliverable used to support commitment and approval before significant execution begins.
+The Business Case & Delivery Decision Pack brings the case together in one place: what we want to do, why it matters, what value it is expected to create, what it will take to deliver, and what risks need to be understood before moving forward.
 
-Its purpose is to bring the case together in one place: what we want to do, why it matters, what value it is expected to create, what it will take to deliver, what it is expected to cost, and what risks need to be understood before moving forward.
+It is the main approval deliverable for committing to a significant initiative. It should help decision-makers get to a clear decision and give the delivery team a usable baseline for execution.
 
-The pack should help decision-makers and product teams get to the same level of clarity. It is not only an approval document. It is also the working baseline for the transition from planning into execution.
+## What's in this pack
 
-The main pack should stay focused on the decision. Supporting detail should sit in linked appendices, not in the main narrative.
+#### [Business Case & Delivery Decision Pack template](supporting-materials/business-case-and-delivery-decision-pack/)
+The main decision document. Covers opportunity and outcome, value case, scope and approach, delivery setup, timeline, cost view, risks and the decision requested.
 
-## When to use it
+The pack is supported by four linked appendices that carry the necessary detail. These sit outside the main narrative to keep the main pack readable:
 
-Use this deliverable in [Align & Plan](stage.html?s=align-and-plan), when discovery has created enough clarity to move from exploration into commitment.
+**KPI Appendix** — defines leading and lagging KPIs, ownership and reporting cadence.
 
-It should be used when:
+**Architecture Appendix** — describes the high-level technical direction, key integrations and non-functional requirements.
+
+**Estimates & Financial Appendix** — documents development cost, run-cost impact, assumptions and contingency.
+
+**Risk Appendix** — makes major risks, mitigation actions and confidence visible.
+
+## When to use this pack
+
+Use this pack during [Align & Plan](stage.html?s=align-and-plan), when discovery has created enough clarity to move from exploration into commitment.
+
+The trigger is typically:
 - the topic is mature enough to shape into an approved initiative, investment or structured product change
 - value case and cost case need to be brought together
-- the team needs a shared view of scope, approach, estimates, timeline and key risks
 - a formal approval decision is required before execution starts
 
-For larger initiatives, this pack will typically support formal financial approval.
+For larger initiatives, this pack typically supports formal financial approval. For smaller product changes, it can be used in a lighter way to document the basis for commitment and delivery setup within the relevant product or portfolio governance.
 
-For smaller product changes, it can still be used in a lighter way to document the basis for commitment, prioritisation and delivery setup within the relevant product or portfolio governance.
+## Minimum viable starting point
+
+A clear decision summary, a short value case, a first-cut scope and approach, a high-level cost view and a recommendation is enough to open the approval conversation.
+
+Complete the appendices at the level of detail needed for the size and nature of the commitment. A smaller change may need only a brief KPI note and a short estimate summary. A larger initiative needs all four appendices in full.
+
+Do not make the main pack longer to compensate for weak appendices. Keep the main pack readable. Put the detail where it belongs.
+
+## Pack contents
+
+The main pack should stay focused on the decision itself. Supporting detail belongs in the appendices.
+
+### 1. Decision summary
+What is being proposed, why it matters and what decision is being requested. Should be easy to read quickly.
+
+### 2. Opportunity and outcome
+The problem or opportunity, the outcome we are aiming for, who is affected and why this matters now. Keep focus on the need and the intended result, not on detailed solution design.
+
+### 3. Value case
+Why this is worth doing: expected value, whether it is mainly about business impact, risk reduction, resilience, compliance, technical debt reduction or product sustainability, and how success will be recognised.
+
+### 4. Scope and approach
+What is in scope, what is out of scope, what is expected in the first release or meaningful increment, and the high-level delivery approach. Should make the boundaries of the commitment visible.
+
+### 5. Delivery setup
+Who is expected to lead and contribute, which teams or suppliers are involved, and which dependencies matter most. Should show whether the planned setup is realistic.
+
+### 6. Timeline and milestones
+The expected path forward: major milestones, key dependency points, expected first release and overall timing. Should stay at decision level, not become a detailed project plan.
+
+### 7. Cost and investment view
+A summary of expected development cost, run-cost implications, major cost assumptions and contingency. Detailed figures sit in the financial appendix.
+
+### 8. Risks and confidence
+The biggest risks, key unknowns, major dependencies and the team's overall confidence in the case. Should make uncertainty visible in a responsible way.
+
+### 9. Recommendation and decision requested
+What is being recommended, what approval or commitment is being requested, and what happens next if approved, held, reshaped or stopped.
 
 ## Who is typically involved
 
-### Product Manager
-Usually leads the overall shaping of the pack and ensures the value case, priorities and business context are clear.
+**Product Manager** — usually leads the overall shaping and ensures the value case, priorities and business context are clear.
 
-### Head of Product
-Ensures the pack reflects a realistic and responsible product commitment, including delivery setup, lifecycle implications and product ownership.
+**Head of Product** — ensures the pack reflects a realistic product commitment, including delivery setup, lifecycle implications and product ownership.
 
-### Business Owner
-Provides business context, expected outcomes and decision input from the business side.
+**Business Owner** — provides business context, expected outcomes and the business-side decision input.
 
-### Product Owner
-Helps shape the initial scope, priorities and high-level backlog view.
+**Product Owner** — helps shape the initial scope, priorities and high-level backlog view.
 
-### Product Architect
-Provides the high-level technical direction, non-functional scope, enabling needs and architectural constraints.
+**Product Architect** — provides the high-level technical direction, non-functional scope and enabling needs.
 
-### IT Delivery Lead
-Supports the shaping of delivery approach, dependencies, estimates, timeline and risk view.
+**IT Delivery Lead** — supports the shaping of delivery approach, dependencies, estimates and risk view.
 
-**Others who may contribute:** IT Value Partner, IT Portfolio Partner, Adoption Specialist, IT Specialists / Developers, relevant business stakeholders, vendors where relevant.
-
-## Minimum contents
-
-The main pack should contain enough information to support a sound decision and a responsible move into execution. It should stay focused on the decision itself, while detailed material sits in linked appendices.
-
-### 1. Decision summary
-A short summary of what is being proposed, why it matters, and what decision is being requested. This section should make it easy for a reader to understand the case quickly.
-
-### 2. Opportunity and outcome
-A clear description of the problem or opportunity, the outcome we are aiming for, who is affected, and why this matters now. This section should keep the focus on the need and the intended result, not on detailed solution design.
-
-### 3. Value case
-A clear explanation of why this is worth doing. This should cover the expected value, whether that value is mainly about business impact, risk reduction, resilience, compliance, technical debt reduction, simplification or product sustainability, and how success is expected to be recognised.
-
-### 4. Scope and approach
-A clear description of what is in scope, what is out of scope, what is expected in the first release or first meaningful increment, and the high-level delivery approach. This section should make the boundaries of the commitment visible.
-
-### 5. Delivery setup
-A view of who is expected to lead and contribute, which teams or suppliers are involved, and which dependencies matter most. This section should show whether the planned setup is realistic.
-
-### 6. Timeline and milestones
-A high-level view of the expected path forward, including major milestones, key dependency points, expected first release, and the overall timing for delivery. This should stay at decision level, not become a detailed project plan.
-
-### 7. Cost and investment view
-A summary of the expected development cost, expected run-cost implications, major cost assumptions and contingency. The main pack should summarise the investment view clearly, while detailed figures sit in the financial appendix.
-
-### 8. Risks and confidence
-A short view of the biggest risks, key unknowns, major dependencies and the team's overall confidence in the case. This section should make uncertainty visible in a responsible way.
-
-### 9. Recommendation and decision requested
-A clear statement of what is being recommended, what approval or commitment is being requested, and what happens next if approved, held, reshaped or stopped. The reader should never be left unsure what decision is needed.
-
-### 10. Linked appendices
-The pack should link to the supporting appendices that provide the necessary detail:
-- KPI Appendix
-- Architecture Appendix
-- Estimates & Financial Appendix
-- Risk Appendix
+**Others who may contribute:** IT Value Partner, IT Portfolio Partner, Adoption Specialist, IT Specialists / Developers, business stakeholders, vendors where relevant.
 
 ## What good looks like
 
-A good Business Case & Delivery Decision Pack is clear, balanced and decision-oriented.
+A good Business Case & Delivery Decision Pack is clear, balanced and decision-oriented. It:
+- explains the problem and intended outcome clearly
+- makes the value case and cost case easy to understand
+- defines the commitment at the right level without pretending everything is known
+- makes the most important risks visible
+- gives decision-makers enough to approve, challenge, reshape or stop
+- gives the team a usable baseline for execution
 
-It should:
-- explain the problem and intended outcome clearly
-- make the value case and cost case easy to understand
-- define the commitment at the right level, without pretending everything is known in detail
-- show that scope, delivery setup, timeline and dependencies have been thought through
-- make the most important risks visible
-- give decision-makers enough confidence to approve, challenge, reshape or stop the case
-- give the team a usable baseline for the move into execution
-
-A strong pack can usually be read quickly, presented clearly, and used afterwards as a reference point rather than being forgotten once approval is given.
+A strong pack can be read quickly, presented clearly and used afterwards as a reference, not forgotten once approval is given.
 
 ## Common pitfalls
 
 **Starting with the solution instead of the need**
 
-If the pack explains what we want to build before clarifying the problem and outcome, the decision becomes weaker.
-
-**Making the value case too vague**
-
-If the expected value is not specific enough, it becomes difficult to judge whether the case is worth approving.
-
-**Mixing ambition and scope without clear boundaries**
-
-A case becomes hard to approve when it is unclear what is actually included in the commitment.
+If the pack explains what to build before clarifying the problem and outcome, the decision becomes weaker.
 
 **Hiding uncertainty behind detailed numbers**
 
-False precision creates weak decisions. It is better to be clear about assumptions, uncertainty and confidence level.
+False precision creates weak decisions. It is better to be clear about assumptions and confidence level.
 
 **Putting too much detail in the main pack**
 
-If the main pack becomes too long or technical, the decision gets lost. The main pack should stay readable, with detail in appendices.
+If the main pack becomes too long or technical, the decision gets lost. Keep the main pack readable, with detail in appendices.
 
 **Treating the pack as only a finance document**
 
@@ -127,30 +119,8 @@ This deliverable should support approval, but it should also help the team move 
 
 A weak case often focuses only on delivery and misses adoption, operations, sustainability, run-cost or long-term product impact.
 
-## Related lifecycle stages
+## Related stages
 
-This deliverable is most closely linked to [Align & Plan](stage.html?s=align-and-plan), where the case is shaped into a form that can support commitment and approval.
+Most closely linked to [Align & Plan](stage.html?s=align-and-plan).
 
-It builds on the outputs from:
-- [Value Proposition](stage.html?s=value-proposition), which clarifies why the topic matters
-- [Product Discovery](stage.html?s=product-discovery), which reduces uncertainty and surfaces the main options, risks and dependencies
-
-It creates the baseline for:
-- [Develop & Deliver](stage.html?s=develop-and-deliver), where the approved scope is turned into working outcomes
-- [Deploy](stage.html?s=deploy), where the change is released and made ready for live use
-
-In that sense, the Business Case & Delivery Decision Pack is the bridge between early shaping and execution.
-
-## Templates and supporting materials
-
-The core template for this deliverable is the [Business Case & Delivery Decision Pack template](supporting-materials/business-case-and-delivery-decision-pack/).
-
-It is supported by four linked appendices:
-- **KPI Appendix** — to define leading and lagging KPIs, ownership and reporting cadence
-- **Architecture Appendix** — to describe the high-level technical direction, key integrations and non-functional requirements
-- **Estimates & Financial Appendix** — to document development cost, run-cost impact, assumptions and contingency
-- **Risk Appendix** — to make major risks, mitigation actions and confidence visible
-
-Where possible, the deliverable should link to source material rather than duplicate it. For example, architecture diagrams, delivery tools, risk logs or financial assumptions can be linked if they are already maintained elsewhere and remain accessible.
-
-The aim is not to create a heavy approval pack. It is to create one decision-oriented deliverable, supported by the right level of detail.
+Builds on [Value Proposition](stage.html?s=value-proposition) and [Product Discovery](stage.html?s=product-discovery). Creates the baseline for [Develop & Deliver](stage.html?s=develop-and-deliver) and [Deploy](stage.html?s=deploy).

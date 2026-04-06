@@ -1,136 +1,115 @@
-## What this deliverable is for
+## What this pack is for
 
-The Release & Readiness Pack is the deliverable used to support safe release, controlled rollout and a smooth move into live operation.
+The Release & Readiness Pack supports safe release, controlled rollout and a smooth move into live operation. It brings the most important release and readiness information together in one place so the team and stakeholders can see whether the change is genuinely ready to release, support and use.
 
-Its purpose is to bring the most important release and readiness information together in one place: what is being released, how it will be deployed and rolled out, what is in place to support stable operations from day one, how users and stakeholders are being prepared where relevant, and what needs special attention during and after release.
+It is not only a technical deployment checklist. A good Release & Readiness Pack helps reduce avoidable instability, improves coordination at go-live and makes the move into normal operation cleaner.
 
-The Release & Readiness Pack is not only a technical deployment checklist. It should help the team and stakeholders see whether the change is genuinely ready for release, support and use.
+## What's in this pack
 
-A good Release & Readiness Pack helps reduce avoidable instability, improves coordination at release, and makes it easier to move into normal live operation with confidence.
+#### [Release & Readiness Pack template](supporting-materials/release-and-readiness-pack/)
+Your working document for coordinating deployment, rollout, support readiness, user preparation and go-live decision-making.
 
-The release approach may vary depending on the product context. Some products will rely on more coordinated go-live events, while others may move toward more frequent release through automated testing, deployment pipelines and repeatable controls. In both cases, the purpose of the deliverable is the same: to make release readiness visible and ensure the product can be released safely and supported properly.
+Supporting materials that can be linked from the pack:
+- deployment checklists
+- rollout plans
+- support readiness checklists
+- monitoring and alert setup
+- runbooks and support notes
+- communication and training material
+- rollback plans
+- go-live issue logs
 
-The Release & Readiness Pack should be prepared ahead of release and kept current as readiness evolves. It should be reviewed at the checkpoints that matter for release decisions, rollout coordination and early stabilisation.
+## When to use this pack
 
-## When to use it
+Use this pack during [Deploy](stage.html?s=deploy).
 
-Use this deliverable in [Deploy](stage.html?s=deploy).
-
-It should be used when:
+The trigger is typically:
 - the relevant changes are ready to move toward production
 - quality, security and non-functional checks have reached the level needed for go-live
 - support, monitoring and operational readiness need to be confirmed
 - rollout, communication and training activities need to be coordinated
-- the team needs a clear basis for go-live decision-making and early stabilisation
+- the team needs a clear basis for the go-live decision
 
-For larger deliveries, the Release & Readiness Pack may support formal go-live checkpoints and coordinated release governance.
+For larger deliveries, the pack may support formal go-live checkpoints and coordinated release governance. For smaller changes, it can be used in a lighter way to confirm that deployment, support and user readiness have been handled responsibly.
 
-For smaller product changes, it can still be used in a lighter way to confirm that deployment, support and user readiness have been handled responsibly.
+The pack should be prepared ahead of release and kept current as readiness evolves.
 
-## Who is typically involved
+## Minimum viable starting point
 
-### IT Delivery Lead
-Usually leads the shaping and coordination of the Release & Readiness Pack and helps keep release activities, dependencies and readiness actions visible.
+A release summary, a clear deployment and rollout plan, a confirmed support and monitoring setup, and a go-live decision statement is enough to proceed for most changes.
 
-### Product Owner
-Helps ensure business-facing readiness, rollout needs and immediate post-go-live priorities are clear.
+Complete the remaining sections at the level the change requires. A small internal update may need only a brief readiness checklist and a short support note. A larger rollout needs all sections in full, including rollback thinking and communication actions.
 
-### Head of Product
-Helps balance go-live ambition with product responsibility and supports final readiness decisions.
+## Pack contents
 
-### IT Specialists / Developers
-Contribute technical deployment input, configuration readiness, validation outcomes and immediate go-live support.
-
-### Adoption Specialist
-Contributes communication, training, user readiness and support planning where relevant.
-
-### Product Architect
-Helps ensure non-functional readiness, technical integrity and architectural considerations are understood at go-live.
-
-**Others who may contribute:** Support roles, business stakeholders, super users, vendors, dependent teams, Product Manager where rollout or value realization implications need visibility.
-
-## Minimum contents
-
-The Release & Readiness Pack should show whether the change is ready to be released and supported in live use. It should stay practical and action-oriented.
+The pack should stay practical and action-oriented. It should make release readiness visible, not become a full technical runbook.
 
 ### 1. Release summary
-A short summary of what is being released, why it matters and what the release is expected to achieve.
-
-This section should make the release context easy to understand.
+What is being released, why it matters and what the release is expected to achieve.
 
 ### 2. Deployment plan
-A clear view of how the release will happen, including the use of deployment pipelines, automation, manual controls or coordinated release steps where relevant.
-
-This should include the main release flow, key responsibilities and any important approval or control points needed for safe deployment.
+How the release will happen: deployment pipelines, automation, manual controls or coordinated release steps where relevant. Main release flow, key responsibilities and approval or control points.
 
 ### 3. Rollout plan
-A short description of how the change will be introduced to the relevant users, teams, markets or functions.
-
-This section should make rollout sequencing and scope visible where relevant.
+How the change will be introduced to the relevant users, teams, markets or functions. Rollout sequencing and scope where relevant.
 
 ### 4. Readiness checklist
-A view of the most important readiness points that must be confirmed before go-live.
-
-This should help the team and stakeholders judge whether the change is truly ready.
+The most important readiness points that must be confirmed before go-live. Helps the team and stakeholders judge whether the change is truly ready.
 
 ### 5. Support setup
-A short description of who will support the product at and after go-live, how support is organized, and where issues should go.
-
-This section is important for early live stability.
+Who will support the product at and after go-live, how support is organized and where issues should go. Important for early live stability.
 
 ### 6. Monitoring and alert readiness
-A summary of the monitoring, alerting and operational visibility that will be in place from day one.
-
-This section should help ensure the team can see and respond to issues quickly after release.
+The monitoring, alerting and operational visibility that will be in place from day one. Helps ensure the team can see and respond to issues quickly after release.
 
 ### 7. Access and permissions readiness
-A view of whether the relevant users, roles, teams or support functions will have the access needed at go-live.
-
-This section should reduce avoidable friction and support issues.
+Whether the relevant users, roles, teams or support functions will have the access needed at go-live.
 
 ### 8. Runbooks and support notes
-A short summary of the operational notes, runbooks or support guidance that exist to help with live use and issue handling.
-
-This should link to the underlying material where relevant.
+The operational notes, runbooks or support guidance that exist to help with live use and issue handling. Link to the underlying material where relevant.
 
 ### 9. Communication and training actions
-A summary of what is being communicated, who needs to be informed, and what training or guidance is in place.
-
-This section should make user and stakeholder readiness visible.
+What is being communicated, who needs to be informed, and what training or guidance is in place.
 
 ### 10. Rollback and contingency plan
-A short description of what will happen if the release does not work as expected.
-
-This should make major release-risk responses visible without becoming overly detailed in the main pack.
+What will happen if the release does not work as expected. Should make major release-risk responses visible without becoming overly detailed in the main pack.
 
 ### 11. Go-live issues and actions
-A view of the most important known issues, immediate post-go-live actions and stabilisation items.
-
-This section should support controlled follow-up rather than assuming that live means finished.
+The most important known issues, immediate post-go-live actions and stabilisation items.
 
 ### 12. Go-live confirmation or decision
-A clear statement of whether the release is approved to proceed, has gone live, is live with conditions, or needs delay, rework or rollback.
-
-The reader should never be left unsure about go-live status.
+Whether the release is approved to proceed, has gone live, is live with conditions, or needs delay, rework or rollback.
 
 ### 13. Owner and contributors
 The people responsible for the pack and the main contributors involved.
 
+## Who is typically involved
+
+**IT Delivery Lead** — usually leads the coordination of the pack and keeps release activities, dependencies and readiness actions visible.
+
+**Product Owner** — ensures business-facing readiness, rollout needs and immediate post-go-live priorities are clear.
+
+**Head of Product** — helps balance go-live ambition with product responsibility and supports final readiness decisions.
+
+**IT Specialists / Developers** — contribute technical deployment input, configuration readiness and validation outcomes.
+
+**Adoption Specialist** — contributes communication, training, user readiness and support planning where relevant.
+
+**Product Architect** — helps ensure non-functional readiness, technical integrity and architectural considerations are understood at go-live.
+
+**Others who may contribute:** Support roles, business stakeholders, super users, vendors, dependent teams.
+
 ## What good looks like
 
-A good Release & Readiness Pack is clear, practical and confidence-building.
+A good Release & Readiness Pack is clear, practical and confidence-building. It:
+- makes the release scope and go-live path easy to understand
+- shows that technical deployment, support and monitoring have been prepared
+- makes user and stakeholder readiness visible where relevant
+- surfaces known risks and contingency actions clearly
+- supports a controlled move into normal operation rather than a rushed handoff
+- makes good use of automated testing, deployment pipelines and repeatable controls where the product context supports it
 
-It should:
-- make the release scope and go-live path easy to understand
-- show that technical deployment, support and monitoring have been prepared
-- make user and stakeholder readiness visible where relevant
-- surface known risks and contingency actions clearly
-- help the team coordinate effectively during release
-- support a controlled move into normal operation rather than a rushed handoff
-- make early stabilisation and follow-up easier after release
-- make good use of automated testing, deployment pipelines and repeatable controls where the product context supports it
-
-A strong Release & Readiness Pack helps the team go live with discipline and gives stakeholders confidence that the release is ready to be used and supported.
+A strong pack helps the team go live with discipline and gives stakeholders confidence that the change is ready to be used and supported.
 
 ## Common pitfalls
 
@@ -146,50 +125,16 @@ If support setup, monitoring, access or runbooks are weak, avoidable instability
 
 Users and stakeholders often need communication, guidance or training before the release happens, not after.
 
-**Making the pack too detailed**
-
-The main pack should support release coordination and decision-making, not become a full technical runbook.
-
 **Assuming live means finished**
 
-Known issues, stabilization needs and immediate follow-up should still be visible after go-live.
+Known issues, stabilisation needs and immediate follow-up should still be visible after go-live.
 
 **Unclear ownership during go-live**
 
 If responsibilities are blurred, issue handling and coordination become weaker when pressure is highest.
 
-**Treating automation as separate from readiness**
+## Related stages
 
-Automated testing and deployment can reduce friction and risk, but they do not remove the need for operational visibility, support readiness and clear release ownership.
+Most closely linked to [Deploy](stage.html?s=deploy).
 
-## Related lifecycle stages
-
-This deliverable is most closely linked to [Deploy](stage.html?s=deploy), where the change is released, rolled out and made ready for normal live use.
-
-It builds on:
-- [Develop & Deliver](stage.html?s=develop-and-deliver), where the changes are built, validated and prepared for release
-
-It leads into:
-- [Operate & Monitor](stage.html?s=operate-and-monitor), where the product is managed in normal live operation
-- [Measure & Learn](stage.html?s=measure-and-learn), where usage, adoption and outcome signals begin to matter in practice
-
-In that sense, the Release & Readiness Pack is the bridge between execution and live operation.
-
-## Templates and supporting materials
-
-The core template for this deliverable is the [Release & Readiness Pack template](supporting-materials/release-and-readiness-pack/).
-
-Supporting materials may include:
-- deployment checklists
-- rollout plans
-- support readiness checklists
-- monitoring and alert setup
-- runbooks and support notes
-- communication plans
-- training material
-- rollback plans
-- go-live issue logs
-
-Where possible, the pack should link to source material rather than duplicate detailed operational or technical documentation.
-
-The aim is not to create a heavy go-live pack. It is to create one practical release deliverable that helps the team coordinate safely and move into live operation with clarity.
+Builds on [Develop & Deliver](stage.html?s=develop-and-deliver). Leads into [Operate & Monitor](stage.html?s=operate-and-monitor) and [Measure & Learn](stage.html?s=measure-and-learn).
