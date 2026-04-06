@@ -47,14 +47,7 @@ This stage does not require a mature solution idea, detailed estimates or a full
 
 ## Key Deliverables
 
-- a short description of the problem or opportunity
-- a high-level value statement
-- an initial view of affected users, processes or business areas
-- a clear indication of the primary rationale for investment: business value, risk reduction, or technical and lifecycle sustainability
-- strategic fit to business and product direction
-- initial classification into relevant theme or sunray
-- a view of whether this belongs in normal product flow, an existing investment frame, or a new investment path
-- a clear recommendation: move forward to Product Discovery, hold, reshape/reframe, or stop
+- Opportunity Brief — typically created in this stage to support early prioritisation and the next-step decision.
 
 ## Who Is Involved
 
@@ -82,19 +75,12 @@ This stage does not require a mature solution idea, detailed estimates or a full
 
 **Others who may contribute:** Product Owner · Product Architect · IT Architecture Partner · IT Portfolio Partner · Adoption Specialist
 
-## Templates and Tools
+## Related Deliverables and Templates
 
-At this stage, teams should work with lightweight framing tools, for example:
-- themes
-- sunrays
-- investment frame input
-- short problem and value statement
-- early stakeholder mapping
+Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
 
-This stage should stay concise. The goal is alignment and direction, not detailed documentation.
-
-- [Value Proposition Canvas](supporting-materials/value-proposition/value-proposition-canvas.docx): Structured canvas for mapping customer needs to product value
-- [Success Metrics Template](supporting-materials/value-proposition/success-metrics-template.xlsx): Template for defining and agreeing measurable outcomes
+- [Opportunity Brief](deliverable.html?d=opportunity-brief)
+- [Opportunity Brief template](supporting-materials/opportunity-brief/)
 
 ## Governance and Processes To Align With
 

@@ -60,14 +60,7 @@ This stage does not require every detail to be fixed upfront, but it does requir
 
 ## Key Deliverables
 
-- working product increments, configurations, integrations or implemented changes
-- updated backlog, work items or equivalent delivery tracking
-- relevant documentation created and updated as part of the work
-- evidence of quality checks, validation or testing appropriate to the delivery type
-- outputs from user validation, demos or stakeholder feedback where relevant
-- updated view of dependencies, risks and decisions
-- operationally relevant information needed for deployment
-- deliverables that are ready to move into Deploy
+- Delivery Pack — typically created at the start of this stage and maintained throughout to keep execution visible and support deployment readiness.
 
 ## Who Is Involved
 
@@ -98,21 +91,12 @@ This stage does not require every detail to be fixed upfront, but it does requir
 
 **Others who may contribute:** Adoption Specialist · Business representatives · Other product teams · Platforms · IT Architecture Partner
 
-## Templates and Tools
+## Related Deliverables and Templates
 
-At this stage, teams will typically use practical delivery tools and working methods suited to the context, for example:
-- backlog or work item tracking
-- milestone or iteration view
-- dependency tracking
-- risk and issue log
-- design or configuration documentation
-- test, validation or review evidence
-- technical and operational notes needed for deployment
+Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
 
-The method may vary. Some teams will work in a more iterative way, some in a more milestone-driven way, and some in a more continuous flow. The important thing is that work is visible, quality is built in, and progress is managed responsibly.
-
-- [Definition of Done](supporting-materials/develop-and-deliver/definition-of-done.docx): Shared quality checklist for completing any piece of work
-- [Sprint Review Template](supporting-materials/develop-and-deliver/sprint-review-template.pptx): Notes template for capturing demo outcomes and stakeholder feedback
+- [Delivery Pack](deliverable.html?d=delivery-pack)
+- [Delivery Pack template](supporting-materials/delivery-pack/)
 
 ## Governance and Processes To Align With
 

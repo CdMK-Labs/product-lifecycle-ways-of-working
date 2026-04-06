@@ -50,14 +50,7 @@ This stage does not require a committed solution, delivery plan or detailed esti
 
 ## Key Deliverables
 
-- a clearer problem statement
-- an initial view of users, stakeholders and impacted processes
-- early insights or evidence supporting the need
-- a shortlist of plausible options or directions
-- outputs from any lightweight prototyping or experiments, where used
-- an initial view of key risks, dependencies and constraints
-- a view of relevant competencies and likely capacity implications
-- a recommendation on next steps: move into Align & Plan, return for reframing, hold, or stop
+- Discovery Pack — typically created in this stage to capture what was learned and support a decision on moving forward.
 
 ## Who Is Involved
 
@@ -88,21 +81,12 @@ This stage does not require a committed solution, delivery plan or detailed esti
 
 **Others who may contribute:** Adoption Specialist · Product Architect · IT Specialists / Developers · IT Architecture Partner · IT Portfolio Partner
 
-## Templates and Tools
+## Related Deliverables and Templates
 
-At this stage, teams should use lightweight discovery tools, for example:
-- discovery questions or interview guides
-- early user or stakeholder mapping
-- problem framing
-- assumptions and risks log
-- simple option comparison
-- lightweight prototypes, mock-ups or experiments
-- dependency overview
+Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
 
-The aim is to create better understanding, not polished documentation.
-
-- [Research Plan Template](supporting-materials/product-discovery/research-plan-template.docx): Template for scoping and planning a research round
-- [Assumption Log](supporting-materials/product-discovery/assumption-log.xlsx): Tracker for capturing, rating, and testing key assumptions
+- [Discovery Pack](deliverable.html?d=discovery-pack)
+- [Discovery Pack template](supporting-materials/discovery-pack/)
 
 ## Governance and Processes To Align With
 

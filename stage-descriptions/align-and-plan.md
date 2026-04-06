@@ -58,17 +58,7 @@ This stage does not require fully detailed design or a final delivery schedule.
 
 ## Key Deliverables
 
-- agreed high-level functional scope
-- initial high-level feature backlog or set of epics
-- defined non-functional scope, including service level and security requirements
-- agreed technology direction and identified enabling features
-- named main delivery team and dependency overview
-- high-level timeline with milestones and initial iteration planning
-- effort and cost estimate
-- contingency view for identified risks
-- initial risk view
-- full business case where required, or equivalent commitment basis for smaller work
-- delivery plan approved and team clear to proceed
+- Business Case & Delivery Decision Pack — typically created and completed in this stage to support approval and responsible commitment before execution begins.
 
 ## Who Is Involved
 
@@ -99,23 +89,12 @@ This stage does not require fully detailed design or a final delivery schedule.
 
 **Others who may contribute:** IT Delivery Lead · IT Value Partner · IT Portfolio Partner · IT Architecture Partner · IT Specialists / Developers · Adoption Specialist
 
-## Templates and Tools
+## Related Deliverables and Templates
 
-At this stage, teams will typically use structured planning and shaping tools, for example:
-- business case template
-- cost and effort estimation input
-- high-level feature backlog or set of epics
-- dependency view
-- milestone or release view
-- high-level iteration plan
-- risk log
-- security and service level input
-- architecture and enabling feature input
+Use the deliverable page for guidance on purpose, minimum contents and what good looks like. Use the template when you are ready to document the work.
 
-The purpose is not detailed delivery management yet, but enough structure to support sound approval and responsible commitment.
-
-- [Delivery Plan Template](supporting-materials/align-and-plan/delivery-plan-template.xlsx): Template for documenting scope, sequence, and team capacity
-- [Risk Register](supporting-materials/align-and-plan/risk-register.xlsx): Structured log for capturing and managing delivery risks
+- [Business Case & Delivery Decision Pack](deliverable.html?d=business-case-and-delivery-decision-pack)
+- [Business Case & Delivery Decision Pack template](supporting-materials/business-case-and-delivery-decision-pack/)
 
 ## Governance and Processes To Align With
 
