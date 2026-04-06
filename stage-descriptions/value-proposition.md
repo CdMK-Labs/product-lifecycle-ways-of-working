@@ -93,8 +93,8 @@ At this stage, teams should work with lightweight framing tools, for example:
 
 This stage should stay concise. The goal is alignment and direction, not detailed documentation.
 
-- [Value Proposition Canvas](templates/value-proposition/value-proposition-canvas.docx): Structured canvas for mapping customer needs to product value
-- [Success Metrics Template](templates/value-proposition/success-metrics-template.xlsx): Template for defining and agreeing measurable outcomes
+- [Value Proposition Canvas](supporting-materials/value-proposition/value-proposition-canvas.docx): Structured canvas for mapping customer needs to product value
+- [Success Metrics Template](supporting-materials/value-proposition/success-metrics-template.xlsx): Template for defining and agreeing measurable outcomes
 
 ## Governance and Processes To Align With
 

@@ -101,8 +101,8 @@ At this stage, teams should use lightweight discovery tools, for example:
 
 The aim is to create better understanding, not polished documentation.
 
-- [Research Plan Template](templates/product-discovery/research-plan-template.docx): Template for scoping and planning a research round
-- [Assumption Log](templates/product-discovery/assumption-log.xlsx): Tracker for capturing, rating, and testing key assumptions
+- [Research Plan Template](supporting-materials/product-discovery/research-plan-template.docx): Template for scoping and planning a research round
+- [Assumption Log](supporting-materials/product-discovery/assumption-log.xlsx): Tracker for capturing, rating, and testing key assumptions
 
 ## Governance and Processes To Align With
 

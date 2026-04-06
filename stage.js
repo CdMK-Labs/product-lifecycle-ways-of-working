@@ -79,9 +79,9 @@
   // Fetch and render markdown content
   const contentEl = document.getElementById('stage-content');
 
-  fetch('content/' + stage.id + '.md')
+  fetch('stage-descriptions/' + stage.id + '.md')
     .then(r => {
-      if (!r.ok) throw new Error('Could not load content/' + stage.id + '.md (' + r.status + ')');
+      if (!r.ok) throw new Error('Could not load stage-descriptions/' + stage.id + '.md (' + r.status + ')');
       return r.text();
     })
     .then(md => {
@@ -145,7 +145,7 @@
       }
 
       // Make template links trigger a download
-      contentEl.querySelectorAll('a[href^="templates/"]').forEach(a => {
+      contentEl.querySelectorAll('a[href^="supporting-materials/"]').forEach(a => {
         a.setAttribute('download', '');
       });
     })

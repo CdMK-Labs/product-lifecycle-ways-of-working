@@ -1032,43 +1032,43 @@ def migration_checklist(path):
 BASE = os.path.dirname(os.path.abspath(__file__))
 
 files = {
-    "templates/inflow": [
+    "supporting-materials/inflow": [
         ("inflow-request-template.docx", inflow_request),
         ("stakeholder-brief.docx",        stakeholder_brief),
     ],
-    "templates/value-proposition": [
+    "supporting-materials/value-proposition": [
         ("value-proposition-canvas.docx",  vp_canvas),
         ("success-metrics-template.xlsx",  success_metrics),
     ],
-    "templates/product-discovery": [
+    "supporting-materials/product-discovery": [
         ("research-plan-template.docx", research_plan),
         ("assumption-log.xlsx",          assumption_log),
     ],
-    "templates/align-and-plan": [
+    "supporting-materials/align-and-plan": [
         ("delivery-plan-template.xlsx", delivery_plan),
         ("risk-register.xlsx",           risk_register),
     ],
-    "templates/develop-and-deliver": [
+    "supporting-materials/develop-and-deliver": [
         ("definition-of-done.docx",      definition_of_done),
         ("sprint-review-template.pptx",  sprint_review_pptx),
     ],
-    "templates/deploy": [
+    "supporting-materials/deploy": [
         ("deployment-checklist.xlsx",   deployment_checklist),
         ("rollback-plan-template.docx", rollback_plan),
     ],
-    "templates/operate-and-monitor": [
+    "supporting-materials/operate-and-monitor": [
         ("incident-report-template.docx",    incident_report),
         ("operational-review-template.pptx", operational_review_pptx),
     ],
-    "templates/measure-and-learn": [
+    "supporting-materials/measure-and-learn": [
         ("measurement-plan-template.xlsx", measurement_plan),
         ("insights-report-template.pptx", insights_report_pptx),
     ],
-    "templates/adapt-and-optimize": [
+    "supporting-materials/adapt-and-optimize": [
         ("optimization-backlog-template.xlsx", optimization_backlog),
         ("retrospective-template.pptx",        retrospective_pptx),
     ],
-    "templates/decommission": [
+    "supporting-materials/decommission": [
         ("decommission-plan-template.docx", decommission_plan),
         ("migration-checklist.xlsx",         migration_checklist),
     ],

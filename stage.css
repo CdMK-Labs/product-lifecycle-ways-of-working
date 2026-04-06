@@ -288,7 +288,7 @@ h1 {
 }
 
 /* Download indicator on template links */
-.stage-content a[href^="templates/"]::after {
+.stage-content a[href^="supporting-materials/"]::after {
   content: ' ↓';
   font-size: 0.85em;
   opacity: 0.6;

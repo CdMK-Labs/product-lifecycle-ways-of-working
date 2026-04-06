@@ -106,8 +106,8 @@ At this stage, teams will typically use practical deployment and rollout tools s
 
 The exact approach may vary, but the goal is always the same: a safe, controlled and usable move into production.
 
-- [Deployment Checklist](templates/deploy/deployment-checklist.xlsx): Step-by-step pre- and post-deployment verification checklist
-- [Rollback Plan Template](templates/deploy/rollback-plan-template.docx): Template for documenting rollback triggers, steps, and ownership
+- [Deployment Checklist](supporting-materials/deploy/deployment-checklist.xlsx): Step-by-step pre- and post-deployment verification checklist
+- [Rollback Plan Template](supporting-materials/deploy/rollback-plan-template.docx): Template for documenting rollback triggers, steps, and ownership
 
 ## Governance and Processes To Align With
 

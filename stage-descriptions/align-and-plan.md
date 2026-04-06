@@ -114,8 +114,8 @@ At this stage, teams will typically use structured planning and shaping tools, f
 
 The purpose is not detailed delivery management yet, but enough structure to support sound approval and responsible commitment.
 
-- [Delivery Plan Template](templates/align-and-plan/delivery-plan-template.xlsx): Template for documenting scope, sequence, and team capacity
-- [Risk Register](templates/align-and-plan/risk-register.xlsx): Structured log for capturing and managing delivery risks
+- [Delivery Plan Template](supporting-materials/align-and-plan/delivery-plan-template.xlsx): Template for documenting scope, sequence, and team capacity
+- [Risk Register](supporting-materials/align-and-plan/risk-register.xlsx): Structured log for capturing and managing delivery risks
 
 ## Governance and Processes To Align With
 

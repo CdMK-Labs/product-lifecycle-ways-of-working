@@ -100,8 +100,8 @@ At this stage, teams will typically use lightweight measurement and learning too
 
 The purpose is not measurement for its own sake. It is to create useful insight that supports better decisions with the business.
 
-- [Measurement Plan Template](templates/measure-and-learn/measurement-plan-template.xlsx): Template for defining metrics, baselines, and reporting cadence
-- [Insights Report Template](templates/measure-and-learn/insights-report-template.pptx): Structured report for synthesising data, feedback, and recommendations
+- [Measurement Plan Template](supporting-materials/measure-and-learn/measurement-plan-template.xlsx): Template for defining metrics, baselines, and reporting cadence
+- [Insights Report Template](supporting-materials/measure-and-learn/insights-report-template.pptx): Structured report for synthesising data, feedback, and recommendations
 
 ## Governance and Processes To Align With
 

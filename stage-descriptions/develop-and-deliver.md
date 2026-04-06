@@ -110,8 +110,8 @@ At this stage, teams will typically use practical delivery tools and working met
 
 The method may vary. Some teams will work in a more iterative way, some in a more milestone-driven way, and some in a more continuous flow. The important thing is that work is visible, quality is built in, and progress is managed responsibly.
 
-- [Definition of Done](templates/develop-and-deliver/definition-of-done.docx): Shared quality checklist for completing any piece of work
-- [Sprint Review Template](templates/develop-and-deliver/sprint-review-template.pptx): Notes template for capturing demo outcomes and stakeholder feedback
+- [Definition of Done](supporting-materials/develop-and-deliver/definition-of-done.docx): Shared quality checklist for completing any piece of work
+- [Sprint Review Template](supporting-materials/develop-and-deliver/sprint-review-template.pptx): Notes template for capturing demo outcomes and stakeholder feedback
 
 ## Governance and Processes To Align With
 

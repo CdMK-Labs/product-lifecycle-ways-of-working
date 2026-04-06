@@ -103,8 +103,8 @@ At this stage, teams will typically use practical operational tools and routines
 
 The purpose is not to create extra process. It is to make product health visible and manageable in day-to-day operation.
 
-- [Incident Report Template](templates/operate-and-monitor/incident-report-template.docx): Structured template for documenting incidents and root cause analysis
-- [Operational Review Template](templates/operate-and-monitor/operational-review-template.pptx): Periodic review template covering SLAs, incidents, and improvement actions
+- [Incident Report Template](supporting-materials/operate-and-monitor/incident-report-template.docx): Structured template for documenting incidents and root cause analysis
+- [Operational Review Template](supporting-materials/operate-and-monitor/operational-review-template.pptx): Periodic review template covering SLAs, incidents, and improvement actions
 
 ## Governance and Processes To Align With
 
