@@ -1,44 +1,36 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
+html { scroll-behavior: smooth; }
+
 body {
   background: #f5faf5;
-  font-family: sans-serif;
+  font-family: 'ArlaInterface', sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   color: #02462F;
 }
 
+/* ── Accent bar ──────────────────────────────────────────────────────────── */
+
 .accent-bar {
   width: 100%;
-  height: 8px;
+  height: 6px;
   flex-shrink: 0;
 }
 
-.page-body {
-  flex: 1;
-  max-width: 860px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 2.5rem 2rem 3rem;
-}
-
-h1 {
-  font-size: 3rem;
-  color: #02462F;
-  line-height: 1.1;
-  font-weight: 700;
-}
-
-
-/* ── Top navigation bar ──────────────────────────────────────────────────── */
+/* ── Top navigation ──────────────────────────────────────────────────────── */
 
 .stage-nav {
   width: 100%;
   border-bottom: 1px solid #c8e8c8;
-  padding: 0.75rem 2rem;
+  padding: 0.55rem 1.5rem;
   flex-shrink: 0;
   background: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .nav-inner {
@@ -46,93 +38,175 @@ h1 {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 1rem;
 }
 
 .nav-home {
+  flex-shrink: 0;
+  opacity: 0.6;
+  font-size: 0.85rem;
+}
+.nav-home:hover { opacity: 1; }
+
+.stage-indicator {
+  flex: 1;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  color: #0D6A4B;
   opacity: 0.6;
 }
 
 .nav-stages {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 0.75rem;
+  flex-shrink: 0;
 }
 
 .nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
   color: #0D6A4B;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 500;
   white-space: nowrap;
+  padding: 0.3rem 0.1rem;
+  border-radius: 3px;
   transition: color 0.15s, opacity 0.15s;
 }
-.nav-btn:hover { color: #02462F; opacity: 1; }
+.nav-btn:hover { color: #02462F; }
+.nav-btn:focus-visible { outline: 2px solid #0D6A4B; outline-offset: 3px; }
 
-/* ── Rendered markdown content ───────────────────────────────────────────── */
+.nav-arrow { flex-shrink: 0; }
+
+/* ── Page body ───────────────────────────────────────────────────────────── */
+
+.page-body {
+  flex: 1;
+  max-width: 860px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2.25rem 2rem 2.5rem;
+}
+
+h1 {
+  font-family: 'ArlaLife', 'ArlaInterface', sans-serif;
+  font-size: 2.8rem;
+  color: #02462F;
+  line-height: 1.1;
+  font-weight: 400;
+  margin-bottom: 1.75rem;
+}
+
+/* ── Stage content ───────────────────────────────────────────────────────── */
 
 .stage-content {
-  margin-top: 2.5rem;
-}
-
-/* Purpose — first h2 is larger and reads as an intro statement */
-.stage-content h2:first-of-type {
-  font-size: 1rem;
-  font-weight: 600;
-  text-transform: none;
-  letter-spacing: 0;
-  color: #1a3a2a;
-  border-bottom: none;
   margin-top: 0;
-  margin-bottom: 0.5rem;
-  padding-bottom: 0;
 }
 
-.stage-content h2:first-of-type + p {
-  font-size: 1.2rem;
-  color: #02462F;
-  line-height: 1.65;
-  max-width: 68ch;
-  margin-bottom: 2.5rem;
-  font-weight: 400;
+/* ── Intro block (What this stage is for) ────────────────────────────────── */
+
+.intro-block {
+  background: rgba(13, 106, 75, 0.04);
+  border-left: 3px solid var(--stage-color, #0D6A4B);
+  padding: 1.1rem 1.4rem 1.1rem 1.2rem;
+  border-radius: 0 4px 4px 0;
 }
 
-/* Standard section headings */
-.stage-content h2 {
-  color: #02462F;
-  font-size: 0.75rem;
+.intro-block p {
+  margin-bottom: 0.85rem;
+}
+
+.intro-block p:last-child {
+  margin-bottom: 0;
+}
+
+/* First H2 — label inside the intro block */
+.intro-block h2 {
+  font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  margin-top: 2.25rem;
-  margin-bottom: 0.9rem;
+  color: var(--stage-color, #0D6A4B);
+  border-bottom: none;
+  margin-top: 0;
+  margin-bottom: 0.55rem;
+  padding-bottom: 0;
+  opacity: 0.9;
+}
+
+/* Lead paragraph following the intro label */
+.intro-block h2 + p {
+  font-size: 1.12rem;
+  color: #02462F;
+  line-height: 1.72;
+  max-width: 66ch;
+  margin-bottom: 0.85rem;
+  font-weight: 400;
+}
+
+/* ── Standard section headings ───────────────────────────────────────────── */
+
+.stage-content h2 {
+  color: #02462F;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 2.5rem;
+  margin-bottom: 0.85rem;
   padding-bottom: 0.4rem;
   border-bottom: 1px solid #c8e8c8;
 }
 
+.stage-content .intro-block + h2 {
+  margin-top: 3.5rem;
+}
+
+.stage-content ul + h2,
+.stage-content .who-list + h2 {
+  margin-top: 2.75rem;
+}
+
+/* ── Subheadings ─────────────────────────────────────────────────────────── */
+
+.stage-content h3 {
+  color: #1a3a2a;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.65;
+}
+
+/* ── Body text ───────────────────────────────────────────────────────────── */
+
 .stage-content p {
   color: #2d4a3e;
-  line-height: 1.7;
-  max-width: 68ch;
-  margin-bottom: 1rem;
+  line-height: 1.75;
+  max-width: 66ch;
+  margin-bottom: 0.9rem;
 }
+
+/* ── Lists ───────────────────────────────────────────────────────────────── */
 
 .stage-content ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  max-width: 68ch;
-}
-
-.stage-content ul + h2 {
-  margin-top: 2.5rem;
+  max-width: 66ch;
 }
 
 .stage-content li {
   color: #2d4a3e;
-  line-height: 1.6;
-  padding: 0.45rem 0 0.45rem 1.5rem;
+  line-height: 1.65;
+  padding: 0.5rem 0 0.5rem 1.5rem;
   position: relative;
   border-bottom: 1px solid #eef6ee;
 }
@@ -142,35 +216,57 @@ h1 {
 }
 
 .stage-content li::before {
-  content: '–';
+  content: '·';
   position: absolute;
   left: 0;
   color: #0D6A4B;
   font-weight: 600;
 }
 
-/* ── Who Is Involved — role pills ────────────────────────────────────────── */
+/* ── Sub-headlines: Who Is Involved + Common Pitfalls ───────────────────── */
 
-.who-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  max-width: none;
+.stage-content .role-name {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #02462F;
+  line-height: 1.4;
+  text-transform: none;
+  letter-spacing: normal;
+  opacity: 1;
+  margin-top: 1.5rem;
+  margin-bottom: 0.3rem;
 }
 
-.who-list li {
-  background: #d4edda;
-  color: #02462F;
-  border-radius: 2rem;
-  padding: 0.3rem 0.9rem;
-  font-size: 0.82rem;
-  font-weight: 600;
-  line-height: 1.4;
+.role-name-first {
+  margin-top: 0.5rem;
+}
+
+.role-bullets {
+  max-width: 66ch;
+}
+
+.role-bullets li {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  font-size: 0.92rem;
+  line-height: 1.6;
   border-bottom: none;
 }
 
-.who-list li::before {
-  content: none;
+.role-bullets li::before {
+  color: #b8f09a;
+}
+
+.others-contribute {
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+  color: #4a6a5a;
+  max-width: 66ch;
+  line-height: 1.65;
+}
+
+.others-contribute strong {
+  color: #02462F;
 }
 
 /* ── Links ───────────────────────────────────────────────────────────────── */
@@ -185,14 +281,191 @@ h1 {
   text-decoration: underline;
 }
 
+.stage-content a:focus-visible {
+  outline: 2px solid #0D6A4B;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
 /* Download indicator on template links */
-.stage-content a[href^="templates/"]::after {
+.stage-content a[href^="supporting-materials/"]::after {
   content: ' ↓';
   font-size: 0.85em;
   opacity: 0.6;
 }
 
 /* File-type badges on template links */
-.stage-content a[href$=".docx"]::before { content: 'Word · '; font-size: 0.78em; opacity: 0.55; font-weight: 400; }
-.stage-content a[href$=".xlsx"]::before { content: 'Excel · '; font-size: 0.78em; opacity: 0.55; font-weight: 400; }
-.stage-content a[href$=".pptx"]::before { content: 'PowerPoint · '; font-size: 0.78em; opacity: 0.55; font-weight: 400; }
+.stage-content a[href$=".docx"]::before  { content: 'Word · ';        font-size: 0.78em; opacity: 0.55; font-weight: 400; }
+.stage-content a[href$=".xlsx"]::before  { content: 'Excel · ';       font-size: 0.78em; opacity: 0.55; font-weight: 400; }
+.stage-content a[href$=".pptx"]::before  { content: 'PowerPoint · ';  font-size: 0.78em; opacity: 0.55; font-weight: 400; }
+
+/* ── Download CTA ────────────────────────────────────────────────────────── */
+
+a.download-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #02462F;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.7rem 1.25rem;
+  border-radius: 4px;
+  margin: 1.75rem 0 0.25rem;
+  transition: background 0.18s;
+  letter-spacing: 0.01em;
+}
+
+a.download-cta:hover {
+  background: #0a5c3a;
+  text-decoration: none;
+  color: #fff;
+}
+
+a.download-cta:focus-visible {
+  outline: 2px solid var(--stage-color, #0D6A4B);
+  outline-offset: 3px;
+}
+
+a.download-cta::after {
+  content: none !important;
+}
+
+.download-note {
+  font-size: 0.8rem;
+  color: #4a6a5a;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+/* ── Tables ──────────────────────────────────────────────────────────────── */
+
+.stage-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.stage-content th {
+  text-align: left;
+  padding: 0.55rem 0.85rem;
+  background: #02462F;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+}
+
+.stage-content td {
+  padding: 0.55rem 0.85rem;
+  border-bottom: 1px solid #e0ede0;
+  color: #2d4a3e;
+  vertical-align: top;
+  line-height: 1.55;
+  font-size: 0.9rem;
+}
+
+.stage-content tbody tr:nth-child(even) td {
+  background: rgba(13, 106, 75, 0.03);
+}
+
+/* ── Deliverable names (h4) ──────────────────────────────────────────────── */
+
+.stage-content h4 {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #02462F;
+  line-height: 1.4;
+  text-transform: none;
+  letter-spacing: normal;
+  opacity: 1;
+  margin-top: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+
+/* ── Navigation: Deliverable Model link ──────────────────────────────────── */
+
+.nav-deliverable {
+  opacity: 0.55;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+.nav-deliverable:hover { opacity: 1; }
+
+/* ── Footer navigation ───────────────────────────────────────────────────── */
+
+.stage-footer-nav {
+  border-top: 1px solid #c8e8c8;
+  background: #fff;
+  padding: 1rem 1.5rem;
+}
+
+.footer-nav-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #0D6A4B;
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 500;
+  padding: 0.55rem 0.85rem;
+  border: 1px solid #c8e8c8;
+  border-radius: 4px;
+  background: #f5faf5;
+  white-space: nowrap;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.footer-nav-btn:hover {
+  border-color: #0D6A4B;
+  background: #fff;
+}
+
+.footer-nav-btn:focus-visible {
+  outline: 2px solid #0D6A4B;
+  outline-offset: 2px;
+}
+
+/* ── Mobile ──────────────────────────────────────────────────────────────── */
+
+@media (max-width: 620px) {
+  /* Nav: hide prev/next labels — arrows only */
+  .stage-nav { padding: 0.5rem 1rem; }
+  .nav-btn .nav-label { display: none; }
+  .nav-arrow { font-size: 1rem; }
+  .nav-stages { gap: 0.25rem; }
+  .nav-deliverable { display: none; }
+
+  /* Page spacing */
+  .page-body { padding: 1.5rem 1.1rem 2rem; }
+  h1 { font-size: 2rem; margin-bottom: 1.25rem; }
+
+  /* Section rhythm */
+  .stage-content h2 { margin-top: 2rem; }
+  .stage-content ul + h2 { margin-top: 2.25rem; }
+
+  /* Intro block */
+  .intro-block { padding: 0.9rem 1.1rem 0.9rem 1rem; }
+  .stage-content h2:first-of-type + p { font-size: 1.05rem; }
+
+  /* Footer nav */
+  .stage-footer-nav { padding: 0.85rem 1rem; }
+  .footer-nav-btn { font-size: 0.82rem; padding: 0.5rem 0.7rem; }
+}
+
+@media (max-width: 380px) {
+  h1 { font-size: 1.75rem; }
+  .stage-indicator { display: none; }
+  .footer-nav-btn { font-size: 0.78rem; padding: 0.45rem 0.6rem; }
+}
