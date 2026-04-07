@@ -149,6 +149,12 @@
       line-height: 1.75;
     }
 
+    .home-models-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.75rem;
+    }
+
     .home-deliverable-card {
       display: block;
       background: #fff;
@@ -157,7 +163,6 @@
       border-radius: 4px;
       padding: 1.1rem 1.4rem;
       text-decoration: none;
-      max-width: 560px;
       transition: box-shadow 0.18s ease, border-left-color 0.18s ease;
     }
 
@@ -188,6 +193,7 @@
 
     @media (max-width: 900px) {
       .stages-grid { grid-template-columns: 1fr 1fr; }
+      .home-models-grid { grid-template-columns: 1fr; }
     }
 
     @media (max-width: 500px) {
@@ -256,10 +262,16 @@
 
     <section class="home-deliverable">
       <p class="home-section-label">Supporting Models</p>
-      <a href="deliverable-model.html" class="home-deliverable-card">
-        <h3>Deliverable Model</h3>
-        <p>Understand what to document at each stage, how deliverables connect to the financial model, and where to find the relevant templates.</p>
-      </a>
+      <div class="home-models-grid">
+        <a href="deliverable-model.html" class="home-deliverable-card">
+          <h3>Deliverable Model</h3>
+          <p>Understand what to document at each stage, how deliverables connect to the financial model, and where to find the relevant templates.</p>
+        </a>
+        <a href="financial-model.html" class="home-deliverable-card">
+          <h3>Financial Model</h3>
+          <p>Understand the financial stages and processes that run alongside the product lifecycle, from early framing through to live cost and value review.</p>
+        </a>
+      </div>
     </section>
 
     <section class="home-how">
