@@ -4,50 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../../fonts.css">
-  <title>Business Case &amp; Delivery Decision Pack Product Lifecycle</title>
+  <title>Business Case &amp; Delivery Decision Pack – Product Lifecycle</title>
   <link rel="stylesheet" href="../../stage.css">
-  <style>:root { --stage-color: #0B885A; }</style>
 </head>
-<body>
-  <div class="accent-bar" style="background: #0B885A;"></div>
+<body data-pack="business-case-and-delivery-decision-pack">
+  <div class="accent-bar" id="accent-bar"></div>
   <nav class="stage-nav" aria-label="Site navigation">
     <div class="nav-inner">
-      
       <a href="../../deliverable-model.html" class="nav-btn nav-home">← Deliverable Model</a>
     </div>
   </nav>
-
   <div class="page-body">
-    <h1>Business Case &amp; Delivery Decision Pack</h1>
-    <div class="stage-content">
-
-      <div class="intro-block">
-        <h2>What this pack is for</h2>
-        <p>The approval deliverable for the Development stage. Brings together the value case, cost case and delivery plan for commitment and sign off.</p>
-      </div>
-
-      <a href="business-case-delivery-decision-starter-pack.zip" class="download-cta" download>Download starter pack (.zip)</a>
-      <p class="download-note">Includes a main pack and four appendix placeholders. Starter files will be expanded in future versions.</p>
-
-      <h2>What's in this pack</h2>
-      <ul>
-        <li><strong>01-Business-Case-and-Delivery-Decision-Pack.docx</strong> main pack. The decision narrative: opportunity, value case, scope, delivery setup, timeline, cost summary, key risks and the decision requested. This is what decision makers read.</li>
-        <li><strong>Appendix-KPI.docx</strong> KPI framework, how success will be measured, ownership and reporting cadence.</li>
-        <li><strong>Appendix-Architecture.docx</strong> high level technical direction, key integrations and major architectural constraints.</li>
-        <li><strong>Appendix-Estimates-and-Financial.docx</strong> development cost, run cost implications, assumptions and contingency.</li>
-        <li><strong>Appendix-Risk.docx</strong> major risks, mitigation actions, dependencies and confidence level.</li>
-      </ul>
-      <p>The main pack should be readable without the appendices. Not every commitment needs all four appendices in full. Scale the depth to the size of the decision.</p>
-
-      <h2>When to use this pack</h2>
-      <p>Use in <a href="../../stage.html?s=align-and-plan">Align &amp; Plan</a>, when discovery is complete and the topic needs formal approval before execution begins.</p>
-      <ul>
-        <li>an initiative requires formal financial commitment or approval</li>
-        <li>a smaller change needs a commitment conversation within existing portfolio governance</li>
-        <li>the business owner, product team and delivery team need alignment before execution starts</li>
-      </ul>
-
-    </div>
+    <h1 id="pack-title"></h1>
+    <div id="pack-content" class="stage-content"></div>
   </div>
+  <script src="../../marked.min.js"></script>
+  <script src="../../pack.js"></script>
 </body>
 </html>

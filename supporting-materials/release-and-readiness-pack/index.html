@@ -4,47 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../../fonts.css">
-  <title>Release &amp; Readiness Pack Product Lifecycle</title>
+  <title>Release &amp; Readiness Pack – Product Lifecycle</title>
   <link rel="stylesheet" href="../../stage.css">
-  <style>:root { --stage-color: #02462F; }</style>
 </head>
-<body>
-  <div class="accent-bar" style="background: #02462F;"></div>
+<body data-pack="release-and-readiness-pack">
+  <div class="accent-bar" id="accent-bar"></div>
   <nav class="stage-nav" aria-label="Site navigation">
     <div class="nav-inner">
-      
       <a href="../../deliverable-model.html" class="nav-btn nav-home">← Deliverable Model</a>
     </div>
   </nav>
-
   <div class="page-body">
-    <h1>Release &amp; Readiness Pack</h1>
-    <div class="stage-content">
-
-      <div class="intro-block">
-        <h2>What this pack is for</h2>
-        <p>Used in the Deploy stage to confirm the change is ready for go live and coordinate the release. Covers deployment, rollout, support setup, monitoring, communication and the go live decision.</p>
-        <p>Not only a technical checklist. The outcome is either go live, or a decision to stabilise, rework or rollback.</p>
-      </div>
-
-      <a href="release-readiness-starter-pack.zip" class="download-cta" download>Download starter pack (.zip)</a>
-      <p class="download-note">Includes a main pack placeholder. Starter files will be expanded in future versions.</p>
-
-      <h2>What's in this pack</h2>
-      <ul>
-        <li><strong>01-Release-and-Readiness-Pack.docx</strong> main pack. Covers the release summary, deployment plan, rollout plan, readiness checklist, support setup, monitoring, communication and training, rollback plan and go live decision.</li>
-      </ul>
-
-      <h2>When to use this pack</h2>
-      <p>Use in <a href="../../stage.html?s=deploy">Deploy</a>, when changes are ready to move toward production and deployment, support and user readiness need to be confirmed.</p>
-      <ul>
-        <li>quality, security and non functional checks have reached the level needed for go live</li>
-        <li>support, monitoring and operational readiness need to be confirmed</li>
-        <li>rollout, communication and training activities need to be coordinated</li>
-        <li>the team needs a clear basis for the go live decision</li>
-      </ul>
-
-    </div>
+    <h1 id="pack-title"></h1>
+    <div id="pack-content" class="stage-content"></div>
   </div>
+  <script src="../../marked.min.js"></script>
+  <script src="../../pack.js"></script>
 </body>
 </html>

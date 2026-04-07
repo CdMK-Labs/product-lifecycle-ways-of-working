@@ -4,45 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../../fonts.css">
-  <title>Product Review Pack Product Lifecycle</title>
+  <title>Product Review Pack – Product Lifecycle</title>
   <link rel="stylesheet" href="../../stage.css">
-  <style>:root { --stage-color: #2DA973; }</style>
 </head>
-<body>
-  <div class="accent-bar" style="background: #2DA973;"></div>
+<body data-pack="product-review-pack">
+  <div class="accent-bar" id="accent-bar"></div>
   <nav class="stage-nav" aria-label="Site navigation">
     <div class="nav-inner">
-      
       <a href="../../deliverable-model.html" class="nav-btn nav-home">← Deliverable Model</a>
     </div>
   </nav>
-
   <div class="page-body">
-    <h1>Product Review Pack</h1>
-    <div class="stage-content">
-
-      <div class="intro-block">
-        <h2>What this pack is for</h2>
-        <p>The recurring deliverable for live product review in Operations. Covers service health, usage and adoption signals, and improvement decisions across three stages: <a href="../../stage.html?s=operate-and-monitor">Operate &amp; Monitor</a>, <a href="../../stage.html?s=measure-and-learn">Measure &amp; Learn</a> and <a href="../../stage.html?s=adapt-and-optimize">Adapt &amp; Optimize</a>.</p>
-      </div>
-
-      <a href="product-review-pack-starter-pack.zip" class="download-cta" download>Download starter pack (.zip)</a>
-      <p class="download-note">Includes a main pack placeholder. Starter files will be expanded in future versions.</p>
-
-      <h2>What's in this pack</h2>
-      <ul>
-        <li><strong>01-Product-Review-Pack.docx</strong> main pack. Three standing sections: <strong>Operational Health</strong> (service health and operational signals), <strong>Measurement &amp; Learning</strong> (usage, adoption and outcome signals) and <strong>Optimization &amp; Lifecycle Decisions</strong> (improvement needs and product choices). Every review ends with agreed decisions and actions with owners and dates.</li>
-      </ul>
-
-      <h2>When to use this pack</h2>
-      <p>Use throughout Operations, whenever the product is live and in active use. Run on a regular cadence: monthly, quarterly or as fits the product and governance context.</p>
-      <ul>
-        <li>the team and business stakeholders need a shared, recurring view of how the product is performing</li>
-        <li>issues, signals or decisions need to be surfaced and acted on together</li>
-        <li>improvement priorities need to be set, reviewed or updated</li>
-      </ul>
-
-    </div>
+    <h1 id="pack-title"></h1>
+    <div id="pack-content" class="stage-content"></div>
   </div>
+  <script src="../../marked.min.js"></script>
+  <script src="../../pack.js"></script>
 </body>
 </html>

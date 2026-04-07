@@ -4,46 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../../fonts.css">
-  <title>Opportunity Brief Product Lifecycle</title>
+  <title>Opportunity Brief – Product Lifecycle</title>
   <link rel="stylesheet" href="../../stage.css">
-  <style>:root { --stage-color: #0D6A4B; }</style>
 </head>
-<body>
-  <div class="accent-bar" style="background: #0D6A4B;"></div>
+<body data-pack="opportunity-brief">
+  <div class="accent-bar" id="accent-bar"></div>
   <nav class="stage-nav" aria-label="Site navigation">
     <div class="nav-inner">
-      
       <a href="../../deliverable-model.html" class="nav-btn nav-home">← Deliverable Model</a>
     </div>
   </nav>
-
   <div class="page-body">
-    <h1>Opportunity Brief</h1>
-    <div class="stage-content">
-
-      <div class="intro-block">
-        <h2>What this pack is for</h2>
-        <p>A short document used at the start of the lifecycle to frame a problem or opportunity and support a next step decision.</p>
-        <p>Not a business case, not a delivery plan, and not a solution design.</p>
-      </div>
-
-      <a href="opportunity-brief-starter-pack.zip" class="download-cta" download>Download starter pack (.zip)</a>
-      <p class="download-note">Includes a main pack placeholder. Starter files will be expanded in future versions.</p>
-
-      <h2>What's in this pack</h2>
-      <ul>
-        <li><strong>01-Opportunity-Brief.docx</strong> main pack. Covers the problem or opportunity, why it matters now, who is affected, expected value, strategic fit and a clear recommendation.</li>
-      </ul>
-
-      <h2>When to use this pack</h2>
-      <p>Use in <a href="../../stage.html?s=value-proposition">Value Proposition</a>, when a new opportunity or problem has surfaced and needs framing before any further investment.</p>
-      <ul>
-        <li>a new business need or opportunity has surfaced and needs structured framing</li>
-        <li>a team needs a shared view of why something matters before deciding whether to take it into discovery</li>
-        <li>a prioritisation conversation is coming up and the topic needs to be visible</li>
-      </ul>
-
-    </div>
+    <h1 id="pack-title"></h1>
+    <div id="pack-content" class="stage-content"></div>
   </div>
+  <script src="../../marked.min.js"></script>
+  <script src="../../pack.js"></script>
 </body>
 </html>
