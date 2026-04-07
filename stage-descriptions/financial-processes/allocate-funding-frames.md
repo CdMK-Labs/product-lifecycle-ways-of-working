@@ -1,88 +1,104 @@
 ## What this process is for
 
-Allocate Funding Frames sets the financial boundaries for product work before detailed planning begins. It gives teams a frame to work within so they can shape ideas without waiting for full business case approval.
+Allocate Funding Frames is the bi-yearly process used to shape the future investment space for IT across Zones and Functions.
 
-This is not about approving a specific budget. It is about confirming that there is enough financial space to explore and shape work at the right level.
+It creates an early, forward-looking view of likely demand, expected investment needs, and projected run costs. This supports company-wide prioritisation and results in each Zone and Function receiving a funding frame within the yearly IT budget.
+
+This is not about approving individual investments in detail. It is about building a shared, comparable picture of demand and cost expectations so that funding can be allocated where it matters most.
 
 ## When to use it
 
-- When a new idea or opportunity needs financial framing before it moves into discovery
-- When portfolio planning cycles set or refresh investment envelopes
-- When teams need clarity on what level of spend is realistic before shaping a business case
-- When funding needs to shift between product areas based on changing priorities
+- As part of the bi-yearly financial cycle
+- When Zones and Functions prepare their forward-looking IT demand and financial outlook
+- When the organisation needs to prioritise across competing needs at a company-wide level
 
-This process is most active during the Idea Generation and Exploration financial stages. It connects closely to the Value Proposition and Product Discovery lifecycle stages.
+This process looks 12 to 18 months ahead. It supports early financial framing before ideas move into detailed investment approval.
 
 ## Key questions to answer
 
-- How much financial room does this product area have to work with?
-- Is the funding frame proportionate to the opportunity and the risk?
-- Are we allocating across the right balance of new investment, maintenance and technical health?
-- Does this frame reflect current strategic priorities?
+- Which sunrays and major needs are likely to matter in the next 12 to 18 months?
+- What level of investment is likely to be required?
+- What run-cost implications should be expected?
+- How do the proposed needs compare with company-wide priorities?
+- What funding frame should each Zone and Function receive within the yearly IT budget?
 
 ## Inputs
 
-- Portfolio priorities and strategic direction
-- Existing commitments and run-rate costs
-- Opportunity briefs or early product proposals
-- Previous period actuals and forecasts
+- Zone and Function sunrays
+- High-level demand picture for the next 12 to 18 months
+- Projected high-level investment costs
+- Projected high-level run costs
+- Strategic priorities from Zones, Functions and IT
+- Portfolio context and existing cost baseline where relevant
 
 ## Activities
 
-- Review portfolio-level funding availability
-- Set or update funding frames per product area or investment theme
-- Confirm guardrails for exploration-stage spend
-- Communicate frames to product teams so they can shape work within realistic boundaries
+- Collect sunrays and high-level demand input from each Zone and Function
+- Estimate projected investment and run costs at a high level
+- Consolidate the input into a comparable portfolio view
+- Support company-wide prioritisation across competing needs
+- Assess trade-offs between demand, strategic fit and expected cost levels
+- Translate the prioritisation outcome into funding-frame allocation by Zone and Function
 
 ## Outputs and decisions
 
-### Allocate
-- Funding frame confirmed for a product area or investment theme
-- Teams can proceed to shape work within the frame
+### Outputs
+- Consolidated view of proposed sunrays and high-level financial demand
+- High-level view of projected investment and run costs by Zone and Function
+- Prioritised company-wide portfolio view
+- Recommended funding-frame allocation
 
-### Do not allocate
-- No financial space available or the opportunity does not warrant investment at this time
-- Topic is parked or deprioritised
+### Decisions
+- Allocate funding frame to a Zone or Function
+- Adjust or refine the request based on prioritisation
+- Deprioritise relative to other needs
 
-### Revisit or refine
-- Frame needs adjustment based on new information, shifting priorities or portfolio rebalancing
-- Revisit at the next planning cycle or when conditions change
+### Outcome
+- Each Zone and Function receives its funding frame within the yearly IT budget for the next cycle
 
 ## Who is involved
 
 ### Portfolio Partner
-- leads the allocation process and ensures frames align with strategic direction
+- leads the allocation process and ensures frames align with strategic direction and company-wide priorities
 
 ### Head of Product
-- provides product-level context on where investment is most needed
+- provides product-level context on where investment is most needed within their Zone or Function
 
 ### Delivery Lead
 - contributes capacity and cost context to inform realistic frames
 
-**Others who may contribute:** Finance Business Partner, IT Value Partner, Business Owner.
+**Others who may contribute:** Finance Business Partner, IT Value Partner, Business Owner, Zone and Function leadership.
 
 ## How it connects to lifecycle stages and deliverables
 
-This process supports the early lifecycle stages. It provides the financial context that teams need before shaping an [Opportunity Brief](../deliverables/opportunity-brief/) or entering [Product Discovery](../../stage.html?s=product-discovery).
+This process primarily supports Idea Generation and Exploration. It is closely linked to Opportunity Briefs, early Discovery inputs, and sunrays as the main way of expressing forward-looking needs.
 
-The funding frame becomes an input to the [Approve Investments](../../financial-process.html?p=approve-investments) process when work matures into a business case.
+It creates the financial room within which later investment approval decisions can be made, but it does not replace detailed investment approval. The funding frame becomes an input to the [Approve Investments](../../financial-process.html?p=approve-investments) process when work matures into a business case.
 
 Related lifecycle stages: [Value Proposition](../../stage.html?s=value-proposition), [Product Discovery](../../stage.html?s=product-discovery).
 
 ## Common pitfalls
 
-**Setting frames too late**
+**Treating the process as detailed investment approval**
 
-If teams only get financial clarity after they have shaped detailed plans, rework is inevitable. Set frames early so shaping happens within realistic boundaries.
+This process is about high-level financial framing and prioritisation, not about approving specific initiatives for delivery. Keep the level of detail proportionate.
 
-**Treating frames as firm budgets**
+**Submitting overly detailed cases instead of comparable high-level sunrays**
 
-A funding frame is a guide for shaping, not a committed budget. Keep it flexible enough to support discovery without locking in too early.
+The input should be lightweight and comparable across Zones and Functions. Detailed business cases belong in the Approve Investment process, not here.
 
-**Ignoring run-rate and technical health**
+**Focusing only on investment cost and ignoring future run cost**
 
-If all framing focuses on new features, maintenance and technical debt get squeezed out. Include product health in the frame.
+Run costs matter. Include projected run-cost implications alongside investment needs to give a complete picture.
 
-**Allocating without strategic alignment**
+**Looking too short-term**
 
-Frames should reflect priorities, not just historical patterns. Challenge inherited allocations when the portfolio direction has changed.
+This process is designed to look 12 to 18 months ahead. Avoid anchoring only on immediate needs at the expense of the medium-term view.
+
+**Optimising only within one Zone or Function**
+
+The value of this process comes from company-wide prioritisation. Each Zone and Function should present their needs in a way that supports cross-portfolio comparison.
+
+**Treating the outcome as final approval for delivery**
+
+A funding frame is financial room to plan within. It is not approval to start delivery. Detailed investment approval happens later through the Approve Investment process.
