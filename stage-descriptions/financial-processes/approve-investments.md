@@ -1,92 +1,91 @@
 ## What this process is for
 
-Approve Investment helps teams and stakeholders make informed decisions on whether an initiative should move forward with funding and commitment.
+Approve Investments is the gated capex process used to mature initiatives through the lifecycle from early idea to funded execution and later product operation with measurable benefits.
 
-It creates clarity on the opportunity, the expected value, the required investment, and the level of confidence needed to decide.
+Rather than relying on a single approval moment, the process makes investment decisions in steps. Each gate matches the maturity of the initiative at that point in the lifecycle. This strengthens the case progressively instead of expecting full certainty too early.
 
-## Purpose
-
-The purpose of Approve Investment is to support consistent and transparent investment decisions.
-
-It helps ensure that:
-- the opportunity is clear
-- the expected value is understood
-- costs and implications are visible
-- the right stakeholders are involved before moving forward
+The process ensures that value, costs, risks and readiness are reviewed at the right level of detail for each stage, and that measurable benefits remain visible as the initiative matures and moves into operation.
 
 ## When to use it
 
-Use this process when an initiative needs formal investment approval before entering execution or scaling beyond early exploration.
+- When a capex-funded initiative needs to move through formal investment decision points across the lifecycle
+- When an initiative is progressing from early shaping through planning and into funded execution
+- When benefit follow-up is needed as a funded initiative moves into product operation
 
-The level of detail should match the size, complexity, and importance of the investment.
+The process applies across multiple lifecycle stages rather than sitting in one place. Each gate corresponds to a stage in the lifecycle.
 
 ## Key questions to answer
 
-- Is the value case clear and proportionate to the cost?
-- Is the delivery plan realistic given current capacity and dependencies?
-- Are the risks understood and acceptable?
-- Does this investment fit within the funding frame and portfolio priorities?
-- What are we choosing not to do by committing to this?
+- What decision is needed at this gate?
+- Is the initiative mature enough for this stage of approval?
+- Is the value case strong enough for the level of commitment being asked for?
+- Is the current scope, cost view and risk picture credible for this point in the lifecycle?
+- What needs to be true before the case can move to the next gate?
+- How will measurable benefits be followed once the investment moves into operation?
 
 ## Inputs
 
-- A defined opportunity or problem
-- An outline of expected value or outcome
-- An initial understanding of scope and investment need
-- Relevant assumptions, dependencies, and risks
-- Alignment with strategic and portfolio priorities
+- Earlier lifecycle outputs relevant to the current gate
+- Opportunity Brief and Discovery inputs where relevant
+- Business Case and Delivery Decision Pack where relevant
+- Expected benefits and outcome measures
+- Current scope, cost and risk view
+- Product, delivery and business context needed for the gate decision
 
 ## Activities
 
-- Review the business case against strategic fit, value, cost and risk
-- Test delivery assumptions with the team
-- Confirm that the investment fits within the funding frame
-- Make a clear go, reshape, hold or reject decision
-- Record the decision and conditions
+- Assess the investment case at the right maturity for the current lifecycle stage
+- Connect the required gate decision to the relevant lifecycle outputs and deliverables
+- Strengthen the case progressively rather than requiring final precision too early
+- Review value, costs, risks, dependencies and readiness at each gate
+- Decide whether the initiative should progress, be reshaped, be held or stop
+- Ensure measurable benefits remain visible as the case matures and later moves into product operation
 
 ## Outputs and decisions
 
-### Approve
-- Investment is committed and the team proceeds to delivery
-- Budget is confirmed and governance expectations are set
+### Outputs
+- Gate decision aligned to lifecycle maturity
+- Updated investment case with stronger clarity for the next stage
+- Clearer view of expected benefits, costs, risks and delivery path
+- Decision basis for moving forward or not
 
-### Reshape
-- The case has merit but needs adjustment before commitment
-- Team returns with a revised scope, cost or timeline
+### Decisions
+- Approve to proceed to next stage
+- Reshape the case before progressing
+- Hold for later
+- Reject
 
-### Hold
-- Investment is valid but not the right time
-- Parked with a clear trigger for revisiting
-
-### Reject
-- Investment does not meet the bar for commitment
-- Decision is recorded with reasoning so the topic is not revisited without new information
+### Outcome
+- The initiative moves through staged approval gates as it matures through the lifecycle, rather than relying on one single approval moment
 
 ## Who is involved
 
 ### Head of Product
-- presents or sponsors the business case and confirms product-level alignment
+- presents or sponsors the investment case and confirms product-level alignment at each gate
 
 ### Delivery Lead
-- confirms delivery feasibility, cost estimates and team readiness
+- confirms delivery feasibility, cost estimates and team readiness for the current stage
 
 ### Portfolio Partner
-- leads or facilitates the approval conversation and ensures portfolio-level coherence
+- leads or facilitates the gate decision and ensures portfolio-level coherence
 
-**Others who may contribute:** Finance, relevant business stakeholders, and other contributors as needed depending on the initiative.
+**Others who may contribute:** Finance, relevant business stakeholders, and other contributors as needed depending on the initiative and the gate.
 
 ## Practical guidance
 
-Keep the material decision-oriented and proportionate.
+Keep the material decision-oriented and proportionate to the gate.
 
-Focus on what decision-makers need in order to decide:
+Early gates should focus on whether the opportunity is worth exploring further. Later gates should test whether the case is strong enough for funded delivery. Do not apply the same expectations at every stage.
+
+Focus on what decision-makers need at this point:
 - what problem or opportunity we are addressing
 - why it matters
 - what value is expected
-- what investment is needed
+- what investment is needed at this stage
 - what key risks or dependencies should be understood
+- how measurable benefits will be tracked into operation
 
-Avoid overcomplicating the process. The goal is not to produce documentation for its own sake, but to create enough clarity to support a good decision.
+Avoid overcomplicating any single gate. The goal is to build confidence progressively, not to produce final documentation too early.
 
 ## Financial stages
 
@@ -100,26 +99,46 @@ Approve Investment sits within a broader financial flow. The stages below show h
 
 ## How it connects to lifecycle stages and deliverables
 
-This process is the financial gate between shaping and delivery. It relies on the [Business Case and Delivery Decision Pack](../deliverables/business-case-and-delivery-decision-pack/) as its main input.
+The approval gates correspond to lifecycle stages. This process spans the lifecycle rather than sitting in only one place.
 
-Approval unlocks the [Develop and Deliver](../../stage.html?s=develop-and-deliver) lifecycle stage and triggers the [Forecast Financials](../../financial-process.html?p=forecast-financials) process for ongoing tracking.
+In [Value Proposition](../../stage.html?s=value-proposition), early shaping establishes whether the opportunity warrants further investment. The [Opportunity Brief](../deliverables/opportunity-brief/) is a key input at this stage.
 
-Related lifecycle stages: [Align and Plan](../../stage.html?s=align-and-plan), [Develop and Deliver](../../stage.html?s=develop-and-deliver).
+In [Product Discovery](../../stage.html?s=product-discovery), the case is explored further. The [Discovery Pack](../deliverables/discovery-pack/) provides the basis for deciding whether to move into detailed planning.
+
+In [Align and Plan](../../stage.html?s=align-and-plan), the full investment case is built. The [Business Case and Delivery Decision Pack](../deliverables/business-case-and-delivery-decision-pack/) is the main input for the gate decision that unlocks funded delivery.
+
+In [Develop and Deliver](../../stage.html?s=develop-and-deliver), the approved investment moves into execution with financial follow-up and governance.
+
+In [Operate and Monitor](../../stage.html?s=operate-and-monitor) and [Measure and Learn](../../stage.html?s=measure-and-learn), measurable benefits are tracked and followed up. The [Product Review Pack](../deliverables/product-review-pack/) supports later benefit follow-up where relevant.
+
+Approval unlocks the next lifecycle stage and triggers the [Forecast Financials](../../financial-process.html?p=forecast-financials) process for ongoing tracking.
 
 ## Common pitfalls
 
-**Approving without a clear value case**
+**Describing the process as one approval event**
 
-If the expected value is vague or unmeasured, the investment becomes difficult to track and hard to challenge later.
+This is a gated progression, not a single gate. Each stage in the lifecycle has its own decision point with appropriate expectations.
 
-**Skipping the reshape option**
+**Expecting final-case precision too early**
 
-Not every case is a simple yes or no. Some need adjustment. Make reshape a normal part of the conversation, not a sign of failure.
+Early gates should test direction and opportunity, not demand full cost and delivery certainty. Match the level of detail to the maturity of the initiative.
 
-**Treating approval as the end of financial discipline**
+**Using the same approval expectations at every gate**
 
-Approval is the start of delivery, not the end of financial oversight. Connect approval to forecasting and reporting from day one.
+What counts as a strong case at Idea Generation is very different from what is needed at Align and Plan. Scale the expectations to the gate.
 
-**Over-engineering the approval process for small investments**
+**Disconnecting gate decisions from lifecycle outputs**
 
-Scale the process to the size of the decision. A lightweight review is fine for smaller commitments within an existing frame.
+Each gate should connect to the relevant lifecycle deliverables. If the gate decision is not informed by the right outputs, it risks being superficial.
+
+**Focusing only on approval mechanics**
+
+The process is about case maturity, not paperwork. If teams focus on completing forms rather than strengthening the case, the process loses its value.
+
+**Losing sight of measurable benefits after approval**
+
+Approval is not the end of the story. Benefits should be tracked into product operation so the organisation can learn from its investment decisions.
+
+**Treating approval as separate from later product operation**
+
+The investment case does not end at funded delivery. Connect approval to later benefit follow-up so that value is visible beyond the initial commitment.
