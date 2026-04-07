@@ -2,7 +2,7 @@
 
 Align & Plan is where we shape the work well enough to commit to it responsibly. The purpose is to translate discovery into a clear and aligned plan for execution: what we are going to deliver, why it matters, what it will take, and how we intend to move forward.
 
-This is the stage where product, business and IT & Digital roles come fully together to shape a plan that covers both the value case and the cost case. We clarify functional scope, establish an initial high-level feature backlog or set of epics, define the non-functional scope, identify the main delivery team and key dependencies, and create a realistic view of timeline, effort, cost and delivery approach.
+This is the stage where product, business and IT & Digital roles come fully together to shape a plan that covers both the value case and the cost case. We clarify functional scope, establish an initial high level feature backlog or set of epics, define the non functional scope, identify the main delivery team and key dependencies, and create a realistic view of timeline, effort, cost and delivery approach.
 
 The right level of formality depends on the size and nature of the work. Larger initiatives require a full business case and a formal financial approval decision. Smaller changes or improvements can be committed within normal product and portfolio governance, with appropriate scope definition, funding fit and stakeholder alignment. Both paths should result in a clear decision and a responsible basis for execution.
 
@@ -19,8 +19,8 @@ Enter this stage when:
 ## Key Questions To Answer
 
 - What is the functional scope we expect to deliver first?
-- What should be included in the initial high-level feature backlog or set of epics?
-- What service levels, security requirements and non-functional needs must be addressed?
+- What should be included in the initial high level feature backlog or set of epics?
+- What service levels, security requirements and non functional needs must be addressed?
 - Which technology choices or architectural directions need to be made now?
 - Are there enabling features or prerequisite activities that must be included?
 - Which team should lead the delivery, and which other teams need to be involved?
@@ -45,12 +45,12 @@ This stage does not require fully detailed design or a final delivery schedule.
 ## Core Activities
 
 - clarify and bound the functional scope
-- establish an initial high-level feature backlog or set of epics to reflect expected scope
-- define the non-functional scope, including service levels, security and other critical requirements
+- establish an initial high level feature backlog or set of epics to reflect expected scope
+- define the non functional scope, including service levels, security and other critical requirements
 - decide the main technology direction and identify enabling features or prerequisites
 - identify the main delivery team and key dependencies with other teams, products or platforms
 - align with relevant stakeholders on scope, sequencing and responsibilities
-- create a high-level delivery plan with timeline, milestones and iteration view
+- create a high level delivery plan with timeline, milestones and iteration view
 - estimate effort and cost at a level appropriate for the commitment being made
 - assess contingency for identified risks
 - bring together the value case and cost case into a business case where required
@@ -71,15 +71,15 @@ This stage does not require fully detailed design or a final delivery schedule.
 ### Head of Product
 - ensures the product team is shaping a realistic and responsible plan
 - helps decide delivery setup, dependencies and lifecycle implications
-- brings end-to-end accountability into the commitment discussion
+- brings end to end accountability into the commitment discussion
 
 ### Product Owner
-- helps translate the initiative into an initial high-level feature backlog or set of epics
+- helps translate the initiative into an initial high level feature backlog or set of epics
 - supports clarification of scope, priorities and sequencing
-- brings day-to-day product knowledge into the planning work
+- brings day to day product knowledge into the planning work
 
 ### Product Architect
-- defines the main technology direction and non-functional scope
+- defines the main technology direction and non functional scope
 - helps identify enabling features, dependencies and architectural constraints
 - ensures service levels, security and technical integrity are considered early
 
@@ -87,8 +87,8 @@ This stage does not require fully detailed design or a final delivery schedule.
 
 ## Deliverables
 
-- [Business Case & Delivery Decision Pack](supporting-materials/business-case-and-delivery-decision-pack/) — use this pack to support approval and commitment before execution begins.
-- [Deliverable Model](deliverable-model.html) — all deliverable packs across the lifecycle.
+- [Business Case & Delivery Decision Pack](supporting-materials/business-case-and-delivery-decision-pack/) use this pack to support approval and commitment before execution begins.
+- [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
 
 ## Governance and Processes To Align With
 
@@ -103,7 +103,7 @@ This stage should align with:
 ## What Good Looks Like Before Moving On
 
 Align & Plan is ready to move on when:
-- the functional and non-functional scope are clear enough to begin delivery
+- the functional and non functional scope are clear enough to begin delivery
 - the initial feature backlog or set of epics is established
 - the main delivery team and key dependencies are known
 - the technology direction and enabling needs are clear enough
@@ -123,7 +123,7 @@ The goal is to create enough clarity for approval and responsible delivery, not 
 
 The right level of formality depends on the size and nature of the commitment. Smaller product changes can and should move through lighter commitment processes without unnecessary overhead.
 
-**Underplaying non-functional scope**
+**Underplaying non functional scope**
 
 Security, service levels, resilience, compliance and architecture are often treated too late, even though they shape feasibility and cost from the start.
 

@@ -1,6 +1,6 @@
 ## What This Stage Is For
 
-Measure & Learn is where we step back from day-to-day operations and assess how the product is performing from a usage, adoption and outcome perspective. The purpose is to create insight into whether the product is being used as intended, whether users are getting value from it, and whether the expected business outcomes are developing in the right direction.
+Measure & Learn is where we step back from day to day operations and assess how the product is performing from a usage, adoption and outcome perspective. The purpose is to create insight into whether the product is being used as intended, whether users are getting value from it, and whether the expected business outcomes are developing in the right direction.
 
 This stage runs in parallel with Operate & Monitor, but it has a different focus. Operate & Monitor is about service health, incidents, alerts and operational control. Measure & Learn is about usage patterns, adoption, user behavior, sentiment and outcome signals. Both matter, but they answer different questions.
 
@@ -24,10 +24,10 @@ This stage continues in parallel with Operate & Monitor as long as the product i
 
 - Are users adopting the product or capability as intended?
 - How is the product being used in practice?
-- Where do we see strong usage, weak usage or drop-off?
+- Where do we see strong usage, weak usage or drop off?
 - What do user feedback and sentiment tell us?
 - Are we seeing signals that the product is contributing to the intended business outcomes?
-- Which measures should be shared with the business for interpretation and follow-up?
+- Which measures should be shared with the business for interpretation and follow up?
 - What should we explore further or bring into Adapt & Optimize?
 
 ## Entry Criteria
@@ -41,12 +41,12 @@ Before entering this stage, there should be at least:
 ## Core Activities
 
 - track product usage and adoption signals over time
-- analyse usage patterns, user flows and possible drop-off or friction points
+- analyse usage patterns, user flows and possible drop off or friction points
 - gather and review user feedback, sentiment or satisfaction signals
 - make relevant outcome indicators visible where they can be supported by product data
 - share measurements and insights with business stakeholders and product roles
 - distinguish clearly between operational issues (Operate & Monitor) and broader usage or adoption patterns (Measure & Learn)
-- use live-product learning to inform product decisions, prioritisation and improvement discussions in Adapt & Optimize
+- use live product learning to inform product decisions, prioritisation and improvement discussions in Adapt & Optimize
 
 ## Who Is Involved
 
@@ -63,7 +63,7 @@ Before entering this stage, there should be at least:
 ### Head of Product
 - ensures learning from live use informs product direction and priorities
 - keeps the product team engaged with usage, adoption and outcome signals
-- brings end-to-end accountability into the learning discussion
+- brings end to end accountability into the learning discussion
 
 ### Product Owner
 - uses usage and adoption insight to inform backlog and product priorities
@@ -75,18 +75,18 @@ Before entering this stage, there should be at least:
 - helps surface what users are actually experiencing in practice
 - supports interpretation of feedback and usage signals
 
-**Others who may contribute:** IT Specialists / Developers · Analytics-related roles · Business representatives · Super users · IT Value Partner · Product Architect
+**Others who may contribute:** IT Specialists / Developers · Analytics related roles · Business representatives · Super users · IT Value Partner · Product Architect
 
 ## Deliverables
 
-- [Product Review Pack](supporting-materials/product-review-pack/) — use this pack to make usage, adoption and outcome signals visible and support business dialogue.
-- [Deliverable Model](deliverable-model.html) — all deliverable packs across the lifecycle.
+- [Product Review Pack](supporting-materials/product-review-pack/) use this pack to make usage, adoption and outcome signals visible and support business dialogue.
+- [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
 
 ## Governance and Processes To Align With
 
 This stage should align with:
 - product and business review forums
-- benefit and outcome follow-up where relevant
+- benefit and outcome follow up where relevant
 - adoption and usage review practices
 - relevant analytics, reporting and data governance expectations
 - fundamentals that support traceability, transparency and responsible use of product insight
@@ -95,7 +95,7 @@ This stage should align with:
 
 Measure & Learn is working well when:
 - the team has useful visibility into how the product is being used
-- adoption patterns, drop-off points and user friction are visible
+- adoption patterns, drop off points and user friction are visible
 - user feedback and sentiment are actively considered
 - relevant outcome signals are shared and discussed with the business
 - IT & Digital provides good measurements and insight while the business takes accountability for value realization
@@ -122,7 +122,7 @@ Measures only become useful when they are discussed, understood and linked to ac
 
 **Ignoring weak adoption or user friction because the product is live**
 
-Live does not mean successful. Poor adoption and repeated friction are important signals that deserve follow-up.
+Live does not mean successful. Poor adoption and repeated friction are important signals that deserve follow up.
 
 **Letting learning stop at reporting**
 

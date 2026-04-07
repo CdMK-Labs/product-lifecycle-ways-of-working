@@ -1,6 +1,6 @@
 ## What this pack is for
 
-The Product Review Pack is the recurring deliverable used to support live product review across operations, learning and improvement. It brings the most important live-product signals together in one place: how the product is performing, how it is being used, what we are learning, and which improvement or lifecycle decisions should follow.
+The Product Review Pack is the recurring deliverable used to support live product review across operations, learning and improvement. It brings the most important live product signals together in one place: how the product is performing, how it is being used, what we are learning, and which improvement or lifecycle decisions should follow.
 
 It is not only a reporting artifact. It should help the product team and business stakeholders review the live product together and turn insight into action.
 
@@ -11,11 +11,11 @@ Your recurring review document. Covers operational health, usage and adoption si
 
 The pack has three standing sections that anchor every review:
 
-**Operational Health** — service levels, incidents, trends, recurring issues, monitoring signals, maintenance actions and operational risks.
+**Operational Health** service levels, incidents, trends, recurring issues, monitoring signals, maintenance actions and operational risks.
 
-**Measurement & Learning** — leading and lagging KPIs, adoption metrics, usage patterns, friction points, user feedback and outcome signals.
+**Measurement & Learning** leading and lagging KPIs, adoption metrics, usage patterns, friction points, user feedback and outcome signals.
 
-**Optimization & Lifecycle Decisions** — improvement opportunities, technical debt items, reliability actions, simplification candidates, retirement considerations and the recommended next path.
+**Optimization & Lifecycle Decisions** improvement opportunities, technical debt items, reliability actions, simplification candidates, retirement considerations and the recommended next path.
 
 Supporting materials that can be linked from the pack:
 - service dashboards
@@ -34,8 +34,8 @@ Use this pack during Operations: [Operate & Monitor](stage.html?s=operate-and-mo
 The trigger is typically:
 - the product is live and in active use
 - the team needs a recurring view of service health, adoption and improvement needs
-- product and business stakeholders need a shared basis for review and decision-making
-- the team wants to turn live-product insight into clear next actions
+- product and business stakeholders need a shared basis for review and decision making
+- the team wants to turn live product insight into clear next actions
 
 Use the pack on a regular cadence: monthly, quarterly or another rhythm that fits the product and governance context. The pack should always lead to agreed actions with owners and dates.
 
@@ -43,17 +43,17 @@ Use the pack on a regular cadence: monthly, quarterly or another rhythm that fit
 
 A short operational health summary, a brief view of the most important usage or adoption signals, and a list of prioritised improvement actions with owners is enough to run a useful review.
 
-Add more depth to sections as the product matures and as the review cadence becomes more established. Do not wait for a perfect pack before starting. The value is in the conversation and the follow-up, not in the completeness of the document.
+Add more depth to sections as the product matures and as the review cadence becomes more established. Do not wait for a perfect pack before starting. The value is in the conversation and the follow up, not in the completeness of the document.
 
 ## Pack contents
 
-The pack should bring together the most important live-product signals and decisions in a way that is easy to review regularly. Keep it structured and decision-oriented.
+The pack should bring together the most important live product signals and decisions in a way that is easy to review regularly. Keep it structured and decision oriented.
 
 ### 1. Product summary
 A short summary of the product, the review scope and the most important messages for the review period.
 
 ### 2. Review period
-Which period the review covers. Helps make trends, actions and follow-up easier to track over time.
+Which period the review covers. Helps make trends, actions and follow up easier to track over time.
 
 ### 3. Operational Health
 Service health and operational signals. Typically includes:
@@ -73,7 +73,7 @@ Usage, adoption and outcome signals. Typically includes:
 - lagging KPIs
 - adoption metrics
 - usage patterns
-- friction or drop-off points
+- friction or drop off points
 - user feedback and sentiment
 - benefit or outcome signals
 - key learnings
@@ -102,30 +102,30 @@ The people responsible for the pack and the main contributors involved.
 
 ## Who is typically involved
 
-**Head of Product** — usually co-owns the pack and helps balance live stability, product priorities and long-term sustainability.
+**Head of Product** usually co-owns the pack and helps balance live stability, product priorities and long term sustainability.
 
-**Product Owner** — usually co-owns the pack and translates live insight into product priorities, decisions and next actions.
+**Product Owner** usually co-owns the pack and translates live insight into product priorities, decisions and next actions.
 
-**Product Manager** — contributes business and portfolio perspective, especially where investment direction or larger trade-offs are involved.
+**Product Manager** contributes business and portfolio perspective, especially where investment direction or larger trade offs are involved.
 
-**IT Delivery Lead** — brings visibility to service health, delivery-related follow-up and recurring issues.
+**IT Delivery Lead** brings visibility to service health, delivery related follow up and recurring issues.
 
-**Adoption Specialist** — helps bring user behavior, adoption, sentiment and friction into the review.
+**Adoption Specialist** helps bring user behavior, adoption, sentiment and friction into the review.
 
-**Product Architect** — contributes architectural, technical debt, resilience and simplification perspective.
+**Product Architect** contributes architectural, technical debt, resilience and simplification perspective.
 
-**Business Owner** — contributes interpretation of business outcomes and business-side trade-offs.
+**Business Owner** contributes interpretation of business outcomes and business side trade offs.
 
 **Others who may contribute:** IT Specialists / Developers, support roles, super users, business stakeholders, vendors where relevant.
 
 ## What good looks like
 
-A good Product Review Pack is regular, clear and action-oriented. It:
+A good Product Review Pack is regular, clear and action oriented. It:
 - makes the current live condition of the product visible
 - distinguishes clearly between operational health, product learning and improvement decisions
 - helps the team and business stakeholders discuss what the signals mean
 - makes recurring issues, weak adoption or growing complexity visible rather than normalised
-- leads to clear actions, owners and follow-up
+- leads to clear actions, owners and follow up
 
 A strong Product Review Pack helps the product team stay in control of the live product and avoids separating run, learning and improvement into disconnected conversations.
 
@@ -149,7 +149,7 @@ Poor adoption, recurring friction, manual workarounds or growing technical debt 
 
 **Leaving actions unclear**
 
-A review without ownership and follow-up dates rarely changes much.
+A review without ownership and follow up dates rarely changes much.
 
 ## Related stages
 

@@ -1,6 +1,6 @@
 ## What this pack is for
 
-The Discovery Pack captures what was learned before a topic moves into commitment and planning. Its purpose is to bring the key discovery outputs together in one place and support a clear next-step decision: move into Align & Plan, return for reframing, hold or stop.
+The Discovery Pack captures what was learned before a topic moves into commitment and planning. Its purpose is to bring the key discovery outputs together in one place and support a clear next step decision: move into Align & Plan, return for reframing, hold or stop.
 
 It is not a business case or delivery plan. It should reduce uncertainty, not simulate commitment.
 
@@ -57,10 +57,10 @@ The most important evidence gathered: interviews, observations, feedback, usage 
 The main assumptions explored during discovery and what was learned from them. Should show where uncertainty has been reduced and where it remains.
 
 ### 7. Options explored
-The main options or directions considered, with the relevant trade-offs. Not a polished solution proposal.
+The main options or directions considered, with the relevant trade offs. Not a polished solution proposal.
 
 ### 8. Prototype or experiment summary
-A short summary of any lightweight prototype, mock-up or experiment used to learn faster: what was tested and what was learned. Not a commitment to an answer.
+A short summary of any lightweight prototype, mock up or experiment used to learn faster: what was tested and what was learned. Not a commitment to an answer.
 
 ### 9. Risks, dependencies and constraints
 The main risks, dependencies, architectural constraints, security concerns, operational implications or other factors that could affect the topic later.
@@ -79,30 +79,30 @@ The person responsible for the pack and the main contributors involved.
 
 ## Who is typically involved
 
-**Product Manager** — usually leads the overall shaping and connects the learning to value and next steps.
+**Product Manager** usually leads the overall shaping and connects the learning to value and next steps.
 
-**Product Owner** — contributes practical product context, stakeholder understanding and helps define what needs to be learned.
+**Product Owner** contributes practical product context, stakeholder understanding and helps define what needs to be learned.
 
-**Head of Product** — helps assess product relevance, lifecycle implications and whether the topic is mature enough to move forward.
+**Head of Product** helps assess product relevance, lifecycle implications and whether the topic is mature enough to move forward.
 
-**Business Owner** — validates whether the discovery is addressing the right business need.
+**Business Owner** validates whether the discovery is addressing the right business need.
 
-**Adoption Specialist** — brings user, adoption and behavioral perspectives into the discovery.
+**Adoption Specialist** brings user, adoption and behavioral perspectives into the discovery.
 
-**Product Architect** — surfaces architectural constraints, non-functional implications and major technical risks.
+**Product Architect** surfaces architectural constraints, non functional implications and major technical risks.
 
 **Others who may contribute:** IT Value Partner, IT Architecture Partner, IT Specialists / Developers, business stakeholders, super users, operational representatives.
 
 ## What good looks like
 
-A good Discovery Pack is focused, evidence-based and honest about uncertainty. It:
+A good Discovery Pack is focused, evidence based and honest about uncertainty. It:
 - shows that the problem is better understood than before discovery started
 - captures the strongest insights without drowning the reader in detail
 - surfaces the major risks, dependencies and constraints early
 - makes lifecycle implications visible before commitment
 - creates enough clarity to support a decision on whether to move forward
 
-A strong pack gives decision-makers a better basis for commitment while still being light enough to produce quickly.
+A strong pack gives decision makers a better basis for commitment while still being light enough to produce quickly.
 
 ## Common pitfalls
 

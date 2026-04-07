@@ -4,7 +4,7 @@ The Value Proposition stage is where we clarify why something is worth attention
 
 This stage applies both to new capabilities or products and to further investment in existing ones. For new opportunities, the purpose is to decide whether the idea is strong enough to take forward. For existing products, the purpose is to clarify why further investment matters now, whether for business value, risk reduction, compliance, technical sustainability or lifecycle needs.
 
-The output is not a business case or delivery plan. It is a clear, high-level input to business prioritisation, investment framing and a next-step decision. That decision may point to normal product flow within an existing team and funding arrangement, to an existing investment or funding frame that already covers this type of work, or to a new investment path that requires further shaping and approval.
+The output is not a business case or delivery plan. It is a clear, high level input to business prioritisation, investment framing and a next step decision. That decision may point to normal product flow within an existing team and funding arrangement, to an existing investment or funding frame that already covers this type of work, or to a new investment path that requires further shaping and approval.
 
 ## When To Enter This Stage
 
@@ -65,7 +65,7 @@ This stage does not require a mature solution idea, detailed estimates or a full
 - decides, with the business, whether to move forward, reshape/reframe or stop
 
 ### IT Value Partner
-- helps assess investment fit and financial framing when the topic is not yet clearly product-anchored
+- helps assess investment fit and financial framing when the topic is not yet clearly product anchored
 - supports the conversation about which investment path makes most sense
 - brings financial and portfolio perspective into the early framing
 
@@ -73,8 +73,8 @@ This stage does not require a mature solution idea, detailed estimates or a full
 
 ## Deliverables
 
-- [Opportunity Brief](supporting-materials/opportunity-brief/) — use this pack to frame the opportunity and support a next-step decision.
-- [Deliverable Model](deliverable-model.html) — all deliverable packs across the lifecycle.
+- [Opportunity Brief](supporting-materials/opportunity-brief/) use this pack to frame the opportunity and support a next step decision.
+- [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
 
 ## Governance and Processes To Align With
 
@@ -83,7 +83,7 @@ This stage should align with:
 - investment frame allocation processes
 - relevant product and portfolio governance
 - strategic direction for the business area and product domain
-- fundamentals that define the common playing field for decision-making, traceability and consistency
+- fundamentals that define the common playing field for decision making, traceability and consistency
 
 ## What Good Looks Like Before Moving On
 

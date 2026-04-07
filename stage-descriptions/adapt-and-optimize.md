@@ -11,7 +11,7 @@ This stage is continuous. It runs as long as the product is active and being imp
 ## When To Enter This Stage
 
 Enter this stage when:
-- live-product insight shows that something should be improved, simplified, strengthened or retired
+- live product insight shows that something should be improved, simplified, strengthened or retired
 - operational issues, adoption signals or outcome signals point to a need for change
 - technical debt, process inefficiency or recurring friction are limiting product effectiveness
 - the team needs to decide how to rebalance effort across new value, reliability and sustainability
@@ -55,34 +55,34 @@ Before entering this stage, there should be at least:
 ### Head of Product
 - maintains the balance between new value, reliability, technical debt and sustainability
 - helps ensure the product evolves deliberately rather than by drift
-- brings end-to-end accountability into optimization and retirement decisions
+- brings end to end accountability into optimization and retirement decisions
 
 ### Product Owner
 - translates learning and improvement needs into practical product priorities
 - helps decide what should move into normal delivery flow
-- keeps optimization connected to real product trade-offs
+- keeps optimization connected to real product trade offs
 
 ### Product Manager
 - connects optimization choices to business value, priorities and stakeholder dialogue
 - helps shape larger improvement or adaptation decisions
-- supports discussion where trade-offs affect future investment direction
+- supports discussion where trade offs affect future investment direction
 
 ### Product Architect
 - helps identify structural improvements, technical debt priorities and simplification opportunities
 - brings technical and architectural perspective to optimization and retirement choices
-- supports sustainable long-term product evolution
+- supports sustainable long term product evolution
 
 ### Business Owner
 - contributes where improvement decisions affect business priorities, outcomes or retirement choices
-- supports business-side trade-offs where adaptation changes the value picture
+- supports business side trade offs where adaptation changes the value picture
 - helps ensure larger product changes stay meaningful from a business perspective
 
 **Others who may contribute:** IT Specialists / Developers · Adoption Specialist · IT Value Partner · IT Architecture Partner · IT Portfolio Partner · Dependent product teams · Operational roles
 
 ## Deliverables
 
-- [Product Review Pack](supporting-materials/product-review-pack/) — use this pack to capture improvement decisions and track agreed actions back into the lifecycle.
-- [Deliverable Model](deliverable-model.html) — all deliverable packs across the lifecycle.
+- [Product Review Pack](supporting-materials/product-review-pack/) use this pack to capture improvement decisions and track agreed actions back into the lifecycle.
+- [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
 
 ## Governance and Processes To Align With
 
@@ -91,7 +91,7 @@ This stage should align with:
 - operational and learning reviews from earlier stages
 - architecture, security and service management guardrails where relevant
 - portfolio and investment dialogue where larger changes or retirement decisions matter
-- fundamentals that support responsible product evolution, simplification and long-term sustainability
+- fundamentals that support responsible product evolution, simplification and long term sustainability
 
 ## What Good Looks Like In This Stage
 
@@ -112,7 +112,7 @@ If optimisation only happens when time happens to appear, the product gradually 
 
 **Only prioritising new value**
 
-Reliability, simplification and technical debt reduction are legitimate product priorities, not second-class work.
+Reliability, simplification and technical debt reduction are legitimate product priorities, not second class work.
 
 **Confusing activity with adaptation**
 

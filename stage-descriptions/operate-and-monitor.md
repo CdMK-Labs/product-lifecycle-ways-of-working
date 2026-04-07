@@ -2,7 +2,7 @@
 
 Operate & Monitor is where the product is actively run in live use. The purpose is to keep the product stable, secure, available and well-performing day to day, and to maintain clear visibility into how it is behaving in production.
 
-This stage is about operational control: service health, incidents, alerts, service levels, performance and the follow-up needed to keep the product healthy and usable over time. It may also include maintenance activities, smaller upgrades and limited business continuity scope. The focus is firmly on the product as a live service, not on usage patterns, adoption signals or business outcomes. Those are the focus of Measure & Learn.
+This stage is about operational control: service health, incidents, alerts, service levels, performance and the follow up needed to keep the product healthy and usable over time. It may also include maintenance activities, smaller upgrades and limited business continuity scope. The focus is firmly on the product as a live service, not on usage patterns, adoption signals or business outcomes. Those are the focus of Measure & Learn.
 
 A key principle in this stage is that operations remain part of product ownership. Live use is not a handover to somewhere else. The product team stays responsible for how the product performs in production and for responding when operational signals show that action is needed.
 
@@ -35,8 +35,8 @@ Before entering this stage, there should be at least:
 - a live product or live change in production
 - support and monitoring arrangements in place
 - access, operational documentation and relevant runbooks available
-- agreed ownership for ongoing operational follow-up
-- enough readiness to manage the product in day-to-day live use
+- agreed ownership for ongoing operational follow up
+- enough readiness to manage the product in day to day live use
 
 ## Core Activities
 
@@ -53,36 +53,36 @@ Before entering this stage, there should be at least:
 ## Who Is Involved
 
 ### Head of Product
-- maintains end-to-end accountability for the product in live use
+- maintains end to end accountability for the product in live use
 - ensures operations remain part of product ownership, not a handover
 - helps balance live stability with ongoing product needs
 
 ### Product Owner
-- helps prioritise operational follow-up, maintenance and smaller continuity changes
+- helps prioritise operational follow up, maintenance and smaller continuity changes
 - connects live issues to product priorities and future action
-- supports clarity when trade-offs are needed in day-to-day operation
+- supports clarity when trade offs are needed in day to day operation
 
 ### IT Delivery Lead
-- helps coordinate operational follow-up, suppliers or service commitments where relevant
+- helps coordinate operational follow up, suppliers or service commitments where relevant
 - supports visibility on service levels, recurring issues and operational actions
 - helps keep live operation disciplined and manageable
 
 ### IT Specialists / Developers
 - investigate, fix and maintain the product in live use
-- handle technical follow-up on incidents, recurring issues and smaller upgrades
+- handle technical follow up on incidents, recurring issues and smaller upgrades
 - keep operational knowledge and technical handling connected to the product team
 
 ### Product Architect
-- helps assess operational issues with architectural or non-functional implications
+- helps assess operational issues with architectural or non functional implications
 - supports decisions related to resilience, technical debt and structural stability
-- brings longer-term technical perspective into live-product issues
+- brings longer term technical perspective into live product issues
 
 **Others who may contribute:** IT Supporter · Operational support roles · Platforms · Business representatives · Adoption Specialist · IT Architecture Partner · Vendors
 
 ## Deliverables
 
-- [Product Review Pack](supporting-materials/product-review-pack/) — use this pack to keep operational health visible and drive timely follow-up.
-- [Deliverable Model](deliverable-model.html) — all deliverable packs across the lifecycle.
+- [Product Review Pack](supporting-materials/product-review-pack/) use this pack to keep operational health visible and drive timely follow up.
+- [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
 
 ## Governance and Processes To Align With
 
@@ -112,7 +112,7 @@ In the product lifecycle model, live operation remains part of product ownership
 
 **Only reacting to incidents**
 
-Good operation is not only about fixing what breaks. It also requires active monitoring and follow-up on patterns and weak signals before they become incidents.
+Good operation is not only about fixing what breaks. It also requires active monitoring and follow up on patterns and weak signals before they become incidents.
 
 **Ignoring recurring friction because the product is technically live**
 

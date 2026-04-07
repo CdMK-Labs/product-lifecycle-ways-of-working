@@ -2,12 +2,12 @@
 
 The Opportunity Brief captures why a topic is worth attention before more time or funding is assigned. It is the first structured step in deciding whether something should move forward, be held, be reshaped or stop.
 
-It is not a business case, delivery plan or solution design. Its job is to create just enough clarity to support a next-step decision.
+It is not a business case, delivery plan or solution design. Its job is to create just enough clarity to support a next step decision.
 
 ## What's in this pack
 
 #### [Opportunity Brief template](supporting-materials/opportunity-brief/)
-Your working document for framing the problem, expected value, strategic fit and next-step recommendation.
+Your working document for framing the problem, expected value, strategic fit and next step recommendation.
 
 Supporting materials that can be linked from the brief:
 - lightweight stakeholder mapping
@@ -31,7 +31,7 @@ For larger topics, the brief helps frame an investment candidate before discover
 
 You do not need all sections to open a useful conversation. A clear problem description, a short value statement, a first view of strategic fit and a recommendation is enough to get started.
 
-Add the remaining sections as the conversation matures or as the topic becomes more complex. The goal is enough clarity to make a next-step decision, not a polished document.
+Add the remaining sections as the conversation matures or as the topic becomes more complex. The goal is enough clarity to make a next step decision, not a polished document.
 
 ## Pack contents
 
@@ -53,7 +53,7 @@ Why the topic matters now: business timing, risk, product health, compliance, op
 Who is affected and where the impact sits: users, teams, processes, business functions, markets or product areas.
 
 ### 6. Expected value
-A high-level statement of the value this could create or protect: business impact, efficiency, quality, resilience, compliance, technical debt reduction, simplification or sustainability.
+A high level statement of the value this could create or protect: business impact, efficiency, quality, resilience, compliance, technical debt reduction, simplification or sustainability.
 
 ### 7. Strategic fit
 How the topic connects to business priorities, product direction or broader strategic intent.
@@ -75,13 +75,13 @@ The person responsible for the brief and the main contributors involved.
 
 ## Who is typically involved
 
-**Product Manager** — often leads the shaping and connects the topic to business priorities and portfolio direction.
+**Product Manager** often leads the shaping and connects the topic to business priorities and portfolio direction.
 
-**IT Value Partner** — plays a central role when the topic is not yet clearly anchored in an existing product.
+**IT Value Partner** plays a central role when the topic is not yet clearly anchored in an existing product.
 
-**Business Owner** — provides business context and helps judge whether it is worth taking forward.
+**Business Owner** provides business context and helps judge whether it is worth taking forward.
 
-**Head of Product** — contributes when the opportunity relates to an existing product.
+**Head of Product** contributes when the opportunity relates to an existing product.
 
 **Others who may contribute:** Product Owner, Product Architect, IT Architecture Partner, IT Portfolio Partner, Adoption Specialist.
 

@@ -2,7 +2,7 @@
 
 Develop & Deliver is where the product team turns approved scope into working product outcomes. The purpose is to build, configure, integrate or implement the agreed changes in a way that creates progress step by step, keeps quality visible, and prepares the work for safe release.
 
-This stage covers different delivery types, including packaged solutions, SaaS-based changes and tailormade development. The exact way of working may vary depending on the context. Some work will be more iterative and incremental, some more milestone-driven, and some more flow-based. The important point is that the team delivers in a disciplined way, keeps work visible, and ensures quality, documentation, security and readiness are handled as part of the work.
+This stage covers different delivery types, including packaged solutions, SaaS based changes and tailormade development. The exact way of working may vary depending on the context. Some work will be more iterative and incremental, some more milestone driven, and some more flow based. The important point is that the team delivers in a disciplined way, keeps work visible, and ensures quality, documentation, security and readiness are handled as part of the work.
 
 Where the product context supports it, teams should also make good use of automation such as automated testing, build pipelines and repeatable deployment preparation. This helps reduce friction later and creates a smoother path into Deploy.
 
@@ -13,7 +13,7 @@ The stage ends when the relevant increments, changes or deliverables are ready t
 Enter this stage when:
 - the required approvals and commitments have been secured
 - the delivery plan is in place and the main team is clear to proceed
-- the functional and non-functional scope are clear enough to begin execution
+- the functional and non functional scope are clear enough to begin execution
 - key dependencies, enabling work and planning assumptions are known well enough to start
 - the team is ready to begin building, configuring, integrating or implementing the agreed change
 
@@ -25,7 +25,7 @@ Enter this stage when:
 - What needs validation as we go?
 - Where would user validation, stakeholder demos or reviews help us learn and adjust?
 - How should backlog, priorities or sequencing be adjusted as we learn?
-- Which dependencies need active follow-up during execution?
+- Which dependencies need active follow up during execution?
 - Where do we need collaboration with other products, platforms or enabling teams?
 - Have any changes to scope, risk or dependencies emerged that require realignment before we continue?
 - What needs to be true before the work is ready for deployment?
@@ -37,7 +37,7 @@ Before entering this stage, there should be at least:
 - a clear enough scope to begin execution
 - an initial feature backlog, work breakdown or equivalent delivery view
 - agreement on the main team and relevant dependencies
-- enough understanding of non-functional needs, service levels and security requirements to build responsibly
+- enough understanding of non functional needs, service levels and security requirements to build responsibly
 - access to the tools, environments, roles and governance needed to progress the work
 
 This stage does not require every detail to be fixed upfront, but it does require enough clarity to begin delivery responsibly.
@@ -50,7 +50,7 @@ This stage does not require every detail to be fixed upfront, but it does requir
 - validate outputs continuously through review, feedback, testing, demos or other relevant quality checks
 - use user validation, stakeholder reviews or demonstrations where helpful to confirm progress and improve the work
 - document decisions, changes and operationally relevant information as part of the work
-- build in security, service quality and other non-functional requirements as the work progresses
+- build in security, service quality and other non functional requirements as the work progresses
 - use automation such as automated testing, build pipelines and repeatable deployment preparation where the product context supports it
 - collaborate actively with other teams where dependencies or shared components matter
 - follow up on risks, dependencies and assumptions during execution
@@ -62,7 +62,7 @@ This stage does not require every detail to be fixed upfront, but it does requir
 
 ### Head of Product
 - keeps delivery aligned with product outcomes, priorities and lifecycle responsibility
-- helps manage trade-offs as delivery progresses
+- helps manage trade offs as delivery progresses
 - ensures the team stays focused on responsible execution, not just activity
 
 ### Product Owner
@@ -71,7 +71,7 @@ This stage does not require every detail to be fixed upfront, but it does requir
 - keeps business and product intent connected to daily execution
 
 ### IT Delivery Lead
-- helps coordinate progress, flow, dependencies and practical delivery follow-up
+- helps coordinate progress, flow, dependencies and practical delivery follow up
 - supports transparency on milestones, risks and issues
 - helps keep delivery moving in a disciplined and visible way
 
@@ -81,16 +81,16 @@ This stage does not require every detail to be fixed upfront, but it does requir
 - document relevant decisions and operational information as part of the work
 
 ### Product Architect
-- guides technical integrity and non-functional quality during delivery
-- helps resolve architectural issues and technical trade-offs
+- guides technical integrity and non functional quality during delivery
+- helps resolve architectural issues and technical trade offs
 - supports sustainable delivery decisions, including technical debt awareness
 
 **Others who may contribute:** Adoption Specialist · Business representatives · Other product teams · Platforms · IT Architecture Partner
 
 ## Deliverables
 
-- [Delivery Pack](supporting-materials/delivery-pack/) — use this pack to keep execution visible and track readiness for deployment.
-- [Deliverable Model](deliverable-model.html) — all deliverable packs across the lifecycle.
+- [Delivery Pack](supporting-materials/delivery-pack/) use this pack to keep execution visible and track readiness for deployment.
+- [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
 
 ## Governance and Processes To Align With
 
@@ -99,13 +99,13 @@ This stage should align with:
 - product and portfolio governance where progress or escalations need visibility
 - relevant security, architecture and service management guardrails
 - dependency coordination with other teams, products and platforms
-- fundamentals that define the common playing field for quality, traceability and responsible delivery, while allowing fit-for-purpose execution methods
+- fundamentals that define the common playing field for quality, traceability and responsible delivery, while allowing fit for purpose execution methods
 
 ## What Good Looks Like Before Moving On
 
 Develop & Deliver is ready to move on when:
 - the agreed increments or changes have been built, configured, integrated or implemented
-- quality, security and relevant non-functional needs have been addressed to a level appropriate for deployment
+- quality, security and relevant non functional needs have been addressed to a level appropriate for deployment
 - documentation and operationally relevant information are in place
 - dependencies and risks have been actively managed during execution
 - backlog, priorities or sequencing have been adjusted where needed based on learning
@@ -116,7 +116,7 @@ Develop & Deliver is ready to move on when:
 
 **Treating delivery as only software development**
 
-This stage also covers packaged, SaaS and configuration-based delivery, not only custom engineering.
+This stage also covers packaged, SaaS and configuration based delivery, not only custom engineering.
 
 **Leaving quality and documentation until the end**
 

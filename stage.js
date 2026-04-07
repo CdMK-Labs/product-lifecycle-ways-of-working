@@ -39,7 +39,7 @@
   document.documentElement.style.setProperty('--stage-color', stage.color);
 
   // Page title and heading
-  document.title = stage.title + ' — Product Lifecycle';
+  document.title = stage.title + ' Product Lifecycle';
   document.getElementById('stage-title').textContent = stage.title;
 
   // Stage position indicator

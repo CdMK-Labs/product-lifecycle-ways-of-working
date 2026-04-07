@@ -10,7 +10,7 @@ It brings the most important execution information together in one place: what i
 Your working document for tracking scope, progress, dependencies, quality, validation and deployment readiness during execution.
 
 Supporting materials that can be linked from the pack:
-- backlog or work-item tool views
+- backlog or work item tool views
 - milestone or flow tracking
 - dependency and issue logs
 - technical notes and configuration records
@@ -27,7 +27,7 @@ The trigger is typically:
 - scope, priorities and dependencies need to stay visible during the work
 - quality and operational readiness need to be tracked as part of delivery
 
-For larger initiatives, the pack may support milestone reviews, governance follow-up and dependency coordination. For smaller changes, it can be used in a lighter way to make execution visible and disciplined without unnecessary overhead.
+For larger initiatives, the pack may support milestone reviews, governance follow up and dependency coordination. For smaller changes, it can be used in a lighter way to make execution visible and disciplined without unnecessary overhead.
 
 The pack should be maintained throughout execution and reviewed at a cadence that fits the work: sprint rhythms, milestones, release checkpoints or dependency reviews. The important point is that it stays current enough to support coordination and deployment readiness.
 
@@ -48,19 +48,19 @@ A clear and simple name for the delivery effort or change.
 What is currently being delivered and what matters most right now.
 
 ### 3. Work breakdown, backlog, flow or milestones
-How the work is structured and tracked during execution: backlog items, milestones, flow items, release slices or another fit-for-purpose structure.
+How the work is structured and tracked during execution: backlog items, milestones, flow items, release slices or another fit for purpose structure.
 
 ### 4. Dependencies and issues
 The dependencies and issues that matter most for execution: what could slow progress, create risk or require active coordination.
 
 ### 5. Key implementation decisions
-The most important delivery decisions made during execution. Helps keep the reasoning visible when trade-offs, clarifications or adjustments are made.
+The most important delivery decisions made during execution. Helps keep the reasoning visible when trade offs, clarifications or adjustments are made.
 
 ### 6. Quality and test evidence
 How quality is being validated: testing, review evidence, demos, stakeholder validation or other relevant quality checks.
 
 ### 7. Security and compliance checks
-The relevant security, compliance and non-functional checks being handled during execution. These should be built in, not left until the end.
+The relevant security, compliance and non functional checks being handled during execution. These should be built in, not left until the end.
 
 ### 8. Technical or configuration notes
 Technical or configuration information that matters for understanding the delivered change and preparing for deployment. Link to source material where appropriate.
@@ -79,15 +79,15 @@ The people responsible for the pack and the main contributors involved.
 
 ## Who is typically involved
 
-**IT Delivery Lead** — usually co-owns the pack and helps keep progress, dependencies, issues and readiness visible throughout execution.
+**IT Delivery Lead** usually co-owns the pack and helps keep progress, dependencies, issues and readiness visible throughout execution.
 
-**Product Owner** — usually co-owns the pack and keeps scope, priorities and day-to-day product decisions aligned with the approved intent.
+**Product Owner** usually co-owns the pack and keeps scope, priorities and day to day product decisions aligned with the approved intent.
 
-**Head of Product** — ensures execution stays aligned with product outcomes, lifecycle responsibility and responsible trade-offs.
+**Head of Product** ensures execution stays aligned with product outcomes, lifecycle responsibility and responsible trade offs.
 
-**IT Specialists / Developers** — contribute the practical execution view, implementation details, validation evidence and technical notes.
+**IT Specialists / Developers** contribute the practical execution view, implementation details, validation evidence and technical notes.
 
-**Product Architect** — ensures technical integrity, non-functional quality and architectural considerations are handled during execution.
+**Product Architect** ensures technical integrity, non functional quality and architectural considerations are handled during execution.
 
 **Others who may contribute:** Adoption Specialist, business stakeholders, vendors, support roles, dependent teams.
 
@@ -118,7 +118,7 @@ Execution is not only about getting work done. It is also about building toward 
 
 **Leaving quality, security and documentation until late**
 
-These should be built into the work as it progresses, not treated as end-stage tasks.
+These should be built into the work as it progresses, not treated as end stage tasks.
 
 **Hiding changes in scope or assumptions**
 

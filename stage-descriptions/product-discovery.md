@@ -19,8 +19,8 @@ Enter this stage when:
 - Do we understand the real problem well enough, or are we still reacting to a proposed solution?
 - Who are the relevant users, stakeholders or operational teams affected?
 - What pain points, needs or opportunities are most important?
-- What options might address the need, and what are the trade-offs?
-- Would a lightweight prototype, mock-up or experiment help us learn faster?
+- What options might address the need, and what are the trade offs?
+- Would a lightweight prototype, mock up or experiment help us learn faster?
 - What are the biggest risks or unknowns?
 - Which dependencies, architectural constraints or lifecycle considerations could matter later?
 - What competencies and likely capacity might be needed if this moves forward?
@@ -29,7 +29,7 @@ Enter this stage when:
 ## Entry Criteria
 
 Before entering this stage, there should be at least:
-- a prioritised Value Proposition or similar high-level opportunity statement
+- a prioritised Value Proposition or similar high level opportunity statement
 - an initial sponsor or accountable business context
 - a first view of which product or domain this may relate to
 - enough clarity to define what we need to learn through discovery
@@ -42,7 +42,7 @@ This stage does not require a committed solution, delivery plan or detailed esti
 - gather early evidence through conversations, observations, data, examples or comparable cases
 - involve the right roles early to surface different perspectives
 - explore more than one option where relevant
-- use lightweight prototyping, mock-ups or experiments where helpful to test assumptions and learn faster, keeping these clearly as learning tools and not early delivery
+- use lightweight prototyping, mock ups or experiments where helpful to test assumptions and learn faster, keeping these clearly as learning tools and not early delivery
 - identify key risks, dependencies, constraints and unknowns
 - consider product lifecycle implications early, including adoption, operations, security, architecture and sustainability
 - assess what competencies and likely capacity needs would matter if the topic moves forward
@@ -79,8 +79,8 @@ This stage does not require a committed solution, delivery plan or detailed esti
 
 ## Deliverables
 
-- [Discovery Pack](supporting-materials/discovery-pack/) — use this pack to capture what was learned and support a decision on next steps.
-- [Deliverable Model](deliverable-model.html) — all deliverable packs across the lifecycle.
+- [Discovery Pack](supporting-materials/discovery-pack/) use this pack to capture what was learned and support a decision on next steps.
+- [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
 
 ## Governance and Processes To Align With
 
@@ -88,7 +88,7 @@ This stage should align with:
 - relevant product and portfolio dialogue
 - business and stakeholder engagement needed to validate the opportunity
 - architecture, security or operational guardrails where relevant
-- fundamentals that define the shared playing field, while allowing fit-for-purpose discovery methods in practice
+- fundamentals that define the shared playing field, while allowing fit for purpose discovery methods in practice
 
 ## What Good Looks Like Before Moving On
 
