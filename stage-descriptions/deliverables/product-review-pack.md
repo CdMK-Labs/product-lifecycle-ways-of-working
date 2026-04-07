@@ -10,7 +10,7 @@ It is not only a reporting artifact. It should help the product team and busines
 
 ## When to use this pack
 
-Use this pack during Operations: [Operate & Monitor](../../stage.html?s=operate-and-monitor), [Measure & Learn](../../stage.html?s=measure-and-learn) and [Adapt & Optimize](../../stage.html?s=adapt-and-optimize).
+Use this pack during Operation & Evaluation: [Operate & Monitor](../../stage.html?s=operate-and-monitor), [Measure & Learn](../../stage.html?s=measure-and-learn) and [Adapt & Optimize](../../stage.html?s=adapt-and-optimize).
 
 The trigger is typically:
 - the product is live and in active use
