@@ -64,60 +64,8 @@
       margin: 0;
     }
 
-    .stages-list {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 0.75rem;
-      margin-top: 1rem;
-    }
-
-    .stage-block {
-      background: #fff;
-      border: 1px solid #ddeedd;
-      border-top: 3px solid #0D6A4B;
-      border-radius: 4px;
-      padding: 0.85rem 0.9rem;
-    }
-
-    .stage-block .card-number {
-      margin-bottom: 0.15rem;
-    }
-
-    .stage-block h3 {
-      font-size: 0.88rem;
-      font-weight: 700;
-      color: #02462F;
-      margin-bottom: 0.25rem;
-      line-height: 1.3;
-      text-transform: none;
-      letter-spacing: normal;
-      opacity: 1;
-    }
-
-    .stage-block p {
-      font-size: 0.85rem;
-      color: #4a6a5a;
-      line-height: 1.55;
-      margin: 0;
-    }
-
-    /* Subtle link style inside the matrix */
-    .stage-content table a {
-      color: #0D6A4B;
-      text-decoration: none;
-      font-weight: inherit;
-    }
-    .stage-content table a:hover {
-      text-decoration: underline;
-    }
-
     @media (max-width: 800px) {
       .process-grid { grid-template-columns: 1fr; }
-      .stages-list { grid-template-columns: repeat(3, 1fr); }
-    }
-
-    @media (max-width: 480px) {
-      .stages-list { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -135,135 +83,46 @@
 
       <div class="intro-block">
         <h2>What this page is for</h2>
-        <p>The Financial Model helps teams understand how financial decisions connect to the product lifecycle. It covers five financial stages and four core financial processes that run alongside the lifecycle stages.</p>
-        <p>Use it to find the right financial conversation for your stage of work and to understand what is expected at each point.</p>
-      </div>
-
-      <h2>Financial stages</h2>
-      <div class="stages-list">
-
-        <div class="stage-block">
-          <span class="card-number">01</span>
-          <h3>Idea Generation</h3>
-          <p>Early financial framing. Enough clarity to decide whether to explore further.</p>
-        </div>
-
-        <div class="stage-block">
-          <span class="card-number">02</span>
-          <h3>Exploration</h3>
-          <p>Lightweight spend within a funding frame. Enough room to discover and shape.</p>
-        </div>
-
-        <div class="stage-block">
-          <span class="card-number">03</span>
-          <h3>Development</h3>
-          <p>Investment commitment. The business case is tested and a budget is approved.</p>
-        </div>
-
-        <div class="stage-block">
-          <span class="card-number">04</span>
-          <h3>Execution</h3>
-          <p>Active cost tracking. Forecast against approved budget as delivery progresses.</p>
-        </div>
-
-        <div class="stage-block">
-          <span class="card-number">05</span>
-          <h3>Operation &amp; Evaluation</h3>
-          <p>Ongoing cost and value review. Confirm the product delivers what was expected.</p>
-        </div>
-
+        <p>The Financial Model helps teams understand how funding, approval, forecasting, and reporting connect to product and delivery work.</p>
+        <p>It is a practical guide for navigating the key financial processes that support decision-making across the lifecycle, from early ideas to execution and follow-up.</p>
+        <p>Use this section to understand:</p>
+        <ul>
+          <li>which financial process is relevant</li>
+          <li>when to involve the right people</li>
+          <li>what is needed to move forward</li>
+          <li>how financial follow-up connects to delivery and outcomes</li>
+        </ul>
       </div>
 
       <h2>Core financial processes</h2>
+      <p>The Financial Model is structured around four core financial processes. Each process supports a different part of the journey from idea to follow-up.</p>
       <div class="process-grid">
 
         <a href="financial-process.html?p=allocate-funding-frames" class="process-card">
           <span class="card-number">01</span>
-          <h3>Allocate Funding Frames</h3>
-          <p>Set the financial boundaries for product work before detailed planning begins.</p>
+          <h3>Funding Frame Allocation</h3>
+          <p>Defines the financial frame available for planned work and helps create transparency on funding boundaries and priorities.</p>
         </a>
 
         <a href="financial-process.html?p=approve-investments" class="process-card">
           <span class="card-number">02</span>
-          <h3>Approve Investments</h3>
-          <p>Decide whether a shaped business case should proceed, be reshaped, held or stopped.</p>
+          <h3>Approve Investment</h3>
+          <p>Supports decision-making for new investments by clarifying what is being proposed, why it matters, and what is needed for approval.</p>
         </a>
 
         <a href="financial-process.html?p=forecast-financials" class="process-card">
           <span class="card-number">03</span>
-          <h3>Forecast Financials</h3>
-          <p>Keep the financial outlook for active work up to date throughout delivery and operation.</p>
+          <h3>Financial Forecasting</h3>
+          <p>Helps teams and stakeholders maintain an updated view of expected spend and financial development over time.</p>
         </a>
 
         <a href="financial-process.html?p=report-financial-status" class="process-card">
           <span class="card-number">04</span>
-          <h3>Report Financial Status</h3>
-          <p>Make the financial health of the portfolio visible so decisions happen at the right time.</p>
+          <h3>Financial Reporting</h3>
+          <p>Provides follow-up on actuals, financial performance, and relevant reporting to support transparency and governance.</p>
         </a>
 
       </div>
-
-      <h2>How to use this model</h2>
-      <p>Start with the financial stage that matches where your work is now. Use it to find the relevant financial process and understand what is expected.</p>
-      <ul>
-        <li>Use the financial stages to understand what kind of financial conversation you are in</li>
-        <li>Open a process page to see what inputs, activities and decisions are involved</li>
-        <li>Use the matrix below to connect financial processes to lifecycle stages and deliverables</li>
-        <li>Keep financial conversations proportionate to the stage of work</li>
-      </ul>
-
-      <h2>Principles</h2>
-      <ul>
-        <li>Financial discipline supports delivery. It should not slow it down or exist for its own sake.</li>
-        <li>Keep financial conversations proportionate to the size and stage of the investment</li>
-        <li>Make cost and value visible together, not in separate conversations</li>
-        <li>Surface issues early. Small variances managed early are better than big surprises later.</li>
-        <li>Keep the financial model and the lifecycle model aligned</li>
-      </ul>
-
-      <h2>Financial matrix</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Financial stage</th>
-            <th>Core financial process</th>
-            <th>Related lifecycle stages</th>
-            <th>Related deliverables</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Idea Generation</td>
-            <td><a href="financial-process.html?p=allocate-funding-frames">Allocate Funding Frames</a></td>
-            <td><a href="stage.html?s=value-proposition">Value Proposition</a></td>
-            <td><a href="supporting-materials/opportunity-brief/">Opportunity Brief</a></td>
-          </tr>
-          <tr>
-            <td>Exploration</td>
-            <td><a href="financial-process.html?p=allocate-funding-frames">Allocate Funding Frames</a></td>
-            <td><a href="stage.html?s=product-discovery">Product Discovery</a></td>
-            <td><a href="supporting-materials/discovery-pack/">Discovery Pack</a></td>
-          </tr>
-          <tr>
-            <td>Development</td>
-            <td><a href="financial-process.html?p=approve-investments">Approve Investments</a></td>
-            <td><a href="stage.html?s=align-and-plan">Align &amp; Plan</a></td>
-            <td><a href="supporting-materials/business-case-and-delivery-decision-pack/">Business Case &amp; Delivery Decision Pack</a></td>
-          </tr>
-          <tr>
-            <td>Execution</td>
-            <td><a href="financial-process.html?p=forecast-financials">Forecast Financials</a>, <a href="financial-process.html?p=report-financial-status">Report Financial Status</a></td>
-            <td><a href="stage.html?s=develop-and-deliver">Develop &amp; Deliver</a>, <a href="stage.html?s=deploy">Deploy</a></td>
-            <td><a href="supporting-materials/delivery-pack/">Delivery Pack</a>, <a href="supporting-materials/release-and-readiness-pack/">Release &amp; Readiness Pack</a></td>
-          </tr>
-          <tr>
-            <td>Operation &amp; Evaluation</td>
-            <td><a href="financial-process.html?p=forecast-financials">Forecast Financials</a>, <a href="financial-process.html?p=report-financial-status">Report Financial Status</a></td>
-            <td><a href="stage.html?s=operate-and-monitor">Operate &amp; Monitor</a>, <a href="stage.html?s=measure-and-learn">Measure &amp; Learn</a>, <a href="stage.html?s=adapt-and-optimize">Adapt &amp; Optimize</a></td>
-            <td><a href="supporting-materials/product-review-pack/">Product Review Pack</a></td>
-          </tr>
-        </tbody>
-      </table>
 
     </div>
   </div>

@@ -104,7 +104,62 @@
             el = el.nextElementSibling;
           }
         }
+
+        // Financial stages: render stage items as visual blocks
+        if (/financial stages/i.test(h2.textContent)) {
+          renderFinancialStages(h2);
+        }
       });
     })
     .catch(function (err) { console.error(err); });
+
+  /**
+   * Converts the Financial stages markdown list into styled stage blocks.
+   * Expects the h2 to be followed by a <p> intro and a <ul> with items
+   * formatted as "**01 Title** — Description".
+   */
+  function renderFinancialStages(h2) {
+    // Collect the intro paragraph and the list
+    var introP = null;
+    var stageUl = null;
+    var el = h2.nextElementSibling;
+    while (el && el.tagName !== 'H2') {
+      if (el.tagName === 'P' && !introP) { introP = el; }
+      if (el.tagName === 'UL' && !stageUl) { stageUl = el; }
+      el = el.nextElementSibling;
+    }
+
+    if (!stageUl) return;
+
+    // Build the stage blocks grid
+    var grid = document.createElement('div');
+    grid.className = 'financial-stages-grid';
+
+    var items = stageUl.querySelectorAll('li');
+    items.forEach(function (li) {
+      var strong = li.querySelector('strong');
+      if (!strong) return;
+
+      var titleText = strong.textContent.trim();
+      // Extract number and name from "01 Idea Generation"
+      var match = titleText.match(/^(\d+)\s+(.+)$/);
+      var number = match ? match[1] : '';
+      var name = match ? match[2] : titleText;
+
+      // Description is everything after the strong + separator
+      var desc = li.textContent.replace(strong.textContent, '').replace(/^\s*[—–-]\s*/, '').trim();
+
+      var block = document.createElement('div');
+      block.className = 'financial-stage-block';
+      block.innerHTML =
+        '<span class="card-number">' + number + '</span>' +
+        '<h3>' + name + '</h3>' +
+        '<p>' + desc + '</p>';
+
+      grid.appendChild(block);
+    });
+
+    // Replace the <ul> with the grid
+    stageUl.parentNode.replaceChild(grid, stageUl);
+  }
 })();

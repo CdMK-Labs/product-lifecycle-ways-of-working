@@ -1,17 +1,24 @@
 ## What this process is for
 
-Approve Investments is the decision point where a shaped business case is assessed and a commitment is made. It confirms whether work should proceed to delivery, be reshaped, held for later or stopped.
+Approve Investment helps teams and stakeholders make informed decisions on whether an initiative should move forward with funding and commitment.
 
-This is not a rubber stamp. It is a structured conversation that tests whether the investment case is strong enough, realistic enough and aligned enough to justify moving forward.
+It creates clarity on the opportunity, the expected value, the required investment, and the level of confidence needed to decide.
+
+## Purpose
+
+The purpose of Approve Investment is to support consistent and transparent investment decisions.
+
+It helps ensure that:
+- the opportunity is clear
+- the expected value is understood
+- costs and implications are visible
+- the right stakeholders are involved before moving forward
 
 ## When to use it
 
-- When a business case or delivery decision pack is ready for review
-- When an initiative needs formal commitment of budget, capacity or both
-- When a previously approved investment needs a material change in scope or cost
-- When a hold or reject decision needs to be made and recorded
+Use this process when an initiative needs formal investment approval before entering execution or scaling beyond early exploration.
 
-This process is most active during the Development financial stage. It connects closely to the Align and Plan lifecycle stage.
+The level of detail should match the size, complexity, and importance of the investment.
 
 ## Key questions to answer
 
@@ -23,11 +30,11 @@ This process is most active during the Development financial stage. It connects 
 
 ## Inputs
 
-- Business case and delivery decision pack
-- Funding frame for the relevant product area
-- Discovery findings and recommendation
-- Portfolio view of competing priorities
-- Risk and dependency assessment
+- A defined opportunity or problem
+- An outline of expected value or outcome
+- An initial understanding of scope and investment need
+- Relevant assumptions, dependencies, and risks
+- Alignment with strategic and portfolio priorities
 
 ## Activities
 
@@ -57,16 +64,39 @@ This process is most active during the Development financial stage. It connects 
 
 ## Who is involved
 
-### Portfolio Partner
-- leads or facilitates the approval conversation and ensures portfolio-level coherence
-
 ### Head of Product
 - presents or sponsors the business case and confirms product-level alignment
 
 ### Delivery Lead
 - confirms delivery feasibility, cost estimates and team readiness
 
-**Others who may contribute:** Business Owner, Finance Business Partner, IT Architecture Partner, Product Architect.
+### Portfolio Partner
+- leads or facilitates the approval conversation and ensures portfolio-level coherence
+
+**Others who may contribute:** Finance, relevant business stakeholders, and other contributors as needed depending on the initiative.
+
+## Practical guidance
+
+Keep the material decision-oriented and proportionate.
+
+Focus on what decision-makers need in order to decide:
+- what problem or opportunity we are addressing
+- why it matters
+- what value is expected
+- what investment is needed
+- what key risks or dependencies should be understood
+
+Avoid overcomplicating the process. The goal is not to produce documentation for its own sake, but to create enough clarity to support a good decision.
+
+## Financial stages
+
+Approve Investment sits within a broader financial flow. The stages below show how ideas mature from early opportunity identification into delivery, operation, and follow-up.
+
+- **01 Idea Generation** — Early ideas, needs, or opportunities are identified.
+- **02 Exploration** — The opportunity is explored and shaped to build understanding of value, scope, and fit.
+- **03 Development** — The case is matured and prepared for decision-making, including the level of detail needed for approval.
+- **04 Execution** — Approved investments move into delivery, with financial follow-up and governance during implementation.
+- **05 Operation & Evaluation** — Costs, value, and outcomes are followed up over time to support learning and accountability.
 
 ## How it connects to lifecycle stages and deliverables
 
