@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="fonts.css">
+  <title>Product Lifecycle</title>
+  <link rel="stylesheet" href="stage.css">
+  <style>
+    :root { --stage-color: #02462F; }
+    .role-category-badge {
+      display: block;
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #0D6A4B;
+      margin-bottom: 0.5rem;
+      opacity: 0.75;
+    }
+  </style>
+</head>
+<body>
+  <div class="accent-bar" style="background: #02462F;"></div>
+  <nav class="stage-nav" aria-label="Site navigation">
+    <div class="nav-inner">
+      <a href="roles-and-responsibilities.html" class="nav-btn nav-home">&larr; Roles &amp; Responsibilities</a>
+      <div class="nav-stages" id="nav-stages"></div>
+    </div>
+  </nav>
+  <div class="page-body">
+    <p class="role-category-badge" id="role-category"></p>
+    <h1 id="role-title"></h1>
+    <div id="role-content" class="stage-content"></div>
+  </div>
+  <nav class="stage-footer-nav" id="role-footer-nav" aria-label="Role navigation"></nav>
+  <script src="marked.min.js"></script>
+  <script src="role.js"></script>
+</body>
+</html>
