@@ -6,7 +6,81 @@
   <link rel="stylesheet" href="fonts.css">
   <title>Fundamentals – Product Lifecycle</title>
   <link rel="stylesheet" href="stage.css">
-  <style>:root { --stage-color: #02462F; }</style>
+  <style>
+    :root { --stage-color: #02462F; }
+
+    /* Fundamental titles — override stage-content h3 defaults for this page */
+    .stage-content h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #02462F;
+      text-transform: none;
+      letter-spacing: normal;
+      opacity: 1;
+      margin-top: 2.75rem;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid #c8e8c8;
+    }
+
+    .why-block {
+      background: rgba(13, 106, 75, 0.04);
+      border-left: 3px solid #0D6A4B;
+      padding: 0.85rem 1.2rem;
+      border-radius: 0 4px 4px 0;
+      margin-bottom: 1rem;
+      max-width: 66ch;
+    }
+
+    .why-block p {
+      margin: 0;
+      font-size: 0.95rem;
+      color: #02462F;
+      line-height: 1.7;
+    }
+
+    .section-label {
+      font-size: 0.63rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: #0D6A4B;
+      display: block;
+      margin-bottom: 0.35rem;
+      opacity: 0.8;
+    }
+
+    .fundamental-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem 2.5rem;
+      margin-top: 1.1rem;
+      padding-top: 0.85rem;
+      border-top: 1px solid #eef6ee;
+      max-width: 66ch;
+    }
+
+    .meta-label {
+      font-size: 0.63rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: #0D6A4B;
+      display: block;
+      margin-bottom: 0.2rem;
+      opacity: 0.75;
+    }
+
+    .meta-value {
+      font-size: 0.88rem;
+      color: #2d4a3e;
+      line-height: 1.55;
+    }
+
+    @media (max-width: 480px) {
+      .fundamental-meta { flex-direction: column; gap: 0.85rem; }
+    }
+  </style>
 </head>
 <body>
   <div class="accent-bar" style="background: #02462F;"></div>
@@ -15,14 +89,512 @@
       <a href="index.html" class="nav-btn nav-home">&larr; Product Lifecycle</a>
     </div>
   </nav>
+
   <div class="page-body">
     <h1>Fundamentals</h1>
     <div class="stage-content">
+
       <div class="intro-block">
         <h2>What this page is for</h2>
-        <p>Content coming soon.</p>
+        <p>Fundamentals are non-negotiable rules everyone in IT and Digital follows. They define how we measure, collaborate, source, invest and deliver quality across the product organisation.</p>
+        <p>Use this page to understand what each fundamental requires, why it exists, and who is responsible for it.</p>
       </div>
+
+
+      <!-- ── Group 1 ─────────────────────────────────────────────────────── -->
+      <h2>How we provide insights in IT &amp; Digital and outside for decision making</h2>
+
+      <h3>Delivery measurements</h3>
+      <span class="section-label">Why</span>
+      <div class="why-block">
+        <p>We measure progress, cost, risk, and resources to track whether we are delivering planned outcomes on time and within budget. This helps us spot issues early, align spend with progress, manage risks, deploy the right capacity, and make timely, evidence-based decisions.</p>
+      </div>
+      <span class="section-label">What</span>
+      <p>Actuals vs budget vs forecast, reported in absolute numbers. Overall status is evaluated by the initiative lead based on:</p>
+      <ul>
+        <li>Progress: are we where we expected to be?</li>
+        <li>Percentage of major activities completed vs planned</li>
+        <li>Cost performance: will we be able to complete within budget?</li>
+        <li>Risk: is the risk profile understood and are risks being managed?</li>
+        <li>Resources: do we have the staffing needed from IT and Digital and the business?</li>
+      </ul>
+      <div class="fundamental-meta">
+        <div>
+          <span class="meta-label">Who</span>
+          <span class="meta-value">Make: IT Head of Product, IT Delivery Lead, Product Owner, Product Manager<br>Use: IT Delivery Partner, IT Portfolio Partner, IT LT</span>
+        </div>
+        <div>
+          <span class="meta-label">When</span>
+          <span class="meta-value">Q2 2026 (awaiting KPI framework)</span>
+        </div>
+      </div>
+
+
+      <h3>Outcome and value measurements</h3>
+      <span class="section-label">Why</span>
+      <div class="why-block">
+        <p>To be outcome obsessed and a value enabler, we need to understand which business KPIs we aim to influence, and how we influence them via leading indicators.</p>
+      </div>
+      <span class="section-label">What</span>
+      <p>For investments above 300k EUR, define leading indicators and align them with the business owner. These should be followed up at an agreed interval (1 to 4 times per year), each with a target. We measure the number of investments compliant with this requirement and track actual vs target for each leading indicator.</p>
+      <div class="fundamental-meta">
+        <div>
+          <span class="meta-label">Who</span>
+          <span class="meta-value">Make: IT Value Partner, IT Head of Product, Product Manager, Product Owner<br>Use: Business Owner, IT Portfolio Partner, IT LT</span>
+        </div>
+        <div>
+          <span class="meta-label">How</span>
+          <span class="meta-value">Leading indicators, CAPEX Insights, Supporting Material templates, leading indicators library</span>
+        </div>
+        <div>
+          <span class="meta-label">When</span>
+          <span class="meta-value">Q2 2026 (awaiting KPI framework)</span>
+        </div>
+      </div>
+
+
+      <h3>Operational measurements</h3>
+      <span class="section-label">Why</span>
+      <div class="why-block">
+        <p>Operational measurements are essential for running our operation efficiently and ensuring our IT Products are tracking towards the right level of value adoption, availability, stability and security.</p>
+      </div>
+      <span class="section-label">What</span>
+      <p>Daily performance is tracked across, for example:</p>
+      <ul>
+        <li>Availability of services, SLAs and Business Impact Index (BII)</li>
+        <li>Ticket and incident resolution times and volume</li>
+        <li>Security KPIs, including vulnerability remediation</li>
+        <li>Recovery KPIs (RTO/RPO)</li>
+      </ul>
+      <div class="fundamental-meta">
+        <div>
+          <span class="meta-label">Who</span>
+          <span class="meta-value">Make: IT Product<br>Use: Head of IT Product, IT Delivery Partner, IT Product</span>
+        </div>
+        <div>
+          <span class="meta-label">How</span>
+          <span class="meta-value">ServiceNow, external data from vendors, monitoring solutions</span>
+        </div>
+        <div>
+          <span class="meta-label">When</span>
+          <span class="meta-value">Q2 2026 (awaiting KPI framework)</span>
+        </div>
+      </div>
+
+
+      <h3>Product team engagement measurements</h3>
+      <span class="section-label">Why</span>
+      <div class="why-block">
+        <p>We measure team engagement to understand how teams are functioning beyond delivery responsibilities. It provides insight into the parameters that shape team collaboration and individual performance, helping us address team challenges early and support the development of empowered, high-performing teams.</p>
+      </div>
+      <span class="section-label">What</span>
+      <p>Team engagement in IT and Digital is measured on four parameters: psychological safety, team member satisfaction and engagement, collaboration, and performance and purpose.</p>
+      <p>An action plan is defined based on the results. Head of IT Product is responsible for ensuring the measurement is carried out and that follow-up actions are tracked and completed.</p>
+      <div class="fundamental-meta">
+        <div>
+          <span class="meta-label">Who</span>
+          <span class="meta-value">Make: Head of IT Product<br>Use: Head of IT Product, IT Delivery Leads, IT Product teams</span>
+        </div>
+        <div>
+          <span class="meta-label">How</span>
+          <span class="meta-value">Anonymous quarterly tracking. Action plan actively carried out and revisited as part of continuous team development.</span>
+        </div>
+        <div>
+          <span class="meta-label">When</span>
+          <span class="meta-value">Q3 2026</span>
+        </div>
+      </div>
+
+
+      <!-- ── Group 2 ─────────────────────────────────────────────────────── -->
+      <h2>How we ensure smooth cross-product collaboration</h2>
+
+      <h3>Operating the IT product and decommissioning</h3>
+      <span class="section-label">Why</span>
+      <div class="why-block">
+        <p>We aim to maintain secure, stable, cost-efficient and high-quality IT products at all times, across the full lifecycle from active operation through to planned retirement.</p>
+      </div>
+      <span class="section-label">What</span>
+      <p>Operating the product efficiently includes maintaining applications, handling business requests for minor enhancements, tracking changes, managing incidents and keeping documentation current.</p>
+      <p>Decommissioning covers the planned retirement of a service: data migration and archiving, contract and licence closure, security cleanup, infrastructure removal, data governance, CMDB updates, service agreement adjustments and hardware decommissioning.</p>
+      <div class="fundamental-meta">
+        <div>
+          <span class="meta-label">Who</span>
+          <span class="meta-value">Head of IT Product, IT Delivery Lead, IT Product Teams</span>
+        </div>
+        <div>
+          <span class="meta-label">How</span>
+          <span class="meta-value">ServiceNow, monitoring systems</span>
+        </div>
+        <div>
+          <span class="meta-label">From</span>
+          <span class="meta-value">1 January 2026</span>
+        </div>
+      </div>
+
+
+      <h3>Product roadmaps</h3>
+      <span class="section-label">Why</span>
+      <div class="why-block">
+        <p>IT product teams need to manage their products across the full lifecycle. A clear outlook for future products, while building, running and retiring existing ones, strengthens the partnership between IT product teams and the business by keeping the roadmap aligned to business strategy and product vision.</p>
+      </div>
+      <span class="section-label">What</span>
+      <p>A product roadmap is a time-sequenced, outcome-focused statement of the product's strategic direction, covering features, data, maintenance and more. It is updated regularly to reflect the IT product portfolio for the next 1 to 3 years, including future ideas, items under development, items in operation and planned decommissioning.</p>
+      <div class="fundamental-meta">
+        <div>
+          <span class="meta-label">Who</span>
+          <span class="meta-value">Make: Head of IT Product, Product Manager, Product Owner<br>Use: Head of IT Area, IT Enablement Team, IT Product Team</span>
+        </div>
+        <div>
+          <span class="meta-label">From</span>
+          <span class="meta-value">1 January 2026</span>
+        </div>
+      </div>
+
+
+      <h3>Planning</h3>
+      <span class="section-label">Why</span>
+      <div class="why-block">
+        <p>Planning creates shared understanding, defines clear milestones, manages risks and dependencies, and enables informed prioritisation so teams can balance demand with capacity and stay responsive to change.</p>
+      </div>
+      <span class="section-label">What</span>
+      <ul>
+        <li>Run regular, time-boxed planning to prioritise work, size capacity and define clear outcomes</li>
+        <li>Address dependencies and track them alongside risks with clear mitigations</li>
+        <li>Treat the plan as a commitment to what will be done in the given period, while recognising that plans should change when important new information or priorities emerge</li>
+      </ul>
+      <div class="fundamental-meta">
+        <div>
+          <span class="meta-label">Who</span>
+          <span class="meta-value">Make: IT Product Team (IT Delivery Lead, Head of IT Product)<br>Use: Enablement Teams, IT Product Teams, Product Owner, Product Manager</span>
+        </div>
+        <div>
+          <span class="meta-label">How</span>
+          <span class="meta-value">Plans and dependencies documented and tracked in Azure DevOps. Dependencies to other product teams aligned through dialogue before reporting via Dependency Forms or directly in Azure DevOps.</span>
+        </div>
+        <div>
+          <span class="meta-label">From</span>
+          <span class="meta-value">1 January 2026</span>
+        </div>
+      </div>
+
+
+      <h3>Inflow of planned work</h3>
+      <span class="section-label">Why</span>
+      <div class="why-block">
+        <p>By staying close to our customers and continuously translating their business strategy, objectives and KPIs into concrete IT deliverables, competency needs and capacity plans, we ensure we can deliver the right things at the right time.</p>
+      </div>
+      <span class="section-label">What</span>
+      <ul>
+        <li>Systematic intake and assessment of upcoming needs via a pipeline of ideas</li>
+        <li>Translation of needs into a product roadmap, competency profiles and capacity forecasts</li>
+        <li>Active capacity management covering both planned delivery and reserved buffer for maturation and unplanned work</li>
+      </ul>
+      <div class="fundamental-meta">
+        <div>
+          <span class="meta-label">Who</span>
+          <span class="meta-value">Make: Head of IT Product, Enablement Team (for entirely new products or complex cross-functional initiatives)<br>Use: Enablement Team, IT Product Team, Product Owner, Product Manager</span>
+        </div>
+        <div>
+          <span class="meta-label">How</span>
+          <span class="meta-value">Quarterly and/or monthly customer insight sessions. Standardised funnel process: Discover, Qualify, Funnel, then Maturation, Plan, Deliver. Captured in Azure DevOps and aligned with available funding. Roadmaps with minimum 12-month perspective.</span>
+        </div>
+        <div>
+          <span class="meta-label">From</span>
+          <span class="meta-value">1 November 2025</span>
+        </div>
+      </div>
+
+
+      <h3>Inflow of dynamic and emergent work</h3>
+      <span class="section-label">Why</span>
+      <div class="why-block">
+        <p>By acknowledging and planning for dynamic and emergent work, we protect delivery predictability, quality and team health. We reduce disruption, make realistic commitments and maintain flow, both within and across product teams.</p>
+      </div>
+      <span class="section-label">What</span>
+      <ul>
+        <li>Proactively identify, track and plan capacity for incidents, emergent work and outages</li>
+        <li>Allocate a percentage of capacity based on historical data and adjust as necessary</li>
+        <li>Apply lightweight triage and time-boxed investigation before committing to larger deliveries</li>
+        <li>Proactively reduce incidents and emergent work through built-in quality, inspect and adapt, and by addressing root causes and technical debt</li>
+      </ul>
+      <div class="fundamental-meta">
+        <div>
+          <span class="meta-label">Who</span>
+          <span class="meta-value">IT Product Team</span>
+        </div>
+        <div>
+          <span class="meta-label">How</span>
+          <span class="meta-value">Plan with incidents and emergent work as a starting point and adjust based on data. Make dynamic work visible. Define entry and triage policies. Create follow-up tasks to reduce future incidents through automation and improvements.</span>
+        </div>
+      </div>
+
+
+      <h3>Sourcing of consultants</h3>
+      <span class="section-label">Why</span>
+      <div class="why-block">
+        <p>To ensure cost-efficiency, quality delivery and compliance with procurement policies.</p>
+      </div>
+      <span class="section-label">What</span>
+      <p>External consultants fall into three categories: freelancers (cost-effective for temporary roles or staff augmentation), consultancy firms (for team-based or managed service deliveries), and niche suppliers (specialised services not covered by main suppliers).</p>
+      <p>Approved suppliers are: Emagine, IBM, Accenture and Netcompany. Any other supplier requires IT LT Director approval.</p>
+      <div class="fundamental-meta">
+        <div>
+          <span class="meta-label">Who</span>
+          <span class="meta-value">All Arla IT employees involved in sourcing or engaging external consultants</span>
+        </div>
+        <div>
+          <span class="meta-label">When</span>
+          <span class="meta-value">Whenever external IT expertise is needed and internal resources are unavailable or unsuitable</span>
+        </div>
+      </div>
+
+
+      <h3>Sourcing of software, services and hardware</h3>
+      <span class="section-label">Why</span>
+      <div class="why-block">
+        <p>To ensure commercial excellence, compliance and the best possible agreements for Arla through competitive sourcing.</p>
+      </div>
+      <span class="section-label">What</span>
+      <p>IT Procurement and VMO leads all contract and commercial discussions and ensures necessary involvement of IT Legal. Competitive processes such as RFPs, tenders and benchmarks are encouraged to explore options and strengthen negotiation positions.</p>
+      <div class="fundamental-meta">
+        <div>
+          <span class="meta-label">Who</span>
+          <span class="meta-value">All IT employees involved in software, hardware (not in Coupa catalogues) or IT managed services purchases. IT Procurement and VMO involvement is mandatory.</span>
+        </div>
+        <div>
+          <span class="meta-label">How</span>
+          <span class="meta-value">Engage IT Procurement early. Do not initiate commercial or contractual dialogue with suppliers directly. Follow Arla's procurement principles, platform selection framework and sourcing process.</span>
+        </div>
+        <div>
+          <span class="meta-label">When</span>
+          <span class="meta-value">From the moment a need for software, hardware or managed IT services is identified, before any supplier contact</span>
+        </div>
+      </div>
+
+
+      <h3>Task management and delivery platform</h3>
+      <span class="section-label">Why</span>
+      <div class="why-block">
+        <p>Azure DevOps brings planning and delivery together in one platform. It enhances collaboration and prioritisation, provides an overview of ongoing work, enables dependency management across teams and gives visibility of progress, efficiency and flow through dashboards and reports.</p>
+      </div>
+      <span class="section-label">What</span>
+      <p>We use Azure DevOps to manage all work related to IT Products and Platforms, including development, maintenance and enhancements.</p>
+      <div class="fundamental-meta">
+        <div>
+          <span class="meta-label">Who</span>
+          <span class="meta-value">Make: IT Product teams, Product Manager, Product Owner<br>Use: Head of Area, Head of IT Product, Product Owner, Product Manager, IT Product Enablement</span>
+        </div>
+        <div>
+          <span class="meta-label">How</span>
+          <span class="meta-value">MS Azure DevOps</span>
+        </div>
+        <div>
+          <span class="meta-label">From</span>
+          <span class="meta-value">1 November 2025</span>
+        </div>
+      </div>
+
+
+      <h3>IT service management</h3>
+      <span class="section-label">Why</span>
+      <div class="why-block">
+        <p>We use ServiceNow to run and manage IT and Digital operations, standardise work, and leverage automation and integrations to boost stability, quality, speed and transparency.</p>
+      </div>
+      <span class="section-label">What</span>
+      <p>ServiceNow is our IT service management platform for managing incidents, problems, changes, requests, releases and SAP deployments. It enforces and monitors SLAs and hosts the CMDB, business criticality and third-party agreements, enabling accurate dependency mapping and impact analysis.</p>
+      <div class="fundamental-meta">
+        <div>
+          <span class="meta-label">Who</span>
+          <span class="meta-value">Make: IT Product Teams<br>Use: IT Product Teams, Enablement Team, Head of IT Product, Product Owner</span>
+        </div>
+        <div>
+          <span class="meta-label">How</span>
+          <span class="meta-value">ServiceNow</span>
+        </div>
+        <div>
+          <span class="meta-label">From</span>
+          <span class="meta-value">1 November 2025</span>
+        </div>
+      </div>
+
+
+      <h3>Vendor management</h3>
+      <span class="section-label">Why</span>
+      <div class="why-block">
+        <p>To ensure efficient management of IT vendors, deliver value to Arla, leverage contractual terms effectively and optimise commercial arrangements.</p>
+      </div>
+      <span class="section-label">What</span>
+      <ul>
+        <li>Use the Arla IT contract framework for all new agreements</li>
+        <li>Set up governance with vendors to manage delivery and performance</li>
+        <li>Use vendor dashboards to assess performance, prioritising the top 10 and critical suppliers</li>
+        <li>Follow the Service Order review process for all critical service orders above 500k EUR or deviating from standard terms</li>
+        <li>Follow the licence management process for all software vendors to ensure compliance and optimise licence cost</li>
+      </ul>
+      <div class="fundamental-meta">
+        <div>
+          <span class="meta-label">Who</span>
+          <span class="meta-value">All IT employees involved in IT vendor engagement, commercially or at the delivery level</span>
+        </div>
+        <div>
+          <span class="meta-label">When</span>
+          <span class="meta-value">When a new contract is signed with a vendor</span>
+        </div>
+      </div>
+
+
+      <!-- ── Group 3 ─────────────────────────────────────────────────────── -->
+      <h2>How we ensure we use the farmers' money in the best possible way</h2>
+
+      <h3>IT investments and CapexInsights</h3>
+      <span class="section-label">Why</span>
+      <div class="why-block">
+        <p>Structured investment management ensures transparency across IT investments in new development. It aligns spend with business goals, provides clear justification, enforces responsible governance and keeps build costs within allocated budgets.</p>
+      </div>
+      <span class="section-label">What</span>
+      <p>All new development requires an investment from a Zone or Function and must be requested and approved in CAPEX Insights, including required documents such as risk assessments, run and development cost assessments, and benefits assessments.</p>
+      <div class="fundamental-meta">
+        <div>
+          <span class="meta-label">Who</span>
+          <span class="meta-value">Make: Product Manager, IT Portfolio Partner, Business Owner, IT Value Partner<br>Use: Finance, CIO Office</span>
+        </div>
+        <div>
+          <span class="meta-label">How</span>
+          <span class="meta-value">Submit via CapexInsights. IT Cost estimation template.</span>
+        </div>
+        <div>
+          <span class="meta-label">From</span>
+          <span class="meta-value">1 November 2025</span>
+        </div>
+      </div>
+
+
+      <h3>Forecast: IT investments</h3>
+      <span class="section-label">Why</span>
+      <div class="why-block">
+        <p>We need a clear view of expected spend to stay within allocated funding, and an estimate at completion to confirm we remain within the approved project investment budget and that the business case and value are still valid.</p>
+      </div>
+      <span class="section-label">What</span>
+      <p>Use the Cost Estimation template to calculate the initial budget forecast and form the foundation for the budget requested through CapexInsights. For monthly follow-up, compare actuals with a best-estimate forecast of expected outcomes, not a forecast of how to spend remaining funds. Data is automatically uploaded for centralised reporting.</p>
+      <div class="fundamental-meta">
+        <div>
+          <span class="meta-label">Who</span>
+          <span class="meta-value">Make: Head of IT Product, Delivery Partner<br>Use: Head of IT Product, IT Product Enablement, Head of IT Area, CIO Office</span>
+        </div>
+        <div>
+          <span class="meta-label">How</span>
+          <span class="meta-value">Cost Estimation sheet for initial budget input to CapexInsights. Standard Forecast follow-up template for monthly follow-up. Data automatically uploaded to SAP BW for centralised reporting.</span>
+        </div>
+        <div>
+          <span class="meta-label">When</span>
+          <span class="meta-value">Q1 2026</span>
+        </div>
+      </div>
+
+
+      <h3>Time registration</h3>
+      <span class="section-label">Why</span>
+      <div class="why-block">
+        <p>Time registration provides cost transparency and supports asset evaluation. Tracking how time is spent gives visibility into resource usage and cost drivers, and provides a foundation for forecasting, capacity planning and budgeting.</p>
+      </div>
+      <span class="section-label">What</span>
+      <ul>
+        <li>Investments: PI numbers</li>
+        <li>Operations: incidents and contract management</li>
+        <li>Enhancements</li>
+        <li>Maintenance</li>
+        <li>Other: one-to-ones, IT and Digital meetings, etc.</li>
+      </ul>
+      <div class="fundamental-meta">
+        <div>
+          <span class="meta-label">Who</span>
+          <span class="meta-value">Make: IT Product teams (with a few exceptions under discussion)<br>Use: IT Product Teams, IT Product Enablement, Finance Teams</span>
+        </div>
+        <div>
+          <span class="meta-label">How</span>
+          <span class="meta-value">Project Online</span>
+        </div>
+        <div>
+          <span class="meta-label">From</span>
+          <span class="meta-value">1 November 2025</span>
+        </div>
+      </div>
+
+
+      <!-- ── Group 4 ─────────────────────────────────────────────────────── -->
+      <h2>How we ensure we deliver the needed quality</h2>
+
+      <h3>Service Level Agreement</h3>
+      <span class="section-label">Why</span>
+      <div class="why-block">
+        <p>By understanding the business's availability and service-level needs, we use SLAs to deliver reliable, predictable application performance and consistently meet expectations.</p>
+      </div>
+      <span class="section-label">What</span>
+      <p>An SLA is a contract between Arla and the business (and, where needed, a supplier) that defines expected service levels. In Arla IT, we use two types: Component SLAs and Shared SLAs. Both product teams and suppliers are measured. SLAs track and report performance to ensure alignment, validate agreed service levels and confirm value for money.</p>
+      <div class="fundamental-meta">
+        <div>
+          <span class="meta-label">Who</span>
+          <span class="meta-value">Head of IT Product, Vendor Management</span>
+        </div>
+        <div>
+          <span class="meta-label">How</span>
+          <span class="meta-value">ServiceNow, Business Agreement Template</span>
+        </div>
+        <div>
+          <span class="meta-label">From</span>
+          <span class="meta-value">1 January 2026</span>
+        </div>
+      </div>
+
+
+      <h3>Business application criticality</h3>
+      <span class="section-label">Why</span>
+      <div class="why-block">
+        <p>Setting a business criticality level for all applications defines the resilience requirements and enables faster recovery. Each criticality level carries specific requirements for support level, solution resilience and security.</p>
+      </div>
+      <span class="section-label">What</span>
+      <p>Business criticality is a joint assessment between IT and the business that must be completed each time a new application is added to the product, including a Business Impact Assessment (BIA) where relevant. The criticality level must be kept current throughout the product lifecycle.</p>
+      <div class="fundamental-meta">
+        <div>
+          <span class="meta-label">Who</span>
+          <span class="meta-value">Make: Head of IT Product, Product Owner<br>Use: Delivery Lead, Head of Product, IT Architecture Partner</span>
+        </div>
+        <div>
+          <span class="meta-label">How</span>
+          <span class="meta-value">CMDB (master system for criticality), LeanIX, ServiceNow, Business Case</span>
+        </div>
+        <div>
+          <span class="meta-label">From</span>
+          <span class="meta-value">January 2026</span>
+        </div>
+      </div>
+
+
+      <h3>Built-in quality</h3>
+      <span class="section-label">Why</span>
+      <div class="why-block">
+        <p>We build quality in from the start to deliver agreed outcomes at the right speed. By balancing fit-for-purpose quality practices with efficient execution, we reduce rework, accelerate delivery and sustain long-term value, ensuring we meet business needs without compromising reliability, security or compliance.</p>
+      </div>
+      <span class="section-label">What</span>
+      <p>A mindset and set of practices that integrate quality throughout the development process. This includes security baselines, Information Security Policy, coding guidelines, documentation standards, test principles, SAP guidelines, architectural guiding principles, sustainability principles, data governance, and release and deployment guidelines, all scaled according to agreed business criticality.</p>
+      <div class="fundamental-meta">
+        <div>
+          <span class="meta-label">Who</span>
+          <span class="meta-value">IT Product teams</span>
+        </div>
+        <div>
+          <span class="meta-label">How</span>
+          <span class="meta-value">IT Product Teams select and adapt practices and supporting materials in line with the product's business criticality.</span>
+        </div>
+        <div>
+          <span class="meta-label">From</span>
+          <span class="meta-value">1 November 2025</span>
+        </div>
+      </div>
+
     </div>
   </div>
+
 </body>
 </html>
