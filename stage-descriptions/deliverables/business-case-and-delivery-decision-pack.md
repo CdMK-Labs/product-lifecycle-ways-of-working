@@ -9,7 +9,7 @@ It is the main approval deliverable for committing to a significant initiative. 
 - **01-Business-Case-and-Delivery-Decision-Pack.docx** main pack. The decision narrative: opportunity, value case, scope, delivery setup, timeline, cost summary, key risks and the decision requested.
 - **Appendix-KPI.docx** KPI framework, how success will be measured, ownership and reporting cadence.
 - **Appendix-Architecture.docx** high level technical direction, key integrations and major architectural constraints.
-- **Appendix-Estimates-and-Financial.docx** development cost, run cost implications, assumptions and contingency.
+- **Appendix-Estimates-and-Financial.docx** development cost, run cost implications, assumptions and contingency. Use the [IT Cost estimation template](../../templates/align-and-plan/IT%20Cost%20estimation%20template.xlsx) to build your cost input.
 - **Appendix-Risk.docx** major risks, mitigation actions, dependencies and confidence level.
 
 The main pack should be readable without the appendices. Not every commitment needs all four appendices in full. Scale the depth to the size of the decision.
