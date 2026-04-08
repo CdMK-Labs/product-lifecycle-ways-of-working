@@ -16,12 +16,9 @@ A good discovery gives us enough confidence to move forward, reshape or stop.
 
 ## Entry criteria
 
-Before entering this stage, there should be at least:
-- a prioritised Value Proposition or equivalent opportunity statement
-- an initial sponsor or accountable business context
-- enough clarity to define what we need to learn through discovery
-
-This stage does not require a committed solution, delivery plan or detailed estimates.
+- The opportunity is clear enough to explore further
+- There is agreement that structured discovery is needed
+- There is enough context to investigate users, options, risks and dependencies
 
 ## What happens in this stage
 
@@ -65,13 +62,10 @@ This stage does not require a committed solution, delivery plan or detailed esti
 
 ## Before moving on
 
-A discovery is ready to move on when:
-- the problem is better understood than when the stage began
-- the main users, stakeholders and impacted areas are visible
-- key options have been explored at a high level
-- important risks, dependencies and unknowns have been surfaced
-- relevant capacity implications have been considered
-- there is a clear recommendation: move into Align & Plan, return for reframing, hold or stop
+- The problem is understood well enough to shape the work
+- A solution direction is clear enough to take into Align & Plan
+- Major assumptions, risks and dependencies are visible
+- There is a clear next-step recommendation: move forward, hold, reshape or stop
 
 ## Common pitfalls
 

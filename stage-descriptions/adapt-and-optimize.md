@@ -17,12 +17,9 @@ This stage is continuous. It runs as long as the product is active.
 
 ## Entry criteria
 
-Before entering this stage, there should be at least:
-- relevant operational, usage or outcome insight from live use
-- a clear enough understanding of what problem or opportunity should be addressed
-- the right product and business stakeholders available to support prioritisation and decisions
-
-This stage continues as long as the product is active.
+- There is enough operational, usage or outcome insight to justify action
+- Improvement needs, optimisation opportunities or lifecycle concerns are visible
+- The team can assess what should be improved now, later or not at all
 
 ## What happens in this stage
 
@@ -63,13 +60,10 @@ This stage continues as long as the product is active.
 
 ## What good looks like in this stage
 
-Adapt & Optimize is working well when:
-- the team acts on insight rather than only collecting it
-- improvement opportunities are visible and deliberately prioritised
-- technical debt and reliability needs are addressed with discipline
-- the balance between new value, reliability and sustainability is actively managed
-- retirement decisions are made when parts of the product no longer justify their cost or complexity
-- agreed actions are fed back into the lifecycle through a clear route
+- Agreed improvements have been delivered or clearly prioritised
+- Measurable effects are visible where relevant
+- Roadmap and backlog reflect the learning
+- The next lifecycle path is clear: continue, explore further, reshape or begin retirement planning
 
 ## Common pitfalls
 

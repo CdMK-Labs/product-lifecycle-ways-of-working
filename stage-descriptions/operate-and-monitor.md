@@ -17,13 +17,10 @@ This stage is continuous. It runs as long as the product is active.
 
 ## Entry criteria
 
-Before entering this stage, there should be at least:
-- a live product or live change in production following a successful Deploy
-- support and monitoring arrangements in place
-- access, operational documentation and relevant runbooks available
-- agreed ownership for ongoing operational follow-up
-
-This stage continues as long as the product is active in use.
+- The release is live and stable enough for ongoing operation
+- Monitoring, logging and alerting are active
+- The team has visibility into product health, performance and issues
+- Support and operational ownership are in place
 
 ## What happens in this stage
 
@@ -65,13 +62,10 @@ This stage continues as long as the product is active in use.
 
 ## What good looks like in this stage
 
-Operate & Monitor is working well when:
-- the product is stable and usable in live operation
-- incidents and operational issues are handled in a timely and disciplined way
-- service levels and key operational expectations are followed up
-- monitoring and alerts give the team useful visibility into product health
-- recurring operational pain points are made visible rather than accepted as normal
-- operational insight is actively feeding into Measure & Learn and Adapt & Optimize
+- The product is operating reliably
+- Operational issues are under control
+- Recurring operational insights are visible
+- Relevant improvement needs are feeding into Adapt & Optimize
 
 ## Common pitfalls
 

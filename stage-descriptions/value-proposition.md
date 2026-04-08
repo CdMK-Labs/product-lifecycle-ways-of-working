@@ -16,12 +16,9 @@ The output is a clear, high-level input to business prioritisation and a next st
 
 ## Entry criteria
 
-Before entering this stage, there should be at least:
-- an initial problem, need or opportunity described in simple terms
-- a known business context or stakeholder area
-- a sponsor or owner who can explain why this matters
-
-This stage does not require a solution idea, detailed estimates or a full business case.
+- A problem, need, risk or opportunity has been identified
+- There is an accountable owner for taking it forward
+- There is an initial indication that the topic may create value, reduce risk or improve sustainability
 
 ## What happens in this stage
 
@@ -61,13 +58,9 @@ This stage does not require a solution idea, detailed estimates or a full busine
 
 ## Before moving on
 
-A Value Proposition is ready to move on when:
-- the problem or opportunity is clearly described
-- the expected value is understandable at a high level
-- the main investment rationale is visible: business value, risk reduction or sustainability
-- strategic relevance is clear
-- there is a view of whether this fits in normal product flow, an existing investment frame, or a new investment path
-- there is a clear recommendation: move forward to Product Discovery, hold, reshape or stop
+- The opportunity is understood well enough to justify discovery
+- There is agreement that it is worth exploring further
+- There is a clear next-step recommendation: move forward, hold, reshape or stop
 
 ## Common pitfalls
 

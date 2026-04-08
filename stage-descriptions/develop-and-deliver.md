@@ -15,12 +15,10 @@ The stage ends when the relevant deliverables are ready to move into Deploy.
 
 ## Entry criteria
 
-Before entering this stage, there should be at least:
-- required approvals and commitments in place
-- a clear enough scope to begin execution
-- an initial backlog, work breakdown or equivalent delivery view
-- agreement on the main team and key dependencies
-- enough understanding of non-functional needs, service levels and security requirements to build responsibly
+- There is a clear and actionable plan for execution
+- Scope and backlog items are ready enough to start
+- Key dependencies, risks and constraints are visible
+- The required people, environments, tools and funding are in place
 
 ## What happens in this stage
 
@@ -62,13 +60,10 @@ Before entering this stage, there should be at least:
 
 ## Before moving on
 
-Develop & Deliver is ready to move on when:
-- the agreed changes have been built, configured, integrated or implemented
-- quality, security and relevant non-functional needs have been addressed to a level appropriate for deployment
-- documentation and operationally relevant information are in place
-- dependencies and risks have been actively managed during execution
-- any material changes to scope, risk or dependencies have been escalated and resolved
-- the deliverables are ready for release and rollout through Deploy
+- The increment is complete and tested to the level needed for release
+- Acceptance criteria have been met
+- Operational and deployment readiness are in place
+- The increment is ready to move into Deploy
 
 ## Common pitfalls
 

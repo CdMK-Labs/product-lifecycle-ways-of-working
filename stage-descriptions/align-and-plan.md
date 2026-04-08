@@ -15,10 +15,9 @@ The right level of formality depends on the size of the work. Larger initiatives
 
 ## Entry criteria
 
-Before entering this stage, there should be at least:
-- a discovery outcome with enough clarity on the problem, the likely direction and the value we aim to deliver
-- a named business context and accountable sponsor
-- access to the right business, product and technical roles to do the work properly
+- The problem is understood well enough to plan the work
+- There is a clear enough solution direction to shape scope, delivery and cost
+- The right people are available to align scope, dependencies, funding and resource needs
 
 ## What happens in this stage
 
@@ -65,14 +64,10 @@ Before entering this stage, there should be at least:
 
 ## Before moving on
 
-Align & Plan is ready to move on when:
-- functional and non-functional scope are clear enough to begin delivery
-- an initial backlog or set of epics is in place
-- the main delivery team and key dependencies are known
-- the timeline, milestones, effort and cost have been shaped to a useful level
-- funding approval and required commitments are in place
-- contracts or vendor decisions have been made where needed
-- the team has a clear and responsible basis to proceed to Develop & Deliver
+- There is a clear and aligned plan for execution
+- Scope, priorities and dependencies are understood well enough to begin delivery
+- Funding and approval are in place where relevant
+- Backlog, roadmap and resource commitments are ready enough to move into Develop & Deliver
 
 ## Common pitfalls
 

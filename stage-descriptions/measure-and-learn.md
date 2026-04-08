@@ -17,12 +17,9 @@ The insight generated here feeds directly into Adapt & Optimize.
 
 ## Entry criteria
 
-Before entering this stage, there should be at least:
-- a live product with real usage
-- clarity on which usage, adoption or outcome signals are worth following
-- relevant product and business stakeholders available to review and interpret the signals
-
-This stage continues in parallel with Operate & Monitor as long as the product is active.
+- The product is live and in active use
+- There is enough usage, adoption or outcome data to review
+- Relevant stakeholders are available to interpret what the signals mean
 
 ## What happens in this stage
 
@@ -63,13 +60,9 @@ This stage continues in parallel with Operate & Monitor as long as the product i
 
 ## What good looks like in this stage
 
-Measure & Learn is working well when:
-- the team has useful visibility into how the product is being used
-- adoption patterns, friction and drop-off points are visible
-- user feedback and sentiment are actively considered
-- relevant outcome signals are shared and discussed with the business
-- learning is turned into informed decisions rather than passive reporting
-- insights are actively feeding into Adapt & Optimize
+- Usage, adoption and outcome signals are visible
+- Key insights have been discussed with the business
+- Learning has been translated into improvement opportunities, backlog input or lifecycle decisions
 
 ## Common pitfalls
 

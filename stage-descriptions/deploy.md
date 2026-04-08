@@ -15,13 +15,10 @@ The stage ends when the change is live, available as intended, and ready to move
 
 ## Entry criteria
 
-Before entering this stage, there should be at least:
-- deliverables ready for release into production
-- required quality, security and non-functional checks completed
-- operational readiness prepared, including support and monitoring arrangements
-- deployment and rollout approach agreed
-- adoption activities prepared where relevant
-- contingency or rollback thinking in place
+- The increment is ready for release
+- Functional and non-functional acceptance criteria have been met
+- Deployment and operational documentation are ready
+- Support, monitoring and rollback considerations have been addressed
 
 ## What happens in this stage
 
@@ -63,14 +60,10 @@ Before entering this stage, there should be at least:
 
 ## Before moving on
 
-Deploy is ready to move on when:
-- the change is live in production
-- intended users, teams, markets or functions can access and use it as planned
-- operational readiness is in place
-- support and monitoring are active
-- adoption activities have been completed or are running where needed
-- known release issues are understood and being handled
-- the product is ready to be managed through Operate & Monitor
+- The release is live and functioning as expected
+- Early stability has been confirmed
+- No rollback is required, or rollback decisions have been handled
+- The product is ready to move into Operate & Monitor
 
 ## Common pitfalls
 
