@@ -57,7 +57,7 @@ The right level of formality depends on the size of the work. Larger initiatives
 - [Business Case & Delivery Decision Pack](supporting-materials/business-case-and-delivery-decision-pack/) use this pack to support approval and commitment before execution begins.
 - [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
 
-## Tools and linked materials
+## Relevant tools
 
 - **Azure DevOps** for planning, backlog structure and dependency tracking
 - **CapexInsights** for business case submission and funding approval
