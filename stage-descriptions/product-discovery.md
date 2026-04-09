@@ -34,7 +34,7 @@ A good discovery gives us enough confidence to move forward, reshape or stop.
 
 ## Deliverables
 
-- Discovery Pack: use this pack to capture what was learned and support a decision on next steps.
+- To be added
 
 ## Guides
 

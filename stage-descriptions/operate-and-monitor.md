@@ -36,7 +36,7 @@ This stage is continuous. It runs as long as the product is active.
 
 ## Deliverables
 
-- Product Review Pack: use this pack to keep operational health visible and drive timely follow-up.
+- To be added
 
 ## Guides
 

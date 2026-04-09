@@ -34,7 +34,7 @@ The stage ends when the change is live, available as intended, and ready to move
 
 ## Deliverables
 
-- Release & Readiness Pack: use this pack to confirm readiness and support a safe, controlled release.
+- To be added
 
 ## Guides
 

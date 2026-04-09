@@ -35,7 +35,7 @@ The insight generated here feeds directly into Adapt & Optimize.
 
 ## Deliverables
 
-- Product Review Pack: use this pack to make usage, adoption and outcome signals visible and support business dialogue.
+- To be added
 
 ## Guides
 

@@ -35,7 +35,7 @@ This stage is continuous. It runs as long as the product is active.
 
 ## Deliverables
 
-- Product Review Pack: use this pack to capture improvement decisions and track agreed actions back into the lifecycle.
+- To be added
 
 ## Guides
 
