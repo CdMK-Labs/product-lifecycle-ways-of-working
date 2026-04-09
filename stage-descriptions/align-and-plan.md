@@ -1,36 +1,65 @@
 ## What this stage is for
 
-Align & Plan is where we shape the work well enough to commit to it responsibly. The purpose is to translate what we learned in discovery into a clear and aligned plan for execution: what we are going to deliver, why it matters, what it will take, and how we intend to move forward.
-
-This is the stage where product, business and IT roles come fully together. We clarify scope, break the work into an initial backlog, define non-functional needs, identify the main delivery team, surface dependencies and create a realistic view of timeline, cost and delivery approach. The value case and the cost case must both be clear before moving on.
-
-The right level of formality depends on the size of the work. Larger initiatives require a formal business case and financial approval before entering Develop & Deliver. Smaller changes can move through lighter commitment processes without unnecessary overhead. Either way, this stage ends with a clear decision and a responsible basis for execution.
+We decide how to execute the work and align across teams on scope, dependencies, resources and funding so delivery can start with a stable and realistic plan.
 
 ## Principles
 
-- Focus on the right things: prioritise what matters most, not everything at once
-- Prioritise transparently: make choices visible so stakeholders can engage meaningfully
-- Align with other teams: surface and resolve dependencies before committing
-- Plan with built-in buffer to absorb variability and maintain flow
+- Focus on the right things
+- Prioritize transparently
+- Align with other teams
+- Plan with built-in buffer to absorb variability and maintain stable flow
 
 ## Entry criteria
 
-- The problem is understood well enough to plan the work
-- There is a clear enough solution direction to shape scope, delivery and cost
-- The right people are available to align scope, dependencies, funding and resource needs
+- We understand the problem we are solving
+- We have a clear sense of the potential solution and the value we aim to deliver
 
 ## Key activities and responsibilities
 
-- Shape the work into a realistic plan: scope, timeline, milestones and delivery approach
-- Break the work into backlog items or epics that are ready for delivery
-- Define non-functional scope, including service levels, security and critical requirements
-- Align dependencies, timing and responsibilities with other teams
-- Bring together the value case and cost case, and secure the required funding approval before moving into Develop & Deliver
+**Plan in team (DL)**
+- Activities identified, estimated and planned
+- Risks identified and dependencies aligned
+- Work documented in ADO and team commitment obtained
+
+**Planning across teams (DP)**
+- Shared, aligned and committed plan documented in ADO (for example big room planning)
+- Clear agreements on dependencies, scope, timing and economy
+
+**Business case and approval (PP, PM, BO, HOiP)**
+- Development of CapexInsights case and approval obtained
+- Business case established
+- Cost estimation completed
+
+**Backlog and breakdown (PO, PM)**
+- Product breakdown and backlog prioritization aligned
+- EPICs broken into features in ADO
+- Features broken into stories in ADO
+
+**Roadmaps (VP, PM, PO, HOiP, PA, AP)**
+- Business capability roadmap established, maintained and validated
+- Technical roadmap established, maintained and validated
+- EPICs prioritized
+
+**Resources and planning (HOiP, PM)**
+- Resources committed across business, IT&D and external where relevant
+- Capacity planning across development, operations, maturation and buffer
+- Forecasting completed
+
+**Delivery setup (DL, VP, AP)**
+- Delivery method selected
+- RFP conducted where relevant
+- Solution and vendor selected
+
+**Product direction (HOiP, PM)**
+- Product strategy established
+- Yearly budget distribution aligned and approved
 
 ## Tools
 
-- **Azure DevOps** for planning, backlog structure and dependency tracking
 - **CapexInsights** for business case submission and funding approval
+- **Azure DevOps** for planning, backlog structure and dependency tracking
+- **ServiceNow** for service management and operational alignment
+- **Excel** for forecast upload to SAP
 
 ## Deliverables
 
@@ -39,37 +68,34 @@ The right level of formality depends on the size of the work. Larger initiatives
 
 ## Guides
 
-- To be added
+- Planning and alignment across teams (dependencies, SLAs, ADO practices)
+- Capacity planning (balance between development, maintenance and unplanned work)
+- Estimation methods (for example three-point, relative sizing, story points)
+- Choosing delivery method (Waterfall, Scrum, Kanban)
+
+## Best practices
+
+- Use roadmaps to communicate direction and priorities
+- Maintain a clear product strategy
+- Use stakeholder and communication mapping
+- Align on training approach where relevant
 
 ## Exit criteria
 
-- There is a clear and aligned plan for execution
-- Scope, priorities and dependencies are understood well enough to begin delivery
-- Funding and approval are in place where relevant
-- Backlog, roadmap and resource commitments are ready enough to move into Develop & Deliver
+- There is a clear, aligned and actionable plan for execution
+- CapexInsights approval is in place
+- Budgets, roadmaps and strategies are defined
+- Plans and backlogs are ready
+- Resources and contracts are in place
 
 ## Training
 
-- To be added
+- Input pending from Mie & Christina A
+- Input pending from Vendor Management
 
 ## Common pitfalls
 
-**Treating the stage as detailed design**
-
-The goal is to create enough clarity for approval and responsible delivery, not to design everything upfront.
-
-**Underplaying non-functional scope**
-
-Security, service levels, resilience, compliance and architecture are often treated too late, even though they shape feasibility and cost from the start.
-
-**Building a backlog without real dependency alignment**
-
-A plan can look solid on paper while still being unrealistic if dependencies with other teams, platforms or enabling work are not surfaced.
-
-**Creating false certainty in estimates and timelines**
-
-This stage should create a credible plan, not pretend all uncertainty has disappeared.
-
-**Skipping financial approval before starting delivery**
-
-Funding and approval must be in place before moving into Develop & Deliver. Starting work without approval creates risk and undermines accountability.
+- Planning without alignment across teams and dependencies
+- Underestimating capacity and overloading teams
+- Missing clarity on scope, timing or ownership
+- Starting delivery without approved funding or committed resources
