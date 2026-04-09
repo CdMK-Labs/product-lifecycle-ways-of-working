@@ -34,8 +34,7 @@ A good discovery gives us enough confidence to move forward, reshape or stop.
 
 ## Deliverables
 
-- [Discovery Pack](supporting-materials/discovery-pack/) use this pack to capture what was learned and support a decision on next steps.
-- [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
+- Discovery Pack: use this pack to capture what was learned and support a decision on next steps.
 
 ## Guides
 

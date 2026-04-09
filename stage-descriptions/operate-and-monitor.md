@@ -36,8 +36,7 @@ This stage is continuous. It runs as long as the product is active.
 
 ## Deliverables
 
-- [Product Review Pack](supporting-materials/product-review-pack/) use this pack to keep operational health visible and drive timely follow-up.
-- [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
+- Product Review Pack: use this pack to keep operational health visible and drive timely follow-up.
 
 ## Guides
 

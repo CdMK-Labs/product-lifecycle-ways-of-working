@@ -34,8 +34,7 @@ The output is a clear, high-level input to business prioritisation and a next st
 
 ## Deliverables
 
-- [Opportunity Brief](supporting-materials/opportunity-brief/) use this pack to frame the opportunity and support a next step decision.
-- [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
+- Opportunity Brief: use this pack to frame the opportunity and support a next step decision.
 
 ## Guides
 

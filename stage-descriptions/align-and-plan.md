@@ -63,8 +63,11 @@ We decide how to execute the work and align across teams on scope, dependencies,
 
 ## Deliverables
 
-- [Business Case & Delivery Decision Pack](supporting-materials/business-case-and-delivery-decision-pack/) use this pack to support approval and commitment before execution begins.
-- [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
+- Business case and CapexInsights approval
+- Plans and backlogs
+- Roadmaps and product strategy
+- Resource and capacity plan
+- [IT Cost estimation template](templates/align-and-plan/IT%20Cost%20estimation%20template.xlsx)
 
 ## Guides
 

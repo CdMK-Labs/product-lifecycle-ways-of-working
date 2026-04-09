@@ -35,8 +35,7 @@ The insight generated here feeds directly into Adapt & Optimize.
 
 ## Deliverables
 
-- [Product Review Pack](supporting-materials/product-review-pack/) use this pack to make usage, adoption and outcome signals visible and support business dialogue.
-- [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
+- Product Review Pack: use this pack to make usage, adoption and outcome signals visible and support business dialogue.
 
 ## Guides
 

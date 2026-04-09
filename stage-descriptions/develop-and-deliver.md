@@ -34,8 +34,7 @@ The stage ends when the relevant deliverables are ready to move into Deploy.
 
 ## Deliverables
 
-- [Delivery Pack](supporting-materials/delivery-pack/) use this pack to keep execution visible and track readiness for deployment.
-- [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
+- Delivery Pack: use this pack to keep execution visible and track readiness for deployment.
 
 ## Guides
 

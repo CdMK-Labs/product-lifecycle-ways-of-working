@@ -34,8 +34,7 @@ The stage ends when the change is live, available as intended, and ready to move
 
 ## Deliverables
 
-- [Release & Readiness Pack](supporting-materials/release-and-readiness-pack/) use this pack to confirm readiness and support a safe, controlled release.
-- [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
+- Release & Readiness Pack: use this pack to confirm readiness and support a safe, controlled release.
 
 ## Guides
 
