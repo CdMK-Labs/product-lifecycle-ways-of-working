@@ -151,7 +151,7 @@
 
     .home-models-grid {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 0.75rem;
     }
 
@@ -193,6 +193,10 @@
 
     @media (max-width: 900px) {
       .stages-grid { grid-template-columns: 1fr 1fr; }
+      .home-models-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 600px) {
       .home-models-grid { grid-template-columns: 1fr; }
     }
 
@@ -261,7 +265,7 @@
     </section>
 
     <section class="home-deliverable">
-      <p class="home-section-label">Supporting Models</p>
+      <p class="home-section-label">Supporting Materials</p>
       <div class="home-models-grid">
         <!-- Deliverable model section temporarily hidden. Keep for future reactivation.
         <a href="deliverable-model.html" class="home-deliverable-card">
