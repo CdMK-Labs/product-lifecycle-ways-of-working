@@ -19,55 +19,38 @@ The right level of formality depends on the size of the work. Larger initiatives
 - There is a clear enough solution direction to shape scope, delivery and cost
 - The right people are available to align scope, dependencies, funding and resource needs
 
-## What happens in this stage
+## Key activities and responsibilities
 
 - Shape the work into a realistic plan: scope, timeline, milestones and delivery approach
 - Break the work into backlog items or epics that are ready for delivery
 - Define non-functional scope, including service levels, security and critical requirements
 - Align dependencies, timing and responsibilities with other teams
-- Confirm the roadmap, priorities and resource needs
 - Bring together the value case and cost case, and secure the required funding approval before moving into Develop & Deliver
 
-## Who is involved
+## Tools
 
-### Business Owner
-- confirms business priority and expected outcomes
-- approves or endorses the business case or commitment decision
-
-### Product Manager
-- brings the value case and cost case together
-- shapes scope, priorities and milestones at the right level
-
-### Head of Product
-- ensures the team is shaping a realistic and responsible plan
-- brings end-to-end accountability into the commitment discussion
-
-### Product Owner
-- translates the initiative into an initial backlog or set of epics
-- supports scope clarification, priorities and sequencing
-
-### Product Architect
-- defines the main technology direction and non-functional scope
-- identifies enabling features, dependencies and architectural constraints
-
-**Others who may contribute:** IT Delivery Lead · IT Value Partner · IT Portfolio Partner · IT Architecture Partner · IT Specialists / Developers · Adoption Specialist
+- **Azure DevOps** for planning, backlog structure and dependency tracking
+- **CapexInsights** for business case submission and funding approval
 
 ## Deliverables
 
 - [Business Case & Delivery Decision Pack](supporting-materials/business-case-and-delivery-decision-pack/) use this pack to support approval and commitment before execution begins.
 - [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
 
-## Relevant tools
+## Guides
 
-- **Azure DevOps** for planning, backlog structure and dependency tracking
-- **CapexInsights** for business case submission and funding approval
+- To be added
 
-## Before moving on
+## Exit criteria
 
 - There is a clear and aligned plan for execution
 - Scope, priorities and dependencies are understood well enough to begin delivery
 - Funding and approval are in place where relevant
 - Backlog, roadmap and resource commitments are ready enough to move into Develop & Deliver
+
+## Training
+
+- To be added
 
 ## Common pitfalls
 
@@ -90,7 +73,3 @@ This stage should create a credible plan, not pretend all uncertainty has disapp
 **Skipping financial approval before starting delivery**
 
 Funding and approval must be in place before moving into Develop & Deliver. Starting work without approval creates risk and undermines accountability.
-
-**Focusing only on the value case**
-
-Both the value case and the cost case must be clear, at a level appropriate for the commitment being made.

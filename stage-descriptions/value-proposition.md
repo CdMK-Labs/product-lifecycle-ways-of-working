@@ -20,47 +20,36 @@ The output is a clear, high-level input to business prioritisation and a next st
 - There is an accountable owner for taking it forward
 - There is an initial indication that the topic may create value, reduce risk or improve sustainability
 
-## What happens in this stage
+## Key activities and responsibilities
 
 - Clarify the problem or opportunity in business language and describe the expected value at a high level
 - Assess strategic fit and relevance to current business priorities
 - Identify the primary investment rationale: business value, risk reduction, technical sustainability or lifecycle need
 - Determine whether the topic fits normal product flow, an existing investment frame, or a new investment path
-- Involve the right business and product people to create shared understanding
 - Produce enough clarity to support prioritisation and a clear decision on next steps
 
-## Who is involved
+## Tools
 
-### Business Owner
-- provides business context, priorities and outcome expectations
-- confirms whether the investment case is worth taking forward
-
-### Product Manager
-- shapes the value case and connects it to portfolio direction
-- facilitates alignment between business and product perspectives
-- is the central role when the topic is not yet clearly product-anchored
-
-### Head of Product
-- assesses product relevance and lifecycle fit
-- is the central role when the topic is clearly anchored in an existing product
-- decides, with the business, whether to move forward, reshape or stop
-
-### IT Value Partner
-- supports investment fit and financial framing when the topic is not clearly product-anchored
-- helps assess which investment path makes most sense
-
-**Others who may contribute:** Product Owner · Product Architect · IT Architecture Partner · IT Portfolio Partner · Adoption Specialist
+- To be added
 
 ## Deliverables
 
 - [Opportunity Brief](supporting-materials/opportunity-brief/) use this pack to frame the opportunity and support a next step decision.
 - [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
 
-## Before moving on
+## Guides
+
+- To be added
+
+## Exit criteria
 
 - The opportunity is understood well enough to justify discovery
 - There is agreement that it is worth exploring further
 - There is a clear next-step recommendation: move forward, hold, reshape or stop
+
+## Training
+
+- To be added
 
 ## Common pitfalls
 

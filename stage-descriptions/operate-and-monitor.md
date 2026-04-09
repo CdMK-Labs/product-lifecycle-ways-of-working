@@ -22,50 +22,37 @@ This stage is continuous. It runs as long as the product is active.
 - The team has visibility into product health, performance and issues
 - Support and operational ownership are in place
 
-## What happens in this stage
+## Key activities and responsibilities
 
 - Monitor service health, availability, performance and operational signals
 - Handle incidents, operational issues and service requests
 - Track and review service levels and other operational commitments
 - Perform maintenance activities and smaller upgrades as needed
-- Keep operational documentation, runbooks and support information current
 - Make recurring issues and operational patterns visible for Measure & Learn and Adapt & Optimize
 
-## Who is involved
+## Tools
 
-### Head of Product
-- maintains end-to-end accountability for the product in live use
-- ensures operations remain part of product ownership
-
-### Product Owner
-- prioritises operational follow-up, maintenance and smaller continuity changes
-- connects live issues to product priorities and future action
-
-### IT Delivery Lead
-- coordinates operational follow-up, suppliers or service commitments where relevant
-- helps keep live operation disciplined and manageable
-
-### IT Specialists / Developers
-- investigate, fix and maintain the product in live use
-- handle incidents, recurring issues and smaller upgrades
-
-### Product Architect
-- helps assess operational issues with architectural or non-functional implications
-- brings longer-term technical perspective into live product issues
-
-**Others who may contribute:** IT Supporter · Operational support roles · Platforms · Business representatives · Adoption Specialist · IT Architecture Partner · Vendors
+- **ServiceNow** for incident management, service requests and operational follow-up
 
 ## Deliverables
 
 - [Product Review Pack](supporting-materials/product-review-pack/) use this pack to keep operational health visible and drive timely follow-up.
 - [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
 
-## What good looks like in this stage
+## Guides
+
+- To be added
+
+## Exit criteria
 
 - The product is operating reliably
 - Operational issues are under control
 - Recurring operational insights are visible
 - Relevant improvement needs are feeding into Adapt & Optimize
+
+## Training
+
+- To be added
 
 ## Common pitfalls
 

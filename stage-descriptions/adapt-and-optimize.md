@@ -21,49 +21,37 @@ This stage is continuous. It runs as long as the product is active.
 - Improvement needs, optimisation opportunities or lifecycle concerns are visible
 - The team can assess what should be improved now, later or not at all
 
-## What happens in this stage
+## Key activities and responsibilities
 
 - Review insights from operations, usage, adoption and business outcome signals
 - Identify and prioritise improvement opportunities across product experience, reliability and technical health
 - Assess technical debt, maintenance needs and structural weaknesses
 - Decide how to balance effort across new value, reliability and debt reduction
-- Identify product elements, processes or capabilities that should be reduced, replaced or retired
 - Feed agreed changes back into the lifecycle through a clear route: normal product flow, a structured initiative starting earlier in the lifecycle, or a retirement path
 
-## Who is involved
+## Tools
 
-### Head of Product
-- maintains the balance between new value, reliability, technical debt and sustainability
-- brings end-to-end accountability into optimisation and retirement decisions
-
-### Product Owner
-- translates learning and improvement needs into practical product priorities
-- helps decide what should move into normal delivery flow
-
-### Product Manager
-- connects optimisation choices to business value and stakeholder dialogue
-- supports discussion where trade-offs affect future investment direction
-
-### Product Architect
-- identifies structural improvements, technical debt priorities and simplification opportunities
-- supports sustainable long-term product evolution
-
-### Business Owner
-- contributes where improvement decisions affect business priorities, outcomes or retirement choices
-
-**Others who may contribute:** IT Specialists / Developers · Adoption Specialist · IT Value Partner · IT Architecture Partner · IT Portfolio Partner · Dependent product teams · Operational roles
+- **Azure DevOps** for improvement backlog management and prioritisation
 
 ## Deliverables
 
 - [Product Review Pack](supporting-materials/product-review-pack/) use this pack to capture improvement decisions and track agreed actions back into the lifecycle.
 - [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
 
-## What good looks like in this stage
+## Guides
+
+- To be added
+
+## Exit criteria
 
 - Agreed improvements have been delivered or clearly prioritised
 - Measurable effects are visible where relevant
 - Roadmap and backlog reflect the learning
 - The next lifecycle path is clear: continue, explore further, reshape or begin retirement planning
+
+## Training
+
+- To be added
 
 ## Common pitfalls
 
@@ -86,7 +74,3 @@ If debt is not made visible and discussed, it will continue to shape cost, speed
 **Avoiding retirement decisions**
 
 Keeping everything alive creates hidden complexity, cost and operational drag. Retirement is a legitimate outcome and should be treated as such.
-
-**Failing to reconnect improvement decisions to the lifecycle**
-
-Good optimisation should lead to clear next actions: normal product flow, a structured initiative earlier in the lifecycle, or a deliberate retirement path.

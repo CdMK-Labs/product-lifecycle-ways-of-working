@@ -21,48 +21,36 @@ The insight generated here feeds directly into Adapt & Optimize.
 - There is enough usage, adoption or outcome data to review
 - Relevant stakeholders are available to interpret what the signals mean
 
-## What happens in this stage
+## Key activities and responsibilities
 
 - Track product usage and adoption signals over time
 - Analyse usage patterns, user flows and friction or drop-off points
 - Gather and review user feedback, sentiment and satisfaction signals
 - Make relevant outcome indicators visible where they can be supported by product data
-- Share measurements and insights with business stakeholders and product roles
 - Use live product learning to inform decisions and improvement discussions in Adapt & Optimize
 
-## Who is involved
+## Tools
 
-### Product Manager
-- connects measurements and insights to business priorities and outcome dialogue
-- supports use of insights in prioritisation and future decisions
-
-### Business Owner
-- interprets outcome signals from a business perspective
-- holds business accountability for value realisation
-
-### Head of Product
-- ensures learning from live use informs product direction and priorities
-- brings end-to-end accountability into the learning discussion
-
-### Product Owner
-- uses usage and adoption insight to inform backlog and product priorities
-
-### Adoption Specialist
-- brings focus to adoption, user behaviour, sentiment and friction points
-- supports interpretation of feedback and usage signals
-
-**Others who may contribute:** IT Specialists / Developers · Analytics roles · Business representatives · Super users · IT Value Partner · Product Architect
+- To be added
 
 ## Deliverables
 
 - [Product Review Pack](supporting-materials/product-review-pack/) use this pack to make usage, adoption and outcome signals visible and support business dialogue.
 - [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
 
-## What good looks like in this stage
+## Guides
+
+- To be added
+
+## Exit criteria
 
 - Usage, adoption and outcome signals are visible
 - Key insights have been discussed with the business
 - Learning has been translated into improvement opportunities, backlog input or lifecycle decisions
+
+## Training
+
+- To be added
 
 ## Common pitfalls
 

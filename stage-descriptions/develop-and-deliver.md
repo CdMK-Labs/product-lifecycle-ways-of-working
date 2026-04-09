@@ -20,50 +20,37 @@ The stage ends when the relevant deliverables are ready to move into Deploy.
 - Key dependencies, risks and constraints are visible
 - The required people, environments, tools and funding are in place
 
-## What happens in this stage
+## Key activities and responsibilities
 
 - Build, configure, integrate or implement the agreed changes in manageable increments
 - Validate outputs continuously through review, feedback, testing, demos or other quality checks
 - Document decisions, changes and operationally relevant information as the work progresses
 - Build security, service quality and other non-functional requirements into the work
-- Collaborate actively with other teams where dependencies or shared components matter
 - Refine backlog, priorities or sequencing as learning emerges; escalate material changes back to Align & Plan
 
-## Who is involved
+## Tools
 
-### Head of Product
-- keeps delivery aligned with product outcomes and lifecycle responsibility
-- helps manage trade-offs as delivery progresses
-
-### Product Owner
-- guides priorities and backlog decisions during delivery
-- keeps business and product intent connected to daily execution
-
-### IT Delivery Lead
-- coordinates progress, flow, dependencies and delivery follow-up
-- keeps delivery visible and moving in a disciplined way
-
-### IT Specialists / Developers
-- build, configure, integrate or implement the agreed changes
-- validate quality and document relevant decisions as part of the work
-
-### Product Architect
-- guides technical integrity and non-functional quality during delivery
-- supports sustainable delivery decisions and technical debt awareness
-
-**Others who may contribute:** Adoption Specialist · Business representatives · Other product teams · Platforms · IT Architecture Partner
+- **Azure DevOps** for backlog management, sprint planning and delivery tracking
 
 ## Deliverables
 
 - [Delivery Pack](supporting-materials/delivery-pack/) use this pack to keep execution visible and track readiness for deployment.
 - [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
 
-## Before moving on
+## Guides
+
+- To be added
+
+## Exit criteria
 
 - The increment is complete and tested to the level needed for release
 - Acceptance criteria have been met
 - Operational and deployment readiness are in place
 - The increment is ready to move into Deploy
+
+## Training
+
+- To be added
 
 ## Common pitfalls
 

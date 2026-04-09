@@ -20,50 +20,37 @@ The stage ends when the change is live, available as intended, and ready to move
 - Deployment and operational documentation are ready
 - Support, monitoring and rollback considerations have been addressed
 
-## What happens in this stage
+## Key activities and responsibilities
 
 - Execute the technical release into production
 - Roll out the change to the relevant users, teams, markets or functions
 - Confirm operational readiness: support setup, monitoring, access and relevant documentation
 - Carry out adoption activities such as communication, training or go-live support where needed
 - Monitor the release closely and respond quickly to issues or unexpected behaviour
-- Confirm the product is live and ready to move into Operate & Monitor
 
-## Who is involved
+## Tools
 
-### Head of Product
-- ensures the release is aligned with product goals and lifecycle responsibility
-- supports final readiness decisions before live use
-
-### Product Owner
-- coordinates business-facing readiness and adoption needs
-- helps ensure users, teams or markets are prepared for the change
-
-### IT Delivery Lead
-- coordinates release and rollout activities in practice
-- maintains control and visibility during deployment
-
-### IT Specialists / Developers
-- execute and support the technical release into production
-- resolve issues quickly during rollout and go-live
-
-### Adoption Specialist
-- drives communication, training and adoption support where relevant
-- supports confidence and usability around go-live
-
-**Others who may contribute:** Product Architect · Operational support roles · Business representatives · Super users · Other product teams · IT Architecture Partner
+- **Azure DevOps** for release tracking and deployment pipeline management
 
 ## Deliverables
 
 - [Release & Readiness Pack](supporting-materials/release-and-readiness-pack/) use this pack to confirm readiness and support a safe, controlled release.
 - [Deliverable Model](deliverable-model.html) all deliverable packs across the lifecycle.
 
-## Before moving on
+## Guides
+
+- To be added
+
+## Exit criteria
 
 - The release is live and functioning as expected
 - Early stability has been confirmed
 - No rollback is required, or rollback decisions have been handled
 - The product is ready to move into Operate & Monitor
+
+## Training
+
+- To be added
 
 ## Common pitfalls
 
