@@ -23,23 +23,45 @@ This stage is continuous. It runs as long as the product is active.
 
 ## Key activities and responsibilities
 
-- Review insights from operations, usage, adoption and business outcome signals
-- Identify and prioritise improvement opportunities across product experience, reliability and technical health
-- Assess technical debt, maintenance needs and structural weaknesses
-- Decide how to balance effort across new value, reliability and debt reduction
-- Feed agreed changes back into the lifecycle through a clear route: normal product flow, a structured initiative starting earlier in the lifecycle, or a retirement path
+- Identify improvement opportunities (HoP)
+- Prioritise across value, stability and debt (PO)
+- Define improvements and simplifications (PA)
+- Decide next lifecycle actions (PM)
+- Identify candidates for reduction or retirement (HoP)
 
 ## Tools
 
-- **Azure DevOps** for improvement backlog management and prioritisation
+- Backlog tools
+- Improvement tracking
+- Dashboards
+- Product reviews
+
+## Templates
+
+- Improvement backlog
+- Optimisation log
+- Retirement list
 
 ## Deliverables
 
-- To be added
+- Prioritised improvements
+- Improvement plan
+- Updated backlog and roadmap
+- Technical debt visibility
+- Decision on next lifecycle step
 
 ## Guides
 
-- To be added
+- How to balance value and health
+- How to manage technical debt
+- How to decide on retirement
+
+## Best practices
+
+- Make improvement explicit
+- Keep debt visible
+- Use evidence for prioritisation
+- Be willing to simplify or retire
 
 ## Exit criteria
 

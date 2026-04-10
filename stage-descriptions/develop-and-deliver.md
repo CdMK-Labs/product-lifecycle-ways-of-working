@@ -22,23 +22,46 @@ The stage ends when the relevant deliverables are ready to move into Deploy.
 
 ## Key activities and responsibilities
 
-- Build, configure, integrate or implement the agreed changes in manageable increments
-- Validate outputs continuously through review, feedback, testing, demos or other quality checks
-- Document decisions, changes and operationally relevant information as the work progresses
-- Build security, service quality and other non-functional requirements into the work
-- Refine backlog, priorities or sequencing as learning emerges; escalate material changes back to Align & Plan
+- Break work into increments and stories (PO)
+- Build and test continuously (DL)
+- Manage dependencies and risks actively (DL)
+- Ensure documentation and readiness is built in (PA)
+- Validate progress through reviews and demos (HoP)
 
 ## Tools
 
-- **Azure DevOps** for backlog management, sprint planning and delivery tracking
+- ADO
+- Development and test tools
+- Documentation tools
+- ServiceNow if relevant
+
+## Templates
+
+- Definition of Done
+- Test notes
+- Risk log
+- Dependency tracking
 
 ## Deliverables
 
-- To be added
+- Tested and completed increments
+- Updated backlog
+- Test results
+- Technical documentation
+- Release-ready solution
 
 ## Guides
 
-- To be added
+- How to work in small increments
+- How to handle dependencies
+- How to ensure quality continuously
+
+## Best practices
+
+- Make work visible
+- Deliver in small steps
+- Build quality in early
+- Adapt as you learn
 
 ## Exit criteria
 

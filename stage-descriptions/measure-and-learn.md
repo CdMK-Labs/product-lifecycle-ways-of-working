@@ -23,23 +23,45 @@ The insight generated here feeds directly into Adapt & Optimize.
 
 ## Key activities and responsibilities
 
-- Track product usage and adoption signals over time
-- Analyse usage patterns, user flows and friction or drop-off points
-- Gather and review user feedback, sentiment and satisfaction signals
-- Make relevant outcome indicators visible where they can be supported by product data
-- Use live product learning to inform decisions and improvement discussions in Adapt & Optimize
+- Track usage and adoption (PM)
+- Analyse user behaviour and friction (AS)
+- Gather feedback with business (BO)
+- Translate insights into priorities (PO)
+- Align on what signals mean (HoP)
 
 ## Tools
 
-- To be added
+- Usage dashboards
+- Analytics tools
+- Feedback tools
+- Reporting tools
+
+## Templates
+
+- Insight summary
+- Measurement view
+- Learning log
 
 ## Deliverables
 
-- To be added
+- Usage and adoption insights
+- User feedback summary
+- Outcome observations
+- Prioritised learning points
+- Input to backlog and roadmap
 
 ## Guides
 
-- To be added
+- How to choose metrics
+- How to interpret data
+- How to connect insights to decisions
+
+## Best practices
+
+- Measure what matters
+- Combine data and user insight
+- Use learning actively
+- Focus on signals, not volume
 
 ## Exit criteria
 

@@ -22,23 +22,42 @@ The output is a clear, high-level input to business prioritisation and a next st
 
 ## Key activities and responsibilities
 
-- Clarify the problem or opportunity in business language and describe the expected value at a high level
-- Assess strategic fit and relevance to current business priorities
-- Identify the primary investment rationale: business value, risk reduction, technical sustainability or lifecycle need
-- Determine whether the topic fits normal product flow, an existing investment frame, or a new investment path
-- Produce enough clarity to support prioritisation and a clear decision on next steps
+- Describe the problem or opportunity clearly (PM)
+- Clarify why it matters now and the potential value (BO)
+- Assess if it fits an existing product flow or investment path (HoP)
+- Recommend next step: move forward, hold, reshape or stop (PM)
 
 ## Tools
 
-- To be added
+- Meeting and note tools
+- Simple stakeholder mapping
+- Capex Insights if relevant
+
+## Templates
+
+- Opportunity brief
+- Problem statement
+- Stakeholder mapping
 
 ## Deliverables
 
-- To be added
+- Problem statement
+- Initial value hypothesis
+- Short description of opportunity
+- Recommendation for next step
 
 ## Guides
 
-- To be added
+- How to define a clear problem
+- How to describe value without jumping to solution
+- How to assess strategic relevance
+
+## Best practices
+
+- Focus on why it matters
+- Keep it lightweight
+- Avoid jumping to solution
+- Make next step explicit
 
 ## Exit criteria
 

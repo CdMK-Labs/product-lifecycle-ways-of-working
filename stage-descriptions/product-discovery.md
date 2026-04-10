@@ -22,23 +22,46 @@ A good discovery gives us enough confidence to move forward, reshape or stop.
 
 ## Key activities and responsibilities
 
-- Explore the problem in depth with relevant business, user and operational perspectives
-- Gather early evidence through conversations, observations, data or comparable cases
-- Use lightweight prototyping or experiments to test assumptions and reduce important uncertainty
-- Identify key risks, dependencies, constraints and likely capacity implications
-- Summarise what has been learned and what still needs clarification before moving forward
+- Gather insights from users and stakeholders (PO)
+- Explore solution options and trade-offs (PM)
+- Identify risks and dependencies early (PA)
+- Use prototypes or experiments to reduce uncertainty (AS)
+- Recommend next step based on learning (PM)
 
 ## Tools
 
-- To be added
+- Interview notes
+- Workshop tools
+- Prototyping tools
+- ADO (light use)
+
+## Templates
+
+- Interview guide
+- Assumption log
+- Option comparison
+- Insight summary
 
 ## Deliverables
 
-- To be added
+- Refined problem understanding
+- User insights summary
+- Solution direction
+- Key risks and dependencies
+- Recommendation for next step
 
 ## Guides
 
-- To be added
+- How to run effective discovery
+- How to test assumptions
+- How to evaluate options
+
+## Best practices
+
+- Explore more than one option
+- Use evidence over assumptions
+- Focus on learning
+- Stop when clarity is sufficient
 
 ## Exit criteria
 

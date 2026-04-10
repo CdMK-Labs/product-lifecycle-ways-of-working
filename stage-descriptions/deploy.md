@@ -22,23 +22,45 @@ The stage ends when the change is live, available as intended, and ready to move
 
 ## Key activities and responsibilities
 
-- Execute the technical release into production
-- Roll out the change to the relevant users, teams, markets or functions
-- Confirm operational readiness: support setup, monitoring, access and relevant documentation
-- Carry out adoption activities such as communication, training or go-live support where needed
-- Monitor the release closely and respond quickly to issues or unexpected behaviour
+- Plan and execute release (DL)
+- Ensure operational readiness (HoP)
+- Prepare users and stakeholders (AS)
+- Monitor go-live and handle issues (DL)
+- Execute rollback if needed (DL)
 
 ## Tools
 
-- **Azure DevOps** for release tracking and deployment pipeline management
+- Release checklist
+- Monitoring tools
+- ServiceNow
+- Communication tools
+
+## Templates
+
+- Deployment checklist
+- Rollback plan
+- Release communication
 
 ## Deliverables
 
-- To be added
+- Release in production
+- Release notes
+- Monitoring setup
+- Go-live status overview
+- Confirmed operational readiness
 
 ## Guides
 
-- To be added
+- How to plan a safe release
+- How to handle go-live support
+- How to manage rollback
+
+## Best practices
+
+- Do not skip readiness
+- Prepare support before release
+- Keep communication clear
+- Use early signals actively
 
 ## Exit criteria
 

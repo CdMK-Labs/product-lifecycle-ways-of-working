@@ -24,23 +24,45 @@ This stage is continuous. It runs as long as the product is active.
 
 ## Key activities and responsibilities
 
-- Monitor service health, availability, performance and operational signals
-- Handle incidents, operational issues and service requests
-- Track and review service levels and other operational commitments
-- Perform maintenance activities and smaller upgrades as needed
-- Make recurring issues and operational patterns visible for Measure & Learn and Adapt & Optimize
+- Monitor product health and performance (DL)
+- Handle incidents and service requests (HoP)
+- Track patterns and recurring issues (PA)
+- Maintain runbooks and support knowledge (DL)
+- Feed insights into improvement (HoP)
 
 ## Tools
 
-- **ServiceNow** for incident management, service requests and operational follow-up
+- ServiceNow
+- Monitoring and logging tools
+- Dashboards
+- Runbooks
+
+## Templates
+
+- Incident summary
+- Operational review
+- Runbook
 
 ## Deliverables
 
-- To be added
+- Stable operations
+- Incident records and resolutions
+- Updated runbooks
+- Operational insights
+- Input to improvements
 
 ## Guides
 
-- To be added
+- How to monitor effectively
+- How to manage recurring issues
+- How to link operations to improvement
+
+## Best practices
+
+- Treat operations as product responsibility
+- Look for patterns, not just incidents
+- Make knowledge shared and visible
+- Act on recurring friction
 
 ## Exit criteria
 
