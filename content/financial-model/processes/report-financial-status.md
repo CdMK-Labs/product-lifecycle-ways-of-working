@@ -67,11 +67,11 @@ This process runs across all financial stages but is most visible during Executi
 
 ## How it connects to lifecycle stages and deliverables
 
-Financial reporting draws on forecasts produced through the [Forecast Financials](../../financial-process.html?p=forecast-financials) process and connects to portfolio governance.
+Financial reporting draws on forecasts produced through the [Forecast Financials](financial-process.html?p=forecast-financials) process and connects to portfolio governance.
 
-During delivery, it complements the [Delivery Pack](../deliverables/delivery-pack/) and [Release and Readiness Pack](../deliverables/release-and-readiness-pack/). In live operation, it connects to the [Product Review Pack](../deliverables/product-review-pack/) where financial health is part of the broader product review.
+During delivery, it complements the [Delivery Pack](pack.html?p=delivery-pack) and [Release and Readiness Pack](pack.html?p=release-and-readiness-pack). In live operation, it connects to the [Product Review Pack](pack.html?p=product-review-pack) where financial health is part of the broader product review.
 
-Related lifecycle stages: [Develop and Deliver](../../stage.html?s=develop-and-deliver), [Deploy](../../stage.html?s=deploy), [Operate and Monitor](../../stage.html?s=operate-and-monitor), [Measure and Learn](../../stage.html?s=measure-and-learn), [Adapt and Optimize](../../stage.html?s=adapt-and-optimize).
+Related lifecycle stages: [Develop and Deliver](lifecycle-stage.html?s=develop-and-deliver), [Deploy](lifecycle-stage.html?s=deploy), [Operate and Monitor](lifecycle-stage.html?s=operate-and-monitor), [Measure and Learn](lifecycle-stage.html?s=measure-and-learn), [Adapt and Optimize](lifecycle-stage.html?s=adapt-and-optimize).
 
 ## Common pitfalls
 
