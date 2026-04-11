@@ -39,30 +39,6 @@ Apply the following principles when making any updates to this product lifecycle
 - Make it clear what belongs in the main content versus appendices or linked source tools.
 - Avoid duplication between pages, packs, templates and explanations.
 
-## Pack-page principles
-
-- Each deliverable pack should have one page only.
-- That page should include the short overview, CTA, pack contents and when-to-use guidance.
-- Do not split pack definition and pack access across two HTML layers.
-- Use one consistent CTA label: "Download starter pack (.zip)".
-- Keep pack pages short, practical and action-oriented.
-- Keep appendices visible on the same page where relevant.
-
-## Template and download principles
-
-- For now, use starter-pack zip files as the practical download mechanism.
-- The zip should contain a main pack placeholder, appendix placeholders where relevant, and a short README.
-- The site page should explain the structure, not duplicate the template content.
-- Link to source tools where possible instead of copying working material into documents.
-
-## Deliverable model principles
-
-- The deliverable-model page is the main navigation hub for packs.
-- Put deliverable packs early on the page.
-- Keep the matrix as the compact mapping reference.
-- Use subtle links in the matrix.
-- Keep the page light and avoid duplicate explanatory sections.
-
 ## Consistency rules
 
 - Use consistent vocabulary:
