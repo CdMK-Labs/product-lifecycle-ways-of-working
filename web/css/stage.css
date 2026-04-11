@@ -341,7 +341,7 @@ h1 {
 
 /* ── Links ───────────────────────────────────────────────────────────────── */
 
-.stage-content a {
+.stage-content a:not(.deliverable-card):not(.process-card):not(.role-card) {
   color: #0D6A4B;
   text-decoration: none;
   font-weight: 500;
@@ -351,7 +351,7 @@ h1 {
   text-decoration: underline;
 }
 
-.stage-content a:focus-visible {
+.stage-content a:not(.deliverable-card):not(.process-card):not(.role-card):focus-visible {
   outline: 2px solid #0D6A4B;
   outline-offset: 2px;
   border-radius: 2px;
