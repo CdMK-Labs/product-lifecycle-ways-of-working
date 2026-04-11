@@ -10,7 +10,7 @@
     { id: 'adapt-and-optimize',  title: 'Adapt & Optimize',    color: '#2DA973', prev: 'measure-and-learn',   next: 'value-proposition'   },
   ];
 
-  function stageUrl(id) { return 'stage.html?s=' + id; }
+  function stageUrl(id) { return 'lifecycle-stage.html?s=' + id; }
   function find(id)      { return STAGES.find(s => s.id === id); }
 
   function navLink(href, cls, ariaLabel, html) {
@@ -79,9 +79,9 @@
   // Fetch and render markdown content
   const contentEl = document.getElementById('stage-content');
 
-  fetch('stage-descriptions/' + stage.id + '.md')
+  fetch('../content/lifecycle-stages/markdown/' + stage.id + '.md')
     .then(r => {
-      if (!r.ok) throw new Error('Could not load stage-descriptions/' + stage.id + '.md (' + r.status + ')');
+      if (!r.ok) throw new Error('Could not load ../content/lifecycle-stages/markdown/' + stage.id + '.md (' + r.status + ')');
       return r.text();
     })
     .then(md => {

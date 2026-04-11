@@ -27,7 +27,7 @@
   // Fetch and render markdown content
   var contentEl = document.getElementById('pack-content');
 
-  fetch('../../stage-descriptions/deliverables/' + pack.id + '.md')
+  fetch('../../../content/deliverable-model/packs/' + pack.id + '.md')
     .then(function (r) {
       if (!r.ok) throw new Error('Could not load markdown (' + r.status + ')');
       return r.text();
