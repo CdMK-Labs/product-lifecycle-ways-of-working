@@ -28,7 +28,7 @@
     .site-header-inner {
       max-width: 1400px;
       margin: 0 auto;
-      padding: 3rem 2rem 2.5rem;
+      padding: 1.5rem 2rem 2.5rem;
     }
 
     h1 {
@@ -216,32 +216,19 @@
 
     /* ── Top navigation ───────────────────────────────────────────────────── */
 
-    .stage-nav {
-      width: 100%;
-      border-bottom: 1px solid #c8e8c8;
-      padding: 0.55rem 1.5rem;
-      background: #fff;
-      position: -webkit-sticky;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-
-    .nav-inner {
+    .site-header-nav {
+      position: relative;
       max-width: 1400px;
       margin: 0 auto;
-      display: flex;
-      align-items: center;
-      gap: 1rem;
+      padding: 0.75rem 2rem 0;
     }
 
     .nav-burger {
-      flex-shrink: 0;
       background: none;
       border: none;
       padding: 0.3rem 0.45rem;
       cursor: pointer;
-      color: #0D6A4B;
+      color: #82CE71;
       border-radius: 3px;
       display: inline-flex;
       align-items: center;
@@ -249,9 +236,9 @@
       transition: color 0.15s, background 0.15s;
     }
 
-    .nav-burger:hover { color: #02462F; background: rgba(13, 106, 75, 0.06); }
+    .nav-burger:hover { color: #fff; background: rgba(130, 206, 113, 0.15); }
 
-    .nav-burger:focus-visible { outline: 2px solid #0D6A4B; outline-offset: 3px; }
+    .nav-burger:focus-visible { outline: 2px solid #82CE71; outline-offset: 3px; }
 
     .site-menu {
       position: absolute;
@@ -287,28 +274,25 @@
 </head>
 <body>
   <header class="site-header">
+    <div class="site-header-nav">
+      <button class="nav-burger" id="nav-burger" aria-expanded="false" aria-controls="site-menu" aria-label="Open site menu">
+        <svg width="16" height="14" viewBox="0 0 16 14" fill="none" aria-hidden="true" focusable="false"><rect y="0" width="16" height="2" rx="1" fill="currentColor"/><rect y="6" width="16" height="2" rx="1" fill="currentColor"/><rect y="12" width="16" height="2" rx="1" fill="currentColor"/></svg>
+      </button>
+      <div class="site-menu" id="site-menu" hidden>
+        <ul>
+          <li><a href="lifecycle-model.html">Lifecycle Model</a></li>
+          <li><a href="financial-model.html">Financial Model</a></li>
+          <li><a href="fundamentals.html">Fundamentals</a></li>
+          <li><a href="roles-and-responsibilities.html">Roles &amp; Responsibilities</a></li>
+        </ul>
+      </div>
+    </div>
     <div class="site-header-inner">
       <h1>Product Lifecycle</h1>
       <p class="site-description">This site is the practical reference for how we work across the product lifecycle. It translates our model into something teams can use in practice: what each stage is for, when to enter it, what to deliver, who to involve, and which templates, processes and standards to work with.</p>
       <p class="site-description">The lifecycle is built around full product responsibility. Product teams do not just hand work over from planning to delivery to operations. They carry the product forward across the lifecycle and improve it over time. That is how we create stronger ownership, better flow and more consistent value delivery, while staying within our fundamentals and balancing speed, stability and compliance.</p>
     </div>
   </header>
-
-  <nav class="stage-nav" aria-label="Site navigation">
-    <div class="nav-inner">
-      <button class="nav-burger" id="nav-burger" aria-expanded="false" aria-controls="site-menu" aria-label="Open site menu">
-        <svg width="16" height="14" viewBox="0 0 16 14" fill="none" aria-hidden="true" focusable="false"><rect y="0" width="16" height="2" rx="1" fill="currentColor"/><rect y="6" width="16" height="2" rx="1" fill="currentColor"/><rect y="12" width="16" height="2" rx="1" fill="currentColor"/></svg>
-      </button>
-    </div>
-    <div class="site-menu" id="site-menu" hidden>
-      <ul>
-        <li><a href="lifecycle-model.html">Lifecycle Model</a></li>
-        <li><a href="financial-model.html">Financial Model</a></li>
-        <li><a href="fundamentals.html">Fundamentals</a></li>
-        <li><a href="roles-and-responsibilities.html">Roles &amp; Responsibilities</a></li>
-      </ul>
-    </div>
-  </nav>
 
   <div id="diagram-container"></div>
 
