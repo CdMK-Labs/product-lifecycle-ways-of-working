@@ -61,8 +61,12 @@ body {
 
 /* ── Burger menu button ───────────────────────────────────────────────────── */
 
-.nav-burger {
+.nav-menu-wrap {
+  position: relative;
   flex-shrink: 0;
+}
+
+.nav-burger {
   background: none;
   border: none;
   padding: 0.3rem 0.45rem;
