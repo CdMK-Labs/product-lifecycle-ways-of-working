@@ -497,6 +497,11 @@ a.download-cta::after {
   background: #fff;
 }
 
+.footer-nav-btn:active {
+  background: #f0f7f0;
+  border-color: #0D6A4B;
+}
+
 .footer-nav-btn:focus-visible {
   outline: 2px solid #0D6A4B;
   outline-offset: 2px;
@@ -554,6 +559,15 @@ a.download-cta::after {
 .role-card:hover {
   box-shadow: 0 2px 12px rgba(2, 70, 47, 0.1);
   border-left-color: #82CE71;
+  text-decoration: none;
+}
+
+.deliverable-card:active,
+.process-card:active,
+.role-card:active {
+  box-shadow: none;
+  border-left-color: #0D6A4B;
+  text-decoration: none;
 }
 
 .deliverable-card:focus-visible,
@@ -679,7 +693,7 @@ a.download-cta::after {
 .financial-stage-block {
   background: #fff;
   border: 1px solid #ddeedd;
-  border-top: 3px solid #0D6A4B;
+  border-left: 3px solid #0D6A4B;
   border-radius: 4px;
   padding: 0.85rem 0.9rem;
 }
