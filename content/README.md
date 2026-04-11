@@ -47,7 +47,7 @@ The section structure for each stage page is:
 10. Training
 11. Common pitfalls
 
-Keep each section to 3–5 bullet points. The first section is the only one that uses prose.
+Keep each section practical and lightweight. The first section is the only one that uses prose.
 
 ### Role descriptions
 
