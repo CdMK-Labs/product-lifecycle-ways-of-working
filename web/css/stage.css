@@ -347,7 +347,7 @@ h1 {
   font-weight: 500;
 }
 
-.stage-content a:hover {
+.stage-content a:not(.deliverable-card):not(.process-card):not(.role-card):hover {
   text-decoration: underline;
 }
 
