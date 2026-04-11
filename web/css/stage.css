@@ -510,6 +510,7 @@ a.download-cta::after {
   font-size: 1rem;
   font-weight: 700;
   color: #02462F;
+  margin-top: 0.3rem;
   margin-bottom: 0.3rem;
   line-height: 1.3;
   text-transform: none;
@@ -628,6 +629,7 @@ a.download-cta::after {
   font-size: 0.88rem;
   font-weight: 700;
   color: #02462F;
+  margin-top: 0.2rem;
   margin-bottom: 0.25rem;
   line-height: 1.3;
   text-transform: none;
