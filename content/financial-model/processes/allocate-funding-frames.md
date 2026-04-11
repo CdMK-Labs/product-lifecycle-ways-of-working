@@ -73,9 +73,9 @@ This process looks 12 to 18 months ahead. It supports early financial framing be
 
 This process primarily supports Idea Generation and Exploration. It is closely linked to Opportunity Briefs, early Discovery inputs, and sunrays as the main way of expressing forward-looking needs.
 
-It creates the financial room within which later investment approval decisions can be made, but it does not replace detailed investment approval. The funding frame becomes an input to the [Approve Investments](../../financial-process.html?p=approve-investments) process when work matures into a business case.
+It creates the financial room within which later investment approval decisions can be made, but it does not replace detailed investment approval. The funding frame becomes an input to the [Approve Investments](financial-process.html?p=approve-investments) process when work matures into a business case.
 
-Related lifecycle stages: [Value Proposition](../../stage.html?s=value-proposition), [Product Discovery](../../stage.html?s=product-discovery).
+Related lifecycle stages: [Value Proposition](lifecycle-stage.html?s=value-proposition), [Product Discovery](lifecycle-stage.html?s=product-discovery).
 
 ## Common pitfalls
 
