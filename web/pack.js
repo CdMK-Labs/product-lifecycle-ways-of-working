@@ -1,14 +1,14 @@
 (function () {
   var PACKS = [
-    { id: 'opportunity-brief',                        title: 'Opportunity Brief',                       color: '#0D6A4B', zip: '../../../content/deliverable-model/supporting-materials/opportunity-brief-starter-pack.zip',                note: 'Includes a main pack placeholder. Starter files will be expanded in future versions.' },
-    { id: 'discovery-pack',                           title: 'Discovery Pack',                          color: '#0C563D', zip: '../../../content/deliverable-model/supporting-materials/discovery-pack-starter-pack.zip',                   note: 'Includes a main pack placeholder. Starter files will be expanded in future versions.' },
-    { id: 'business-case-and-delivery-decision-pack', title: 'Business Case & Delivery Decision Pack',  color: '#0B885A', zip: '../../../content/deliverable-model/supporting-materials/business-case-delivery-decision-starter-pack.zip',  note: 'Includes a main pack and four appendix placeholders. Starter files will be expanded in future versions.' },
-    { id: 'delivery-pack',                            title: 'Delivery Pack',                           color: '#0D6A4B', zip: '../../../content/deliverable-model/supporting-materials/delivery-pack-starter-pack.zip',                    note: 'Includes a main pack placeholder. Starter files will be expanded in future versions.' },
-    { id: 'release-and-readiness-pack',               title: 'Release & Readiness Pack',                color: '#02462F', zip: '../../../content/deliverable-model/supporting-materials/release-readiness-starter-pack.zip',                note: 'Includes a main pack placeholder. Starter files will be expanded in future versions.' },
-    { id: 'product-review-pack',                      title: 'Product Review Pack',                     color: '#2DA973', zip: '../../../content/deliverable-model/supporting-materials/product-review-pack-starter-pack.zip',              note: 'Includes a main pack placeholder. Starter files will be expanded in future versions.' },
+    { id: 'opportunity-brief',                        title: 'Opportunity Brief',                       color: '#0D6A4B', zip: '../content/deliverable-model/supporting-materials/opportunity-brief-starter-pack.zip',                note: 'Includes a main pack placeholder. Starter files will be expanded in future versions.' },
+    { id: 'discovery-pack',                           title: 'Discovery Pack',                          color: '#0C563D', zip: '../content/deliverable-model/supporting-materials/discovery-pack-starter-pack.zip',                   note: 'Includes a main pack placeholder. Starter files will be expanded in future versions.' },
+    { id: 'business-case-and-delivery-decision-pack', title: 'Business Case & Delivery Decision Pack',  color: '#0B885A', zip: '../content/deliverable-model/supporting-materials/business-case-delivery-decision-starter-pack.zip',  note: 'Includes a main pack and four appendix placeholders. Starter files will be expanded in future versions.' },
+    { id: 'delivery-pack',                            title: 'Delivery Pack',                           color: '#0D6A4B', zip: '../content/deliverable-model/supporting-materials/delivery-pack-starter-pack.zip',                    note: 'Includes a main pack placeholder. Starter files will be expanded in future versions.' },
+    { id: 'release-and-readiness-pack',               title: 'Release & Readiness Pack',                color: '#02462F', zip: '../content/deliverable-model/supporting-materials/release-readiness-starter-pack.zip',                note: 'Includes a main pack placeholder. Starter files will be expanded in future versions.' },
+    { id: 'product-review-pack',                      title: 'Product Review Pack',                     color: '#2DA973', zip: '../content/deliverable-model/supporting-materials/product-review-pack-starter-pack.zip',              note: 'Includes a main pack placeholder. Starter files will be expanded in future versions.' },
   ];
 
-  var id = document.body.dataset.pack;
+  var id = new URLSearchParams(window.location.search).get('p');
   var pack = PACKS.find(function (p) { return p.id === id; });
 
   if (!pack) {
@@ -27,7 +27,7 @@
   // Fetch and render markdown content
   var contentEl = document.getElementById('pack-content');
 
-  fetch('../../../content/deliverable-model/packs/' + pack.id + '.md')
+  fetch('../content/deliverable-model/packs/' + pack.id + '.md')
     .then(function (r) {
       if (!r.ok) throw new Error('Could not load markdown (' + r.status + ')');
       return r.text();

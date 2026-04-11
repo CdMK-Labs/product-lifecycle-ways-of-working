@@ -2,12 +2,12 @@
   // Pack pages are the canonical single destination per deliverable.
   // Redirect any legacy ?d= links to the corresponding pack page.
   var PACK_PAGES = {
-    'opportunity-brief':                        'supporting-materials/opportunity-brief/',
-    'discovery-pack':                           'supporting-materials/discovery-pack/',
-    'business-case-and-delivery-decision-pack': 'supporting-materials/business-case-and-delivery-decision-pack/',
-    'delivery-pack':                            'supporting-materials/delivery-pack/',
-    'release-and-readiness-pack':               'supporting-materials/release-and-readiness-pack/',
-    'product-review-pack':                      'supporting-materials/product-review-pack/',
+    'opportunity-brief':                        'pack.html?p=opportunity-brief',
+    'discovery-pack':                           'pack.html?p=discovery-pack',
+    'business-case-and-delivery-decision-pack': 'pack.html?p=business-case-and-delivery-decision-pack',
+    'delivery-pack':                            'pack.html?p=delivery-pack',
+    'release-and-readiness-pack':               'pack.html?p=release-and-readiness-pack',
+    'product-review-pack':                      'pack.html?p=product-review-pack',
   };
 
   var id = new URLSearchParams(window.location.search).get('d');
