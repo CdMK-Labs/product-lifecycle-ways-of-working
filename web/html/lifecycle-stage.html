@@ -11,12 +11,19 @@
   <div class="accent-bar" id="accent-bar"></div>
   <nav class="stage-nav" aria-label="Site navigation">
     <div class="nav-inner">
-      <a href="lifecycle-model.html" class="nav-btn nav-home">&larr; Product Lifecycle</a>
-      <!-- Deliverable model section temporarily hidden. Keep for future reactivation.
-      <a href="deliverable-model.html" class="nav-btn nav-deliverable">Deliverable Model</a>
-      -->
+      <button class="nav-burger" id="nav-burger" aria-expanded="false" aria-controls="site-menu" aria-label="Open site menu">
+        <svg width="16" height="14" viewBox="0 0 16 14" fill="none" aria-hidden="true" focusable="false"><rect y="0" width="16" height="2" rx="1" fill="currentColor"/><rect y="6" width="16" height="2" rx="1" fill="currentColor"/><rect y="12" width="16" height="2" rx="1" fill="currentColor"/></svg>
+      </button>
       <span class="stage-indicator" id="stage-indicator" aria-hidden="true"></span>
       <div class="nav-stages" id="nav-stages"></div>
+    </div>
+    <div class="site-menu" id="site-menu" hidden>
+      <ul>
+        <li><a href="lifecycle-model.html">Lifecycle Model</a></li>
+        <li><a href="financial-model.html">Financial Model</a></li>
+        <li><a href="fundamentals.html">Fundamentals</a></li>
+        <li><a href="roles-and-responsibilities.html">Roles &amp; Responsibilities</a></li>
+      </ul>
     </div>
   </nav>
   <div class="page-body">
@@ -26,5 +33,6 @@
   <nav class="stage-footer-nav" id="stage-footer-nav" aria-label="Stage navigation"></nav>
   <script src="../js/marked.min.js"></script>
   <script src="../js/stage.js"></script>
+  <script src="../js/nav.js"></script>
 </body>
 </html>
