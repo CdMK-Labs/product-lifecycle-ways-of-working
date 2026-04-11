@@ -28,7 +28,7 @@ Each HTML file is a page template. Most pages load their content dynamically fro
 | `roles-and-responsibilities.html` | Roles overview page | Inline HTML |
 | `role.html` | Individual role pages | `content/roles-and-responsibilities/descriptions/<id>.md` |
 | `fundamentals.html` | Fundamentals page | Inline HTML |
-| `deliverable-model.html` | Deliverable model overview | Inline HTML |
+| `deliverable-model.html` | Deliverable model overview | `content/deliverable-model/model/deliverable-model.md` |
 | `pack.html` | Individual deliverable pack pages | `content/deliverable-model/packs/<id>.md` |
 | `deliverable-pack.html` | Legacy redirect for `?d=` links | — |
 
@@ -40,6 +40,7 @@ Pages use URL parameters for routing: `?s=` for stages, `?p=` for processes and 
 |---|---|
 | `stage.js` | Loads and renders lifecycle stage content; handles stage navigation |
 | `role.js` | Loads and renders role content; handles role navigation |
+| `deliverable-model.js` | Loads and renders the deliverable model overview page |
 | `financial-model.js` | Loads and renders the financial model overview page |
 | `financial-process.js` | Loads and renders financial process content |
 | `pack.js` | Loads and renders deliverable pack content; injects download CTA |
