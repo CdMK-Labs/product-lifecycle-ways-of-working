@@ -25,7 +25,7 @@
   // Fetch and render markdown content
   var contentEl = document.getElementById('process-content');
 
-  fetch('../content/financial-model/processes/' + process.id + '.md')
+  fetch('../../content/financial-model/processes/' + process.id + '.md')
     .then(function (r) {
       if (!r.ok) throw new Error('Could not load ../content/financial-model/processes/' + process.id + '.md (' + r.status + ')');
       return r.text();

@@ -83,7 +83,7 @@
   // Fetch and render markdown content
   const contentEl = document.getElementById('role-content');
 
-  fetch('../content/roles-and-responsibilities/descriptions/' + role.id + '.md')
+  fetch('../../content/roles-and-responsibilities/descriptions/' + role.id + '.md')
     .then(r => {
       if (!r.ok) throw new Error('Could not load ../content/roles-and-responsibilities/descriptions/' + role.id + '.md (' + r.status + ')');
       return r.text();
