@@ -39,7 +39,7 @@
   document.documentElement.style.setProperty('--stage-color', stage.color);
 
   // Page title and heading
-  document.title = stage.title + ' Product Lifecycle';
+  document.title = stage.title + ' \u2013 Product Lifecycle';
   document.getElementById('stage-title').textContent = stage.title;
 
   // Stage position indicator
@@ -144,11 +144,9 @@
         }
       }
 
-      // Make template file links trigger a download (skip directory links)
-      contentEl.querySelectorAll('a[href^="supporting-materials/"]').forEach(a => {
-        if (/\.\w+$/.test(a.getAttribute('href'))) {
-          a.setAttribute('download', '');
-        }
+      // Add download attribute to direct file links (.xlsx, .docx, .pptx)
+      contentEl.querySelectorAll('a[href$=".xlsx"], a[href$=".docx"], a[href$=".pptx"]').forEach(a => {
+        a.setAttribute('download', '');
       });
     })
     .catch(err => console.error(err));

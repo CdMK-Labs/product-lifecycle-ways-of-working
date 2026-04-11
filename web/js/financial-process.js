@@ -1,13 +1,13 @@
 (function () {
-  var PROCESSES = [
+  const PROCESSES = [
     { id: 'allocate-funding-frames', title: 'Allocate Funding Frames', color: '#0D6A4B' },
     { id: 'approve-investments',     title: 'Approve Investments',     color: '#0C563D' },
     { id: 'forecast-financials',     title: 'Forecast Financials',     color: '#0B885A' },
     { id: 'report-financial-status', title: 'Report Financial Status', color: '#02462F' },
   ];
 
-  var id = new URLSearchParams(window.location.search).get('p');
-  var process = PROCESSES.find(function (p) { return p.id === id; });
+  const id      = new URLSearchParams(window.location.search).get('p');
+  const process = PROCESSES.find(p => p.id === id);
 
   if (!process) {
     document.getElementById('process-title').textContent = 'Process not found';
@@ -23,46 +23,44 @@
   document.getElementById('process-title').textContent = process.title;
 
   // Fetch and render markdown content
-  var contentEl = document.getElementById('process-content');
+  const contentEl = document.getElementById('process-content');
 
   fetch('../../content/financial-model/processes/' + process.id + '.md')
-    .then(function (r) {
-      if (!r.ok) throw new Error('Could not load ../content/financial-model/processes/' + process.id + '.md (' + r.status + ')');
+    .then(r => {
+      if (!r.ok) throw new Error('Could not load ../../content/financial-model/processes/' + process.id + '.md (' + r.status + ')');
       return r.text();
     })
-    .then(function (md) {
+    .then(md => {
       contentEl.innerHTML = marked.parse(md);
 
       // Wrap intro section (first h2 + following paragraphs) in .intro-block
-      var firstH2 = contentEl.querySelector('h2');
+      const firstH2 = contentEl.querySelector('h2');
       if (firstH2) {
-        var wrapper = document.createElement('div');
+        const wrapper = document.createElement('div');
         wrapper.className = 'intro-block';
         firstH2.parentNode.insertBefore(wrapper, firstH2);
         wrapper.appendChild(firstH2);
-        var sib = wrapper.nextElementSibling;
+        let sib = wrapper.nextElementSibling;
         while (sib && sib.tagName === 'P') {
-          var toMove = sib;
+          const toMove = sib;
           sib = toMove.nextElementSibling;
           wrapper.appendChild(toMove);
         }
       }
 
       // Process h2 elements for special section treatment
-      contentEl.querySelectorAll('h2').forEach(function (h2) {
+      contentEl.querySelectorAll('h2').forEach(h2 => {
 
         // Who Is Involved: mark role headings and bullet lists
         if (/who is involved/i.test(h2.textContent)) {
-          var isFirst = true;
-          var el = h2.nextElementSibling;
+          let isFirst = true;
+          let el = h2.nextElementSibling;
           while (el && el.tagName !== 'H2') {
             if (el.tagName === 'H3') {
               el.classList.add('role-name');
               if (isFirst) { el.classList.add('role-name-first'); isFirst = false; }
             }
-            if (el.tagName === 'UL') {
-              el.classList.add('role-bullets');
-            }
+            if (el.tagName === 'UL') el.classList.add('role-bullets');
             if (el.tagName === 'P'
                 && el.querySelector('strong')
                 && /others who may contribute/i.test(el.textContent)) {
@@ -74,13 +72,13 @@
 
         // Common Pitfalls: replace bold-only <p> with <h3 class="role-name">
         if (/common pitfalls/i.test(h2.textContent)) {
-          var el = h2.nextElementSibling;
+          let el = h2.nextElementSibling;
           while (el && el.tagName !== 'H2') {
-            var sibling = el.nextElementSibling;
+            const sibling = el.nextElementSibling;
             if (el.tagName === 'P'
                 && el.children.length === 1
                 && el.children[0].tagName === 'STRONG') {
-              var h3 = document.createElement('h3');
+              const h3 = document.createElement('h3');
               h3.className = 'role-name';
               h3.textContent = el.children[0].textContent;
               el.parentNode.replaceChild(h3, el);
@@ -91,16 +89,14 @@
 
         // Outputs and decisions: style decision sub-headings
         if (/outputs and decisions/i.test(h2.textContent)) {
-          var isFirst = true;
-          var el = h2.nextElementSibling;
+          let isFirst = true;
+          let el = h2.nextElementSibling;
           while (el && el.tagName !== 'H2') {
             if (el.tagName === 'H3') {
               el.classList.add('role-name');
               if (isFirst) { el.classList.add('role-name-first'); isFirst = false; }
             }
-            if (el.tagName === 'UL') {
-              el.classList.add('role-bullets');
-            }
+            if (el.tagName === 'UL') el.classList.add('role-bullets');
             el = el.nextElementSibling;
           }
         }
@@ -111,7 +107,7 @@
         }
       });
     })
-    .catch(function (err) { console.error(err); });
+    .catch(err => console.error(err));
 
   /**
    * Converts the Financial stages markdown list into styled stage blocks.
@@ -119,37 +115,29 @@
    * formatted as "**01 Title** — Description".
    */
   function renderFinancialStages(h2) {
-    // Collect the intro paragraph and the list
-    var introP = null;
-    var stageUl = null;
-    var el = h2.nextElementSibling;
+    let stageUl = null;
+    let el = h2.nextElementSibling;
     while (el && el.tagName !== 'H2') {
-      if (el.tagName === 'P' && !introP) { introP = el; }
-      if (el.tagName === 'UL' && !stageUl) { stageUl = el; }
+      if (el.tagName === 'UL' && !stageUl) stageUl = el;
       el = el.nextElementSibling;
     }
 
     if (!stageUl) return;
 
-    // Build the stage blocks grid
-    var grid = document.createElement('div');
+    const grid = document.createElement('div');
     grid.className = 'financial-stages-grid';
 
-    var items = stageUl.querySelectorAll('li');
-    items.forEach(function (li) {
-      var strong = li.querySelector('strong');
+    stageUl.querySelectorAll('li').forEach(li => {
+      const strong = li.querySelector('strong');
       if (!strong) return;
 
-      var titleText = strong.textContent.trim();
-      // Extract number and name from "01 Idea Generation"
-      var match = titleText.match(/^(\d+)\s+(.+)$/);
-      var number = match ? match[1] : '';
-      var name = match ? match[2] : titleText;
+      const titleText = strong.textContent.trim();
+      const match     = titleText.match(/^(\d+)\s+(.+)$/);
+      const number    = match ? match[1] : '';
+      const name      = match ? match[2] : titleText;
+      const desc      = li.textContent.replace(strong.textContent, '').replace(/^\s*[—–-]\s*/, '').trim();
 
-      // Description is everything after the strong + separator
-      var desc = li.textContent.replace(strong.textContent, '').replace(/^\s*[—–-]\s*/, '').trim();
-
-      var block = document.createElement('div');
+      const block = document.createElement('div');
       block.className = 'financial-stage-block';
       block.innerHTML =
         '<span class="card-number">' + number + '</span>' +
@@ -159,7 +147,6 @@
       grid.appendChild(block);
     });
 
-    // Replace the <ul> with the grid
     stageUl.parentNode.replaceChild(grid, stageUl);
   }
 })();

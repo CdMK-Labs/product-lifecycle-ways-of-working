@@ -8,78 +8,10 @@
   <link rel="stylesheet" href="../css/stage.css">
   <style>
     :root { --stage-color: #02462F; }
-
-    .roles-section {
-      margin-top: 2.5rem;
-    }
-
-    .roles-section-label {
-      font-size: 0.7rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: #0D6A4B;
-      margin-bottom: 0.75rem;
-      padding-bottom: 0.4rem;
-      border-bottom: 1px solid #c8e8c8;
-    }
-
-    .roles-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 0.75rem;
-      margin-top: 0.75rem;
-    }
-
-    .role-card {
-      display: block;
-      background: #fff;
-      border: 1px solid #ddeedd;
-      border-left: 3px solid #0D6A4B;
-      border-radius: 4px;
-      padding: 1rem 1.1rem;
-      text-decoration: none;
-      transition: box-shadow 0.18s ease, border-left-color 0.18s ease;
-    }
-
-    .role-card:hover {
-      box-shadow: 0 2px 12px rgba(2, 70, 47, 0.1);
-      border-left-color: #82CE71;
-    }
-
-    .role-card:focus-visible {
-      outline: 2px solid #0D6A4B;
-      outline-offset: 3px;
-    }
-
-    .role-card h3 {
-      font-size: 1rem;
-      font-weight: 700;
-      color: #02462F;
-      margin-bottom: 0.3rem;
-      text-transform: none;
-      letter-spacing: normal;
-      opacity: 1;
-    }
-
-    .role-card p {
-      font-size: 1rem;
-      color: #4a6a5a;
-      line-height: 1.75;
-      margin: 0;
-    }
-
-    @media (max-width: 700px) {
-      .roles-grid { grid-template-columns: repeat(2, 1fr); }
-    }
-
-    @media (max-width: 480px) {
-      .roles-grid { grid-template-columns: 1fr; }
-    }
   </style>
 </head>
 <body>
-  <div class="accent-bar" style="background: #02462F;"></div>
+  <div class="accent-bar"></div>
   <nav class="stage-nav" aria-label="Site navigation">
     <div class="nav-inner">
       <a href="lifecycle-model.html" class="nav-btn nav-home">&larr; Product Lifecycle</a>

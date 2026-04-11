@@ -54,12 +54,12 @@
   navStages.appendChild(navLink(
     roleUrl(prev.id), 'nav-btn',
     'Previous role: ' + prev.title,
-    '<span class="nav-arrow" aria-hidden="true">\u2190</span><span class="nav-label">' + prev.title + '</span>'
+    '<span class="nav-arrow" aria-hidden="true">←</span><span class="nav-label">' + prev.title + '</span>'
   ));
   navStages.appendChild(navLink(
     roleUrl(next.id), 'nav-btn nav-btn-next',
     'Next role: ' + next.title,
-    '<span class="nav-label">' + next.title + '</span><span class="nav-arrow" aria-hidden="true">\u2192</span>'
+    '<span class="nav-label">' + next.title + '</span><span class="nav-arrow" aria-hidden="true">→</span>'
   ));
 
   // Footer nav
@@ -70,12 +70,12 @@
     inner.appendChild(navLink(
       roleUrl(prev.id), 'footer-nav-btn',
       'Previous role: ' + prev.title,
-      '<span aria-hidden="true">\u2190</span><span>' + prev.title + '</span>'
+      '<span aria-hidden="true">←</span><span>' + prev.title + '</span>'
     ));
     inner.appendChild(navLink(
       roleUrl(next.id), 'footer-nav-btn footer-nav-btn-next',
       'Next role: ' + next.title,
-      '<span>' + next.title + '</span><span aria-hidden="true">\u2192</span>'
+      '<span>' + next.title + '</span><span aria-hidden="true">→</span>'
     ));
     footerNav.appendChild(inner);
   }

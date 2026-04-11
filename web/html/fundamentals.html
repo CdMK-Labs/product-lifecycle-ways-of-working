@@ -8,93 +8,10 @@
   <link rel="stylesheet" href="../css/stage.css">
   <style>
     :root { --stage-color: #02462F; }
-
-    .fundamental-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 1.5rem;
-      margin-bottom: 2.25rem;
-    }
-
-    /* Disable alternating row stripe inside these tables */
-    .stage-content .fundamental-table tbody tr:nth-child(even) td {
-      background: transparent;
-    }
-
-    /* Fundamental name — header row */
-    .fundamental-table .fund-name-row th {
-      background: #02462F;
-      color: #fff;
-      font-size: 0.8rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.07em;
-      padding: 0.65rem 0.9rem;
-      text-align: left;
-    }
-
-    /* Label cells: WHY / WHAT / WHO / HOW / WHEN */
-    .stage-content .fund-label {
-      font-size: 0.63rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: #0D6A4B;
-      background: rgba(13, 106, 75, 0.03);
-      padding: 0.85rem 0.85rem 0.85rem 0.9rem;
-      vertical-align: top;
-      white-space: nowrap;
-      width: 58px;
-      border-bottom: 1px solid #e0ede0;
-      border-right: 1px solid #e0ede0;
-    }
-
-    /* Content cells */
-    .stage-content .fund-content {
-      padding: 0.85rem 0.9rem;
-      font-size: 0.9rem;
-      color: #2d4a3e;
-      line-height: 1.65;
-      vertical-align: top;
-      border-bottom: 1px solid #e0ede0;
-    }
-
-    /* No border on last row */
-    .fundamental-table tr:last-child .fund-label,
-    .fundamental-table tr:last-child .fund-content {
-      border-bottom: none;
-    }
-
-    /* Paragraphs inside content cells */
-    .stage-content .fund-content p {
-      max-width: none;
-      margin-bottom: 0.45rem;
-    }
-    .stage-content .fund-content p:last-child {
-      margin-bottom: 0;
-    }
-
-    /* Lists inside content cells */
-    .stage-content .fund-content ul {
-      max-width: none;
-      padding: 0;
-      margin: 0.15rem 0 0;
-      list-style: none;
-    }
-
-    .stage-content .fund-content li {
-      padding: 0.2rem 0 0.2rem 1.1rem;
-      border-bottom: none;
-      line-height: 1.6;
-    }
-
-    .stage-content .fund-content li::before {
-      color: #0D6A4B;
-    }
   </style>
 </head>
 <body>
-  <div class="accent-bar" style="background: #02462F;"></div>
+  <div class="accent-bar"></div>
   <nav class="stage-nav" aria-label="Site navigation">
     <div class="nav-inner">
       <a href="lifecycle-model.html" class="nav-btn nav-home">&larr; Product Lifecycle</a>
