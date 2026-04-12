@@ -39,12 +39,12 @@ Pages use URL parameters for routing: `?s=` for stages, `?p=` for processes and 
 
 | File | Purpose |
 |---|---|
-| `stage.js` | Loads and renders lifecycle stage content; handles stage navigation |
+| `lifecycle-stage.js` | Loads and renders lifecycle stage content; handles stage navigation |
 | `role.js` | Loads and renders role content; handles role navigation |
 | `deliverable-model.js` | Loads and renders the deliverable model overview page |
 | `financial-model.js` | Loads and renders the financial model overview page |
 | `financial-process.js` | Loads and renders financial process content |
-| `pack.js` | Loads and renders deliverable pack content; injects download CTA |
+| `deliverable-pack.js` | Loads and renders deliverable pack content; injects download CTA |
 | `nav.js` | Burger menu toggle and keyboard/click-outside close behaviour |
 | `marked.min.js` | Third-party markdown parser (do not edit) |
 
