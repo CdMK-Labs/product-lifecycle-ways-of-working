@@ -69,7 +69,7 @@
       const desc   = li.textContent.replace(strong.textContent, '').replace(/^\s*[—–-]\s*/, '').trim();
 
       const card = document.createElement('a');
-      card.href = 'pack.html?p=' + id;
+      card.href = 'deliverable-pack.html?p=' + id;
       card.className = 'deliverable-card';
       card.innerHTML =
         '<span class="card-number">' + number + '</span>' +

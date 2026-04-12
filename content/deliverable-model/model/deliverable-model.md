@@ -36,8 +36,8 @@ Start with the stage you are in. Open the relevant pack and use it as the baseli
 
 | Financial stage | Lifecycle stages | Deliverable packs |
 |---|---|---|
-| Idea Generation | [Value Proposition](lifecycle-stage.html?s=value-proposition) | [Opportunity Brief](pack.html?p=opportunity-brief) |
-| Exploration | [Product Discovery](lifecycle-stage.html?s=product-discovery) | [Discovery Pack](pack.html?p=discovery-pack) |
-| Development | [Align & Plan](lifecycle-stage.html?s=align-and-plan) | [Business Case & Delivery Decision Pack](pack.html?p=business-case-and-delivery-decision-pack) |
-| Execution | [Develop & Deliver](lifecycle-stage.html?s=develop-and-deliver), [Deploy](lifecycle-stage.html?s=deploy) | [Delivery Pack](pack.html?p=delivery-pack), [Release & Readiness Pack](pack.html?p=release-and-readiness-pack) |
-| Operation & Evaluation | [Operate & Monitor](lifecycle-stage.html?s=operate-and-monitor), [Measure & Learn](lifecycle-stage.html?s=measure-and-learn), [Adapt & Optimize](lifecycle-stage.html?s=adapt-and-optimize) | [Product Review Pack](pack.html?p=product-review-pack) |
+| Idea Generation | [Value Proposition](lifecycle-stage.html?s=value-proposition) | [Opportunity Brief](deliverable-pack.html?p=opportunity-brief) |
+| Exploration | [Product Discovery](lifecycle-stage.html?s=product-discovery) | [Discovery Pack](deliverable-pack.html?p=discovery-pack) |
+| Development | [Align & Plan](lifecycle-stage.html?s=align-and-plan) | [Business Case & Delivery Decision Pack](deliverable-pack.html?p=business-case-and-delivery-decision-pack) |
+| Execution | [Develop & Deliver](lifecycle-stage.html?s=develop-and-deliver), [Deploy](lifecycle-stage.html?s=deploy) | [Delivery Pack](deliverable-pack.html?p=delivery-pack), [Release & Readiness Pack](deliverable-pack.html?p=release-and-readiness-pack) |
+| Operation & Evaluation | [Operate & Monitor](lifecycle-stage.html?s=operate-and-monitor), [Measure & Learn](lifecycle-stage.html?s=measure-and-learn), [Adapt & Optimize](lifecycle-stage.html?s=adapt-and-optimize) | [Product Review Pack](deliverable-pack.html?p=product-review-pack) |

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/fonts.css">
+  <title>Product Lifecycle</title>
+  <link rel="stylesheet" href="../css/stage.css">
+</head>
+<body>
+  <div class="accent-bar" id="accent-bar"></div>
+  <nav class="stage-nav" aria-label="Site navigation">
+    <div class="nav-inner">
+      <div class="nav-menu-wrap">
+        <button class="nav-burger" id="nav-burger" aria-expanded="false" aria-controls="site-menu" aria-label="Open site menu">
+          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" aria-hidden="true" focusable="false"><rect y="0" width="16" height="2" rx="1" fill="currentColor"/><rect y="6" width="16" height="2" rx="1" fill="currentColor"/><rect y="12" width="16" height="2" rx="1" fill="currentColor"/></svg>
+        </button>
+        <div class="site-menu" id="site-menu" hidden>
+          <ul>
+            <li><a href="lifecycle-model.html">Lifecycle Model</a></li>
+            <li><a href="financial-model.html">Financial Model</a></li>
+            <li><a href="fundamentals.html">Fundamentals</a></li>
+            <li><a href="roles-and-responsibilities.html">Roles &amp; Responsibilities</a></li>
+          </ul>
+        </div>
+      </div>
+      <span class="stage-indicator" aria-hidden="true"></span>
+      <div class="nav-stages"></div>
+    </div>
+  </nav>
+  <div class="page-body">
+    <h1 id="pack-title"></h1>
+    <div id="pack-content" class="stage-content"></div>
+  </div>
+  <script src="../js/marked.min.js"></script>
+  <script src="../js/pack.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

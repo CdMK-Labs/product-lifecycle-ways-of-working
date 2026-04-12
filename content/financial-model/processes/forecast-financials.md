@@ -71,9 +71,9 @@ This process is most active during the Execution and Operation and Evaluation fi
 
 ## How it connects to lifecycle stages and deliverables
 
-Forecasting starts when an investment is approved and continues through delivery and live operation. It draws on the [Delivery Pack](pack.html?p=delivery-pack) for progress context and feeds into [Report Financial Status](financial-process.html?p=report-financial-status).
+Forecasting starts when an investment is approved and continues through delivery and live operation. It draws on the [Delivery Pack](deliverable-pack.html?p=delivery-pack) for progress context and feeds into [Report Financial Status](financial-process.html?p=report-financial-status).
 
-During live operation, forecasting connects to the [Product Review Pack](pack.html?p=product-review-pack) where cost and value are reviewed together.
+During live operation, forecasting connects to the [Product Review Pack](deliverable-pack.html?p=product-review-pack) where cost and value are reviewed together.
 
 Related lifecycle stages: [Develop and Deliver](lifecycle-stage.html?s=develop-and-deliver), [Deploy](lifecycle-stage.html?s=deploy), [Operate and Monitor](lifecycle-stage.html?s=operate-and-monitor).
 

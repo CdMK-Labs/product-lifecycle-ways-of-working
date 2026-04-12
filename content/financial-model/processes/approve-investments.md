@@ -101,15 +101,15 @@ Approve Investment sits within a broader financial flow. The stages below show h
 
 The approval gates correspond to lifecycle stages. This process spans the lifecycle rather than sitting in only one place.
 
-In [Value Proposition](lifecycle-stage.html?s=value-proposition), early shaping establishes whether the opportunity warrants further investment. The [Opportunity Brief](pack.html?p=opportunity-brief) is a key input at this stage.
+In [Value Proposition](lifecycle-stage.html?s=value-proposition), early shaping establishes whether the opportunity warrants further investment. The [Opportunity Brief](deliverable-pack.html?p=opportunity-brief) is a key input at this stage.
 
-In [Product Discovery](lifecycle-stage.html?s=product-discovery), the case is explored further. The [Discovery Pack](pack.html?p=discovery-pack) provides the basis for deciding whether to move into detailed planning.
+In [Product Discovery](lifecycle-stage.html?s=product-discovery), the case is explored further. The [Discovery Pack](deliverable-pack.html?p=discovery-pack) provides the basis for deciding whether to move into detailed planning.
 
-In [Align and Plan](lifecycle-stage.html?s=align-and-plan), the full investment case is built. The [Business Case and Delivery Decision Pack](pack.html?p=business-case-and-delivery-decision-pack) is the main input for the gate decision that unlocks funded delivery.
+In [Align and Plan](lifecycle-stage.html?s=align-and-plan), the full investment case is built. The [Business Case and Delivery Decision Pack](deliverable-pack.html?p=business-case-and-delivery-decision-pack) is the main input for the gate decision that unlocks funded delivery.
 
 In [Develop and Deliver](lifecycle-stage.html?s=develop-and-deliver), the approved investment moves into execution with financial follow-up and governance.
 
-In [Operate and Monitor](lifecycle-stage.html?s=operate-and-monitor) and [Measure and Learn](lifecycle-stage.html?s=measure-and-learn), measurable benefits are tracked and followed up. The [Product Review Pack](pack.html?p=product-review-pack) supports later benefit follow-up where relevant.
+In [Operate and Monitor](lifecycle-stage.html?s=operate-and-monitor) and [Measure and Learn](lifecycle-stage.html?s=measure-and-learn), measurable benefits are tracked and followed up. The [Product Review Pack](deliverable-pack.html?p=product-review-pack) supports later benefit follow-up where relevant.
 
 Approval unlocks the next lifecycle stage and triggers the [Forecast Financials](financial-process.html?p=forecast-financials) process for ongoing tracking.
 

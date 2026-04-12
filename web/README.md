@@ -29,7 +29,7 @@ Each HTML file is a page template. Most pages load their content dynamically fro
 | `role.html` | Individual role pages | `content/roles-and-responsibilities/descriptions/<id>.md` |
 | `fundamentals.html` | Fundamentals page | Inline HTML |
 | `deliverable-model.html` | Deliverable model overview | `content/deliverable-model/model/deliverable-model.md` |
-| `pack.html` | Individual deliverable pack pages | `content/deliverable-model/packs/<id>.md` |
+| `deliverable-pack.html` | Individual deliverable pack pages | `content/deliverable-model/packs/<id>.md` |
 
 Pages use URL parameters for routing: `?s=` for stages, `?p=` for processes and packs, `?r=` for roles.
 

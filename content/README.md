@@ -69,7 +69,7 @@ The overview content for the deliverable model page lives in `deliverable-model/
 
 ### Deliverable pack pages
 
-Each pack has one markdown file in `deliverable-model/packs/`. These are loaded by the pack page template (`web/html/pack.html`).
+Each pack has one markdown file in `deliverable-model/packs/`. These are loaded by the pack page template (`web/html/deliverable-pack.html`).
 
 ### Supporting files and downloads
 
