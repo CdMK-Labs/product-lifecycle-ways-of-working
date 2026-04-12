@@ -21,7 +21,7 @@ Each HTML file is a page template. Most pages load their content dynamically fro
 
 | File | Purpose | Content source |
 |---|---|---|
-| `lifecycle-model.html` | Front page with lifecycle diagram and navigation | Inline HTML |
+| `lifecycle-model.html` | Front page with lifecycle diagram and navigation | Inline HTML (self-contained; does not import `stage.css`) |
 | `lifecycle-stage.html` | Individual stage pages | `content/lifecycle-stages/markdown/<id>.md` |
 | `financial-model.html` | Financial model overview | `content/financial-model/model/financial-model.md` |
 | `financial-process.html` | Individual financial process pages | `content/financial-model/processes/<id>.md` |
@@ -30,9 +30,10 @@ Each HTML file is a page template. Most pages load their content dynamically fro
 | `fundamentals.html` | Fundamentals page | Inline HTML |
 | `deliverable-model.html` | Deliverable model overview | `content/deliverable-model/model/deliverable-model.md` |
 | `pack.html` | Individual deliverable pack pages | `content/deliverable-model/packs/<id>.md` |
-| `deliverable-pack.html` | Legacy redirect for `?d=` links | — |
 
 Pages use URL parameters for routing: `?s=` for stages, `?p=` for processes and packs, `?r=` for roles.
+
+`lifecycle-model.html` is the only page with a self-contained inline `<style>` block. It does not import `stage.css`. Card hover, active and focus states must be kept in sync manually between `lifecycle-model.html` and `stage.css`.
 
 ## JavaScript (`web/js/`)
 
@@ -44,7 +45,6 @@ Pages use URL parameters for routing: `?s=` for stages, `?p=` for processes and 
 | `financial-model.js` | Loads and renders the financial model overview page |
 | `financial-process.js` | Loads and renders financial process content |
 | `pack.js` | Loads and renders deliverable pack content; injects download CTA |
-| `deliverable.js` | Redirects legacy `?d=` links to `pack.html?p=` |
 | `nav.js` | Burger menu toggle and keyboard/click-outside close behaviour |
 | `marked.min.js` | Third-party markdown parser (do not edit) |
 

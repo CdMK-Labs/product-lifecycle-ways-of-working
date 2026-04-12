@@ -17,10 +17,12 @@ content/
 │           └── best-practices/            Best practice references for the stage
 │
 ├── deliverable-model/
+│   ├── model/                             Overview markdown for the deliverable model page
 │   ├── packs/                             One .md file per deliverable pack page
 │   └── supporting-materials/             Starter-pack zip files for download
 │
 ├── financial-model/
+│   ├── model/                             Overview markdown for the financial model page
 │   └── processes/                         One .md file per financial process page
 │
 └── roles-and-responsibilities/
@@ -53,9 +55,17 @@ Keep each section practical and lightweight. The first section is the only one t
 
 Each role has one markdown file in `roles-and-responsibilities/descriptions/`. The filename matches the role slug (e.g. `head-of-it-product.md` → `role.html?r=head-of-it-product`).
 
+### Financial model overview page
+
+The overview content for the financial model page lives in `financial-model/model/financial-model.md`. Edit this file to update the intro text and the list of financial process cards on `financial-model.html`.
+
 ### Financial process pages
 
 Each process has one markdown file in `financial-model/processes/`. The filename matches the process slug (e.g. `approve-investments.md` → `financial-process.html?p=approve-investments`).
+
+### Deliverable model overview page
+
+The overview content for the deliverable model page lives in `deliverable-model/model/deliverable-model.md`. Edit this file to update the intro text, the list of deliverable pack cards, and the deliverable matrix on `deliverable-model.html`.
 
 ### Deliverable pack pages
 
