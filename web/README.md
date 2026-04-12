@@ -11,6 +11,7 @@ web/
 ├── html/                   HTML page templates
 ├── css/                    Stylesheets
 ├── js/                     JavaScript files
+│   └── external/           Third-party libraries (do not edit)
 ├── fonts/                  Arla brand font files
 └── *.svg                   SVG assets (lifecycle diagram)
 ```
@@ -46,7 +47,7 @@ Pages use URL parameters for routing: `?s=` for stages, `?p=` for processes and 
 | `financial-process.js` | Loads and renders financial process content |
 | `deliverable-pack.js` | Loads and renders deliverable pack content; injects download CTA |
 | `nav.js` | Burger menu toggle and keyboard/click-outside close behaviour |
-| `marked.min.js` | Third-party markdown parser (do not edit) |
+| `external/marked.min.js` | Third-party markdown parser (do not edit) |
 
 Content fetch paths in JS files are relative to the HTML page that loads the script, not the script file itself.
 
