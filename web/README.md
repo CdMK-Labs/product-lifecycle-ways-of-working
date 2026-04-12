@@ -23,7 +23,7 @@ Each HTML file is a page template. Most pages load their content dynamically fro
 | File | Purpose | Content source |
 |---|---|---|
 | `lifecycle-model.html` | Front page with lifecycle diagram and navigation | Inline HTML (self-contained; does not import `main.css`) |
-| `lifecycle-stage.html` | Individual stage pages | `content/lifecycle-stages/markdown/<id>.md` |
+| `lifecycle-stage.html` | Individual stage pages | `content/lifecycle-model/stages/<id>.md` |
 | `financial-model.html` | Financial model overview | `content/financial-model/model/financial-model.md` |
 | `financial-process.html` | Individual financial process pages | `content/financial-model/processes/<id>.md` |
 | `roles-and-responsibilities.html` | Roles overview page | Inline HTML |

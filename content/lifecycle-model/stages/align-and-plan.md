@@ -67,7 +67,7 @@ We decide how to execute the work and align across teams on scope, dependencies,
 - Plans and backlogs
 - Roadmaps and product strategy
 - Resource and capacity plan
-- [IT Cost estimation template](../../content/lifecycle-stages/supporting-materials/align-and-plan/deliverables/IT%20Cost%20estimation%20template.xlsx)
+- [IT Cost estimation template](../../content/lifecycle-model/supporting-materials/align-and-plan/deliverables/IT%20Cost%20estimation%20template.xlsx)
 
 ## Guides
 

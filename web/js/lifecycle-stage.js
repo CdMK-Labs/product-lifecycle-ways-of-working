@@ -79,9 +79,9 @@
   // Fetch and render markdown content
   const contentEl = document.getElementById('stage-content');
 
-  fetch('../../content/lifecycle-stages/markdown/' + stage.id + '.md')
+  fetch('../../content/lifecycle-model/stages/' + stage.id + '.md')
     .then(r => {
-      if (!r.ok) throw new Error('Could not load ../content/lifecycle-stages/markdown/' + stage.id + '.md (' + r.status + ')');
+      if (!r.ok) throw new Error('Could not load ../content/lifecycle-model/stages/' + stage.id + '.md (' + r.status + ')');
       return r.text();
     })
     .then(md => {

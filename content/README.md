@@ -8,8 +8,8 @@ Changes take effect immediately when the site is served — there is no build or
 
 ```
 content/
-├── lifecycle-stages/
-│   ├── markdown/                          One .md file per lifecycle stage
+├── lifecycle-model/
+│   ├── stages/                            One .md file per lifecycle stage
 │   └── supporting-materials/
 │       └── <stage-name>/
 │           ├── deliverables/              Downloadable files for the stage (e.g. templates, xlsx)
@@ -33,7 +33,7 @@ content/
 
 ### Lifecycle stage pages
 
-Each stage has one markdown file in `lifecycle-stages/markdown/`. The filename matches the stage slug used in the URL (e.g. `align-and-plan.md` → `lifecycle-stage.html?s=align-and-plan`).
+Each stage has one markdown file in `lifecycle-model/stages/`. The filename matches the stage slug used in the URL (e.g. `align-and-plan.md` → `lifecycle-stage.html?s=align-and-plan`).
 
 The section structure for each stage page is:
 
@@ -73,7 +73,7 @@ Each pack has one markdown file in `deliverable-model/packs/`. These are loaded 
 
 ### Supporting files and downloads
 
-Place downloadable files (templates, checklists, xlsx files) in the relevant subfolder under `lifecycle-stages/supporting-materials/<stage>/deliverables/`. Link to them from the stage markdown using a relative path from the HTML page that will render the content.
+Place downloadable files (templates, checklists, xlsx files) in the relevant subfolder under `lifecycle-model/supporting-materials/<stage>/deliverables/`. Link to them from the stage markdown using a relative path from the HTML page that will render the content.
 
 Starter-pack zip files live in `deliverable-model/supporting-materials/`.
 
