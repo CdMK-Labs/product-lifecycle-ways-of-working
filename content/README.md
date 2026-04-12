@@ -26,7 +26,7 @@ content/
 │   └── processes/                         One .md file per financial process page
 │
 └── roles-and-responsibilities/
-    └── descriptions/                      One .md file per role
+    └── roles/                             One .md file per role
 ```
 
 ## How to edit content
@@ -53,7 +53,7 @@ Keep each section practical and lightweight. The first section is the only one t
 
 ### Role descriptions
 
-Each role has one markdown file in `roles-and-responsibilities/descriptions/`. The filename matches the role slug (e.g. `head-of-it-product.md` → `role.html?r=head-of-it-product`).
+Each role has one markdown file in `roles-and-responsibilities/roles/`. The filename matches the role slug (e.g. `head-of-it-product.md` → `role.html?r=head-of-it-product`).
 
 ### Financial model overview page
 

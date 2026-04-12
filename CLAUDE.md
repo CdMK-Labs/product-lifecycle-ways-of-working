@@ -65,7 +65,7 @@ Apply the following principles when making any updates to this product lifecycle
 - Lifecycle stage pages load from `content/lifecycle-model/stages/<id>.md`.
 - Financial process pages load from `content/financial-model/processes/<id>.md`.
 - Deliverable pack pages load from `content/deliverable-model/packs/<id>.md`.
-- Role pages load from `content/roles-and-responsibilities/descriptions/<id>.md`.
+- Role pages load from `content/roles-and-responsibilities/roles/<id>.md`.
 - When editing page content, edit the markdown file. When editing layout or behaviour, edit the HTML, CSS or JS.
 
 ## Navigation

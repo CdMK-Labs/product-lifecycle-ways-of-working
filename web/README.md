@@ -27,7 +27,7 @@ Each HTML file is a page template. Most pages load their content dynamically fro
 | `financial-model.html` | Financial model overview | `content/financial-model/model/financial-model.md` |
 | `financial-process.html` | Individual financial process pages | `content/financial-model/processes/<id>.md` |
 | `roles-and-responsibilities.html` | Roles overview page | Inline HTML |
-| `role.html` | Individual role pages | `content/roles-and-responsibilities/descriptions/<id>.md` |
+| `role.html` | Individual role pages | `content/roles-and-responsibilities/roles/<id>.md` |
 | `fundamentals.html` | Fundamentals page | Inline HTML |
 | `deliverable-model.html` | Deliverable model overview | `content/deliverable-model/model/deliverable-model.md` |
 | `deliverable-pack.html` | Individual deliverable pack pages | `content/deliverable-model/packs/<id>.md` |
