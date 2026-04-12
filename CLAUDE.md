@@ -61,7 +61,7 @@ Apply the following principles when making any updates to this product lifecycle
 
 - All page copy lives in markdown files under `content/`. HTML files are templates only.
 - Do not put readable content directly in HTML files. If a page currently has inline content, it should be migrated to markdown.
-- Each overview page (financial model, deliverable model, etc.) has a corresponding markdown file in `content/<model>/model/<name>.md`.
+- Each overview page (financial model, deliverable model, roles and responsibilities, etc.) has a corresponding markdown file in `content/<model>/model/<name>.md`.
 - Lifecycle stage pages load from `content/lifecycle-model/stages/<id>.md`.
 - Financial process pages load from `content/financial-model/processes/<id>.md`.
 - Deliverable pack pages load from `content/deliverable-model/packs/<id>.md`.

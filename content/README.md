@@ -26,6 +26,7 @@ content/
 │   └── processes/                         One .md file per financial process page
 │
 └── roles-and-responsibilities/
+    ├── model/                             Overview markdown for the roles and responsibilities page
     └── roles/                             One .md file per role
 ```
 
@@ -51,7 +52,11 @@ The section structure for each stage page is:
 
 Keep each section practical and lightweight. The first section is the only one that uses prose.
 
-### Role descriptions
+### Roles and responsibilities overview page
+
+The overview content lives in `roles-and-responsibilities/model/roles-and-responsibilities.md`. Edit this file to update the intro text and the role cards on `roles-and-responsibilities.html`.
+
+### Role pages
 
 Each role has one markdown file in `roles-and-responsibilities/roles/`. The filename matches the role slug (e.g. `head-of-it-product.md` → `role.html?r=head-of-it-product`).
 

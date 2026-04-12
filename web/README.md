@@ -26,7 +26,7 @@ Each HTML file is a page template. Most pages load their content dynamically fro
 | `lifecycle-stage.html` | Individual stage pages | `content/lifecycle-model/stages/<id>.md` |
 | `financial-model.html` | Financial model overview | `content/financial-model/model/financial-model.md` |
 | `financial-process.html` | Individual financial process pages | `content/financial-model/processes/<id>.md` |
-| `roles-and-responsibilities.html` | Roles overview page | Inline HTML |
+| `roles-and-responsibilities.html` | Roles overview page | `content/roles-and-responsibilities/model/roles-and-responsibilities.md` |
 | `role.html` | Individual role pages | `content/roles-and-responsibilities/roles/<id>.md` |
 | `fundamentals.html` | Fundamentals page | Inline HTML |
 | `deliverable-model.html` | Deliverable model overview | `content/deliverable-model/model/deliverable-model.md` |
@@ -41,6 +41,7 @@ Pages use URL parameters for routing: `?s=` for stages, `?p=` for processes and 
 | File | Purpose |
 |---|---|
 | `lifecycle-stage.js` | Loads and renders lifecycle stage content; handles stage navigation |
+| `roles-and-responsibilities.js` | Loads and renders the roles overview page |
 | `role.js` | Loads and renders role content; handles role navigation |
 | `deliverable-model.js` | Loads and renders the deliverable model overview page |
 | `financial-model.js` | Loads and renders the financial model overview page |

@@ -6,6 +6,9 @@
   <link rel="stylesheet" href="../css/fonts.css">
   <title>Roles &amp; Responsibilities – Product Lifecycle</title>
   <link rel="stylesheet" href="../css/main.css">
+  <style>
+    :root { --stage-color: #02462F; }
+  </style>
 </head>
 <body>
   <div class="accent-bar"></div>
@@ -31,101 +34,10 @@
 
   <div class="page-body">
     <h1>Roles &amp; Responsibilities</h1>
-    <div class="stage-content">
-
-      <div class="intro-block">
-        <h2>What this page is for</h2>
-        <p>This page describes the roles that operate across the IT and Digital product organisation. Use it to understand what each role is responsible for, what it delivers and how it connects to the rest of the team.</p>
-        <p>Roles are grouped by category. Open a role to see the full description.</p>
-      </div>
-
-      <div class="roles-section">
-        <p class="roles-section-label">IT Product Leadership</p>
-        <div class="roles-grid">
-          <a href="role.html?r=head-of-it-area" class="role-card">
-            <h3>Head of IT Area</h3>
-            <p>Strategic and operational IT leadership for one or more Zones and Functions.</p>
-          </a>
-          <a href="role.html?r=head-of-it-product" class="role-card">
-            <h3>Head of IT Product</h3>
-            <p>End-to-end accountable for the product lifecycle, delivery outcomes and team.</p>
-          </a>
-          <a href="role.html?r=it-product-architect" class="role-card">
-            <h3>IT Product Architect</h3>
-            <p>Owns product architecture, technical roadmap and compliance with IT standards.</p>
-          </a>
-        </div>
-      </div>
-
-      <div class="roles-section">
-        <p class="roles-section-label">IT Specialists</p>
-        <div class="roles-grid">
-          <a href="role.html?r=it-specialist" class="role-card">
-            <h3>IT Specialist</h3>
-            <p>Delivers medium to complex technical and functional solutions.</p>
-          </a>
-          <a href="role.html?r=it-developer" class="role-card">
-            <h3>IT Developer</h3>
-            <p>Delivers working software increments and maintains code quality and system reliability.</p>
-          </a>
-          <a href="role.html?r=it-delivery-lead" class="role-card">
-            <h3>IT Delivery Lead</h3>
-            <p>Facilitates, plans and coordinates product team deliveries and operations.</p>
-          </a>
-          <a href="role.html?r=it-adoption-specialist" class="role-card">
-            <h3>IT Adoption Specialist</h3>
-            <p>Drives sustained adoption through user research, change management and training.</p>
-          </a>
-        </div>
-      </div>
-
-      <div class="roles-section">
-        <p class="roles-section-label">IT Product Enablement</p>
-        <div class="roles-grid">
-          <a href="role.html?r=it-delivery-partner" class="role-card">
-            <h3>IT Delivery Partner</h3>
-            <p>Servant leader ensuring efficient cross-product delivery and team coaching.</p>
-          </a>
-          <a href="role.html?r=it-value-partner" class="role-card">
-            <h3>IT Value Partner</h3>
-            <p>Aligns Zones and Functions with IT to translate strategy into value-driven deliveries.</p>
-          </a>
-          <a href="role.html?r=it-architecture-partner" class="role-card">
-            <h3>IT Architecture Partner</h3>
-            <p>Sets architectural direction and coaches Product Architects across products.</p>
-          </a>
-          <a href="role.html?r=it-portfolio-partner" class="role-card">
-            <h3>IT Portfolio Partner</h3>
-            <p>Administrates the IT portfolio with financial control and governance.</p>
-          </a>
-          <a href="role.html?r=it-sc-market-partner" class="role-card">
-            <h3>IT SC Market Partner</h3>
-            <p>Collaborates with site management on IT operational issues and maintenance planning.</p>
-          </a>
-        </div>
-      </div>
-
-      <div class="roles-section">
-        <p class="roles-section-label">Business Roles</p>
-        <div class="roles-grid">
-          <a href="role.html?r=product-owner" class="role-card">
-            <h3>Product Owner</h3>
-            <p>Accountable for maximising customer and business value through backlog ownership.</p>
-          </a>
-          <a href="role.html?r=product-manager" class="role-card">
-            <h3>Product Manager</h3>
-            <p>Shapes and prioritises portfolio backlogs aligned to business strategy.</p>
-          </a>
-          <a href="role.html?r=business-owner" class="role-card">
-            <h3>Business Owner</h3>
-            <p>Owns investments, benefits, outcomes and release decisions.</p>
-          </a>
-        </div>
-      </div>
-
-    </div>
+    <div id="model-content" class="stage-content"></div>
   </div>
-
+  <script src="../js/third-party/marked.min.js"></script>
+  <script src="../js/roles-and-responsibilities.js"></script>
   <script src="../js/nav.js"></script>
 </body>
 </html>
