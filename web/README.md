@@ -21,7 +21,7 @@ Each HTML file is a page template. Most pages load their content dynamically fro
 
 | File | Purpose | Content source |
 |---|---|---|
-| `lifecycle-model.html` | Front page with lifecycle diagram and navigation | Inline HTML (self-contained; does not import `stage.css`) |
+| `lifecycle-model.html` | Front page with lifecycle diagram and navigation | Inline HTML (self-contained; does not import `main.css`) |
 | `lifecycle-stage.html` | Individual stage pages | `content/lifecycle-stages/markdown/<id>.md` |
 | `financial-model.html` | Financial model overview | `content/financial-model/model/financial-model.md` |
 | `financial-process.html` | Individual financial process pages | `content/financial-model/processes/<id>.md` |
@@ -33,7 +33,7 @@ Each HTML file is a page template. Most pages load their content dynamically fro
 
 Pages use URL parameters for routing: `?s=` for stages, `?p=` for processes and packs, `?r=` for roles.
 
-`lifecycle-model.html` is the only page with a self-contained inline `<style>` block. It does not import `stage.css`. Card hover, active and focus states must be kept in sync manually between `lifecycle-model.html` and `stage.css`.
+`lifecycle-model.html` is the only page with a self-contained inline `<style>` block. It does not import `main.css`. Card hover, active and focus states must be kept in sync manually between `lifecycle-model.html` and `main.css`.
 
 ## JavaScript (`web/js/`)
 
@@ -54,7 +54,7 @@ Content fetch paths in JS files are relative to the HTML page that loads the scr
 
 | File | Purpose |
 |---|---|
-| `stage.css` | Main stylesheet for all content pages |
+| `main.css` | Main stylesheet for all content pages |
 | `fonts.css` | `@font-face` declarations for the Arla font family |
 
 The `--stage-color` CSS custom property is set per-page by JavaScript and drives the accent colour.

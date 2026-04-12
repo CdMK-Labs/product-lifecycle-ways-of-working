@@ -75,7 +75,7 @@ Apply the following principles when making any updates to this product lifecycle
 - On `lifecycle-model.html` the burger is placed inside the dark green `.site-header` banner, not in a separate nav bar. The icon uses `#82CE71` to read on the dark background.
 - On all other pages the burger sits in the sticky white `.stage-nav` bar with `.nav-inner` centered at `max-width: 860px`.
 - Do not add back-links or up-navigation. The burger menu is the only site-level navigation.
-- `lifecycle-model.html` has its own inline CSS for nav components (it does not import `stage.css`). Keep the nav CSS values in sync with `stage.css` when making changes.
+- `lifecycle-model.html` has its own inline CSS for nav components (it does not import `main.css`). Keep the nav CSS values in sync with `main.css` when making changes.
 
 ## Block styling
 
@@ -86,12 +86,12 @@ Apply the following principles when making any updates to this product lifecycle
 - Transition: `box-shadow 0.18s ease, border-left-color 0.18s ease`.
 - Non-clickable informational blocks (e.g. `.financial-stage-block`) use the same border-left accent but have no hover or focus states. Do not make them look clickable.
 - The `.stage-content a` inline link rules (color, font-weight, text-decoration, focus) use `:not(.deliverable-card):not(.process-card):not(.role-card)` to avoid leaking styles into block cards. When adding new card classes, add them to this exclusion list.
-- `lifecycle-model.html` defines `.stage-card` and `.home-deliverable-card` inline. Keep their hover, active and focus CSS identical to the shared card definitions in `stage.css`.
+- `lifecycle-model.html` defines `.stage-card` and `.home-deliverable-card` inline. Keep their hover, active and focus CSS identical to the shared card definitions in `main.css`.
 
 ## CSS and JS conventions
 
-- `stage.css` is the single shared stylesheet for all pages except `lifecycle-model.html`.
-- `lifecycle-model.html` is self-contained with its own inline `<style>` block. It does not import `stage.css`.
+- `main.css` is the single shared stylesheet for all pages except `lifecycle-model.html`.
+- `lifecycle-model.html` is self-contained with its own inline `<style>` block. It does not import `main.css`.
 - JavaScript files use IIFEs. Use `const` and `let`. No global variables.
 - Content fetch paths in JS are relative to the HTML file that loads the script, not the script file itself (e.g. `../../content/...`).
 - `nav.js` handles burger menu toggle, Escape key close and click-outside close. It is loaded on every page.
