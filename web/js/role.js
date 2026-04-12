@@ -7,7 +7,6 @@
     { id: 'it-developer',            title: 'IT Developer',             category: 'IT Specialists' },
     { id: 'it-delivery-lead',        title: 'IT Delivery Lead',         category: 'IT Specialists' },
     { id: 'it-adoption-specialist',  title: 'IT Adoption Specialist',   category: 'IT Specialists' },
-    { id: 'it-supporter',            title: 'IT Supporter',             category: 'IT Specialists' },
     { id: 'it-delivery-partner',     title: 'IT Delivery Partner',      category: 'IT Product Enablement' },
     { id: 'it-value-partner',        title: 'IT Value Partner',         category: 'IT Product Enablement' },
     { id: 'it-architecture-partner', title: 'IT Architecture Partner',  category: 'IT Product Enablement' },
