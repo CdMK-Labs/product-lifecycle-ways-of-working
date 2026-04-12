@@ -71,7 +71,7 @@ Apply the following principles when making any updates to this product lifecycle
 ## Navigation
 
 - Every page uses the same burger menu pattern: a `.nav-menu-wrap` wrapper containing the `#nav-burger` button and `#site-menu` dropdown, loaded via `nav.js`.
-- The site menu links to: Lifecycle Model, Financial Model, Fundamentals, Roles & Responsibilities.
+- The site menu links to: Product Lifecycle, Financial Model, Fundamentals, Roles & Responsibilities.
 - On `lifecycle-model.html` the burger is placed inside the dark green `.site-header` banner, not in a separate nav bar. The icon uses `#82CE71` to read on the dark background.
 - On all other pages the burger sits in the sticky white `.stage-nav` bar with `.nav-inner` centered at `max-width: 860px`.
 - Do not add back-links or up-navigation. The burger menu is the only site-level navigation.
@@ -95,4 +95,4 @@ Apply the following principles when making any updates to this product lifecycle
 - JavaScript files use IIFEs. Use `const` and `let`. No global variables.
 - Content fetch paths in JS are relative to the HTML file that loads the script, not the script file itself (e.g. `../../content/...`).
 - `nav.js` handles burger menu toggle, Escape key close and click-outside close. It is loaded on every page.
-- Overview pages that render markdown (financial model, deliverable model) use a dedicated JS file that fetches the markdown, renders it via `marked.js`, wraps the intro block, and converts structured list items into card grids.
+- Overview pages that render markdown (financial model, deliverable model, roles and responsibilities) use a dedicated JS file that fetches the markdown, renders it via `marked.js`, wraps the intro block, and converts structured list items into card grids.
