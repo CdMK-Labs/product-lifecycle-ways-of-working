@@ -82,6 +82,27 @@ Place downloadable files (templates, checklists, xlsx files) in the relevant sub
 
 Starter-pack zip files live in `deliverable-model/supporting-materials/`.
 
+## Markdown basics
+
+All content files use markdown — a simple text format that the site converts to formatted HTML. You do not need any tools beyond a text editor.
+
+| What you want | What to write |
+|---|---|
+| Heading | `## Heading text` (use `##` for main sections, `###` for subsections) |
+| Bold text | `**bold text**` |
+| Bullet list | Start each line with `- ` |
+| Numbered list | Start each line with `1. ` |
+| Link | `[link text](https://example.com)` |
+| Italic text | `*italic text*` |
+
+A few things to keep in mind:
+
+- Leave a blank line between paragraphs, headings and lists. Without it, markdown may not render as expected.
+- Do not use heading level `#` (one hash) — that level is reserved for the page title set in the HTML.
+- Stick to `##` and `###` for sections within a page.
+
+For a full reference, see the [Markdown Guide](https://www.markdownguide.org/basic-syntax/).
+
 ## What not to edit here
 
 Do not edit files in `web/`. That folder contains the HTML page templates, CSS and JavaScript that control how the site looks and behaves. Changes there require web development knowledge and can break the site if done incorrectly.
